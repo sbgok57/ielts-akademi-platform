@@ -1,0 +1,35 @@
+{
+  "name": "ielts-akademi-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IELTS Akademi Platform — A1→C2 + IELTS Tam Platform",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "node TEK-KOD.mjs",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.439.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "prisma": "^5.19.1",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
+  }
+}

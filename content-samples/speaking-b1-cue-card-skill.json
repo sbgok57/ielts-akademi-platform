@@ -1,0 +1,94 @@
+{
+  "id": "speak-b1-cue-card-skill",
+  "slug": "cue-card-skill-b1",
+  "level": "B1",
+  "skill": "speaking",
+  "part": 2,
+  "prepSeconds": 60,
+  "speakSeconds": 120,
+  "cueCardTr": "İyi öğrendiğin bir beceriyi anlat.",
+  "bulletsTr": [
+    "Bu beceri nedir?",
+    "Nasıl öğrendin?",
+    "Kim yardım etti?",
+    "Bu beceri hayatını nasıl değiştirdi?"
+  ],
+  "usefulLanguage": {
+    "opening": [
+      "I'd like to talk about the skill of ...",
+      "The skill I want to describe is ..."
+    ],
+    "sequence": [
+      "At first ...",
+      "After that ...",
+      "Over time ...",
+      "Eventually ..."
+    ],
+    "feeling": [
+      "It gave me a lot of confidence.",
+      "I felt really proud of myself when ..."
+    ],
+    "hedging": [
+      "I suppose ...",
+      "To be honest ...",
+      "If I remember correctly ..."
+    ]
+  },
+  "modelAnswerEn": [
+    "I'd like to talk about the skill of reading English news articles quickly.",
+    "At first I could only understand the headlines, and the long paragraphs seemed impossible.",
+    "My older sister helped me a lot: we chose one short article every evening and underlined every word I did not know.",
+    "After that, I started using a timer, and slowly I could finish a whole page in about five minutes.",
+    "Eventually I realised that I did not need to know every word; I just needed to find the main idea.",
+    "This skill has changed my life because now I can do my homework faster and I feel much more confident when I speak about the news in class."
+  ],
+  "modelAnswerTr": "Örnek cevap 6 cümlede kartın dört sorusunu da yanıtlar; 'At first / After that / Eventually' sıralama ifadeleri akıcılığı taşır.",
+  "bandComparison": {
+    "band6Tr": "Soruları yanıtlar ama sıralama ifadeleri az, cümleler kısa ve tekrarlı.",
+    "band7Tr": "Fikirler açık sıralanır, her bullet'a değinilir, bir-iki nadir kelime doğru kullanılır: 'eventually', 'confident'.",
+    "band8Tr": "Akıcı, kendiliğinden düzeltmeler yapılır ('or rather ...'), kalıplar doğal kullanılır, tonlama düşüncedeki değişimi taşır."
+  },
+  "commonMistakes": [
+    {
+      "mistakeTr": "Kartı okumak",
+      "fixTr": "Kart konusuna bakıp kendi cümlelerinle anlat."
+    },
+    {
+      "mistakeTr": "Süreyi doldurmamak (40 saniyede bitirmek)",
+      "fixTr": "Her bullet için yaklaşık 25-30 saniye planla; bir örnek ve bir duygu ekle."
+    },
+    {
+      "mistakeTr": "Ezber cevap okumak",
+      "fixTr": "Kalıpları ezberle, içeriği üret; ezber kısa cümleler akıcılık puanını düşürür."
+    }
+  ],
+  "examinerFollowUps": [
+    "Do you think some skills are easier to learn as an adult?",
+    "How has technology changed the way people learn skills?",
+    "Should schools teach practical skills instead of theory?"
+  ],
+  "selfAssessmentChecklistTr": [
+    "Dört bullet'ın hepsine değindim mi?",
+    "En az 3 sıralama ifadesi kullandım mı?",
+    "Bir duygu/örnek ekledim mi?",
+    "120 saniyeye yaklaştım mı?"
+  ],
+  "audioModels": [
+    {
+      "src": "/audio/speaking/b1-skill-model-gb-f.mp3",
+      "accent": "en-GB",
+      "gender": "female",
+      "isHuman": true,
+      "credit": "IELTS Akademi sözleşmeli seslendirmen kaydı",
+      "license": "Platform içi kullanım"
+    },
+    {
+      "src": "/audio/speaking/b1-skill-model-in-m.mp3",
+      "accent": "en-IN",
+      "gender": "male",
+      "isHuman": true,
+      "credit": "IELTS Akademi sözleşmeli seslendirmen kaydı",
+      "license": "Platform içi kullanım"
+    }
+  ]
+}

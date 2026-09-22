@@ -1,0 +1,305 @@
+{
+  "setId": "vocab-ielts-academic-01",
+  "levelRange": [
+    "B2",
+    "C1"
+  ],
+  "topicTags": [
+    "academic",
+    "environment",
+    "education"
+  ],
+  "words": [
+    {
+      "word": "mitigate",
+      "slug": "mitigate",
+      "pos": "verb",
+      "cefrLevel": "C1",
+      "enDefinition": "to make something less severe, harmful or serious",
+      "trMeanings": [
+        "hafifletmek",
+        "azaltmak",
+        "yatıştırmak"
+      ],
+      "synonyms": [
+        "alleviate",
+        "reduce",
+        "lessen"
+      ],
+      "antonyms": [
+        "aggravate",
+        "worsen"
+      ],
+      "collocations": [
+        "mitigate the impact",
+        "mitigate climate change",
+        "mitigate risk",
+        "mitigate the effects"
+      ],
+      "examples": [
+        {
+          "en": "Wearing a mask can mitigate the effects of dust.",
+          "tr": "Maske takmak tozun etkilerini azaltabilir.",
+          "register": "daily"
+        },
+        {
+          "en": "Governments are urged to mitigate carbon emissions through taxation.",
+          "tr": "Hükümetlerden vergilendirme yoluyla karbon salımını azaltmaları isteniyor.",
+          "register": "academic"
+        }
+      ],
+      "topicTags": [
+        "environment",
+        "policy"
+      ],
+      "wordFamily": [
+        "mitigation (n)",
+        "mitigating (adj)"
+      ],
+      "register": "formal",
+      "frequencyBand": "high",
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/mitigate-gb-f.mp3",
+          "accent": "en-GB",
+          "gender": "female",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        },
+        {
+          "src": "/audio/vocab/mitigate-us-m.mp3",
+          "accent": "en-US",
+          "gender": "male",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        }
+      ],
+      "mnemonicTr": "'MİTİGasyon' askeri terimi gibi düşün: tehdidi etkisiz hâle getirmek → hafifletmek.",
+      "commonMistakeTr": "'mitigate' ile 'meditate' karıştırmayın: meditate = meditasyon yapmak.",
+      "visual": {
+        "src": "/img/vocab/mitigate-shield.svg",
+        "altTr": "Kalkanın gelen dalgayı küçültmesi"
+      },
+      "sourceCredit": "Özgün içerik (IELTS Akademi); tanım bağımsız olarak yazıldı."
+    },
+    {
+      "word": "significant",
+      "slug": "significant",
+      "pos": "adjective",
+      "cefrLevel": "B2",
+      "enDefinition": "large enough or important enough to be noticed or to have an effect",
+      "trMeanings": [
+        "önemli",
+        "kayda değer",
+        "belirgin"
+      ],
+      "synonyms": [
+        "considerable",
+        "substantial",
+        "notable"
+      ],
+      "antonyms": [
+        "negligible",
+        "trivial"
+      ],
+      "collocations": [
+        "significant increase",
+        "statistically significant",
+        "significant impact",
+        "significant difference"
+      ],
+      "examples": [
+        {
+          "en": "There was a significant rise in online sales last year.",
+          "tr": "Geçen yıl internet satışlarında belirgin bir artış oldu.",
+          "register": "daily"
+        },
+        {
+          "en": "The study found a statistically significant correlation between sleep and scores.",
+          "tr": "Araştırma uyku ile puanlar arasında istatistiksel olarak anlamlı bir ilişki buldu.",
+          "register": "academic"
+        }
+      ],
+      "topicTags": [
+        "academic",
+        "data"
+      ],
+      "wordFamily": [
+        "significance (n)",
+        "significantly (adv)",
+        "insignificant (adj)"
+      ],
+      "register": "neutral",
+      "frequencyBand": "very-high",
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/significant-gb-m.mp3",
+          "accent": "en-GB",
+          "gender": "male",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        },
+        {
+          "src": "/audio/vocab/significant-au-f.mp3",
+          "accent": "en-AU",
+          "gender": "female",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        }
+      ],
+      "mnemonicTr": "'Sign' (işaret) + 'ificant': işaret edilecek kadar büyük → önemli.",
+      "commonMistakeTr": "Task 1'de 'significant' kullanırken veriyi abartmayın; istatistiksel anlamlılık iddiası için kaynak gerekir.",
+      "visual": {
+        "src": "/img/vocab/significant-arrow.svg",
+        "altTr": "Küçük oktan büyük oka geçiş"
+      },
+      "sourceCredit": "Özgün içerik (IELTS Akademi)."
+    },
+    {
+      "word": "curriculum",
+      "slug": "curriculum",
+      "pos": "noun",
+      "cefrLevel": "B2",
+      "enDefinition": "the subjects and content taught in a school or university programme",
+      "trMeanings": [
+        "müfredat",
+        "öğretim programı"
+      ],
+      "synonyms": [
+        "syllabus",
+        "programme of study"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "national curriculum",
+        "curriculum reform",
+        "core curriculum",
+        "hidden curriculum"
+      ],
+      "examples": [
+        {
+          "en": "Coding is now part of the school curriculum.",
+          "tr": "Kodlama artık okul müfredatının bir parçası.",
+          "register": "daily"
+        },
+        {
+          "en": "The curriculum should be redesigned to reflect labour-market demands.",
+          "tr": "Müfredat, iş gücü piyasasının taleplerini yansıtacak şekilde yeniden tasarlanmalı.",
+          "register": "academic"
+        }
+      ],
+      "topicTags": [
+        "education"
+      ],
+      "wordFamily": [
+        "curricular (adj)",
+        "extracurricular (adj)"
+      ],
+      "register": "formal",
+      "frequencyBand": "medium",
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/curriculum-ca-f.mp3",
+          "accent": "en-CA",
+          "gender": "female",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        },
+        {
+          "src": "/audio/vocab/curriculum-nz-m.mp3",
+          "accent": "en-NZ",
+          "gender": "male",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        }
+      ],
+      "mnemonicTr": "'Curriculum' Latincede 'koşu parkuru'; okulda koştuğun ders parkuru → müfredat.",
+      "commonMistakeTr": "Çoğulu 'curricula' veya 'curriculums'; ikisi de kabul edilir ama akademik metinde 'curricula' tercih edilir.",
+      "visual": {
+        "src": "/img/vocab/curriculum-path.svg",
+        "altTr": "Derslerden oluşan bir parkur"
+      },
+      "sourceCredit": "Özgün içerik (IELTS Akademi)."
+    },
+    {
+      "word": "sustainable",
+      "slug": "sustainable",
+      "pos": "adjective",
+      "cefrLevel": "B2",
+      "enDefinition": "able to continue over time without damaging the environment or using up resources",
+      "trMeanings": [
+        "sürdürülebilir",
+        "kalıcı"
+      ],
+      "synonyms": [
+        "viable",
+        "eco-friendly",
+        "long-lasting"
+      ],
+      "antonyms": [
+        "unsustainable",
+        "wasteful"
+      ],
+      "collocations": [
+        "sustainable development",
+        "sustainable energy",
+        "sustainable growth",
+        "environmentally sustainable"
+      ],
+      "examples": [
+        {
+          "en": "We try to buy sustainable products for the kitchen.",
+          "tr": "Mutfak için sürdürülebilir ürünler almaya çalışıyoruz.",
+          "register": "daily"
+        },
+        {
+          "en": "Sustainable urban planning must balance density with green space.",
+          "tr": "Sürdürülebilir kentsel planlama, yoğunluk ile yeşil alanı dengelemelidir.",
+          "register": "academic"
+        }
+      ],
+      "topicTags": [
+        "environment",
+        "urban"
+      ],
+      "wordFamily": [
+        "sustainability (n)",
+        "sustainably (adv)",
+        "sustain (v)"
+      ],
+      "register": "neutral",
+      "frequencyBand": "very-high",
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/sustainable-gb-f.mp3",
+          "accent": "en-GB",
+          "gender": "female",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        },
+        {
+          "src": "/audio/vocab/sustainable-in-m.mp3",
+          "accent": "en-IN",
+          "gender": "male",
+          "isHuman": true,
+          "credit": "Stüdyo kaydı",
+          "license": "Platform içi"
+        }
+      ],
+      "mnemonicTr": "'Sustain' (ayakta tut) + 'able' (yapabilen) → ayakta tutulabilir → sürdürülebilir.",
+      "commonMistakeTr": "Türkçede 'sürdürülebilir' her bağlamda 'sustainable' değildir; 'kalıcı çözüm' için 'lasting' daha doğal olur.",
+      "visual": {
+        "src": "/img/vocab/sustainable-cycle.svg",
+        "altTr": "Döngüsel oklarla çevre dengesi"
+      },
+      "sourceCredit": "Özgün içerik (IELTS Akademi)."
+    }
+  ]
+}

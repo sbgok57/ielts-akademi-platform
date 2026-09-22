@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================================================== *
+ *  IELTS AKADEMİ — TASARIM TOKEN'LARI (Bölüm 7.1 Sözleşmesi)
+ * ========================================================================== */
+
+:root {
+  --brand-1: #7C3AED;
+  --brand-2: #EC4899;
+  --brand-3: #06B6D4;
+  --brand-4: #F59E0B;
+  --brand-5: #22C55E;
+  --brand-6: #FB5607;
+
+  --bg: #F6F4FF;
+  --bg-soft: #FFFFFF;
+  --bg-elevated: #FFFFFF;
+
+  --text: #17123A;
+  --text-muted: #5B5580;
+  --border: #E4DFFF;
+
+  --success: #16A34A;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+  --info: #2563EB;
+
+  --xp: #FFB703;
+  --streak: #FF5A1F;
+  --badge: #FBBF24;
+}
+
+.dark {
+  --bg: #0B0620;
+  --bg-soft: #140B33;
+  --bg-elevated: #1B1046;
+
+  --text: #F5F2FF;
+  --text-muted: #B9B0E8;
+  --border: #2E2166;
+
+  --brand-1: #A78BFA;
+  --brand-2: #F472B6;
+  --brand-3: #22D3EE;
+  --brand-4: #FBBF24;
+  --brand-5: #4ADE80;
+  --brand-6: #FF8A3D;
+}
+
+/* Temel Gövde */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-x: hidden;
+}
+
+/* Özel Gradyan Sınıfları */
+.gradient-brand {
+  background: linear-gradient(135deg, var(--brand-1), var(--brand-2));
+}
+
+.gradient-progress {
+  background: linear-gradient(90deg, var(--brand-1), var(--brand-3));
+}
+
+.gradient-xp {
+  background: linear-gradient(135deg, var(--xp), var(--brand-6));
+}
+
+.gradient-text-brand {
+  background: linear-gradient(135deg, var(--brand-1), var(--brand-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, var(--brand-2), var(--brand-3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Arka Plan Canlı Deseni */
+.bg-mesh-pattern {
+  background-image: radial-gradient(circle at 15% 15%, rgba(124, 58, 237, 0.08) 0%, transparent 40%),
+                    radial-gradient(circle at 85% 25%, rgba(236, 72, 153, 0.08) 0%, transparent 45%),
+                    radial-gradient(circle at 50% 80%, rgba(6, 182, 212, 0.06) 0%, transparent 50%);
+}
+
+.dark .bg-mesh-pattern {
+  background-image: radial-gradient(circle at 15% 15%, rgba(167, 139, 250, 0.12) 0%, transparent 45%),
+                    radial-gradient(circle at 85% 25%, rgba(244, 114, 182, 0.1) 0%, transparent 50%),
+                    radial-gradient(circle at 50% 80%, rgba(34, 211, 238, 0.08) 0%, transparent 55%);
+}
+
+/* Erişilebilirlik: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

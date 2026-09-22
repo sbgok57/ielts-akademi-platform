@@ -1,0 +1,835 @@
+// =============================================================================
+// IELTS AKADEMİ — PRISMA ŞEMASI (TEK-KOD.mjs tarafından üretildi)
+// PostgreSQL + pgvector. Antigravity: npx prisma migrate dev --name init
+// =============================================================================
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum Role {
+  STUDENT
+  TEACHER
+  PARENT
+  ADMIN
+}
+
+enum ContentStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+  ARCHIVED
+  REJECTED
+}
+
+enum Skill {
+  GRAMMAR
+  READING
+  LISTENING
+  SPEAKING
+  WRITING
+  VOCABULARY
+  SCIENCE
+  EXAM
+  ARCHIVE
+  TACTIC
+}
+
+enum BadgeTier {
+  BRONZE
+  SILVER
+  GOLD
+  PLATINUM
+  LEGENDARY
+}
+
+model User {
+  id String @id @default(uuid()) @db.Uuid
+  email String? @unique
+  username String? @unique
+  name String
+  passwordHash String
+  role Role @default(STUDENT)
+  emailVerified DateTime?
+  image String?
+  locale String @default("tr")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastSeenAt DateTime?
+  profile Profile?
+  sessions Session[]
+  accounts Account[]
+  xpEvents XpEvent[]
+  userLevel UserLevel?
+  streak Streak?
+  badges UserBadge[]
+  badgeProgress BadgeProgress[]
+  srsReviews SrsReview[]
+  vocabVault VocabVault[]
+  attempts ExamAttempt[]
+  submissions Submission[]
+  studyPlans StudyPlan[]
+  conversations AiConversation[]
+  errorLogs ErrorLog[]
+  quoteFavorites QuoteFavorite[]
+  progressEvents ProgressEvent[]
+  reports ContentReport[]
+  consents GuardianConsent[]
+  auditLogs AuditLog[]
+  assignmentsAsTeacher Assignment[] @relation("teacher")
+  assignmentsAsStudent Assignment[] @relation("student")
+  teacherLinksAsTeacher TeacherStudentLink[] @relation("tsTeacher")
+  teacherLinksAsStudent TeacherStudentLink[] @relation("tsStudent")
+  @@index([role])
+}
+
+model Account {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  type String
+  provider String
+  providerAccountId String
+  refresh_token String?
+  access_token String?
+  expires_at Int?
+  token_type String?
+  scope String?
+  id_token String?
+  session_state String?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id String @id @default(uuid()) @db.Uuid
+  sessionToken String @unique
+  userId String @db.Uuid
+  expires DateTime
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token String @unique
+  expires DateTime
+  @@unique([identifier, token])
+}
+
+model PasswordResetToken {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  tokenHash String @unique
+  expiresAt DateTime
+  usedAt DateTime?
+}
+
+model GuardianConsent {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  guardianEmail String
+  tokenHash String @unique
+  approvedAt DateTime?
+  createdAt DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Profile {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @unique @db.Uuid
+  avatar String @default("avatar-1")
+  goal String?
+  examType String?
+  targetBand Float?
+  examDate DateTime?
+  dailyMinutes Int @default(20)
+  availableDays Int[] @default([0,1,2,3,4,5,6])
+  cefrLevel String?
+  theme String @default("system")
+  reducedMotion Boolean @default(false)
+  fontSize Int @default(16)
+  dataSaver Boolean @default(false)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model TeacherStudentLink {
+  id String @id @default(uuid()) @db.Uuid
+  teacherId String @db.Uuid
+  studentId String @db.Uuid
+  inviteCode String @unique @default(uuid())
+  createdAt DateTime @default(now())
+  teacher User @relation("tsTeacher", fields: [teacherId], references: [id])
+  student User @relation("tsStudent", fields: [studentId], references: [id])
+  @@unique([teacherId, studentId])
+}
+
+model PlacementResult {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  cefrLevel String
+  estimatedBand Float
+  skillMap Json
+  weakAreas String[]
+  detail Json?
+  createdAt DateTime @default(now())
+}
+
+model Course {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  skill Skill
+  titleTr String
+  titleEn String
+  levels Level[]
+}
+
+model Level {
+  id String @id @default(uuid()) @db.Uuid
+  courseId String @db.Uuid
+  code String
+  titleTr String
+  orderIndex Int
+  course Course @relation(fields: [courseId], references: [id])
+  topics Topic[]
+  @@unique([courseId, code])
+}
+
+model Topic {
+  id String @id @default(uuid()) @db.Uuid
+  levelId String @db.Uuid
+  slug String
+  titleTr String
+  titleEn String
+  orderIndex Int
+  tags String[]
+  level Level @relation(fields: [levelId], references: [id])
+  lessons Lesson[]
+  @@unique([levelId, slug])
+}
+
+model Lesson {
+  id String @id @default(uuid()) @db.Uuid
+  topicId String @db.Uuid
+  slug String @unique
+  skill Skill
+  cefrLevel String
+  titleTr String
+  titleEn String
+  orderIndex Int
+  estimatedMinutes Int @default(12)
+  prerequisites String[]
+  blocks Json
+  learningTechniques String[]
+  examCritical Json?
+  status ContentStatus @default(DRAFT)
+  version Int @default(1)
+  sourceCredit String?
+  qualityScore Int?
+  topic Topic @relation(fields: [topicId], references: [id])
+  exerciseSets ExerciseSet[]
+  srsCards SrsCard[]
+  tacticLinks TacticLessonLink[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([skill, cefrLevel, status])
+}
+
+model ExerciseSet {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  skill Skill
+  cefrLevel String
+  setType String
+  lessonId String? @db.Uuid
+  passageId String? @db.Uuid
+  audioId String? @db.Uuid
+  titleTr String
+  questionCount Int
+  estimatedMinutes Int @default(10)
+  tacticCard Json?
+  learningTechniques String[]
+  status ContentStatus @default(DRAFT)
+  version Int @default(1)
+  sourceCredit String?
+  lesson Lesson? @relation(fields: [lessonId], references: [id])
+  passage Passage? @relation(fields: [passageId], references: [id])
+  audio AudioTrack? @relation(fields: [audioId], references: [id])
+  questions Question[]
+  @@index([skill, cefrLevel, setType, status])
+}
+
+model Question {
+  id String @id @default(uuid()) @db.Uuid
+  setId String @db.Uuid
+  orderIndex Int
+  type String
+  prompt String
+  options Json?
+  answer String
+  acceptedAnswers String[]
+  wordLimit String?
+  spellingRules Json?
+  evidence Json?
+  explanationTr String?
+  trapTr String?
+  difficulty Int @default(2)
+  tags String[]
+  techniques String[]
+  set ExerciseSet @relation(fields: [setId], references: [id], onDelete: Cascade)
+  responses Response[]
+  @@index([setId, orderIndex])
+}
+
+model Passage {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  cefrLevel String
+  title String
+  field String?
+  paragraphs Json
+  wordCount Int
+  glossary Json
+  topicTags String[]
+  learningTechniques String[]
+  discussionQuestions String[]
+  writingPrompt String?
+  topicAnimation Json?
+  status ContentStatus @default(DRAFT)
+  sourceCredit String?
+  exerciseSets ExerciseSet[]
+}
+
+model VoiceProfile {
+  id String @id @default(uuid()) @db.Uuid
+  code String @unique
+  accent String
+  gender String
+  style String[]
+  speakerName String
+  isHuman Boolean @default(true)
+  sampleAudio String?
+  avatar String?
+  bioTr String?
+  licenseJson Json
+  qcJson Json?
+  audioTracks AudioTrack[]
+  createdAt DateTime @default(now())
+}
+
+model AudioTrack {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  src String
+  accent String
+  gender String
+  speakerName String
+  voiceProfileId String? @db.Uuid
+  isHuman Boolean @default(true)
+  durationMs Int
+  lufs Float?
+  transcriptVtt String?
+  timingsJson String?
+  ambienceSrc String?
+  license String @default("own")
+  credit String
+  qcApprovedBy String?
+  status ContentStatus @default(DRAFT)
+  voiceProfile VoiceProfile? @relation(fields: [voiceProfileId], references: [id])
+  exerciseSets ExerciseSet[]
+  @@index([accent, gender])
+}
+
+model ProgressEvent {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  skill Skill
+  contentId String
+  questionId String?
+  isCorrect Boolean?
+  mode String @default("practice")
+  elapsedMs Int?
+  xpEarned Int @default(0)
+  idempotencyKey String @unique
+  createdAt DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, skill, createdAt])
+}
+
+model Response {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  questionId String @db.Uuid
+  isCorrect Boolean
+  givenAnswer String
+  elapsedMs Int?
+  createdAt DateTime @default(now())
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  @@index([userId, questionId])
+}
+
+model ErrorLog {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  category String
+  detail String
+  contentId String?
+  questionId String?
+  resolvedAt DateTime?
+  createdAt DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, category])
+}
+
+model Deck {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  titleTr String
+  skill Skill
+  cefrLevel String
+  vocabDeck Boolean @default(false)
+  cards SrsCard[]
+  words VocabWord[]
+}
+
+model SrsCard {
+  id String @id @default(uuid()) @db.Uuid
+  ownerType String
+  ownerId String
+  lessonId String? @db.Uuid
+  deckId String? @db.Uuid
+  front Json
+  back Json
+  lesson Lesson? @relation(fields: [lessonId], references: [id])
+  deck Deck? @relation(fields: [deckId], references: [id])
+  reviews SrsReview[]
+  @@index([ownerType, ownerId])
+}
+
+model SrsReview {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  cardId String @db.Uuid
+  easiness Float @default(2.5)
+  interval Int @default(0)
+  repetitions Int @default(0)
+  dueAt DateTime
+  lastGrade Int?
+  lastReviewedAt DateTime?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card SrsCard @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  @@unique([userId, cardId])
+  @@index([userId, dueAt])
+}
+
+model VocabWord {
+  id String @id @default(uuid()) @db.Uuid
+  word String
+  slug String @unique
+  ipa String?
+  cefrLevel String
+  ieltsTargetBand Float?
+  frequencyRank Int?
+  pos String
+  enDefinition String
+  trMeanings String[]
+  synonyms String[]
+  antonyms String[]
+  collocations String[]
+  wordFamily Json?
+  examples Json
+  topicTags String[]
+  audioRefs Json
+  visual Json?
+  mnemonicTr String?
+  confusableWith String[]
+  synonymTraps Json?
+  sourceCredit String?
+  status ContentStatus @default(DRAFT)
+  deckId String? @db.Uuid
+  deck Deck? @relation(fields: [deckId], references: [id])
+  vaults VocabVault[]
+  @@unique([word, pos])
+  @@index([cefrLevel, frequencyRank])
+}
+
+model VocabVault {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  wordId String @db.Uuid
+  state String @default("learning")
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word VocabWord @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  @@unique([userId, wordId])
+}
+
+model ExamPaper {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  titleTr String
+  module String
+  deliveryMode String
+  era String?
+  isArchive Boolean @default(false)
+  sections ExamSection[]
+  attempts ExamAttempt[]
+  createdAt DateTime @default(now())
+}
+
+model ExamSection {
+  id String @id @default(uuid()) @db.Uuid
+  paperId String @db.Uuid
+  skill Skill
+  orderIndex Int
+  setIds String[]
+  timeLimitMin Int
+  paper ExamPaper @relation(fields: [paperId], references: [id], onDelete: Cascade)
+}
+
+model ExamAttempt {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  paperId String @db.Uuid
+  mode String
+  startedAt DateTime @default(now())
+  finishedAt DateTime?
+  rawScores Json?
+  bands Json?
+  overall Float?
+  reportJson Json?
+  osrAdvice String?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  paper ExamPaper @relation(fields: [paperId], references: [id])
+  @@index([userId, startedAt])
+}
+
+model BandConversion {
+  id String @id @default(uuid()) @db.Uuid
+  module String
+  skill Skill
+  rawMin Int
+  rawMax Int
+  band Float
+  @@index([module, skill, rawMin])
+}
+
+model EraCard {
+  id String @id @default(uuid()) @db.Uuid
+  eraStart Int
+  eraEnd Int?
+  nameTr String
+  nameEn String
+  formatSummaryTr String
+  scoringSummaryTr String
+  typicalQuestionTypes String[]
+  whatChangedTr String[]
+  whatStayedTr String[]
+  mockSetIds String[]
+  sources Json
+  status ContentStatus @default(DRAFT)
+}
+
+model TacticArticle {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  skill Skill
+  cefrLevels String[]
+  titleTr String
+  bodyTr String
+  examples Json?
+  isCritical Boolean @default(false)
+  orderIndex Int
+  status ContentStatus @default(DRAFT)
+  lessonLinks TacticLessonLink[]
+}
+
+model TacticLessonLink {
+  id String @id @default(uuid()) @db.Uuid
+  tacticId String @db.Uuid
+  lessonId String @db.Uuid
+  tactic TacticArticle @relation(fields: [tacticId], references: [id], onDelete: Cascade)
+  lesson Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  @@unique([tacticId, lessonId])
+}
+
+model Resource {
+  id String @id @default(uuid()) @db.Uuid
+  title String
+  url String
+  provider String
+  isFree Boolean @default(true)
+  isOfficial Boolean @default(true)
+  coversSkills String[]
+  language String @default("en")
+  lastCheckedAt DateTime?
+}
+
+model XpEvent {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  amount Int
+  reason String
+  meta Json?
+  idempotencyKey String @unique
+  createdAt DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId, createdAt])
+}
+
+model UserLevel {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @unique @db.Uuid
+  level Int @default(1)
+  totalXp Int @default(0)
+  title String @default("Acemi Kâşif 🐣")
+  updatedAt DateTime @updatedAt
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Streak {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @unique @db.Uuid
+  current Int @default(0)
+  longest Int @default(0)
+  lastActiveDate DateTime?
+  freezesLeft Int @default(1)
+  recoveriesLeft Int @default(1)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Badge {
+  id String @id @default(uuid()) @db.Uuid
+  code String @unique
+  family String
+  metric String
+  threshold Int
+  tier BadgeTier
+  rarity String
+  nameTr String
+  nameEn String
+  descriptionTr String
+  descriptionEn String
+  iconSrc String
+  gifSrc String?
+  xpReward Int @default(50)
+  condition Json
+  isSecret Boolean @default(false)
+  isActive Boolean @default(true)
+  users UserBadge[]
+  progress BadgeProgress[]
+  @@index([family, tier])
+}
+
+model UserBadge {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  badgeId String @db.Uuid
+  earnedAt DateTime @default(now())
+  seenAt DateTime?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge Badge @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+  @@unique([userId, badgeId])
+  @@index([userId, earnedAt])
+}
+
+model BadgeProgress {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  badgeId String @db.Uuid
+  progress Int @default(0)
+  updatedAt DateTime @updatedAt
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  badge Badge @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+  @@unique([userId, badgeId])
+}
+
+model Quote {
+  id String @id @default(uuid()) @db.Uuid
+  tr String
+  en String
+  category String
+  mood String
+  author String?
+  source String?
+  visual Json?
+  isOriginal Boolean @default(true)
+  favorites QuoteFavorite[]
+}
+
+model QuoteFavorite {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  quoteId String @db.Uuid
+  createdAt DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quote Quote @relation(fields: [quoteId], references: [id], onDelete: Cascade)
+  @@unique([userId, quoteId])
+}
+
+model StudyPlan {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  weekStart DateTime
+  generatedBy String @default("system")
+  constraints Json
+  status String @default("active")
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items StudyPlanItem[]
+  @@unique([userId, weekStart])
+}
+
+model StudyPlanItem {
+  id String @id @default(uuid()) @db.Uuid
+  planId String @db.Uuid
+  date DateTime
+  blockIndex Int
+  type String
+  skill Skill?
+  contentId String?
+  titleTr String
+  minutes Int
+  status String @default("todo")
+  xpReward Int @default(0)
+  plan StudyPlan @relation(fields: [planId], references: [id], onDelete: Cascade)
+  @@index([planId, date])
+}
+
+model LiveLesson {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  dayOfWeek Int
+  startTime String
+  durationMin Int @default(60)
+  titleTr String
+  notes String?
+  linkedLessonIds String[]
+  createdAt DateTime @default(now())
+}
+
+model Assignment {
+  id String @id @default(uuid()) @db.Uuid
+  teacherId String @db.Uuid
+  studentId String @db.Uuid
+  titleTr String
+  contentIds String[]
+  dueAt DateTime
+  xpReward Int @default(100)
+  instructions String?
+  createdAt DateTime @default(now())
+  teacher User @relation("teacher", fields: [teacherId], references: [id])
+  student User @relation("student", fields: [studentId], references: [id])
+  submission Submission?
+}
+
+model Submission {
+  id String @id @default(uuid()) @db.Uuid
+  assignmentId String @unique @db.Uuid
+  studentId String @db.Uuid
+  submittedAt DateTime @default(now())
+  scorePct Float?
+  teacherComment String?
+  artifacts Json?
+  assignment Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  student User @relation(fields: [studentId], references: [id])
+}
+
+model AiConversation {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  title String @default("Yeni sohbet")
+  context Json?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages AiMessage[]
+}
+
+model AiMessage {
+  id String @id @default(uuid()) @db.Uuid
+  conversationId String @db.Uuid
+  role String
+  content String
+  sources Json?
+  model String?
+  tokensIn Int?
+  tokensOut Int?
+  latencyMs Int?
+  createdAt DateTime @default(now())
+  conversation AiConversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  feedback AiFeedback?
+  @@index([conversationId, createdAt])
+}
+
+model AiFeedback {
+  id String @id @default(uuid()) @db.Uuid
+  messageId String @unique @db.Uuid
+  userId String @db.Uuid
+  rating Int
+  note String?
+  correctedAnswer String?
+  status String @default("open")
+  createdAt DateTime @default(now())
+  message AiMessage @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  @@index([status])
+}
+
+model KnowledgeChunk {
+  id String @id @default(uuid()) @db.Uuid
+  source String
+  titleTr String
+  text String
+  embedding Unsupported("vector(1536)")?
+  updatedAt DateTime @updatedAt
+  @@index([source])
+}
+
+model ContentReport {
+  id String @id @default(uuid()) @db.Uuid
+  userId String? @db.Uuid
+  contentId String
+  issueType String
+  note String?
+  status String @default("open")
+  createdAt DateTime @default(now())
+  user User? @relation(fields: [userId], references: [id])
+  @@index([status, issueType])
+}
+
+model Notification {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  type String
+  titleTr String
+  bodyTr String
+  link String?
+  readAt DateTime?
+  createdAt DateTime @default(now())
+  @@index([userId, readAt])
+}
+
+model AuditLog {
+  id String @id @default(uuid()) @db.Uuid
+  actorId String? @db.Uuid
+  action String
+  target String?
+  meta Json?
+  createdAt DateTime @default(now())
+  user User? @relation(fields: [actorId], references: [id])
+}
+
+model FeatureFlag {
+  id String @id @default(uuid()) @db.Uuid
+  key String @unique
+  enabled Boolean @default(false)
+  meta Json?
+}
+
+model Setting {
+  id String @id @default(uuid()) @db.Uuid
+  userId String? @db.Uuid
+  key String @unique
+  value Json
+}

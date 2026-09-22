@@ -1,0 +1,79 @@
+{
+  "id": "write-b2-task2-car-ban",
+  "slug": "task2-city-centre-car-ban-b2",
+  "level": "B2",
+  "skill": "writing",
+  "taskType": "task2",
+  "promptEn": "Some people believe that private cars should be banned from city centres. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+  "minWords": 250,
+  "promptKeywords": [
+    "private cars",
+    "banned",
+    "city centres",
+    "agree",
+    "pollution",
+    "public transport"
+  ],
+  "modelEssayEn": "In many countries, city councils are considering banning private cars from central districts in order to reduce congestion and air pollution, and similar proposals are now debated in medium-sized cities as well.\n\nWhile such a policy creates obvious short-term inconvenience for drivers, I largely agree with the proposal, provided that reliable public transport is available before the restriction begins.\n\nThe strongest argument for a ban is public health. While exhaust fumes are not spread evenly across a city, residents of the busiest streets tend to suffer the highest rates of asthma, because heavy traffic concentrates pollutants in narrow corridors.\n\nTherefore, restricting private vehicles in these areas is a targeted intervention rather than a blanket restriction, and the health gains are likely to be measurable within a few years.\n\nIn addition, evidence from several European cities suggests that pedestrianised centres increase retail turnover, although shopkeepers often oppose the change before it is implemented and then report higher footfall afterwards.\n\nSecondly, critics claim that bans penalise low-income drivers. Nevertheless, this drawback can be mitigated if the revenue from congestion charges funds bus services and cycle lanes, which benefit precisely the people who cannot afford to run a car.\n\nAs a result, a carefully designed policy becomes progressive rather than regressive, because those who pollute most contribute most.\n\nFinally, practical details matter as much as principles. Deliveries, emergency vehicles and disabled drivers should be exempt, and the scheme should be introduced gradually, since a sudden ban without an alternative route network would undermine public support.\n\nIn conclusion, although a city-centre car ban requires careful design and honest consultation, the combination of measurable health benefits, reinvested revenue and exemptions for those who genuinely need access makes it a defensible and effective measure for local authorities.",
+  "modelEssayWordCount": 291,
+  "examinerNotesTr": [
+    {
+      "criterion": "Task Response",
+      "band": 8,
+      "noteTr": "Görüş net ve tutarlı; karşı görüşe yer verildiği için 'fully developed' sayılır."
+    },
+    {
+      "criterion": "Coherence & Cohesion",
+      "band": 7,
+      "noteTr": "Her paragraf tek bir fikir taşıyor; However, Therefore, In addition, As a result bağlaçları doğru işliyor. Paragraf sayısı 9: bir tık fazla, 5-6 paragrafa indirilirse daha güçlü olur."
+    },
+    {
+      "criterion": "Lexical Resource",
+      "band": 8,
+      "noteTr": "'congestion', 'targeted intervention', 'progressive rather than regressive', 'mitigated' gibi akademik seçimler var; bir-iki tekrar ('policy') var."
+    },
+    {
+      "criterion": "Grammatical Range",
+      "band": 7,
+      "noteTr": "although/while/because/if/pedestrianised sıfat cümleleri; pasif kullanım doğru. Bir cümlede özne-tekrarı olabilir."
+    }
+  ],
+  "overallBand": 7.5,
+  "usefulLanguage": {
+    "opinion": [
+      "In my view ...",
+      "I firmly believe that ...",
+      "While I accept that ... I would argue ..."
+    ],
+    "concession": [
+      "Admittedly, ...",
+      "It is true that ...",
+      "Critics may argue that ..."
+    ],
+    "causeEffect": [
+      "As a result ...",
+      "This leads to ...",
+      "Consequently ..."
+    ],
+    "conclusion": [
+      "In conclusion, although ...",
+      "On balance, ...",
+      "To sum up, the benefits outweigh ..."
+    ]
+  },
+  "checkQuestionsTr": [
+    "Görüşün her paragrafta aynı yönde mi?",
+    "Karşı görüşü en az bir cümleyle çürüttün mü?",
+    "Sonuç paragrafı ilk paragraftaki tezle uyumlu mu?"
+  ],
+  "cefrCheck": {
+    "wordRange": [
+      240,
+      420
+    ],
+    "fkGradeRange": [
+      9,
+      17
+    ]
+  }
+}

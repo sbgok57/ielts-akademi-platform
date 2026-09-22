@@ -1,0 +1,288 @@
+{
+  "id": "gr-a1-012",
+  "slug": "present-simple-1",
+  "skill": "grammar",
+  "level": "A1",
+  "topic": "tenses",
+  "orderInLevel": 12,
+  "estimatedMinutes": 14,
+  "prerequisites": [
+    "gr-a1-011"
+  ],
+  "title": {
+    "tr": "Present Simple: Günlük Hayatın Zamanı",
+    "en": "Present Simple: Everyday Time"
+  },
+  "learningTechniques": [
+    "dual_coding",
+    "worked_example",
+    "retrieval_practice",
+    "spaced_repetition",
+    "error_correction",
+    "exam_tactic"
+  ],
+  "blocks": {
+    "hook": {
+      "visual": {
+        "type": "lottie",
+        "src": "/lottie/hook-alarm-clock.lottie.json",
+        "altTr": "Her sabah 7'de çalan ve aynı hareketi tekrarlayan alarm animasyonu",
+        "altEn": "An alarm clock ringing at 7 every morning",
+        "credit": "IELTS Akademi (özgün üretim)",
+        "license": "own",
+        "reducedMotionFallback": "/lottie/hook-alarm-clock-poster.webp"
+      },
+      "question": {
+        "tr": "Her sabah ne yaparsın? Bu cümle neden hep aynı şekilde kurulur?",
+        "en": "What do you do every morning?"
+      },
+      "voiceoverTr": "Sabahın hep aynı: kalk, kahvaltı, yola çık. İngilizce de bu tekrarı seviyor — işte Present Simple.",
+      "voiceoverAudio": "/audio/lessons/gr-a1-012/hook-tr-GB-F.mp3"
+    },
+    "intuition": {
+      "metaphorTr": "Present Simple = alışkanlık fabrikası. Fabrika her gün aynı ürünü üretir: kalk → kahve → iş.",
+      "metaphorEn": "Present Simple is a habit factory.",
+      "visualSchema": {
+        "type": "svg",
+        "src": "/svg/timeline-habit.svg",
+        "altTr": "Zaman çizelgesinde eşit aralıklarla tekrar eden noktalar",
+        "altEn": "Repeated dots on a timeline",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "colorCode": {
+        "subject": "#06B6D4",
+        "verb": "#EC4899",
+        "object": "#22C55E",
+        "timeMarker": "#F59E0B",
+        "helper": "#7C3AED"
+      },
+      "signalWords": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "never",
+        "every day",
+        "on Mondays",
+        "at 7 o'clock"
+      ]
+    },
+    "rule": {
+      "formulaVisual": {
+        "type": "svg",
+        "src": "/svg/formula-present-simple.svg",
+        "altTr": "Formül şeridi: Özne + Fiil(+s) + Nesne",
+        "altEn": "Formula strip",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "table": [
+        {
+          "person": "I / You / We / They",
+          "positive": "work",
+          "negative": "don't work",
+          "question": "Do ... work?"
+        },
+        {
+          "person": "He / She / It",
+          "positive": "works",
+          "negative": "doesn't work",
+          "question": "Does ... work?"
+        }
+      ],
+      "keyPointsTr": [
+        "He/She/It → fiile -s eklenir (works, drinks, studies).",
+        "Olumsuz ve soruda do/does kullanılır; yardımcı varken fiil yalın kalır.",
+        "-y ile bitenler: study → studies (play → plays).",
+        "-s/-sh/-ch/-x/-o: goes, watches, finishes, fixes."
+      ],
+      "keyPointsEn": [
+        "Add -s with he/she/it.",
+        "Use do/does in questions and negatives."
+      ],
+      "spellingBox": {
+        "tr": "Yazım tuzağı: go → goes, watch → watches, finish → finishes, carry → carries",
+        "en": "Spelling: goes, watches, finishes, carries"
+      }
+    },
+    "animatedExamples": [
+      {
+        "en": "She **drinks** coffee every morning.",
+        "tr": "O her sabah kahve içer.",
+        "animation": "/gifs/ex-drinks-coffee.gif",
+        "altTr": "Kelimeler sırayla yerine oturuyor; 'drinks' kutusu parlıyor",
+        "highlight": [
+          "drinks"
+        ],
+        "technique": [
+          "dual_coding",
+          "worked_example"
+        ]
+      },
+      {
+        "en": "They **don't live** in Bursa.",
+        "tr": "Onlar Bursa'da yaşamazlar.",
+        "animation": "/gifs/ex-dont-live.gif",
+        "altTr": "'don't' kutusu fiilin önüne kayıyor",
+        "highlight": [
+          "don't live"
+        ],
+        "technique": [
+          "error_prevention"
+        ]
+      },
+      {
+        "en": "**Does** he **study** English daily?",
+        "tr": "O her gün İngilizce çalışır mı?",
+        "animation": "/gifs/ex-does-study.gif",
+        "altTr": "'Does' başa geçiyor ve fiilden 's' siliniyor",
+        "highlight": [
+          "Does",
+          "study"
+        ],
+        "technique": [
+          "noticing"
+        ]
+      }
+    ],
+    "examCritical": {
+      "title": {
+        "tr": "⚠️ Sınavda Tam Buradan Soruyorlar",
+        "en": "Exam-critical detail"
+      },
+      "bodyTr": "Listening ve Reading'de boşluk doldurmada cümlede every day, usually, always, on Mondays gibi bir zaman ifadesi varsa cevap Present Simple olur. En sık kaybedilen puan nedeni: -s takısını unutmak ya da olumsuzda fiile -s eklemek.",
+      "exampleQuestion": {
+        "prompt": "Every morning she ______ (walk) to school with her brother.",
+        "answer": "walks",
+        "trap": "walk yazmak (zaman ifadesi + she → -s şart)",
+        "explanationTr": "'Every morning' tekrar sinyali, 'she' üçüncü tekil → walks. Kelime sınırı ONE WORD ise yalnızca 'walks' yazılır."
+      },
+      "visual": {
+        "type": "gif",
+        "src": "/gifs/exam-tip-s-ending.gif",
+        "altTr": "'-s' takısının cümleye eklenişi",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      }
+    },
+    "turkishPitfalls": [
+      {
+        "wrong": "He don't likes coffee.",
+        "right": "He doesn't like coffee.",
+        "whyTr": "Yanlış yardımcı fiil + yardımcı varken fiile -s eklemek. Yardımcı fiil çekimi üstlenir, ana fiil yalın kalır.",
+        "whyEn": "The auxiliary carries the tense."
+      },
+      {
+        "wrong": "I am work in a hospital.",
+        "right": "I work in a hospital.",
+        "whyTr": "Türkçede 'çalışıyorum' hem şimdiki hem geniş zaman çağrıştırır; rutin iş Present Simple ile anlatılır.",
+        "whyEn": "Use Present Simple for routine jobs."
+      },
+      {
+        "wrong": "Does she goes to school?",
+        "right": "Does she go to school?",
+        "whyTr": "'Does' zaten -s bilgisini taşır; fiile tekrar -s eklenmez.",
+        "whyEn": "One -s per sentence."
+      }
+    ],
+    "microTest": {
+      "setId": "set-gr-a1-012-m1",
+      "questionCount": 12,
+      "types": [
+        "gap_fill",
+        "multiple_choice",
+        "order_words",
+        "find_error",
+        "true_false",
+        "match",
+        "translate_tr_en",
+        "word_family"
+      ],
+      "passScorePct": 75,
+      "retryAfterWrongIndex": 3,
+      "sample": [
+        {
+          "type": "gap_fill",
+          "prompt": "My father ______ (drive) a bus in Istanbul.",
+          "answer": "drives",
+          "acceptedAnswers": [
+            "drives"
+          ],
+          "explanationTr": "Üçüncü tekil özne → fiile -s."
+        },
+        {
+          "type": "find_error",
+          "prompt": "She don't watch TV in the evenings.",
+          "answer": "She doesn't watch TV in the evenings.",
+          "explanationTr": "'She' ile 'doesn't' kullanılır."
+        },
+        {
+          "type": "order_words",
+          "prompt": "often / he / does / ? / tennis / play",
+          "answer": "Does he often play tennis?",
+          "explanationTr": "Soru kelimesi başa, ana fiil yalın."
+        },
+        {
+          "type": "translate_tr_en",
+          "prompt": "Biz her cuma sinemaya gideriz.",
+          "answer": "We go to the cinema every Friday.",
+          "acceptedAnswers": [
+            "We go to the cinema every Friday",
+            "Every Friday we go to the cinema",
+            "We go to the cinema on Fridays"
+          ],
+          "explanationTr": "Rutin → Present Simple."
+        }
+      ]
+    },
+    "examTactics": [
+      {
+        "titleTr": "Zaman ifadesini işaretle",
+        "textTr": "always, never, every day, usually, on Tuesdays → Present Simple sinyali. Özneyi bul, -s kuralını uygula.",
+        "level": "A1",
+        "critical": true
+      },
+      {
+        "titleTr": "Yardımcı fiil varsa -s yok",
+        "textTr": "don't / doesn't / do / does gördüğün yerde ana fiile -s EKLEME.",
+        "level": "A1",
+        "critical": true
+      },
+      {
+        "titleTr": "Kelime sınırını kontrol et",
+        "textTr": "Boşluk ONE WORD diyorsa yalnızca 'walks' yaz.",
+        "level": "A1",
+        "critical": true
+      }
+    ],
+    "persistence": {
+      "srsDeckId": "deck-gr-a1-012",
+      "reviewScheduleDays": [
+        1,
+        3,
+        7,
+        21
+      ],
+      "sprintSetId": "set-gr-a1-012-sprint",
+      "cards": [
+        {
+          "front": "She (drink) tea every morning. → ?",
+          "back": "She drinks tea every morning. (-s: he/she/it)"
+        },
+        {
+          "front": "Soru: 'o çalışır mı?' → ?",
+          "back": "Does he work? (yardımcı varken fiil yalın)"
+        },
+        {
+          "front": "Kural: don't/doesn't sonrası fiil?",
+          "back": "Yalın hâl: doesn't work (≠ doesn't works)"
+        }
+      ]
+    }
+  },
+  "status": "published",
+  "version": 1,
+  "sourceCredit": "IELTS Akademi özgün içeriği — tüm örnek ve açıklamalar kendi üretimimizdir.",
+  "qualityScore": 92
+}

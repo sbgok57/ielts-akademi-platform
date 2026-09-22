@@ -1,0 +1,294 @@
+{
+  "id": "list-a2-library-induction",
+  "slug": "library-induction-a2",
+  "level": "A2",
+  "skill": "listening",
+  "examSection": "Listening Section 1",
+  "titleTr": "Kütüphane Kayıt Görüşmesi",
+  "scenarioTr": "Bir öğrenci kütüphaneye kayıt olur; görevli kuralları ve süreleri anlatır.",
+  "audio": [
+    {
+      "src": "/audio/listening/library-induction-gb-f.mp3",
+      "accent": "en-GB",
+      "gender": "female",
+      "speakerName": "Kütüphane görevlisi (Sarah, Manchester)",
+      "durationMs": 96000,
+      "isHuman": true,
+      "status": "published",
+      "qcApprovedBy": "NS-QC-2026-031",
+      "credit": "IELTS Akademi stüdyo kaydı (sözleşmeli seslendirmen)",
+      "license": "Platform içi kullanım - yayın hakkı sözleşmeyle alınmış"
+    },
+    {
+      "src": "/audio/listening/library-induction-us-m.mp3",
+      "accent": "en-US",
+      "gender": "male",
+      "speakerName": "Kütüphane görevlisi (Daniel, Chicago)",
+      "durationMs": 94000,
+      "isHuman": true,
+      "status": "published",
+      "qcApprovedBy": "NS-QC-2026-032",
+      "credit": "IELTS Akademi stüdyo kaydı (sözleşmeli seslendirmen)",
+      "license": "Platform içi kullanım - yayın hakkı sözleşmeyle alınmış"
+    },
+    {
+      "src": "/audio/listening/library-induction-au-f.mp3",
+      "accent": "en-AU",
+      "gender": "female",
+      "speakerName": "Kütüphane görevlisi (Emily, Melbourne)",
+      "durationMs": 95000,
+      "isHuman": true,
+      "status": "review",
+      "credit": "IELTS Akademi stüdyo kaydı (sözleşmeli seslendirmen)",
+      "license": "Platform içi kullanım - yayın hakkı sözleşmeyle alınmış"
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "Officer",
+      "startMs": 0,
+      "endMs": 3200,
+      "text": "Good morning, welcome to Bursa City Library."
+    },
+    {
+      "speaker": "Student",
+      "startMs": 3300,
+      "endMs": 5400,
+      "text": "Hello. I would like to join the library."
+    },
+    {
+      "speaker": "Officer",
+      "startMs": 5500,
+      "endMs": 9600,
+      "text": "Your membership card is free, but please bring your identity card."
+    },
+    {
+      "speaker": "Officer",
+      "startMs": 9700,
+      "endMs": 13400,
+      "text": "Books can be borrowed for two weeks."
+    },
+    {
+      "speaker": "Officer",
+      "startMs": 13500,
+      "endMs": 18200,
+      "text": "If you return them late, the fine is two lira per day."
+    },
+    {
+      "speaker": "Officer",
+      "startMs": 18300,
+      "endMs": 22800,
+      "text": "The quiet study room is on the second floor, next to the newspapers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "order": 1,
+      "type": "mcq_single",
+      "questionTr": "Üyelik kartı için ücret nedir?",
+      "options": [
+        "Ücretsiz",
+        "İki lira",
+        "On lira",
+        "Yıllık abonelik"
+      ],
+      "answer": "Ücretsiz",
+      "acceptedAnswers": [
+        "free",
+        "ücretsiz"
+      ],
+      "evidence": {
+        "startMs": 5500,
+        "endMs": 9600
+      },
+      "explanationTr": "'Your membership card is free' ifadesi doğrudan cevabı verir."
+    },
+    {
+      "id": "q2",
+      "order": 2,
+      "type": "note_completion",
+      "questionTr": "Kayıt için getirilmesi gereken belge: ___",
+      "answer": "identity card",
+      "acceptedAnswers": [
+        "identity card",
+        "kimlik kartı",
+        "ID card"
+      ],
+      "evidence": {
+        "startMs": 5500,
+        "endMs": 9600
+      },
+      "explanationTr": "Görevli kimlik kartı istiyor; 'but please bring' uyarısı cevabın işareti."
+    },
+    {
+      "id": "q3",
+      "order": 3,
+      "type": "short_answer",
+      "questionTr": "Kitaplar kaç gün ödünç alınabilir?",
+      "answer": "two weeks",
+      "acceptedAnswers": [
+        "two weeks",
+        "2 weeks",
+        "14 days"
+      ],
+      "evidence": {
+        "startMs": 9700,
+        "endMs": 13400
+      },
+      "explanationTr": "'for two weeks' ifadesi süreyi verir; 'fourteen days' kabul edilen varyanttır."
+    },
+    {
+      "id": "q4",
+      "order": 4,
+      "type": "short_answer",
+      "questionTr": "Gecikme cezası günlük ne kadar?",
+      "answer": "two lira",
+      "acceptedAnswers": [
+        "two lira",
+        "2 lira",
+        "two liras"
+      ],
+      "evidence": {
+        "startMs": 13500,
+        "endMs": 18200
+      },
+      "explanationTr": "Sayı yakalama sorusu; birim (lira) cevabın parçasıdır."
+    },
+    {
+      "id": "q5",
+      "order": 5,
+      "type": "mcq_single",
+      "questionTr": "Sessiz çalışma odası nerede?",
+      "options": [
+        "Birinci kat",
+        "İkinci kat",
+        "Gazetelerin yanında ama üçüncü katta",
+        "Girişin sağında"
+      ],
+      "answer": "İkinci kat",
+      "acceptedAnswers": [
+        "second floor",
+        "2nd floor"
+      ],
+      "evidence": {
+        "startMs": 18300,
+        "endMs": 22800
+      },
+      "explanationTr": "'on the second floor' doğru; 'next to the newspapers' konum ayrıntısıdır, kat bilgisi değişmez."
+    },
+    {
+      "id": "q6",
+      "order": 6,
+      "type": "note_completion",
+      "questionTr": "Sessiz oda, ___ bitişiğindedir.",
+      "answer": "the newspapers",
+      "acceptedAnswers": [
+        "the newspapers",
+        "newspapers"
+      ],
+      "evidence": {
+        "startMs": 18300,
+        "endMs": 22800
+      },
+      "explanationTr": "Edat + isim kalıbı dikkat ister: 'next to the newspapers'."
+    },
+    {
+      "id": "q7",
+      "order": 7,
+      "type": "short_answer",
+      "questionTr": "Kayıt olurken görevli hangi belgeyi istiyor? (2 kelime)",
+      "answer": "identity card",
+      "acceptedAnswers": [
+        "identity card",
+        "kimlik kartı"
+      ],
+      "evidence": {
+        "startMs": 5500,
+        "endMs": 9600
+      },
+      "explanationTr": "Aynı bilgi farklı soru tipiyle ölçülür (transfer becerisi)."
+    },
+    {
+      "id": "q8",
+      "order": 8,
+      "type": "mcq_single",
+      "questionTr": "Öğrenci neden kütüphaneye gelmiştir?",
+      "options": [
+        "Kitap iade etmek için",
+        "Üye olmak için",
+        "Ders çalışmak için",
+        "Kayıp kitabı bildirmek için"
+      ],
+      "answer": "Üye olmak için",
+      "acceptedAnswers": [
+        "to join"
+      ],
+      "evidence": {
+        "startMs": 3300,
+        "endMs": 5400
+      },
+      "explanationTr": "Öğrencinin ilk cümlesi amacı belirtir."
+    },
+    {
+      "id": "q9",
+      "order": 9,
+      "type": "note_completion",
+      "questionTr": "Gecikme cezası: günde ___ lira.",
+      "answer": "two",
+      "acceptedAnswers": [
+        "two",
+        "2"
+      ],
+      "evidence": {
+        "startMs": 13500,
+        "endMs": 18200
+      },
+      "explanationTr": "Yalnızca sayı isteniyor; birim tabloda verilmiş."
+    },
+    {
+      "id": "q10",
+      "order": 10,
+      "type": "short_answer",
+      "questionTr": "Kütüphane görevlisi hangi belgeyi getirmesini söylüyor? (İngilizce)",
+      "answer": "identity card",
+      "acceptedAnswers": [
+        "identity card",
+        "your identity card"
+      ],
+      "evidence": {
+        "startMs": 5500,
+        "endMs": 9600
+      },
+      "explanationTr": "Kelime sınırı olan soru: 2 kelime."
+    }
+  ],
+  "distractorMap": [
+    {
+      "questionId": "q4",
+      "distractorTr": "'İki hafta' süresi ile 'iki lira' cezasının sayısı aynıdır; öğrenciler sayıyı doğru duyup yanlış bilgiye bağlar.",
+      "fixTr": "Sorunun hangi bilgiyi istediğini önce oku, sonra dinle."
+    },
+    {
+      "questionId": "q5",
+      "distractorTr": "'Gazetelerin yanında' ifadesi kattan önce gelir; yanlış eşleştirme riski yüksektir.",
+      "fixTr": "Konum ve kat bilgisini ayrı ayrı işaretle."
+    }
+  ],
+  "tacticCard": {
+    "titleTr": "Sayı yakalamada birim tuzağı",
+    "bodyTr": "Aynı sayı iki farklı bilgiye ait olabilir (2 hafta / 2 lira). Cevabı yazmadan önce sorunun istediği birimi kontrol et.",
+    "examSeconds": 30
+  },
+  "scriptNotesTr": "Kayıt brifingi: normal konuşma hızı (dk 130-150 kelime), doğal dolgu sesleri çok az, iki aksan varyantı zorunlu.",
+  "cefrCheck": {
+    "wordRange": [
+      40,
+      80
+    ],
+    "fkGradeRange": [
+      3,
+      8
+    ]
+  }
+}

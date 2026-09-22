@@ -1,0 +1,150 @@
+{
+  "id": "gr-a2-present-perfect",
+  "slug": "present-perfect-a2",
+  "level": "A2",
+  "titleTr": "Present Perfect (have/has + V3) — 'Ne zaman?' sormadan anlatmak",
+  "titleEn": "Present Perfect",
+  "estimatedMinutes": 18,
+  "blocks": {
+    "hook": {
+      "headlineTr": "Neden 'I have lost my key' derken saati söylemeyiz?",
+      "bodyTr": "Çünkü bu cümlede önemli olan KAYIP olayının ŞU ANKİ sonucudur: kapıdasın, anahtarın yok. Olayın saati önemli değil.",
+      "visual": {
+        "src": "/anim/grammar/a2-present-perfect-hook.gif",
+        "altTr": "Anahtarını kaybeden öğrencinin kapı önünde beklemesi",
+        "durationMs": 4200
+      }
+    },
+    "intuition": {
+      "bodyTr": "Present Perfect = geçmişte olmuş ama ŞU ANla bağlantısı süren olay. Bir köprü kur: geçmişte olay → bugün sonuç.",
+      "visualTr": "Köprü metaforu: solda 'geçmiş' adası, sağda 'şimdi' adası, ortada köprü (have/has + V3)."
+    },
+    "rule": {
+      "formulaTr": "Özne + have/has + V3 (past participle) · Olumsuz: haven't/hasn't + V3 · Soru: Have/Has + özne + V3?",
+      "forms": [
+        {
+          "person": "I / You / We / They",
+          "positive": "have worked",
+          "negative": "haven't worked",
+          "question": "Have you worked?"
+        },
+        {
+          "person": "He / She / It",
+          "positive": "has worked",
+          "negative": "hasn't worked",
+          "question": "Has she worked?"
+        }
+      ],
+      "timeMarkersTr": [
+        "just",
+        "already",
+        "yet",
+        "ever",
+        "never",
+        "so far",
+        "recently",
+        "since 2019",
+        "for three years"
+      ]
+    },
+    "animatedExamples": [
+      {
+        "en": "I have finished my homework.",
+        "tr": "Ödevimi bitirdim (şimdi özgürüm).",
+        "animation": "Ödev kâğıdı yeşile dönüp 'tamamlandı' mührü alıyor",
+        "highlight": "have + finished"
+      },
+      {
+        "en": "She has lived in Bursa for five years.",
+        "tr": "Beş yıldır Bursa'da yaşıyor (hâlâ yaşıyor).",
+        "animation": "Takvim 2019'dan bugüne kayıyor, süre çubuğu devam ediyor",
+        "highlight": "has + lived + for"
+      },
+      {
+        "en": "We haven't seen that film yet.",
+        "tr": "O filmi henüz görmedik (hâlâ görebiliriz).",
+        "animation": "'yet' etiketi kutuya konmamış bilet olarak görünüyor",
+        "highlight": "haven't + seen + yet"
+      },
+      {
+        "en": "Have you ever tried Turkish coffee?",
+        "tr": "Hiç Türk kahvesi denedin mi? (hayatında, deneyim)",
+        "animation": "Deneyim rozetleri sıraya diziliyor, biri boş kalıyor",
+        "highlight": "Have + you + ever"
+      }
+    ],
+    "examCritical": {
+      "bodyTr": "⚠️ IELTS'te Present Perfect en çok Task 1 ve Task 2'de 'genel eğilim/tamamlanmış gelişme' anlatmak için puan kazandırır. Writing Task 1'de grafiğe saat vermeden 'Overall, the figure has risen by 20% since 2010.' gibi cümleler kurarsın. Listening'de ise 'have you already booked' gibi kalıplar cevabı doğrudan verir; 'already/yet' sıklıkla tuzak olarak değiştirilir.",
+      "exampleQuestion": {
+        "stem": "Complete: Since 2015, the number of cyclists ___ (increase) steadily.",
+        "answer": "has increased",
+        "whyTr": "2015'ten bugüne süren bir eğilim → present perfect; tekil özne (number) → has."
+      }
+    },
+    "turkishPitfalls": [
+      {
+        "mistakeTr": "Türkçede '-di' geçmiş zaman olunca İngilizcede de past simple sanmak: 'I have seen him yesterday.'",
+        "correct": "I saw him yesterday.",
+        "whyTr": "Belirli geçmiş zaman ifadesi varsa (yesterday, last week, in 2020) past simple zorunludur."
+      },
+      {
+        "mistakeTr": "'Beş yıldır' ifadesini present continuous ile yapmak: 'I am living here for five years.'",
+        "correct": "I have lived / I have been living here for five years.",
+        "whyTr": "Süre 'for/since' ile verilirse present perfect (veya perfect continuous) kullanılır."
+      },
+      {
+        "mistakeTr": "'for' ve 'since' karışıklığı: 'since three years'",
+        "correct": "for three years / since 2019",
+        "whyTr": "for → süre miktarı; since → başlangıç noktası."
+      }
+    ],
+    "examTactics": [
+      {
+        "tacticTr": "Writing'de eğilim cümlesinde since + yıl kullan; bu, karmaşık yapı puan kazandırır (GRA).",
+        "skill": "writing"
+      },
+      {
+        "tacticTr": "Listening'de 'already/yet/just' duyduğunda seçenekleri bu zarfların anlamına göre ele: already = beklenenden önce, yet = hâlâ olmadı.",
+        "skill": "listening"
+      }
+    ],
+    "microTest": {
+      "questionCount": 10,
+      "items": [
+        {
+          "q": "I ___ (never / be) to Japan.",
+          "a": "have never been"
+        },
+        {
+          "q": "She ___ (already / finish) her essay.",
+          "a": "has already finished"
+        },
+        {
+          "q": "They ___ (live) here since 2018.",
+          "a": "have lived"
+        }
+      ],
+      "ruleTr": "8-15 soru; her soru en az 1 kez 1, 3 ve 7. günde tekrar listesine girer."
+    },
+    "persistence": {
+      "reviewScheduleDays": [
+        1,
+        3,
+        7,
+        21
+      ],
+      "flashcardHintTr": "Kart ön yüzü: kural formülü + 2 zaman belirteci. Arka yüz: 1 TL klasik hata + 1 IELTS cümlesi."
+    }
+  },
+  "learningTechniques": [
+    "köprü metaforu",
+    "karşılaştırmalı zaman tablosu",
+    "klasik hata avı",
+    "SRS",
+    "çift kodlama (animasyon)"
+  ],
+  "sourcesTr": [
+    "Kendi özgün içeriğimiz (telifsiz)",
+    "Kural açıklaması: akademik gramer referanslarının özeti"
+  ]
+}

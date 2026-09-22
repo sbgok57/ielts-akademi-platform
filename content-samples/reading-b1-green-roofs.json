@@ -1,0 +1,366 @@
+{
+  "id": "rd-b1-042",
+  "slug": "green-roofs-cities-that-breathe",
+  "skill": "reading",
+  "level": "B1",
+  "sectionType": "academic",
+  "topicTags": [
+    "environment",
+    "cities",
+    "technology"
+  ],
+  "title": "Green Roofs: Cities That Breathe",
+  "wordCount": 486,
+  "targetReadingMinutes": 9,
+  "passage": [
+    {
+      "paraIndex": 0,
+      "text": "In many cities around the world, the tops of buildings are no longer grey and empty. Thousands of roofs are now covered with grass, small bushes and even trees. These are called green roofs, and they are one of the fastest-growing ideas in modern city planning.",
+      "headingCandidates": [
+        "A new kind of garden above our heads"
+      ]
+    },
+    {
+      "paraIndex": 1,
+      "text": "The benefits begin with temperature. Roofs made of dark materials absorb heat from the sun and release it slowly into the building below. Studies show that a green roof can cut a building's cooling needs by up to 25 per cent, because plants keep the surface cool and add a layer of insulation. In summer, the difference in indoor temperature can be several degrees.",
+      "headingCandidates": [
+        "Keeping buildings cooler"
+      ]
+    },
+    {
+      "paraIndex": 2,
+      "text": "Water is the second advantage. During heavy rain, city drains often become full within minutes, and streets are flooded. A green roof works like a sponge: it holds part of the rainwater and lets it evaporate, so less water reaches the street. Researchers in Germany found that a well-planted roof can keep back half of the rain that falls on it.",
+      "headingCandidates": [
+        "Less water on the streets"
+      ]
+    },
+    {
+      "paraIndex": 3,
+      "text": "Green roofs also have social value. A rooftop garden gives residents a quiet place to meet, grow vegetables or simply sit in the fresh air. However, these projects are not cheap. Installing a green roof can cost two to three times more than a traditional one, and the building must be strong enough to carry the extra weight of soil and plants. For this reason, some city governments now offer money back to building owners who choose this option.",
+      "headingCandidates": [
+        "Friends, vegetables and quiet time",
+        "Costs and how cities help"
+      ]
+    },
+    {
+      "paraIndex": 4,
+      "text": "Not every roof is suitable. The structure must be checked by an engineer, and plants must be chosen carefully: they need to survive strong wind, direct sun and long dry periods. Despite these difficulties, the number of green roofs continues to rise, and in some European cities they are now a normal part of every new building.",
+      "headingCandidates": [
+        "Choosing the right plants"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "insulation",
+      "ipa": "/ˌɪn.sjəˈleɪ.ʃən/",
+      "tr": "yalıtım",
+      "level": "B1",
+      "enDefinition": "a layer that stops heat from passing through",
+      "audio": "/audio/vocab/insulation-en-GB-female.mp3",
+      "visual": "/gifs/vocab/insulation.gif"
+    },
+    {
+      "term": "drain",
+      "ipa": "/dreɪn/",
+      "tr": "su tahliye kanalı",
+      "level": "B1",
+      "enDefinition": "a channel that carries water away",
+      "audio": "/audio/vocab/drain-en-US-male.mp3"
+    },
+    {
+      "term": "sponge",
+      "ipa": "/spʌndʒ/",
+      "tr": "sünger",
+      "level": "B1",
+      "enDefinition": "a soft material that holds water",
+      "audio": "/audio/vocab/sponge-en-AU-female.mp3"
+    },
+    {
+      "term": "evaporate",
+      "ipa": "/ɪˈvæp.ə.reɪt/",
+      "tr": "buharlaşmak",
+      "level": "B2",
+      "enDefinition": "to change from liquid into gas",
+      "audio": "/audio/vocab/evaporate-en-IN-male.mp3"
+    },
+    {
+      "term": "resident",
+      "ipa": "/ˈrez.ɪ.dənt/",
+      "tr": "sakin",
+      "level": "B1",
+      "enDefinition": "a person who lives in a place",
+      "audio": "/audio/vocab/resident-en-CA-female.mp3"
+    },
+    {
+      "term": "suitable",
+      "ipa": "/ˈsuː.tə.bəl/",
+      "tr": "uygun",
+      "level": "A2",
+      "enDefinition": "right for a purpose",
+      "audio": "/audio/vocab/suitable-en-NZ-male.mp3"
+    },
+    {
+      "term": "structure",
+      "ipa": "/ˈstrʌk.tʃər/",
+      "tr": "yapı, iskelet",
+      "level": "B1",
+      "enDefinition": "the main parts of a building",
+      "audio": "/audio/vocab/structure-en-GB-male.mp3"
+    },
+    {
+      "term": "install",
+      "ipa": "/ɪnˈstɔːl/",
+      "tr": "kurmak, monte etmek",
+      "level": "B1",
+      "enDefinition": "to put equipment in place",
+      "audio": "/audio/vocab/install-en-US-female.mp3"
+    }
+  ],
+  "difficultWords": [
+    {
+      "word": "runoff",
+      "tr": "yüzey akışı"
+    },
+    {
+      "word": "absorb",
+      "tr": "emmek, soğurmak"
+    },
+    {
+      "word": "release",
+      "tr": "salmak"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "tfng",
+      "order": 1,
+      "prompt": "Green roofs can reduce the need for cooling inside a building.",
+      "answer": "TRUE",
+      "evidence": {
+        "paraIndex": 1,
+        "sentence": "Studies show that a green roof can cut a building's cooling needs by up to 25 per cent, because plants keep the surface cool and add a layer of insulation."
+      },
+      "explanationTr": "'reduce the need for cooling' = 'cut a building's cooling needs' (paraphrase).",
+      "trapTr": "Metinde 'heating' değil 'cooling' geçiyor; ikisini karıştırmak klasik tuzaktır.",
+      "difficulty": 1,
+      "technique": [
+        "evidence_hunting",
+        "paraphrase_awareness"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "tfng",
+      "order": 2,
+      "prompt": "All buildings are strong enough for a green roof.",
+      "answer": "FALSE",
+      "evidence": {
+        "paraIndex": 3,
+        "sentence": "Installing a green roof can cost two to three times more than a traditional one, and the building must be strong enough to carry the extra weight of soil and plants."
+      },
+      "explanationTr": "'must be strong enough' bir gereklilik; 'All buildings are strong enough' iddiası metinle çelişiyor → FALSE.",
+      "trapTr": "'All' gibi mutlak ifadeler sınavda genellikle FALSE sinyalidir.",
+      "difficulty": 2
+    },
+    {
+      "id": "q3",
+      "type": "tfng",
+      "order": 3,
+      "prompt": "Green roofs are now compulsory for every new building in all European cities.",
+      "answer": "NOT GIVEN",
+      "evidence": {
+        "paraIndex": 4,
+        "sentence": "in some European cities they are now a normal part of every new building."
+      },
+      "explanationTr": "Metin 'some' (bazı) ve 'normal part' diyor; 'compulsory' (zorunlu) ve 'all' bilgisi metinde YOK → NOT GIVEN.",
+      "trapTr": "'some → all' ve 'normal → zorunlu' değişimleri tam da IELTS'in NG tuzağıdır.",
+      "difficulty": 3
+    },
+    {
+      "id": "q4",
+      "type": "tfng",
+      "order": 4,
+      "prompt": "Green roofs are more expensive to install than traditional roofs.",
+      "answer": "TRUE",
+      "evidence": {
+        "paraIndex": 3,
+        "sentence": "Installing a green roof can cost two to three times more than a traditional one"
+      },
+      "explanationTr": "'two to three times more' = 'more expensive'.",
+      "difficulty": 1
+    },
+    {
+      "id": "q5",
+      "type": "short_answer",
+      "order": 5,
+      "prompt": "How much rain can a well-planted roof keep back, according to researchers in Germany?",
+      "answer": "half",
+      "acceptedAnswers": [
+        "half",
+        "50%",
+        "fifty per cent"
+      ],
+      "wordLimit": "NO MORE THAN THREE WORDS AND/OR A NUMBER",
+      "evidence": {
+        "paraIndex": 2,
+        "sentence": "Researchers in Germany found that a well-planted roof can keep back half of the rain that falls on it."
+      },
+      "explanationTr": "Cevap metinde doğrudan 'half' olarak geçiyor.",
+      "difficulty": 2
+    },
+    {
+      "id": "q6",
+      "type": "summary_completion",
+      "order": 6,
+      "prompt": "A green roof can lower a building's cooling needs by up to ______ per cent.",
+      "answer": "25",
+      "acceptedAnswers": [
+        "25",
+        "twenty-five",
+        "25%"
+      ],
+      "wordLimit": "ONE NUMBER",
+      "evidence": {
+        "paraIndex": 1,
+        "sentence": "Studies show that a green roof can cut a building's cooling needs by up to 25 per cent"
+      },
+      "explanationTr": "'up to' üst sınır belirtir; boşluk sayı istiyor → 25.",
+      "trapTr": "Metinde geçen başka bir sayıyı (ör. 'several degrees') yazmak.",
+      "difficulty": 1
+    },
+    {
+      "id": "q7",
+      "type": "summary_completion",
+      "order": 7,
+      "prompt": "A green roof works like a ______ : it holds part of the rainwater and lets it evaporate.",
+      "answer": "sponge",
+      "acceptedAnswers": [
+        "sponge"
+      ],
+      "wordLimit": "ONE WORD ONLY",
+      "evidence": {
+        "paraIndex": 2,
+        "sentence": "A green roof works like a sponge: it holds part of the rainwater and lets it evaporate, so less water reaches the street."
+      },
+      "explanationTr": "Kanıt cümlesi birebir aynı yapıyı kullanıyor.",
+      "difficulty": 1
+    },
+    {
+      "id": "q8",
+      "type": "mcq_single",
+      "order": 8,
+      "prompt": "What is the main idea of paragraph 4?",
+      "answer": "Green roofs have social benefits but also cost money.",
+      "options": [
+        "Green roofs are only useful in hospitals and schools.",
+        "Green roofs have social benefits but also cost money.",
+        "Green roofs are cheap and easy to install.",
+        "Rooftop gardens produce most of a city's vegetables."
+      ],
+      "evidence": {
+        "paraIndex": 3,
+        "sentence": "However, these projects are not cheap."
+      },
+      "explanationTr": "Paragraf önce sosyal yararları, sonra maliyeti ve belediye desteğini anlatıyor → iki yönlü özet doğru.",
+      "trapTr": "'only' içeren seçenekler genellikle yanlıştır.",
+      "difficulty": 2
+    },
+    {
+      "id": "q9",
+      "type": "matching_headings",
+      "order": 9,
+      "prompt": "Choose the best heading for paragraph 5.",
+      "answer": "Choosing the right plants",
+      "options": [
+        "A new kind of garden above our heads",
+        "Choosing the right plants",
+        "Friends, vegetables and quiet time",
+        "Less water on the streets"
+      ],
+      "evidence": {
+        "paraIndex": 4,
+        "sentence": "plants must be chosen carefully: they need to survive strong wind, direct sun and long dry periods."
+      },
+      "explanationTr": "Paragraf 5 uygunluk denetimi ve bitki seçimine odaklanıyor.",
+      "difficulty": 2
+    },
+    {
+      "id": "q10",
+      "type": "sentence_completion",
+      "order": 10,
+      "prompt": "Before a green roof is built, the building's ______ must be checked by an engineer.",
+      "answer": "structure",
+      "acceptedAnswers": [
+        "structure"
+      ],
+      "wordLimit": "NO MORE THAN TWO WORDS",
+      "evidence": {
+        "paraIndex": 4,
+        "sentence": "The structure must be checked by an engineer, and plants must be chosen carefully"
+      },
+      "explanationTr": "Boşluk bir isim istiyor; metinde 'The structure must be checked' geçiyor.",
+      "difficulty": 2
+    },
+    {
+      "id": "q11",
+      "type": "matching_information",
+      "order": 11,
+      "prompt": "Which paragraph mentions financial support from local governments?",
+      "answer": "Paragraph 4",
+      "options": [
+        "Paragraph 2",
+        "Paragraph 3",
+        "Paragraph 4",
+        "Paragraph 5"
+      ],
+      "evidence": {
+        "paraIndex": 3,
+        "sentence": "some city governments now offer money back to building owners who choose this option."
+      },
+      "explanationTr": "'money back' = finansal destek. Bu bilgi yalnızca 4. paragrafta (paraIndex 3) geçiyor.",
+      "difficulty": 3
+    },
+    {
+      "id": "q12",
+      "type": "yng",
+      "order": 12,
+      "prompt": "The writer believes that green roofs will continue to spread despite their problems.",
+      "answer": "YES",
+      "evidence": {
+        "paraIndex": 4,
+        "sentence": "Despite these difficulties, the number of green roofs continues to rise"
+      },
+      "explanationTr": "Yazarın tutumu olumlu; 'continues to rise' yaygınlaşmanın sürdüğünü gösteriyor → YES.",
+      "trapTr": "Y/N/NG yazarın GÖRÜŞÜNÜ sorar; bilgi ile tutumu karıştırma.",
+      "difficulty": 3
+    }
+  ],
+  "tacticCard": {
+    "titleTr": "Zaman yönetimi: 20-20-20 kuralı",
+    "textTr": "Bir metne ortalama 20 dakika ayır. 8 dakikada çözemediğin soruyu işaretle ve geç; son 5 dakikada işaretli sorulara dön. Asla tek soruda 3 dakikadan fazla kalma.",
+    "critical": true
+  },
+  "technique": [
+    "skimming",
+    "scanning",
+    "evidence_hunting",
+    "paraphrase_awareness",
+    "time_management",
+    "interleaving"
+  ],
+  "assets": {
+    "gifs": [
+      "/gifs/reading/rd-b1-042/skimming-demo.gif",
+      "/gifs/reading/rd-b1-042/tfng-decision-tree.gif"
+    ],
+    "images": [
+      "/img/reading/rd-b1-042/green-roof-diagram.svg"
+    ],
+    "credits": "Tüm görseller IELTS Akademi özgün üretimidir."
+  },
+  "status": "published",
+  "version": 1,
+  "sourceCredit": "IELTS Akademi özgün metni ve soruları (telif-güvenli; resmî sınav içeriği değildir)."
+}

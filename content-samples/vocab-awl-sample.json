@@ -1,0 +1,510 @@
+{
+  "deck": {
+    "slug": "awl-sublist-1",
+    "titleTr": "Akademik Kelime Listesi — Alt Liste 1",
+    "skill": "vocabulary",
+    "cefrLevel": "B2"
+  },
+  "quizTypesForThisDeck": [
+    "tr_to_en",
+    "en_to_tr",
+    "synonym_match",
+    "gap_fill",
+    "listen_and_type",
+    "pronounce_it",
+    "word_family_tree",
+    "collocation_hunt"
+  ],
+  "words": [
+    {
+      "word": "analyse",
+      "slug": "analyse",
+      "ipa": "/ˈæn.əl.aɪz/",
+      "pos": "verb",
+      "cefrLevel": "B2",
+      "ieltsTargetBand": 6.5,
+      "frequencyRank": 61,
+      "enDefinition": "to examine something carefully in order to understand it or find patterns",
+      "trMeanings": [
+        "analiz etmek, çözümlemek",
+        "ayrıntılı incelemek"
+      ],
+      "synonyms": [
+        "examine",
+        "study",
+        "evaluate"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "collocations": [
+        "analyse data",
+        "analyse the results",
+        "analyse a trend",
+        "critically analyse"
+      ],
+      "wordFamily": {
+        "noun": [
+          "analysis",
+          "analyst"
+        ],
+        "verb": [
+          "analyse",
+          "analyze"
+        ],
+        "adjective": [
+          "analytical"
+        ]
+      },
+      "examples": [
+        {
+          "en": "Researchers analysed the data from 2,000 students before writing their report.",
+          "tr": "Araştırmacılar raporu yazmadan önce 2.000 öğrenciden gelen verileri analiz etti.",
+          "context": "academic"
+        },
+        {
+          "en": "I usually analyse my mistakes after each practice test.",
+          "tr": "Her deneme sınavından sonra genellikle hatalarımı analiz ederim.",
+          "context": "daily"
+        }
+      ],
+      "topicTags": [
+        "research",
+        "education",
+        "science"
+      ],
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/analyse-en-GB-female.mp3",
+          "accent": "en-GB",
+          "gender": "female",
+          "speakerName": "Hannah",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        },
+        {
+          "src": "/audio/vocab/analyse-en-US-male.mp3",
+          "accent": "en-US",
+          "gender": "male",
+          "speakerName": "Mark",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        }
+      ],
+      "visual": {
+        "type": "lottie",
+        "src": "/lottie/vocab/analyse.lottie.json",
+        "altTr": "Büyüteç altında parçalara ayrılan bir grafik",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "mnemonicTr": "ANA-LİZ → 'ana iz' bırakan inceleme; parçalara ayır!",
+      "confusableWith": [
+        "analysis (isim)",
+        "analyze (ABD yazımı)"
+      ],
+      "synonymTraps": [
+        {
+          "trap": "analyse vs. analysis",
+          "noteTr": "İsim gerekiyorsa 'analysis': 'a detailed analysis' ✔ / 'a detailed analyse' ✘"
+        }
+      ],
+      "sourceCredit": "AWL Sublist 1 (kamuya açık liste) + IELTS Akademi özgün tanım/örnek metinleri",
+      "status": "published"
+    },
+    {
+      "word": "significant",
+      "slug": "significant",
+      "ipa": "/sɪɡˈnɪf.ɪ.kənt/",
+      "pos": "adjective",
+      "cefrLevel": "B2",
+      "ieltsTargetBand": 6.5,
+      "frequencyRank": 27,
+      "enDefinition": "large or important enough to have an effect or to be noticed",
+      "trMeanings": [
+        "önemli, kayda değer",
+        "istatistikte anlamlı"
+      ],
+      "synonyms": [
+        "important",
+        "considerable",
+        "notable",
+        "substantial"
+      ],
+      "antonyms": [
+        "insignificant",
+        "minor",
+        "negligible"
+      ],
+      "collocations": [
+        "a significant increase",
+        "statistically significant",
+        "significant impact",
+        "significant difference"
+      ],
+      "wordFamily": {
+        "noun": [
+          "significance"
+        ],
+        "verb": [
+          "signify"
+        ],
+        "adverb": [
+          "significantly"
+        ]
+      },
+      "examples": [
+        {
+          "en": "There was a significant increase in online learning between 2019 and 2022.",
+          "tr": "2019 ile 2022 arasında çevrimiçi öğrenmede kayda değer bir artış oldu.",
+          "context": "academic"
+        },
+        {
+          "en": "Getting my first practice test result was a significant moment for me.",
+          "tr": "İlk deneme sonucumu almam benim için önemli bir andı.",
+          "context": "daily"
+        }
+      ],
+      "topicTags": [
+        "statistics",
+        "education",
+        "business"
+      ],
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/significant-en-GB-female.mp3",
+          "accent": "en-GB",
+          "gender": "female",
+          "speakerName": "Hannah",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        },
+        {
+          "src": "/audio/vocab/significant-en-AU-male.mp3",
+          "accent": "en-AU",
+          "gender": "male",
+          "speakerName": "Liam",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        }
+      ],
+      "visual": {
+        "type": "svg",
+        "src": "/svg/vocab/significant.svg",
+        "altTr": "Grafikte belirgin şekilde yükselen çizgi",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "mnemonicTr": "SIGN (işaret) + ificant → işaret verecek kadar büyük.",
+      "confusableWith": [
+        "signified",
+        "signification"
+      ],
+      "synonymTraps": [
+        {
+          "trap": "important",
+          "noteTr": "Task 1 grafiklerinde 'important' zayıf kalır; 'significant' daha akademik ve puan getirir."
+        }
+      ],
+      "sourceCredit": "AWL Sublist 1 + IELTS Akademi özgün metinleri",
+      "status": "published"
+    },
+    {
+      "word": "consequence",
+      "slug": "consequence",
+      "ipa": "/ˈkɒn.sɪ.kwəns/",
+      "pos": "noun",
+      "cefrLevel": "B1",
+      "ieltsTargetBand": 6,
+      "frequencyRank": 118,
+      "enDefinition": "a result of a particular action or situation, often one that is bad",
+      "trMeanings": [
+        "sonuç, akıbet",
+        "netice"
+      ],
+      "synonyms": [
+        "result",
+        "outcome",
+        "effect",
+        "repercussion"
+      ],
+      "antonyms": [
+        "cause",
+        "origin"
+      ],
+      "collocations": [
+        "serious consequences",
+        "as a consequence of",
+        "face the consequences",
+        "long-term consequences"
+      ],
+      "wordFamily": {
+        "noun": [
+          "consequence"
+        ],
+        "adjective": [
+          "consequent",
+          "consequential"
+        ],
+        "adverb": [
+          "consequently"
+        ]
+      },
+      "examples": [
+        {
+          "en": "Cutting down forests has serious consequences for local wildlife.",
+          "tr": "Ormanları kesmenin yerel yaban hayatı için ciddi sonuçları vardır.",
+          "context": "academic"
+        },
+        {
+          "en": "As a consequence of studying every day, my listening improved quickly.",
+          "tr": "Her gün çalışmamın bir sonucu olarak dinlemem hızla gelişti.",
+          "context": "daily"
+        }
+      ],
+      "topicTags": [
+        "environment",
+        "writing-task-2"
+      ],
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/consequence-en-NZ-female.mp3",
+          "accent": "en-NZ",
+          "gender": "female",
+          "speakerName": "Ruby",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        },
+        {
+          "src": "/audio/vocab/consequence-en-CA-male.mp3",
+          "accent": "en-CA",
+          "gender": "male",
+          "speakerName": "Noah",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        }
+      ],
+      "visual": {
+        "type": "lottie",
+        "src": "/lottie/vocab/consequence.lottie.json",
+        "altTr": "Devrilen domino taşlarının zinciri",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "mnemonicTr": "CON + SEQUENCE → sıra neyse sonucu o olur (domino etkisi).",
+      "confusableWith": [
+        "consequent (sıfat)",
+        "sequence (sıra)"
+      ],
+      "synonymTraps": [
+        {
+          "trap": "result vs. consequence",
+          "noteTr": "'consequence' olumsuz/uyarı tonu taşır; olumlu sonuçlar için 'result' veya 'outcome'."
+        }
+      ],
+      "sourceCredit": "AWL Sublist 1 + IELTS Akademi özgün metinleri",
+      "status": "published"
+    },
+    {
+      "word": "environment",
+      "slug": "environment",
+      "ipa": "/ɪnˈvaɪ.rən.mənt/",
+      "pos": "noun",
+      "cefrLevel": "A2",
+      "ieltsTargetBand": 5,
+      "frequencyRank": 84,
+      "enDefinition": "the natural world, or the conditions in which people live and work",
+      "trMeanings": [
+        "çevre, doğal ortam",
+        "ortam (koşullar)"
+      ],
+      "synonyms": [
+        "surroundings",
+        "setting",
+        "habitat"
+      ],
+      "antonyms": [],
+      "collocations": [
+        "protect the environment",
+        "a quiet working environment",
+        "environmental damage",
+        "a learning environment"
+      ],
+      "wordFamily": {
+        "noun": [
+          "environment",
+          "environmentalist"
+        ],
+        "adjective": [
+          "environmental"
+        ],
+        "adverb": [
+          "environmentally"
+        ]
+      },
+      "examples": [
+        {
+          "en": "Governments should invest more in public transport to protect the environment.",
+          "tr": "Hükümetler çevreyi korumak için toplu taşımaya daha fazla yatırım yapmalı.",
+          "context": "academic"
+        },
+        {
+          "en": "I study better in a quiet environment with a cup of tea.",
+          "tr": "Bir fincan çayla sessiz bir ortamda daha iyi çalışıyorum.",
+          "context": "daily"
+        }
+      ],
+      "topicTags": [
+        "environment",
+        "speaking-part-3"
+      ],
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/environment-en-GB-male.mp3",
+          "accent": "en-GB",
+          "gender": "male",
+          "speakerName": "Oliver",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        },
+        {
+          "src": "/audio/vocab/environment-en-US-female.mp3",
+          "accent": "en-US",
+          "gender": "female",
+          "speakerName": "Grace",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        }
+      ],
+      "visual": {
+        "type": "gif",
+        "src": "/gifs/vocab/environment.gif",
+        "altTr": "Nefes alan dünya küresi ve etrafında dönen yapraklar",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "mnemonicTr": "ENVİRON = çevre; hem doğa hem ortam anlamı birlikte kodlanır.",
+      "confusableWith": [
+        "atmosphere",
+        "circumstances"
+      ],
+      "synonymTraps": [
+        {
+          "trap": "atmosphere",
+          "noteTr": "Doğa anlamı için 'atmosphere' yanlış; o hava tabakası veya ortam havasıdır."
+        }
+      ],
+      "sourceCredit": "Oxford 3000 + IELTS Akademi özgün metinleri",
+      "status": "published"
+    },
+    {
+      "word": "sustainable",
+      "slug": "sustainable",
+      "ipa": "/səˈsteɪ.nə.bəl/",
+      "pos": "adjective",
+      "cefrLevel": "B2",
+      "ieltsTargetBand": 7,
+      "frequencyRank": 214,
+      "enDefinition": "able to continue for a long time without damaging the environment or using up resources",
+      "trMeanings": [
+        "sürdürülebilir",
+        "kalıcı, devam ettirilebilir"
+      ],
+      "synonyms": [
+        "viable",
+        "long-lasting",
+        "eco-friendly"
+      ],
+      "antonyms": [
+        "unsustainable",
+        "short-lived"
+      ],
+      "collocations": [
+        "sustainable development",
+        "a sustainable solution",
+        "sustainable energy",
+        "environmentally sustainable"
+      ],
+      "wordFamily": {
+        "noun": [
+          "sustainability"
+        ],
+        "verb": [
+          "sustain"
+        ],
+        "adjective": [
+          "sustained"
+        ],
+        "adverb": [
+          "sustainably"
+        ]
+      },
+      "examples": [
+        {
+          "en": "Solar power is seen as a more sustainable alternative to coal.",
+          "tr": "Güneş enerjisi, kömüre kıyasla daha sürdürülebilir bir alternatif olarak görülüyor.",
+          "context": "academic"
+        },
+        {
+          "en": "Studying 15 minutes every day is more sustainable than six hours once a month.",
+          "tr": "Her gün 15 dakika çalışmak, ayda bir 6 saat çalışmaktan daha sürdürülebilir.",
+          "context": "daily"
+        }
+      ],
+      "topicTags": [
+        "environment",
+        "writing-task-2",
+        "science"
+      ],
+      "audioRefs": [
+        {
+          "src": "/audio/vocab/sustainable-en-CA-female.mp3",
+          "accent": "en-CA",
+          "gender": "female",
+          "speakerName": "Emily",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        },
+        {
+          "src": "/audio/vocab/sustainable-en-IN-male.mp3",
+          "accent": "en-IN",
+          "gender": "male",
+          "speakerName": "Arjun",
+          "isHuman": true,
+          "license": "own",
+          "credit": "IELTS Akademi"
+        }
+      ],
+      "visual": {
+        "type": "svg",
+        "src": "/svg/vocab/sustainable.svg",
+        "altTr": "Sonsuz döngü oku içinde güneş, türbin ve yaprak",
+        "credit": "IELTS Akademi",
+        "license": "own"
+      },
+      "mnemonicTr": "SÜR + DÜR + ÜLEBİLİR: hece hece Türkçesiyle aynı.",
+      "confusableWith": [
+        "sustained (kesintisiz)",
+        "maintainable"
+      ],
+      "synonymTraps": [
+        {
+          "trap": "sustained vs. sustainable",
+          "noteTr": "'a sustained effort' = sürekli çaba; 'a sustainable system' = kendi kendini sürdürebilen sistem."
+        }
+      ],
+      "sourceCredit": "AWL Sublist 1 + IELTS Akademi özgün metinleri",
+      "status": "published"
+    }
+  ]
+}

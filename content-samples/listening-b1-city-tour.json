@@ -1,0 +1,354 @@
+{
+  "id": "ls-b1-018",
+  "slug": "riverside-city-tour",
+  "skill": "listening",
+  "level": "B1",
+  "section": 2,
+  "context": "city_tour",
+  "topicTags": [
+    "travel",
+    "local-services"
+  ],
+  "title": "Riverside City Tour — Tanıtım Konuşması",
+  "estimatedMinutes": 12,
+  "audio": [
+    {
+      "src": "/audio/listening/b1/ls-b1-018/en-GB-female-p1.mp3",
+      "accent": "en-GB",
+      "gender": "female",
+      "speakerName": "Hannah",
+      "voiceProfileCode": "GB-F-HANNAH",
+      "isHuman": true,
+      "durationMs": 212000,
+      "lufs": -16.1,
+      "transcriptVtt": "/audio/listening/b1/ls-b1-018/en-GB-female-p1.vtt",
+      "license": "own",
+      "credit": "IELTS Akademi stüdyo kaydı — Hannah (GB-F), 2026",
+      "qcApprovedBy": "teacher-1",
+      "status": "published"
+    },
+    {
+      "src": "/audio/listening/b1/ls-b1-018/en-AU-male-p1.mp3",
+      "accent": "en-AU",
+      "gender": "male",
+      "speakerName": "Liam",
+      "voiceProfileCode": "AU-M-LIAM",
+      "isHuman": true,
+      "durationMs": 205000,
+      "lufs": -15.8,
+      "license": "own",
+      "credit": "IELTS Akademi stüdyo kaydı — Liam (AU-M), 2026",
+      "qcApprovedBy": "teacher-1",
+      "status": "published"
+    },
+    {
+      "src": "/audio/listening/b1/ls-b1-018/en-IN-female-p1.mp3",
+      "accent": "en-IN",
+      "gender": "female",
+      "speakerName": "Priya",
+      "voiceProfileCode": "IN-F-PRIYA",
+      "isHuman": true,
+      "durationMs": 209000,
+      "lufs": -16.4,
+      "license": "own",
+      "credit": "IELTS Akademi stüdyo kaydı — Priya (IN-F), 2026",
+      "status": "draft",
+      "noteTr": "Kayıt tamamlandı, QC onayı bekliyor; onaylanana kadar öğrenciye gösterilmez."
+    }
+  ],
+  "ambience": {
+    "src": "/audio/ambience/city-street-light.mp3",
+    "credit": "IELTS Akademi özgün ortam kaydı",
+    "license": "own",
+    "levelNoteTr": "Ortam sesi konuşmanın en az 18 dB altında tutulur."
+  },
+  "transcript": [
+    {
+      "speaker": "Hannah",
+      "startMs": 0,
+      "endMs": 4200,
+      "text": "Good morning, and welcome to the Riverside City Tour. I'm Hannah, and I'll be your guide today."
+    },
+    {
+      "speaker": "Hannah",
+      "startMs": 4600,
+      "endMs": 9200,
+      "text": "We meet here at Riverside Station, just next to the clock tower — not at the main entrance, please, because that's where the taxis stop."
+    },
+    {
+      "speaker": "Hannah",
+      "startMs": 9800,
+      "endMs": 14800,
+      "text": "The tour lasts two hours. Sorry — let me correct that: two hours and fifteen minutes if we stop at the old mill."
+    },
+    {
+      "speaker": "Hannah",
+      "startMs": 15400,
+      "endMs": 20100,
+      "text": "Tickets are fifteen pounds for adults and eight pounds for students, and children under six travel free."
+    },
+    {
+      "speaker": "Hannah",
+      "startMs": 20700,
+      "endMs": 25600,
+      "text": "You can pay in cash at the office, or online. If you book online before Friday, you get twenty per cent off."
+    },
+    {
+      "speaker": "Hannah",
+      "startMs": 26200,
+      "endMs": 32300,
+      "text": "One more thing: the museum is closed for repairs until next month, so instead of that stop we'll visit the botanical gardens, which are just past the bridge."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "form_completion",
+      "order": 1,
+      "prompt": "The tour group meets next to the ______ .",
+      "answer": "clock tower",
+      "acceptedAnswers": [
+        "clock tower",
+        "clocktower",
+        "the clock tower"
+      ],
+      "wordLimit": "NO MORE THAN TWO WORDS",
+      "spellingRules": {
+        "ignoreCase": true,
+        "reject": [
+          "main entrance",
+          "station entrance",
+          "taxi rank"
+        ]
+      },
+      "evidence": {
+        "startMs": 4600,
+        "endMs": 9200
+      },
+      "explanationTr": "Konuşmacı buluşma yerini 'next to the clock tower' diye belirtiyor; main entrance'ı özellikle DIŞLIYOR.",
+      "trapTr": "'not at the main entrance' klasik distractor; duyulan ilk yeri yazmak puan kaybettirir.",
+      "difficulty": 2,
+      "technique": [
+        "noticing_distractors",
+        "evidence_hunting"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "form_completion",
+      "order": 2,
+      "prompt": "Total length of the tour (with the mill stop): ______ hours and fifteen minutes.",
+      "answer": "two",
+      "acceptedAnswers": [
+        "two",
+        "2"
+      ],
+      "wordLimit": "ONE WORD AND/OR A NUMBER",
+      "evidence": {
+        "startMs": 9800,
+        "endMs": 14800
+      },
+      "explanationTr": "Konuşmacı 'two hours' der, sonra düzeltir: 'two hours and fifteen minutes'. Son söylenen geçerlidir.",
+      "trapTr": "'actually / sorry / I mean' düzeltme sinyalinden sonraki bilgi doğrudur.",
+      "difficulty": 2,
+      "technique": [
+        "noticing_distractors"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "table_completion",
+      "order": 3,
+      "prompt": "Ticket price for students: £ ______",
+      "answer": "8",
+      "acceptedAnswers": [
+        "8",
+        "eight",
+        "8.00",
+        "£8"
+      ],
+      "wordLimit": "ONE NUMBER",
+      "evidence": {
+        "startMs": 15400,
+        "endMs": 20100
+      },
+      "explanationTr": "Rakam-sözcük eşdeğerliği ve para birimi simgesi kabul edilir.",
+      "difficulty": 1
+    },
+    {
+      "id": "q4",
+      "type": "short_answer",
+      "order": 4,
+      "prompt": "How much discount do you get if you book online before Friday?",
+      "answer": "20%",
+      "acceptedAnswers": [
+        "20%",
+        "twenty per cent",
+        "20 per cent",
+        "twenty percent",
+        "20"
+      ],
+      "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+      "evidence": {
+        "startMs": 20700,
+        "endMs": 25600
+      },
+      "explanationTr": "'twenty per cent off' = %20 indirim.",
+      "difficulty": 2
+    },
+    {
+      "id": "q5",
+      "type": "mcq_single",
+      "order": 5,
+      "prompt": "Which place will the group visit instead of the museum?",
+      "answer": "The botanical gardens",
+      "options": [
+        "The old mill",
+        "The botanical gardens",
+        "The clock tower",
+        "The main entrance"
+      ],
+      "evidence": {
+        "startMs": 26200,
+        "endMs": 32300
+      },
+      "explanationTr": "'instead of that stop we'll visit the botanical gardens'.",
+      "trapTr": "'old mill' konuşmanın başka yerinde geçiyor; sorulan yer değişikliği değil.",
+      "difficulty": 2
+    },
+    {
+      "id": "q6",
+      "type": "mcq_single",
+      "order": 6,
+      "prompt": "Why can't visitors pay at the main entrance?",
+      "answer": "Taxis stop there",
+      "options": [
+        "The office is closed",
+        "Taxis stop there",
+        "It is being repaired",
+        "Tickets are only sold online"
+      ],
+      "evidence": {
+        "startMs": 4600,
+        "endMs": 9200
+      },
+      "explanationTr": "'not at the main entrance, please, because that's where the taxis stop.'",
+      "difficulty": 2
+    },
+    {
+      "id": "q7",
+      "type": "sentence_completion",
+      "order": 7,
+      "prompt": "Children under ______ travel free.",
+      "answer": "six",
+      "acceptedAnswers": [
+        "six",
+        "6"
+      ],
+      "wordLimit": "ONE WORD AND/OR A NUMBER",
+      "evidence": {
+        "startMs": 15400,
+        "endMs": 20100
+      },
+      "explanationTr": "'children under six travel free.'",
+      "difficulty": 1
+    },
+    {
+      "id": "q8",
+      "type": "note_completion",
+      "order": 8,
+      "prompt": "Payment options: cash at the office or ______ .",
+      "answer": "online",
+      "acceptedAnswers": [
+        "online",
+        "on line"
+      ],
+      "wordLimit": "ONE WORD ONLY",
+      "evidence": {
+        "startMs": 20700,
+        "endMs": 25600
+      },
+      "explanationTr": "'You can pay in cash at the office, or online.'",
+      "difficulty": 1
+    },
+    {
+      "id": "q9",
+      "type": "short_answer",
+      "order": 9,
+      "prompt": "Where are the botanical gardens?",
+      "answer": "just past the bridge",
+      "acceptedAnswers": [
+        "just past the bridge",
+        "past the bridge",
+        "after the bridge"
+      ],
+      "wordLimit": "NO MORE THAN FOUR WORDS",
+      "evidence": {
+        "startMs": 26200,
+        "endMs": 32300
+      },
+      "explanationTr": "'which are just past the bridge' — yön/konum ifadesi.",
+      "difficulty": 3
+    },
+    {
+      "id": "q10",
+      "type": "short_answer",
+      "order": 10,
+      "prompt": "What is the price for one adult ticket?",
+      "answer": "£15",
+      "acceptedAnswers": [
+        "15",
+        "£15",
+        "fifteen pounds",
+        "15 pounds",
+        "£15.00"
+      ],
+      "wordLimit": "ONE NUMBER",
+      "evidence": {
+        "startMs": 15400,
+        "endMs": 20100
+      },
+      "explanationTr": "Rakam/sözcük ve para birimi varyantları kabul edilir (matchAnswer motoru).",
+      "difficulty": 1
+    }
+  ],
+  "distractorMap": [
+    {
+      "questionId": "q1",
+      "wrongAnswer": "main entrance",
+      "whyTr": "Konuşmacı 'not at the main entrance' diyor; olumsuz cümleyi kaçırmak hataya yol açar."
+    },
+    {
+      "questionId": "q2",
+      "wrongAnswer": "two hours (tamamlanmamış)",
+      "whyTr": "Sonradan düzeltme yapılıyor; düzeltmeyi kaçırmak."
+    },
+    {
+      "questionId": "q5",
+      "wrongAnswer": "The old mill",
+      "whyTr": "Old mill konuşmada geçiyor ama soru 'instead of' ilişkisini soruyor."
+    }
+  ],
+  "tacticCard": {
+    "titleTr": "Düzeltme sinyalini dinle (IELTS klasiği)",
+    "textTr": "Konuşmacı bir bilgiyi söyledikten sonra 'actually', 'sorry', 'I mean', 'rather', 'let me correct that' derse GEÇERLİ olan son söylediğidir. Bu kalıpları duyduğunda kalemi hazır tut.",
+    "critical": true
+  },
+  "examModeConfig": {
+    "singlePlay": true,
+    "noPause": true,
+    "transcriptHidden": true,
+    "speedLocked": true,
+    "noteTr": "2026 gerçeği: Bilgisayarda Listening'de kağıttaki 10 dakikalık aktarma süresi YOKTUR — dinlerken yazmalısın."
+  },
+  "technique": [
+    "pre_listening_prediction",
+    "noticing_distractors",
+    "shadowing",
+    "dictation",
+    "spaced_repetition"
+  ],
+  "status": "published",
+  "version": 1,
+  "sourceCredit": "IELTS Akademi özgün dinleme metni ve soruları (resmî sınav içeriği değildir). Sesler gerçek insan seslendirme sanatçılarıyla yapılmıştır."
+}
