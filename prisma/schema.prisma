@@ -58,6 +58,10 @@ model User {
   emailVerified DateTime?
   image String?
   locale String @default("tr")
+  cefrLevel String? @default("A1")
+  targetBand Float? @default(6.0)
+  streakDays Int @default(0)
+  xpTotal Int @default(0)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   lastSeenAt DateTime?

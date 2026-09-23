@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-09-22T13:52:46.943Z",
+  "generator": "TEK-YAMA.mjs v1.0",
+  "note": "Bu dosyalar TEK-YAMA.mjs ile üretildi; telifsizdir, ticari kullanıma açıktır.",
+  "assets": [
+    {
+      "file": "anim/rozet-havai-fisek.gif",
+      "type": "image/gif",
+      "bytes": 26063,
+      "frames": 26,
+      "w": 240,
+      "h": 180,
+      "delayMs": 90
+    },
+    {
+      "file": "anim/seri-alev.gif",
+      "type": "image/gif",
+      "bytes": 67004,
+      "frames": 24,
+      "w": 240,
+      "h": 180,
+      "delayMs": 80
+    },
+    {
+      "file": "anim/lumi-maskot.gif",
+      "type": "image/gif",
+      "bytes": 39237,
+      "frames": 28,
+      "w": 240,
+      "h": 180,
+      "delayMs": 70
+    },
+    {
+      "file": "anim/konfeti.gif",
+      "type": "image/gif",
+      "bytes": 20040,
+      "frames": 26,
+      "w": 240,
+      "h": 180,
+      "delayMs": 70
+    },
+    {
+      "file": "anim/ilerleme-halkasi.gif",
+      "type": "image/gif",
+      "bytes": 42467,
+      "frames": 26,
+      "w": 240,
+      "h": 180,
+      "delayMs": 80
+    },
+    {
+      "file": "anim/basari.gif",
+      "type": "image/gif",
+      "bytes": 18840,
+      "frames": 22,
+      "w": 240,
+      "h": 180,
+      "delayMs": 80
+    },
+    {
+      "file": "anim/sinav-zamanlayici.gif",
+      "type": "image/gif",
+      "bytes": 31509,
+      "frames": 24,
+      "w": 240,
+      "h": 180,
+      "delayMs": 60
+    },
+    {
+      "file": "anim/dinleme-dalgasi.gif",
+      "type": "image/gif",
+      "bytes": 49969,
+      "frames": 24,
+      "w": 240,
+      "h": 180,
+      "delayMs": 60
+    },
+    {
+      "file": "anim/kelime-karti.gif",
+      "type": "image/gif",
+      "bytes": 20394,
+      "frames": 24,
+      "w": 240,
+      "h": 180,
+      "delayMs": 80
+    },
+    {
+      "file": "anim/yildiz-parlamasi.gif",
+      "type": "image/gif",
+      "bytes": 15592,
+      "frames": 20,
+      "w": 240,
+      "h": 180,
+      "delayMs": 90
+    },
+    {
+      "file": "img/logo.svg",
+      "type": "image/svg+xml",
+      "bytes": 813,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/lumi-happy.svg",
+      "type": "image/svg+xml",
+      "bytes": 932,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/lumi-thinking.svg",
+      "type": "image/svg+xml",
+      "bytes": 885,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/lumi-celebrate.svg",
+      "type": "image/svg+xml",
+      "bytes": 879,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/hero-desen.svg",
+      "type": "image/svg+xml",
+      "bytes": 672,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/bos-durum.svg",
+      "type": "image/svg+xml",
+      "bytes": 1045,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-gramer.svg",
+      "type": "image/svg+xml",
+      "bytes": 477,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-okuma.svg",
+      "type": "image/svg+xml",
+      "bytes": 503,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-dinleme.svg",
+      "type": "image/svg+xml",
+      "bytes": 532,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-konusma.svg",
+      "type": "image/svg+xml",
+      "bytes": 543,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-yazma.svg",
+      "type": "image/svg+xml",
+      "bytes": 490,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-kelime.svg",
+      "type": "image/svg+xml",
+      "bytes": 495,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-deneme.svg",
+      "type": "image/svg+xml",
+      "bytes": 528,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-arsiv.svg",
+      "type": "image/svg+xml",
+      "bytes": 506,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-bilim.svg",
+      "type": "image/svg+xml",
+      "bytes": 483,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-taktik.svg",
+      "type": "image/svg+xml",
+      "bytes": 515,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-program.svg",
+      "type": "image/svg+xml",
+      "bytes": 518,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-rozet.svg",
+      "type": "image/svg+xml",
+      "bytes": 528,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-soz.svg",
+      "type": "image/svg+xml",
+      "bytes": 472,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/ikon-erisim.svg",
+      "type": "image/svg+xml",
+      "bytes": 510,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/rozet-bronze.svg",
+      "type": "image/svg+xml",
+      "bytes": 585,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/rozet-silver.svg",
+      "type": "image/svg+xml",
+      "bytes": 585,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/rozet-gold.svg",
+      "type": "image/svg+xml",
+      "bytes": 579,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/rozet-platinum.svg",
+      "type": "image/svg+xml",
+      "bytes": 591,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "file": "img/rozet-legendary.svg",
+      "type": "image/svg+xml",
+      "bytes": 594,
+      "w": 0,
+      "h": 0
+    }
+  ]
+}

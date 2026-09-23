@@ -1,252 +1,132 @@
-import ThemeToggle from "@/components/ThemeToggle";
+import Link from "next/link";
+import ModuleGrid from "@/components/ModuleGrid";
 import LumiBubble from "@/components/LumiBubble";
-import {
-  BookOpen,
-  Headphones,
-  Mic,
-  PenTool,
-  Sparkles,
-  Award,
-  Flame,
-  CheckCircle2,
-  Compass,
-  Layers,
-  Clock,
-  Volume2,
-} from "lucide-react";
+import { Sparkles, ArrowRight, Award, Flame, Compass, Clock, CheckCircle2 } from "lucide-react";
 
 export default function Home() {
   const stats = [
-    { label: "Çalışma Serisi", value: "7 Gün", icon: Flame, color: "text-streak" },
-    { label: "Kazanılan XP", value: "1,250 XP", icon: Award, color: "text-xp" },
-    { label: "Seviye", value: "7 · Çalışkan Yolcu", icon: Compass, color: "text-brand-1" },
-    { label: "Günlük Hedef", value: "20 / 20 dk", icon: Clock, color: "text-brand-5" },
-  ];
-
-  const modules = [
-    {
-      id: "grammar",
-      title: "Grammar Academy",
-      desc: "280 konu, 9 bloklu anlatım, animasyonlu örnekler ve IELTS kritik detayları.",
-      icon: Layers,
-      tag: "A1 → C2",
-      badgeColor: "bg-brand-1/10 text-brand-1 dark:text-brand-1",
-    },
-    {
-      id: "reading",
-      title: "Reading Lab",
-      desc: "13 soru tipi mekaniği, metin içi kanıt avı ve TFNG karar ağaçları.",
-      icon: BookOpen,
-      tag: "Akademik & Genel",
-      badgeColor: "bg-brand-3/10 text-brand-3",
-    },
-    {
-      id: "listening",
-      title: "Listening Lab",
-      desc: "6 aksanlı gerçek insan sesleri (GB, US, CA, AU, NZ, IN), dikte ve gölgeleme.",
-      icon: Headphones,
-      tag: "Gerçek İnsan Sesi",
-      badgeColor: "bg-brand-2/10 text-brand-2",
-    },
-    {
-      id: "speaking",
-      title: "Speaking & Writing",
-      desc: "Part 1-3 simülatörü, Task 1/2 kriter analizi ve yapay zekâ destekli rubric raporu.",
-      icon: Mic,
-      tag: "4 Ölçütlü Rubric",
-      badgeColor: "bg-brand-4/10 text-brand-4",
-    },
-    {
-      id: "vocab",
-      title: "Vocabulary Vault",
-      desc: "23 alanlı tam kelime kartları, AWL listeleri, eş anlamlı tuzakları ve SRS tekrarı.",
-      icon: PenTool,
-      tag: "1200+ Kelime",
-      badgeColor: "bg-brand-5/10 text-brand-5",
-    },
-    {
-      id: "badges",
-      title: "1000 Rozet & Havai Fişek",
-      desc: "12 aile, 8 metrik, 10 eşik. Kazanıldığında tam ekran parçacık kutlaması.",
-      icon: Award,
-      tag: "1000 Rozet Sistemi",
-      badgeColor: "bg-brand-6/10 text-brand-6",
-    },
+    { label: "Çalışma Serisi", value: "7 Gün", anim: "/anim/seri-alev.gif" },
+    { label: "Kazanılan XP", value: "1,250 XP", anim: "/anim/konfeti.gif" },
+    { label: "Seviye", value: "7 · Çalışkan Yolcu", anim: "/anim/ilerleme-halkasi.gif" },
+    { label: "1000 Rozet", value: "12 Rozet Açık", anim: "/anim/rozet-havai-fisek.gif" },
   ];
 
   return (
-    <div className="relative min-h-screen flex flex-col justify-between">
-      {/* Üst Gezinme Çubuğu */}
-      <header className="sticky top-0 z-40 border-b border-border bg-bg/80 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
-          <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl gradient-brand text-white shadow-md shadow-brand-1/20 font-black text-lg tracking-wider">
-              IA
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-12 space-y-12">
+      {/* Hero Karşılama Alanı */}
+      <section className="relative overflow-hidden rounded-3xl border border-violet-200/70 bg-gradient-to-br from-violet-50/80 via-white to-fuchsia-50/50 p-8 shadow-sm dark:border-violet-900/50 dark:from-slate-900 dark:via-slate-900 dark:to-violet-950/40 sm:p-12">
+        <div className="flex flex-col-reverse items-center justify-between gap-8 lg:flex-row">
+          <div className="max-w-2xl space-y-4 text-center lg:text-left">
+            <div className="inline-flex items-center gap-2 rounded-full border border-violet-200 bg-violet-100/60 px-3.5 py-1 text-xs font-bold text-violet-800 dark:border-violet-800 dark:bg-violet-950/60 dark:text-violet-300">
+              <Sparkles className="h-3.5 w-3.5 text-violet-600" />
+              <span>A1&apos;den C2&apos;ye + IELTS Akademik &amp; Genel Hazırlık</span>
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="font-display font-extrabold text-lg tracking-tight text-foreground">
-                  IELTS Akademi Platform
+
+            <h1 className="text-3xl font-black tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:leading-tight">
+              Sınav seni değil,{" "}
+              <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-indigo-600 bg-clip-text text-transparent">
+                hazırlığını ölçer.
+              </span>
+            </h1>
+
+            <p className="text-sm sm:text-base leading-relaxed text-slate-600 dark:text-slate-300">
+              Korkutmayan, kıyaslamayan ve her hatayı öğrenmenin kanıtı sayan eğitim mimarisi.
+              Gerçek insan sesleri (6 aksan), 12 çalışan laboratuvar ve yapay zekâ koçun Lumi ile hedefine ulaş.
+            </p>
+
+            <div className="pt-2 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
+              <Link
+                href="/kayit"
+                className="inline-flex items-center gap-2 rounded-2xl bg-violet-600 px-6 py-3 font-extrabold text-white shadow-md shadow-violet-600/20 transition hover:bg-violet-700 hover:shadow-lg"
+              >
+                <span>Hemen Hesap Oluştur</span>
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link
+                href="/giris"
+                className="inline-flex items-center rounded-2xl border border-slate-300 bg-white/80 px-6 py-3 font-bold text-slate-700 backdrop-blur-sm transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700"
+              >
+                Zaten Hesabım Var
+              </Link>
+              <Link
+                href="/panel"
+                className="inline-flex items-center rounded-2xl bg-slate-100 px-4 py-3 font-bold text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300"
+              >
+                Öğrenci Paneline Git
+              </Link>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <img
+              src="/anim/lumi-maskot.gif"
+              alt="Lumi Maskotu"
+              className="h-44 w-44 rounded-3xl object-contain drop-shadow-xl sm:h-52 sm:w-52"
+            />
+            <span className="mt-2 text-xs font-bold text-violet-700 dark:text-violet-400">
+              Lumi · Yapay Zekâ Koçun
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {/* Günlük Canlı İlerleme İstatistikleri */}
+      <section aria-label="Canlı İlerleme Özeti">
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+          {stats.map((item) => (
+            <div
+              key={item.label}
+              className="flex items-center gap-4 rounded-3xl border border-slate-200/80 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900"
+            >
+              <img src={item.anim} alt="" className="h-12 w-12 rounded-xl object-contain" />
+              <div>
+                <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                  {item.label}
                 </span>
-                <span className="rounded-full bg-brand-1/15 px-2.5 py-0.5 text-[10px] font-bold text-brand-1 dark:text-brand-3 uppercase tracking-wider">
-                  Faz P0 · Aktif
-                </span>
+                <strong className="block text-lg font-black text-slate-900 dark:text-white">
+                  {item.value}
+                </strong>
               </div>
-              <p className="text-[11px] text-foreground-muted hidden sm:block">
-                A1→C2 + IELTS Tam Platform &amp; Öğrenme Ekosistemi
-              </p>
             </div>
-          </div>
+          ))}
+        </div>
+      </section>
 
-          <div className="flex items-center gap-3">
-            <div className="hidden md:flex items-center gap-2 rounded-2xl border border-border bg-bg-soft px-3 py-1.5 text-xs font-semibold text-foreground-muted">
-              <span className="h-2 w-2 rounded-full bg-success animate-pulse" />
-              271 / 271 Öz-Test Geçti
-            </div>
-            <ThemeToggle />
+      {/* Motivasyon Sözü */}
+      <section
+        aria-label="Günün Motivasyon Sözü"
+        className="rounded-3xl border border-pink-200/80 bg-gradient-to-r from-pink-50 via-purple-50 to-indigo-50 p-6 dark:border-pink-900/40 dark:from-pink-950/20 dark:via-purple-950/20 dark:to-indigo-950/20"
+      >
+        <div className="flex items-center gap-3">
+          <span className="text-xl">✨</span>
+          <div>
+            <blockquote className="font-extrabold text-slate-900 dark:text-white sm:text-lg">
+              &ldquo;Hata yapmaktan korkmadan konuşmak, kalıcı bir hafıza demektir.&rdquo;
+            </blockquote>
+            <p className="text-xs italic text-slate-500">
+              — Speaking without fear of mistakes is how memory becomes permanent.
+            </p>
           </div>
         </div>
-      </header>
+      </section>
 
-      {/* Ana Gövde */}
-      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-8 sm:px-6 sm:py-12">
-        {/* Karşılama Başlığı */}
-        <section className="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
-          <div className="inline-flex items-center gap-2 rounded-full border border-brand-1/30 bg-brand-1/10 px-4 py-1.5 text-xs font-bold text-brand-1 dark:text-brand-3 mb-4 animate-bounce-subtle">
-            <Sparkles className="h-4 w-4" />
-            <span>&ldquo;Sınav seni değil, hazırlığını ölçer.&rdquo;</span>
-          </div>
-
-          <h1 className="font-display text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight sm:leading-none mb-4">
-            A1&apos;den C2&apos;ye Uzanan{" "}
-            <span className="gradient-text-brand">IELTS Hazırlık Platformu</span>
-          </h1>
-
-          <p className="text-sm sm:text-base text-foreground-muted leading-relaxed max-w-2xl mx-auto">
-            Korkutmayan, kıyaslamayan ve her hatayı öğrenmenin kanıtı sayan modern eğitim mimarisi.
-            Bugün ayırdığın 20 dakika, dün ayırmadığın 20 dakikadan daha değerlidir.
-          </p>
-        </section>
-
-        {/* Günlük Canlı Durum Kartları */}
-        <section aria-label="Canlı İlerleme Özeti" className="mb-12">
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
-            {stats.map((item) => {
-              const Icon = item.icon;
-              return (
-                <div
-                  key={item.label}
-                  className="flex flex-col justify-between rounded-3xl border border-border bg-bg-soft p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-200"
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs font-semibold text-foreground-muted">
-                      {item.label}
-                    </span>
-                    <Icon className={`h-5 w-5 ${item.color}`} />
-                  </div>
-                  <span className="font-display text-lg sm:text-2xl font-extrabold text-foreground">
-                    {item.value}
-                  </span>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* Günün Motivasyon Sözü Kartı */}
-        <section
-          aria-label="Günün Motivasyon Sözü"
-          className="relative overflow-hidden rounded-3xl border border-brand-1/30 bg-gradient-to-r from-brand-1/10 via-brand-2/10 to-brand-3/10 p-6 sm:p-8 mb-12 shadow-sm"
-        >
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-            <div className="space-y-1.5">
-              <span className="text-[11px] font-extrabold tracking-wider uppercase text-brand-1 dark:text-brand-3">
-                Günün Motivasyon Sözü · IELTS Akademi Söz Motoru
-              </span>
-              <blockquote className="text-base sm:text-lg font-bold text-foreground leading-snug">
-                &ldquo;Hata yapmaktan korkmadan konuşmak, kalıcı bir hafıza demektir.&rdquo;
-              </blockquote>
-              <p className="text-xs text-foreground-muted italic">
-                &ldquo;Speaking without fear of mistakes means a lasting memory.&rdquo;
-              </p>
-            </div>
-            <div className="shrink-0 flex items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-bg-soft px-3 py-1 text-xs font-bold text-foreground border border-border shadow-xs">
-                <Volume2 className="h-3.5 w-3.5 text-brand-1" />
-                Lumi ile dinle
-              </span>
-            </div>
-          </div>
-        </section>
-
-        {/* 17 Modül & Kapsam Vitrini */}
-        <section aria-label="Platform Modülleri">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h2 className="font-display text-xl sm:text-2xl font-extrabold text-foreground">
-                Eğitim &amp; Deneme Modülleri
-              </h2>
-              <p className="text-xs sm:text-sm text-foreground-muted">
-                17 temel modülün P0 aşamasındaki mimari çerçevesi
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {modules.map((mod) => {
-              const Icon = mod.icon;
-              return (
-                <div
-                  key={mod.id}
-                  className="group relative flex flex-col justify-between rounded-3xl border border-border bg-bg-soft p-6 shadow-sm hover:border-brand-1/40 hover:shadow-lg transition-all duration-200"
-                >
-                  <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-bg border border-border group-hover:scale-105 transition-transform">
-                        <Icon className="h-6 w-6 text-brand-1" />
-                      </div>
-                      <span
-                        className={`rounded-full px-3 py-1 text-[11px] font-bold ${mod.badgeColor}`}
-                      >
-                        {mod.tag}
-                      </span>
-                    </div>
-                    <h3 className="font-display text-lg font-bold text-foreground mb-2">
-                      {mod.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-foreground-muted leading-relaxed">
-                      {mod.desc}
-                    </p>
-                  </div>
-
-                  <div className="mt-6 pt-4 border-t border-border flex items-center justify-between text-xs font-semibold text-brand-1 dark:text-brand-3">
-                    <span>Modül Hazır</span>
-                    <CheckCircle2 className="h-4 w-4 text-success" />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      </main>
-
-      {/* Alt Bilgi */}
-      <footer className="border-t border-border bg-bg-soft py-6 px-4 sm:px-6">
-        <div className="mx-auto max-w-7xl flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-          <p className="text-xs text-foreground-muted">
-            &copy; 2026 <strong>IELTS Akademi</strong> — Tüm hakları saklıdır. Özgün eğitim içeriğidir; Cambridge / IDP / British Council resmî içeriği değildir.
-          </p>
-          <div className="flex items-center gap-4 text-xs font-semibold text-foreground-muted">
-            <span>P0: İskelet &amp; Tema</span>
-            <span>·</span>
-            <span>24 Motor</span>
-            <span>·</span>
-            <span>271 Test</span>
+      {/* 12 Modül Izgarası (Gerçek Rotalar) */}
+      <section aria-label="Platform Modülleri" className="space-y-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-2xl font-black tracking-tight text-slate-900 dark:text-white">
+              Eğitim Laboratuvarları &amp; Modüller
+            </h2>
+            <p className="text-sm text-slate-500">
+              Tüm bağlantılar gerçek ve etkileşimli modül sayfalarına açılır.
+            </p>
           </div>
         </div>
-      </footer>
 
-      {/* Sabit Lumi Baloncuğu */}
+        <ModuleGrid />
+      </section>
+
+      {/* Sabit Lumi Sohbet Baloncuğu */}
       <LumiBubble />
     </div>
   );

@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import Link from "next/link";
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -43,7 +45,26 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-bg text-foreground bg-mesh-pattern selection:bg-brand-1 selection:text-white">
-        {children}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-xl focus:bg-violet-600 focus:px-4 focus:py-2 focus:text-white focus:outline-none"
+        >
+          İçeriğe geç (Skip to content)
+        </a>
+        <Navbar />
+        <main id="main-content" className="min-h-[calc(100vh-140px)]">
+          {children}
+        </main>
+        <footer className="border-t border-slate-200/80 bg-white/50 py-8 text-center text-xs text-slate-500 backdrop-blur-sm dark:border-slate-800/80 dark:bg-slate-950/50 dark:text-slate-400">
+          <div className="mx-auto max-w-7xl px-4">
+            <p>
+              IELTS Akademi Platform • A1→C2 & Academic IELTS Hazırlık Sistemi •{" "}
+              <Link href="/varliklar" className="font-bold underline hover:text-violet-600">
+                Varlık Durumu (10 GIF + 25 SVG)
+              </Link>
+            </p>
+          </div>
+        </footer>
       </body>
     </html>
   );

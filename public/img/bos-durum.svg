@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="İçerik hazırlanıyor">
+<defs><linearGradient id="e1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EDE9FE"/><stop offset="1" stop-color="#FCE7F3"/></linearGradient></defs>
+  <rect x="4" y="4" width="232" height="152" rx="18" fill="url(#e1)"/>
+  <rect x="42" y="40" width="60" height="76" rx="10" fill="#fff" stroke="#C4B5FD" stroke-width="2"/>
+  <rect x="52" y="54" width="40" height="6" rx="3" fill="#C4B5FD"/>
+  <rect x="52" y="66" width="30" height="6" rx="3" fill="#DDD6FE"/>
+  <rect x="52" y="78" width="36" height="6" rx="3" fill="#DDD6FE"/>
+  <rect x="112" y="56" width="86" height="60" rx="12" fill="#fff" stroke="#F9A8D4" stroke-width="2"/>
+  <circle cx="134" cy="80" r="9" fill="#FBCFE8"/>
+  <rect x="150" y="72" width="38" height="7" rx="3.5" fill="#FBCFE8"/>
+  <rect x="150" y="86" width="26" height="7" rx="3.5" fill="#FCE7F3"/>
+  <circle cx="96" cy="116" r="7" fill="#A78BFA"/><circle cx="196" cy="40" r="5" fill="#FBBF24"/>
+</svg>
