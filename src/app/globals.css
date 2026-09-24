@@ -3,103 +3,192 @@
 @tailwind utilities;
 
 /* ========================================================================== *
- *  IELTS AKADEMİ — TASARIM TOKEN'LARI (Bölüm 7.1 Sözleşmesi)
+ *  IELTS AKADEMİ — TASARIM TOKEN'LARI (Coral / Teal / Sun / Indigo Paleti)
  * ========================================================================== */
 
-:root {
-  --brand-1: #7C3AED;
-  --brand-2: #EC4899;
-  --brand-3: #06B6D4;
-  --brand-4: #F59E0B;
-  --brand-5: #22C55E;
-  --brand-6: #FB5607;
+/* Google Fonts: Fraunces (serif başlıklar) + Inter (UI gövde) */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-  --bg: #F6F4FF;
-  --bg-soft: #FFFFFF;
+:root {
+  /* Marka renkleri — Coral / Teal / Sun / Indigo */
+  --ink:     #17181C;   /* koyu mürekkep — brand-1 (dark bg, text) */
+  --paper:   #FAF6EF;   /* krem kağıt — sayfa arka planı */
+  --coral:   #FF5A4E;   /* mercan — birincil CTA, vurgu */
+  --teal:    #0FB5A3;   /* deniz yeşili — ikincil, başarı */
+  --sun:     #FFC93C;   /* güneş sarısı — XP, rozetler */
+  --indigo:  #4C3BCF;   /* indigo — tertiary, bağlantılar */
+
+  /* Arka plan katmanları */
+  --bg:          var(--paper);
+  --bg-soft:     #FFFFFF;
   --bg-elevated: #FFFFFF;
 
-  --text: #17123A;
-  --text-muted: #5B5580;
-  --border: #E4DFFF;
+  /* Metin */
+  --text:       var(--ink);
+  --text-muted: #5A5A6E;
+  --border:     #E8E3D8;
 
-  --success: #16A34A;
-  --warning: #F59E0B;
-  --danger: #EF4444;
-  --info: #2563EB;
+  /* Sistem renkleri */
+  --success: #0FB5A3;   /* teal = başarı */
+  --warning: #FFC93C;   /* sun = uyarı */
+  --danger:  #FF5A4E;   /* coral = hata */
+  --info:    #4C3BCF;   /* indigo = bilgi */
 
-  --xp: #FFB703;
-  --streak: #FF5A1F;
-  --badge: #FBBF24;
+  /* Gamification */
+  --xp:     #FFC93C;
+  --streak: #FF5A4E;
+  --badge:  #FFC93C;
+
+  /* Tailwind alias'ları için (brand-1..6 → yeni palet) */
+  --brand-1: #FF5A4E;   /* coral */
+  --brand-2: #0FB5A3;   /* teal */
+  --brand-3: #FFC93C;   /* sun */
+  --brand-4: #4C3BCF;   /* indigo */
+  --brand-5: #17181C;   /* ink */
+  --brand-6: #FAF6EF;   /* paper */
 }
 
+/* Dark mod — mürekkep arka plan, pastel vurgular */
 .dark {
-  --bg: #0B0620;
-  --bg-soft: #140B33;
-  --bg-elevated: #1B1046;
+  --bg:          #17181C;
+  --bg-soft:     #1E1F25;
+  --bg-elevated: #26272E;
 
-  --text: #F5F2FF;
-  --text-muted: #B9B0E8;
-  --border: #2E2166;
+  --text:       #FAF6EF;
+  --text-muted: #9E9CB0;
+  --border:     #35363E;
 
-  --brand-1: #A78BFA;
-  --brand-2: #F472B6;
-  --brand-3: #22D3EE;
-  --brand-4: #FBBF24;
-  --brand-5: #4ADE80;
-  --brand-6: #FF8A3D;
+  --brand-1: #FF7A72;   /* açık coral */
+  --brand-2: #2ECFBC;   /* açık teal */
+  --brand-3: #FFD466;   /* açık sun */
+  --brand-4: #7B6FE8;   /* açık indigo */
+  --brand-5: #FAF6EF;   /* paper */
+  --brand-6: #17181C;   /* ink */
+
+  --coral:  #FF7A72;
+  --teal:   #2ECFBC;
+  --sun:    #FFD466;
+  --indigo: #7B6FE8;
 }
 
-/* Temel Gövde */
+/* ========================================================================== *
+ *  TEMEL GÖVDE
+ * ========================================================================== */
+
 body {
   background-color: var(--bg);
   color: var(--text);
   min-height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.6;
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
               color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   overflow-x: hidden;
 }
 
-/* Özel Gradyan Sınıfları */
+/* Fraunces — serif başlıklar */
+h1, h2, h3, .font-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+/* ========================================================================== *
+ *  GRADYAN YARDIMCILARI
+ * ========================================================================== */
+
 .gradient-brand {
-  background: linear-gradient(135deg, var(--brand-1), var(--brand-2));
+  background: linear-gradient(135deg, var(--coral), var(--teal));
 }
 
 .gradient-progress {
-  background: linear-gradient(90deg, var(--brand-1), var(--brand-3));
+  background: linear-gradient(90deg, var(--coral), var(--teal));
 }
 
 .gradient-xp {
-  background: linear-gradient(135deg, var(--xp), var(--brand-6));
+  background: linear-gradient(135deg, var(--sun), var(--coral));
 }
 
 .gradient-text-brand {
-  background: linear-gradient(135deg, var(--brand-1), var(--brand-2));
+  background: linear-gradient(135deg, var(--coral), var(--teal));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.gradient-text-cyan {
-  background: linear-gradient(135deg, var(--brand-2), var(--brand-3));
+.gradient-text-indigo {
+  background: linear-gradient(135deg, var(--indigo), var(--teal));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/* Arka Plan Canlı Deseni */
+/* ========================================================================== *
+ *  ARKA PLAN DESEN
+ * ========================================================================== */
+
 .bg-mesh-pattern {
-  background-image: radial-gradient(circle at 15% 15%, rgba(124, 58, 237, 0.08) 0%, transparent 40%),
-                    radial-gradient(circle at 85% 25%, rgba(236, 72, 153, 0.08) 0%, transparent 45%),
-                    radial-gradient(circle at 50% 80%, rgba(6, 182, 212, 0.06) 0%, transparent 50%);
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(255, 90, 78, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 25%, rgba(15, 181, 163, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 50% 80%, rgba(76, 59, 207, 0.06) 0%, transparent 50%);
 }
 
 .dark .bg-mesh-pattern {
-  background-image: radial-gradient(circle at 15% 15%, rgba(167, 139, 250, 0.12) 0%, transparent 45%),
-                    radial-gradient(circle at 85% 25%, rgba(244, 114, 182, 0.1) 0%, transparent 50%),
-                    radial-gradient(circle at 50% 80%, rgba(34, 211, 238, 0.08) 0%, transparent 55%);
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(255, 122, 114, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 85% 25%, rgba(46, 207, 188, 0.10) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(123, 111, 232, 0.08) 0%, transparent 55%);
 }
 
-/* Erişilebilirlik: Reduced Motion */
+/* ========================================================================== *
+ *  SPLIT-PANEL LAYOUT (Giriş / Kayıt sayfaları)
+ * ========================================================================== */
+
+.split-layout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+}
+
+@media (max-width: 860px) {
+  .split-layout { grid-template-columns: 1fr; }
+  .brand-panel  { min-height: 240px; }
+}
+
+.brand-panel {
+  background: var(--ink);
+  color: #fff;
+  padding: 56px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-panel::before {
+  content: '';
+  position: absolute;
+  width: 480px; height: 480px;
+  background: var(--coral);
+  border-radius: 50%;
+  top: -220px; right: -180px;
+  opacity: 0.9;
+}
+
+.brand-panel::after {
+  content: '';
+  position: absolute;
+  width: 260px; height: 260px;
+  background: var(--teal);
+  border-radius: 50%;
+  bottom: -100px; left: -80px;
+  opacity: 0.6;
+}
+
+/* ========================================================================== *
+ *  ERİŞİLEBİLİRLİK: REDUCED MOTION
+ * ========================================================================== */
+
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
     animation-duration: 0.01ms !important;
@@ -108,3 +197,4 @@ body {
     scroll-behavior: auto !important;
   }
 }
+

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ModuleGrid from "@/components/ModuleGrid";
 import LumiBubble from "@/components/LumiBubble";
-import { Sparkles, ArrowRight, Award, Flame, Compass, Clock, CheckCircle2 } from "lucide-react";
+import { Sparkles, ArrowRight } from "lucide-react";
 
 export default function Home() {
   const stats = [

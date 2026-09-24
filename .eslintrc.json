@@ -7,6 +7,10 @@
     "sourceType": "module",
     "ecmaFeatures": { "jsx": true }
   },
-  "extends": ["eslint:recommended"],
-  "rules": {}
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
+    "no-empty": ["warn", { "allowEmptyCatch": true }]
+  }
 }

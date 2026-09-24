@@ -10,6 +10,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        /* Yeni palet — Coral / Teal / Sun / Indigo */
+        coral:  "var(--coral)",
+        teal:   "var(--teal)",
+        sun:    "var(--sun)",
+        indigo: "var(--indigo)",
+        ink:    "var(--ink)",
+        paper:  "var(--paper)",
+        /* Geriye dönük uyumluluk alias'ları */
         brand: {
           1: "var(--brand-1)",
           2: "var(--brand-2)",
@@ -33,23 +41,28 @@ const config: Config = {
         badge: "var(--badge)",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
-        display: ["var(--font-jakarta)", "Plus Jakarta Sans", "Manrope", "sans-serif"],
-        reading: ["var(--font-lora)", "Lora", "Georgia", "serif"],
+        sans:    ["Inter", "system-ui", "sans-serif"],
+        display: ["Fraunces", "Georgia", "serif"],   /* serif başlıklar */
+        reading: ["Fraunces", "Georgia", "serif"],
       },
       animation: {
-        "pulse-slow": "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "pulse-slow":    "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "bounce-subtle": "bounceSubtle 2s ease-in-out infinite",
-        "float": "float 6s ease-in-out infinite",
+        "float":         "float 6s ease-in-out infinite",
+        "slide-up":      "slideUp 0.4s ease-out forwards",
       },
       keyframes: {
         bounceSubtle: {
           "0%, 100%": { transform: "translateY(0)" },
-          "50%": { transform: "translateY(-4px)" },
+          "50%":      { transform: "translateY(-4px)" },
         },
         float: {
           "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
-          "50%": { transform: "translateY(-8px) rotate(1deg)" },
+          "50%":      { transform: "translateY(-8px) rotate(1deg)" },
+        },
+        slideUp: {
+          "0%":   { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
         },
       },
     },
@@ -58,3 +71,4 @@ const config: Config = {
 };
 
 export default config;
+

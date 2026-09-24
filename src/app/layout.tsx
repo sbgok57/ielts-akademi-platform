@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
+import type { ReactNode } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+
 
 export const metadata: Metadata = {
   title: "IELTS Akademi Platform — A1→C2 + IELTS Tam Platform",
@@ -12,17 +14,18 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#F6F4FF" },
-    { media: "(prefers-color-scheme: dark)", color: "#0B0620" },
+    { media: "(prefers-color-scheme: light)", color: "#FAF6EF" },
+    { media: "(prefers-color-scheme: dark)",  color: "#17181C" },
   ],
   width: "device-width",
   initialScale: 1,
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="tr" suppressHydrationWarning>
@@ -55,16 +58,18 @@ export default function RootLayout({
         <main id="main-content" className="min-h-[calc(100vh-140px)]">
           {children}
         </main>
-        <footer className="border-t border-slate-200/80 bg-white/50 py-8 text-center text-xs text-slate-500 backdrop-blur-sm dark:border-slate-800/80 dark:bg-slate-950/50 dark:text-slate-400">
+        <footer className="border-t py-8 text-center text-xs backdrop-blur-sm"
+                style={{ borderColor: "var(--border)", background: "var(--bg-soft)", color: "var(--text-muted)" }}>
           <div className="mx-auto max-w-7xl px-4">
             <p>
-              IELTS Akademi Platform • A1→C2 & Academic IELTS Hazırlık Sistemi •{" "}
-              <Link href="/varliklar" className="font-bold underline hover:text-violet-600">
+              IELTS Akademi Platform • A1→C2 &amp; Academic IELTS Hazırlık Sistemi •{" "}
+              <Link href="/varliklar" className="font-bold underline transition-colors hover:text-[var(--coral)]">
                 Varlık Durumu (10 GIF + 25 SVG)
               </Link>
             </p>
           </div>
         </footer>
+
       </body>
     </html>
   );
