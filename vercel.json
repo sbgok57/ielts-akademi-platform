@@ -1,4 +1,25 @@
 {
   "framework": "nextjs",
-  "cleanUrls": true
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm ci",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "env": {
+    "NEXTAUTH_URL": "https://ielts-akademi-platform.vercel.app"
+  },
+  "headers": [
+    {
+      "source": "/anim/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
 }

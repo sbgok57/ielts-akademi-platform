@@ -21,23 +21,46 @@ export default async function Panel() {
   const oturum = await auth();
   if (!oturum?.user) redirect("/giris?donus=/panel");
 
-  const kullanici = await prisma.user.findUnique({
-    where: { id: oturum.user.id },
-    select: {
-      name: true,
-      email: true,
-      cefrLevel: true,
-      targetBand: true,
-      streakDays: true,
-      xpTotal: true,
-    },
-  });
+  // SAFETY: DB erişilemezse (Vercel DB env var eksikse) session verisine fallback yap
+  let kullanici: {
+    name: string | null;
+    email: string | null;
+    cefrLevel: string | null;
+    targetBand: number | null;   /* Prisma: Float? */
+    streakDays: number | null;
+    xpTotal: number | null;
+  } | null = null;
 
-  const ad = kullanici?.name ?? kullanici?.email ?? "Öğrenci";
+
+  try {
+    if (process.env.DATABASE_URL && !process.env.DATABASE_URL.includes("localhost")) {
+      kullanici = await prisma.user.findUnique({
+        where: { id: oturum.user.id },
+        select: {
+          name: true,
+          email: true,
+          cefrLevel: true,
+          targetBand: true,
+          streakDays: true,
+          xpTotal: true,
+        },
+      });
+    }
+  } catch {
+    // SAFETY: DB bağlantısı yoksa sessizce devam et — session verisi yeterli
+    kullanici = null;
+  }
+
+
+
+  // Session verisini DB fallback olarak kullan
+  const ad = kullanici?.name ?? oturum.user.name ?? kullanici?.email ?? oturum.user.email ?? "Öğrenci";
   const xp = kullanici?.xpTotal ?? 0;
   const seri = kullanici?.streakDays ?? 0;
   const cefr = kullanici?.cefrLevel ?? "A1";
-  const band = kullanici?.targetBand ?? "6.0";
+  const band = kullanici?.targetBand != null ? String(kullanici.targetBand) : "6.0";
+
+
 
   /* XP'ye göre basit seviye hesabı (her 500 XP = 1 seviye) */
   const seviye = Math.floor(xp / 500) + 1;
