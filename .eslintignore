@@ -1,0 +1,9 @@
+node_modules
+.next
+out
+build
+coverage
+ONARIM
+TEK-KOD.mjs
+TEK-YAMA.mjs
+*.log

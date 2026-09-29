@@ -2,7 +2,11 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { MessageSquare, X, Sparkles } from "lucide-react";
+import { X, Sparkles } from "lucide-react";
+
+
+
+
 
 interface LumiBubbleProps {
   tutorName?: string;

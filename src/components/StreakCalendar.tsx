@@ -30,8 +30,8 @@ export default function StreakCalendar({ activeDates, year = new Date().getFullY
     return cells;
   }, [activeDates, year]);
 
-  const totalWeeks = Math.ceil(grid.length / 7);
   const activeCount = grid.filter((c) => c.active).length;
+
 
   return (
     <section className="rounded-3xl border border-violet-200/60 bg-white/80 p-5 shadow-lg dark:border-violet-500/30 dark:bg-slate-900/70" aria-label="Seri takvimi">
