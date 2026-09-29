@@ -45,8 +45,10 @@ export default function Navbar() {
             { href: "/bolum/gramer",   label: "Gramer" },
             { href: "/bolum/okuma",    label: "Okuma" },
             { href: "/bolum/dinleme",  label: "Dinleme" },
+            { href: "/bolum/konusma",  label: "Speaking 🎙️" },
             { href: "/bolum/kelime",   label: "Kelime" },
             { href: "/bolum/deneme",   label: "Deneme" },
+            { href: "/sertifika",      label: "Sertifika 🏅" },
           ].map(({ href, label }) => (
             <Link
               key={href}
@@ -112,9 +114,11 @@ export default function Navbar() {
             { href: "/bolum/gramer",  label: "Gramer" },
             { href: "/bolum/okuma",   label: "Okuma" },
             { href: "/bolum/dinleme", label: "Dinleme" },
+            { href: "/bolum/konusma", label: "Speaking (Yapay Zekâ) 🎙️" },
             { href: "/bolum/kelime",  label: "Kelime" },
-            { href: "/bolum/deneme",  label: "Deneme" },
-            { href: "/panel",         label: "Panelim" },
+            { href: "/bolum/deneme",  label: "Deneme Sınavı" },
+            { href: "/sertifika",     label: "Sertifikalarım 🏅" },
+            { href: "/panel",         label: "Öğrenci Panelim" },
             { href: "/giris",         label: "Giriş yap" },
             { href: "/kayit",         label: "Ücretsiz Kayıt" },
           ].map(({ href, label }) => (

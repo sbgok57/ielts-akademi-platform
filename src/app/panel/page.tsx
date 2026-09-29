@@ -1,21 +1,12 @@
-// app/panel/page.tsx — KORUNAN öğrenci dashboard'u
-// Tasarım: coral/teal/sun/indigo palet + Fraunces başlıklar + skill kartları
+// app/panel/page.tsx — KORUNAN kalıcı öğrenci dashboard'u
+// Kalıcı ilerleme, seviye atlama, sertifikalar ve yüzdelikler entegre edilmiştir.
+
 import { redirect } from "next/navigation";
-import Link from "next/link";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
-import ModuleGrid from "@/components/ModuleGrid";
+import StudentDashboard from "@/components/StudentDashboard";
 
 export const dynamic = "force-dynamic";
-
-/* ─── Beceri kartı veri tipi ─── */
-interface BeceriKarti {
-  slug: string;
-  ad: string;
-  icon: string;
-  renk: string;    /* CSS color token */
-  yuzde: number;
-}
 
 export default async function Panel() {
   const oturum = await auth();
@@ -25,12 +16,7 @@ export default async function Panel() {
   let kullanici: {
     name: string | null;
     email: string | null;
-    cefrLevel: string | null;
-    targetBand: number | null;   /* Prisma: Float? */
-    streakDays: number | null;
-    xpTotal: number | null;
   } | null = null;
-
 
   try {
     if (process.env.DATABASE_URL && !process.env.DATABASE_URL.includes("localhost")) {
@@ -39,43 +25,16 @@ export default async function Panel() {
         select: {
           name: true,
           email: true,
-          cefrLevel: true,
-          targetBand: true,
-          streakDays: true,
-          xpTotal: true,
         },
       });
     }
   } catch {
-    // SAFETY: DB bağlantısı yoksa sessizce devam et — session verisi yeterli
+    // SAFETY: DB bağlantısı yoksa sessizce devam et
     kullanici = null;
   }
 
-
-
-  // Session verisini DB fallback olarak kullan
-  const ad = kullanici?.name ?? oturum.user.name ?? kullanici?.email ?? oturum.user.email ?? "Öğrenci";
-  const xp = kullanici?.xpTotal ?? 0;
-  const seri = kullanici?.streakDays ?? 0;
-  const cefr = kullanici?.cefrLevel ?? "A1";
-  const band = kullanici?.targetBand != null ? String(kullanici.targetBand) : "6.0";
-
-
-
-  /* XP'ye göre basit seviye hesabı (her 500 XP = 1 seviye) */
-  const seviye = Math.floor(xp / 500) + 1;
-  const seviyeYuzde = ((xp % 500) / 500) * 100;
-
-  /* Beceri kartları — production'da DB'den gelir, şimdilik statik demo */
-  const beceriler: BeceriKarti[] = [
-    { slug: "okuma",   ad: "Okuma",   icon: "📖", renk: "var(--teal)",   yuzde: 72 },
-    { slug: "dinleme", ad: "Dinleme", icon: "🎧", renk: "var(--coral)",  yuzde: 58 },
-    { slug: "yazma",   ad: "Yazma",   icon: "✍️", renk: "var(--indigo)", yuzde: 45 },
-    { slug: "konusma", ad: "Konuşma", icon: "🎤", renk: "var(--sun)",    yuzde: 61 },
-  ];
-
-  /* XP ve Seriye göre kazanılan gerçek rozet sayısı (Yeni kullanıcıda 0'dır, çalıştıkça açılır) */
-  const acikRozet = xp > 0 ? Math.min(1000, Math.floor(xp / 100) + (seri > 0 ? 1 : 0)) : 0;
+  const ad = kullanici?.name ?? oturum.user.name ?? (oturum.user.email ? oturum.user.email.split("@")[0] : null) ?? "Öğrenci";
+  const email = kullanici?.email ?? oturum.user.email ?? "";
 
   return (
     <div
@@ -83,170 +42,7 @@ export default async function Panel() {
       style={{ background: "var(--bg)" }}
     >
       <div className="mx-auto max-w-5xl">
-
-        {/* ─── KARŞILAMA BAŞLIĞI ─── */}
-        <header className="mb-8 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <h1
-              className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white"
-            >
-              Merhaba, {ad} 👋
-            </h1>
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-              Seviye {seviye} · {cefr} · Hedef Band {band}
-            </p>
-          </div>
-          <form action="/cikis" method="post">
-            <button
-              className="rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-rose-500 hover:text-rose-600 dark:border-slate-800 dark:bg-[#0a0a0a] dark:text-slate-300 dark:hover:border-rose-400"
-            >
-              Çıkış yap
-            </button>
-          </form>
-        </header>
-
-        {/* ─── ÖZET SAYAÇLAR (5'li Dinamik Sayaç) ─── */}
-        <div className="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-5">
-          {[
-            { etiket: "XP Puanı",         deger: xp.toLocaleString("tr"),          renk: "text-amber-500",   border: "border-amber-500/20",   ikon: "⚡" },
-            { etiket: "Günlük Seri",      deger: `${seri} gün`,                    renk: "text-rose-500",    border: "border-rose-500/20",    ikon: "🔥" },
-            { etiket: "CEFR Seviyesi",    deger: cefr,                             renk: "text-emerald-500", border: "border-emerald-500/20", ikon: "🎯" },
-            { etiket: "Hedef Band",       deger: band,                             renk: "text-blue-500",    border: "border-blue-500/20",    ikon: "🏆" },
-            { etiket: "1,000 Rozet",      deger: `${acikRozet} Açık`,              renk: "text-purple-500",  border: "border-purple-500/20",  ikon: "🎖️" },
-          ].map((k) => (
-            <div
-              key={k.etiket}
-              className={`rounded-3xl border bg-white p-4 shadow-sm transition hover:shadow-md dark:border-slate-800 dark:bg-[#0a0a0a] ${k.border}`}
-            >
-              <p className="text-2xl">{k.ikon}</p>
-              <p className={`text-xl font-black mt-1 ${k.renk}`}>
-                {k.deger}
-              </p>
-              <p className="text-xs mt-0.5 text-slate-500 dark:text-slate-400 font-semibold">
-                {k.etiket}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        {/* ─── XP İLERLEME ÇUBUĞU ─── */}
-        <div
-          className="mb-8 rounded-3xl border p-5"
-          style={{ background: "var(--bg-soft)", borderColor: "var(--border)" }}
-        >
-          <div className="mb-2 flex items-center justify-between">
-            <p className="text-sm font-semibold" style={{ color: "var(--text)" }}>
-              Seviye {seviye} → {seviye + 1}
-            </p>
-            <p className="text-sm" style={{ color: "var(--text-muted)" }}>
-              {xp % 500} / 500 XP
-            </p>
-          </div>
-          {/* PERF: width set via inline style; Tailwind arbitrary value would require purge-safe class */}
-          <div
-            className="h-3 overflow-hidden rounded-full"
-            style={{ background: "var(--border)" }}
-          >
-            <div
-              className="h-full rounded-full transition-all duration-700"
-              style={{
-                width: `${seviyeYuzde.toFixed(1)}%`,
-                background: "linear-gradient(90deg, var(--coral), var(--teal))",
-              }}
-            />
-          </div>
-          {/* Animasyon görüntüsü */}
-          <img
-            src="/anim/ilerleme-halkasi.gif"
-            alt="İlerleme animasyonu"
-            width={64}
-            height={64}
-            className="mt-4 rounded-xl"
-            loading="lazy"
-          />
-        </div>
-
-        {/* ─── BECERİ KARTLARI ─── */}
-        <section className="mb-8">
-          <h2
-            className="font-display text-xl font-bold mb-4"
-            style={{ color: "var(--text)" }}
-          >
-            Beceri İlerlemen
-          </h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {beceriler.map((b) => (
-              <Link
-                key={b.slug}
-                href={`/bolum/${b.slug}`}
-                className="group rounded-3xl border p-5 transition-all hover:-translate-y-0.5 hover:shadow-md"
-                style={{
-                  background: "var(--bg-soft)",
-                  borderColor: "var(--border)",
-                }}
-              >
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex items-center gap-2">
-                    <span className="text-2xl">{b.icon}</span>
-                    <span
-                      className="font-display font-bold"
-                      style={{ color: "var(--text)" }}
-                    >
-                      {b.ad}
-                    </span>
-                  </div>
-                  <span
-                    className="text-sm font-bold"
-                    style={{ color: b.renk }}
-                  >
-                    %{b.yuzde}
-                  </span>
-                </div>
-                {/* Skill progress bar */}
-                <div
-                  className="h-2 overflow-hidden rounded-full"
-                  style={{ background: "var(--border)" }}
-                >
-                  <div
-                    className="h-full rounded-full transition-all duration-700"
-                    style={{
-                      width: `${b.yuzde}%`,
-                      background: b.renk,
-                    }}
-                  />
-                </div>
-                <p className="mt-2 text-xs group-hover:text-[var(--coral)] transition-colors"
-                   style={{ color: "var(--text-muted)" }}>
-                  Devam et →
-                </p>
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        {/* ─── TÜM BÖLÜMLER ─── */}
-        <section className="mb-8">
-          <h2
-            className="font-display text-xl font-bold mb-4"
-            style={{ color: "var(--text)" }}
-          >
-            Tüm Bölümler
-          </h2>
-          <ModuleGrid />
-        </section>
-
-        {/* ─── ALT LİNKLER ─── */}
-        <footer className="flex flex-wrap gap-4 text-sm" style={{ color: "var(--text-muted)" }}>
-          <Link href="/varliklar" className="underline hover:text-[var(--teal)]">
-            Varlık Durumu (GIF/SVG)
-          </Link>
-          <Link href="/rozetler" className="underline hover:text-[var(--sun)]">
-            Rozetlerim
-          </Link>
-          <Link href="/sozler" className="underline hover:text-[var(--coral)]">
-            Motivasyon Sözleri
-          </Link>
-        </footer>
+        <StudentDashboard initialName={ad} initialEmail={email} />
       </div>
     </div>
   );

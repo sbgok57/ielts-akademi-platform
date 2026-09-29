@@ -16,6 +16,8 @@ import {
   ROZETLER,
   MOTIVASYON_SOZLERI,
 } from "@/lib/sampleContent";
+import SpeakingPracticeStudio from "@/components/SpeakingPracticeStudio";
+import { addStudentXp } from "@/lib/progress-store";
 
 const MODUL_BILGILERI: Record<string, { ad: string; anim: string; renk: string; sonraki: string; sonrakiAd: string }> = {
   gramer: { ad: "Gramer Akademi", anim: "/anim/ilerleme-halkasi.gif", renk: "from-violet-600 to-indigo-600", sonraki: "okuma", sonrakiAd: "Okuma Laboratuvarı" },
@@ -57,6 +59,9 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
     }));
     if (dogruMu && !sonuclar[soruId]?.dogru) {
       setKazanilanXp((x) => x + 10);
+      try {
+        addStudentXp(10, slug);
+      } catch {}
     }
   };
 
@@ -269,45 +274,36 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
         </section>
       )}
 
-      {/* 4. KONUŞMA MODÜLÜ */}
+      {/* 4. KONUŞMA MODÜLÜ — YAPAY ZEKÂ SPEAKING STÜDYOSU (MİKROFON + YAZARAK + TÜRKÇE ÇEVİRİ) */}
       {slug === "konusma" && (
-        <section className="space-y-6">
+        <section className="space-y-8">
+          {/* Canlı Yapay Zekâ Stüdyosu */}
+          <SpeakingPracticeStudio />
+
+          {/* IELTS Part 2 Görev Kartları & Destek */}
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-            <h2 className="text-xl font-bold text-slate-900 dark:text-white">Speaking Part 2 Görev Kartı</h2>
-            <div className="mt-4 space-y-4">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <span className="rounded-full bg-pink-100 px-3 py-1 text-xs font-black text-pink-700 dark:bg-pink-950 dark:text-pink-300">
+                  IELTS Speaking Part 2
+                </span>
+                <h3 className="mt-2 text-xl font-bold text-slate-900 dark:text-white">
+                  Resmî Sınav Görev Kartları (Cue Cards)
+                </h3>
+              </div>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-3">
               {KONUSMA_KARTLARI.map((k, i) => (
-                <div key={i} className="rounded-2xl border border-slate-200 p-4 dark:border-slate-800">
-                  <h3 className="font-extrabold text-pink-600 dark:text-pink-400">{k.kart}</h3>
-                  <ul className="mt-2 list-inside list-disc text-sm text-slate-600 dark:text-slate-300">
+                <div key={i} className="rounded-2xl border border-slate-200 p-4 dark:border-slate-800 dark:bg-[#121212]">
+                  <h4 className="font-extrabold text-pink-600 dark:text-pink-400 text-sm">{k.kart}</h4>
+                  <ul className="mt-2 list-inside list-disc text-xs text-slate-600 dark:text-slate-300 space-y-1">
                     {k.alt.map((a, j) => (
                       <li key={j}>{a}</li>
                     ))}
                   </ul>
                 </div>
               ))}
-            </div>
-
-            <div className="mt-6 rounded-2xl bg-pink-50 p-6 text-center dark:bg-pink-950/30">
-              <p className="font-bold text-pink-950 dark:text-pink-200">
-                Mikrofon Kayıt ve Öz-Değerlendirme
-              </p>
-              <p className="mt-1 text-xs text-pink-800 dark:text-pink-300">
-                1 dakika düşünme süresi sonrası 2 dakika kesintisiz konuşmayı kaydet.
-              </p>
-              <button
-                type="button"
-                onClick={() => {
-                  setKayitDurumu(kayitDurumu === "kaydediliyor" ? "tamam" : "kaydediliyor");
-                  if (kayitDurumu !== "tamam") setKazanilanXp((x) => x + 15);
-                }}
-                className="mt-4 rounded-xl bg-pink-600 px-6 py-2.5 font-bold text-white shadow hover:bg-pink-700"
-              >
-                {kayitDurumu === "kaydediliyor"
-                  ? "⏹️ Kaydı Bitir (Dinle & Değerlendir)"
-                  : kayitDurumu === "tamam"
-                  ? "🎙️ Kayıt Tamamlandı (+15 XP) • Yeniden Kaydet"
-                  : "🎙️ Konuşmayı Kaydetmeye Başla"}
-              </button>
             </div>
           </div>
         </section>

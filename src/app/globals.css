@@ -256,3 +256,33 @@ h1, h2, h3, h4, h5, h6, .font-display {
   }
 }
 
+/* ========================================================================== *
+ *  YAZDIRMA (PRINT) STİLLERİ — RESMÎ SERTİFİKA YAZDIRMA DÜZENİ
+ * ========================================================================== */
+
+@media print {
+  header, footer, nav, .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #certificate-print-area {
+    border-width: 6px !important;
+    border-color: #d97706 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+
