@@ -1,0 +1,3994 @@
+[
+ {
+  "id": "w0001",
+  "kelime": "analyse",
+  "tur": "fiil",
+  "tr": "analiz etmek, çözümlemek",
+  "en": "to examine something in detail to understand it",
+  "es": [
+   "examine",
+   "study",
+   "investigate"
+  ],
+  "ornek": "Researchers analyse the data before drawing conclusions.",
+  "ornekTr": "Araştırmacılar sonuç çıkarmadan önce verileri analiz eder.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0002",
+  "kelime": "approach",
+  "tur": "isim",
+  "tr": "yaklaşım, yöntem",
+  "en": "a way of dealing with something",
+  "es": [
+   "method",
+   "strategy",
+   "technique"
+  ],
+  "ornek": "A different approach to teaching grammar works better for adults.",
+  "ornekTr": "Dil bilgisi öğretmede farklı bir yaklaşım yetişkinlerde daha iyi işliyor.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0003",
+  "kelime": "assess",
+  "tur": "fiil",
+  "tr": "değerlendirmek, ölçmek",
+  "en": "to judge the quality or value of something",
+  "es": [
+   "evaluate",
+   "judge",
+   "appraise"
+  ],
+  "ornek": "Teachers assess writing with four criteria.",
+  "ornekTr": "Öğretmenler yazmayı dört ölçütle değerlendirir.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0004",
+  "kelime": "assume",
+  "tur": "fiil",
+  "tr": "varsaymak, öyle kabul etmek",
+  "en": "to accept something as true without proof",
+  "es": [
+   "presume",
+   "suppose",
+   "take for granted"
+  ],
+  "ornek": "Do not assume that the answer is true just because it sounds familiar.",
+  "ornekTr": "Cevabın tanıdık geldiği için doğru olduğunu varsayma.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0005",
+  "kelime": "authority",
+  "tur": "isim",
+  "tr": "yetki, otorite; resmî kurum",
+  "en": "the power to give orders or make decisions",
+  "es": [
+   "power",
+   "jurisdiction",
+   "officialdom"
+  ],
+  "ornek": "The local authority funds the new library.",
+  "ornekTr": "Yeni kütüphaneyi yerel yönetim finanse ediyor.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0006",
+  "kelime": "available",
+  "tur": "sıfat",
+  "tr": "mevcut, kullanılabilir, müsait",
+  "en": "able to be used or obtained",
+  "es": [
+   "accessible",
+   "obtainable",
+   "on hand"
+  ],
+  "ornek": "The report is available online for free.",
+  "ornekTr": "Rapor internette ücretsiz olarak mevcut.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0007",
+  "kelime": "benefit",
+  "tur": "isim",
+  "tr": "fayda, yarar",
+  "en": "an advantage or profit gained from something",
+  "es": [
+   "advantage",
+   "gain",
+   "profit"
+  ],
+  "ornek": "Regular sleep brings clear benefits for memory.",
+  "ornekTr": "Düzenli uyku hafıza için net faydalar sağlar.",
+  "seviye": "B1",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0008",
+  "kelime": "concept",
+  "tur": "isim",
+  "tr": "kavram",
+  "en": "an abstract idea or general notion",
+  "es": [
+   "idea",
+   "notion",
+   "abstraction"
+  ],
+  "ornek": "The concept of fairness differs across cultures.",
+  "ornekTr": "Adalet kavramı kültürden kültüre değişir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0009",
+  "kelime": "consist",
+  "tur": "fiil",
+  "tr": "oluşmak, meydana gelmek",
+  "en": "to be made up of particular parts",
+  "es": [
+   "comprise",
+   "be composed of",
+   "contain"
+  ],
+  "ornek": "The test consists of four sections.",
+  "ornekTr": "Sınav dört bölümden oluşur.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0010",
+  "kelime": "context",
+  "tur": "isim",
+  "tr": "bağlam, içerik",
+  "en": "the situation that helps explain something",
+  "es": [
+   "setting",
+   "background",
+   "circumstances"
+  ],
+  "ornek": "Guess the meaning of a new word from context.",
+  "ornekTr": "Yeni bir kelimenin anlamını bağlamdan tahmin et.",
+  "seviye": "B2",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0011",
+  "kelime": "create",
+  "tur": "fiil",
+  "tr": "yaratmak, oluşturmak",
+  "en": "to bring something into existence",
+  "es": [
+   "produce",
+   "generate",
+   "make"
+  ],
+  "ornek": "Green roofs create cooler cities.",
+  "ornekTr": "Yeşil çatılar daha serin şehirler yaratır.",
+  "seviye": "A2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0012",
+  "kelime": "data",
+  "tur": "isim",
+  "tr": "veri, veriler",
+  "en": "facts and figures collected for analysis",
+  "es": [
+   "information",
+   "statistics",
+   "figures"
+  ],
+  "ornek": "The data show a steady rise in enrolment.",
+  "ornekTr": "Veriler kayıtta istikrarlı bir artış gösteriyor.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0013",
+  "kelime": "define",
+  "tur": "fiil",
+  "tr": "tanımlamak",
+  "en": "to state the exact meaning of something",
+  "es": [
+   "describe",
+   "specify",
+   "characterise"
+  ],
+  "ornek": "Please define the term before you use it.",
+  "ornekTr": "Terimi kullanmadan önce tanımla.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0014",
+  "kelime": "derive",
+  "tur": "fiil",
+  "tr": "türetmek, elde etmek",
+  "en": "to obtain something from a source",
+  "es": [
+   "obtain",
+   "extract",
+   "gain"
+  ],
+  "ornek": "Many English words derive from Latin.",
+  "ornekTr": "Birçok İngilizce kelime Latinceden türemiştir.",
+  "seviye": "C1",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0015",
+  "kelime": "economy",
+  "tur": "isim",
+  "tr": "ekonomi",
+  "en": "the system of trade and industry in a country",
+  "es": [
+   "financial system",
+   "market"
+  ],
+  "ornek": "Tourism supports the local economy.",
+  "ornekTr": "Turizm yerel ekonomiyi destekler.",
+  "seviye": "B1",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0016",
+  "kelime": "environment",
+  "tur": "isim",
+  "tr": "çevre",
+  "en": "the natural world and the conditions around us",
+  "es": [
+   "surroundings",
+   "habitat",
+   "ecosystem"
+  ],
+  "ornek": "Plastic waste harms the marine environment.",
+  "ornekTr": "Plastik atık deniz çevresine zarar verir.",
+  "seviye": "A2",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0017",
+  "kelime": "establish",
+  "tur": "fiil",
+  "tr": "kurmak, tesis etmek",
+  "en": "to start something that will last",
+  "es": [
+   "found",
+   "set up",
+   "create"
+  ],
+  "ornek": "The university was established in 1989.",
+  "ornekTr": "Üniversite 1989'da kurulmuştur.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0018",
+  "kelime": "estimate",
+  "tur": "fiil",
+  "tr": "tahmin etmek, kestirmek",
+  "en": "to judge an approximate value",
+  "es": [
+   "calculate roughly",
+   "reckon",
+   "gauge"
+  ],
+  "ornek": "Experts estimate the cost at two million dollars.",
+  "ornekTr": "Uzmanlar maliyeti iki milyon dolar olarak tahmin ediyor.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0019",
+  "kelime": "evidence",
+  "tur": "isim",
+  "tr": "kanıt, delil",
+  "en": "facts that show something is true",
+  "es": [
+   "proof",
+   "testimony",
+   "data"
+  ],
+  "ornek": "Find the evidence sentence in the text.",
+  "ornekTr": "Metindeki kanıt cümlesini bul.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0020",
+  "kelime": "factor",
+  "tur": "isim",
+  "tr": "etken, faktör",
+  "en": "one of the things that influence a result",
+  "es": [
+   "element",
+   "cause",
+   "component"
+  ],
+  "ornek": "Cost is the main factor in their decision.",
+  "ornekTr": "Kararlarında temel etken maliyettir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0021",
+  "kelime": "finance",
+  "tur": "isim",
+  "tr": "finans, maliye",
+  "en": "the management of money",
+  "es": [
+   "funding",
+   "capital",
+   "money matters"
+  ],
+  "ornek": "The project needs public finance.",
+  "ornekTr": "Proje kamu finansmanı gerektiriyor.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0022",
+  "kelime": "function",
+  "tur": "isim",
+  "tr": "işlev, görev",
+  "en": "the purpose or role of something",
+  "es": [
+   "purpose",
+   "role",
+   "duty"
+  ],
+  "ornek": "The main function of the skin is protection.",
+  "ornekTr": "Derinin temel işlevi korumadır.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0023",
+  "kelime": "identify",
+  "tur": "fiil",
+  "tr": "belirlemek, tanımlamak",
+  "en": "to recognise and name something",
+  "es": [
+   "recognise",
+   "pinpoint",
+   "determine"
+  ],
+  "ornek": "Identify the keyword before you read the passage.",
+  "ornekTr": "Metni okumadan önce anahtar kelimeyi belirle.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0024",
+  "kelime": "income",
+  "tur": "isim",
+  "tr": "gelir",
+  "en": "the money a person receives regularly",
+  "es": [
+   "earnings",
+   "revenue",
+   "salary"
+  ],
+  "ornek": "Average household income rose by four percent.",
+  "ornekTr": "Ortalama hane geliri yüzde dört arttı.",
+  "seviye": "B1",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0025",
+  "kelime": "indicate",
+  "tur": "fiil",
+  "tr": "göstermek, belirtmek",
+  "en": "to show or point out something",
+  "es": [
+   "show",
+   "suggest",
+   "signify"
+  ],
+  "ornek": "The graph indicates a gradual decline.",
+  "ornekTr": "Grafik kademeli bir düşüş gösteriyor.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0026",
+  "kelime": "individual",
+  "tur": "isim",
+  "tr": "birey, kişi",
+  "en": "a single person, considered separately",
+  "es": [
+   "person",
+   "human being"
+  ],
+  "ornek": "Every individual learns at a different pace.",
+  "ornekTr": "Her birey farklı hızda öğrenir.",
+  "seviye": "B1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0027",
+  "kelime": "interpret",
+  "tur": "fiil",
+  "tr": "yorumlamak, çevirmek",
+  "en": "to explain the meaning of something",
+  "es": [
+   "explain",
+   "read",
+   "construe"
+  ],
+  "ornek": "Different readers interpret the same poem differently.",
+  "ornekTr": "Farklı okurlar aynı şiiri farklı yorumlar.",
+  "seviye": "B2",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0028",
+  "kelime": "involve",
+  "tur": "fiil",
+  "tr": "içermek, kapsamak",
+  "en": "to include something as a necessary part",
+  "es": [
+   "include",
+   "entail",
+   "require"
+  ],
+  "ornek": "Speaking involves both fluency and accuracy.",
+  "ornekTr": "Konuşma hem akıcılığı hem doğruluğu içerir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0029",
+  "kelime": "issue",
+  "tur": "isim",
+  "tr": "sorun, konu, mesele",
+  "en": "an important topic or problem",
+  "es": [
+   "matter",
+   "problem",
+   "concern"
+  ],
+  "ornek": "Climate change is a global issue.",
+  "ornekTr": "İklim değişikliği küresel bir sorundur.",
+  "seviye": "B1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0030",
+  "kelime": "legal",
+  "tur": "sıfat",
+  "tr": "yasal, hukuki",
+  "en": "allowed or required by law",
+  "es": [
+   "lawful",
+   "legitimate",
+   "statutory"
+  ],
+  "ornek": "The company faces legal action.",
+  "ornekTr": "Şirket yasal işlemle karşı karşıya.",
+  "seviye": "B2",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0031",
+  "kelime": "major",
+  "tur": "sıfat",
+  "tr": "büyük, önemli, başlıca",
+  "en": "very large or important",
+  "es": [
+   "main",
+   "significant",
+   "principal"
+  ],
+  "ornek": "Traffic is a major source of pollution.",
+  "ornekTr": "Trafik başlıca kirlilik kaynağıdır.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0032",
+  "kelime": "method",
+  "tur": "isim",
+  "tr": "yöntem, metot",
+  "en": "a particular way of doing something",
+  "es": [
+   "technique",
+   "procedure",
+   "system"
+  ],
+  "ornek": "The survey method was carefully explained.",
+  "ornekTr": "Anket yöntemi dikkatle açıklandı.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0033",
+  "kelime": "occur",
+  "tur": "fiil",
+  "tr": "meydana gelmek, olmak",
+  "en": "to happen, especially without being planned",
+  "es": [
+   "happen",
+   "take place",
+   "arise"
+  ],
+  "ornek": "Most accidents occur near the home.",
+  "ornekTr": "Kazaların çoğu ev yakınında meydana gelir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0034",
+  "kelime": "period",
+  "tur": "isim",
+  "tr": "dönem, süre",
+  "en": "a length of time",
+  "es": [
+   "span",
+   "interval",
+   "era"
+  ],
+  "ornek": "The study covered a ten-year period.",
+  "ornekTr": "Araştırma on yıllık bir dönemi kapsadı.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0035",
+  "kelime": "policy",
+  "tur": "isim",
+  "tr": "politika, siyaset",
+  "en": "a plan of action agreed by an organisation",
+  "es": [
+   "plan",
+   "strategy",
+   "guidelines"
+  ],
+  "ornek": "The new policy bans single-use plastic.",
+  "ornekTr": "Yeni politika tek kullanımlık plastiği yasaklıyor.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0036",
+  "kelime": "principle",
+  "tur": "isim",
+  "tr": "ilke, prensip",
+  "en": "a basic rule or belief",
+  "es": [
+   "rule",
+   "doctrine",
+   "standard"
+  ],
+  "ornek": "Fairness is a basic principle of testing.",
+  "ornekTr": "Adalet, sınavın temel ilkesidir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0037",
+  "kelime": "process",
+  "tur": "isim",
+  "tr": "süreç, işlem",
+  "en": "a series of actions towards a result",
+  "es": [
+   "procedure",
+   "operation",
+   "method"
+  ],
+  "ornek": "Learning a language is a slow process.",
+  "ornekTr": "Dil öğrenmek yavaş bir süreçtir.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0038",
+  "kelime": "require",
+  "tur": "fiil",
+  "tr": "gerektirmek, istemek",
+  "en": "to need something",
+  "es": [
+   "need",
+   "demand",
+   "call for"
+  ],
+  "ornek": "Band seven requires consistent practice.",
+  "ornekTr": "Band yedi istikrarlı çalışma gerektirir.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0039",
+  "kelime": "research",
+  "tur": "isim",
+  "tr": "araştırma",
+  "en": "careful study to discover new facts",
+  "es": [
+   "study",
+   "investigation",
+   "inquiry"
+  ],
+  "ornek": "Her research focuses on urban heat.",
+  "ornekTr": "Araştırması kentsel ısıya odaklanıyor.",
+  "seviye": "B1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0040",
+  "kelime": "respond",
+  "tur": "fiil",
+  "tr": "yanıt vermek, karşılık vermek",
+  "en": "to answer or react to something",
+  "es": [
+   "reply",
+   "answer",
+   "react"
+  ],
+  "ornek": "Please respond to all forty questions.",
+  "ornekTr": "Lütfen kırk sorunun tamamına yanıt ver.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0041",
+  "kelime": "role",
+  "tur": "isim",
+  "tr": "rol, görev",
+  "en": "the function a person or thing has",
+  "es": [
+   "part",
+   "function",
+   "duty"
+  ],
+  "ornek": "Diet plays a key role in heart health.",
+  "ornekTr": "Beslenme kalp sağlığında kilit rol oynar.",
+  "seviye": "B1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0042",
+  "kelime": "significant",
+  "tur": "sıfat",
+  "tr": "önemli, anlamlı; belirgin",
+  "en": "large enough to be noticed or important",
+  "es": [
+   "considerable",
+   "notable",
+   "substantial"
+  ],
+  "ornek": "There was a significant drop in emissions.",
+  "ornekTr": "Emisyonlarda belirgin bir düşüş oldu.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0043",
+  "kelime": "similar",
+  "tur": "sıfat",
+  "tr": "benzer",
+  "en": "almost the same",
+  "es": [
+   "alike",
+   "comparable",
+   "analogous"
+  ],
+  "ornek": "The two graphs show similar trends.",
+  "ornekTr": "İki grafik benzer eğilimler gösteriyor.",
+  "seviye": "A2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0044",
+  "kelime": "source",
+  "tur": "isim",
+  "tr": "kaynak",
+  "en": "the place something comes from",
+  "es": [
+   "origin",
+   "root",
+   "supplier"
+  ],
+  "ornek": "Renewable sources now supply half the energy.",
+  "ornekTr": "Yenilenebilir kaynaklar artık enerjinin yarısını sağlıyor.",
+  "seviye": "B1",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0045",
+  "kelime": "specific",
+  "tur": "sıfat",
+  "tr": "belirli, özgül",
+  "en": "clearly defined or exact",
+  "es": [
+   "particular",
+   "precise",
+   "definite"
+  ],
+  "ornek": "Give a specific example in your essay.",
+  "ornekTr": "Denemende belirli bir örnek ver.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0046",
+  "kelime": "structure",
+  "tur": "isim",
+  "tr": "yapı, bünye",
+  "en": "the way parts are arranged together",
+  "es": [
+   "framework",
+   "arrangement",
+   "form"
+  ],
+  "ornek": "A clear essay structure helps the reader.",
+  "ornekTr": "Net bir deneme yapısı okuyucuya yardım eder.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0047",
+  "kelime": "theory",
+  "tur": "isim",
+  "tr": "teori, kuram",
+  "en": "a system of ideas explaining something",
+  "es": [
+   "hypothesis",
+   "explanation",
+   "model"
+  ],
+  "ornek": "The theory was tested in three countries.",
+  "ornekTr": "Teori üç ülkede test edildi.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0048",
+  "kelime": "vary",
+  "tur": "fiil",
+  "tr": "değişmek, farklılık göstermek",
+  "en": "to differ or change",
+  "es": [
+   "differ",
+   "fluctuate",
+   "range"
+  ],
+  "ornek": "Prices vary from city to city.",
+  "ornekTr": "Fiyatlar şehirden şehre değişir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0049",
+  "kelime": "achieve",
+  "tur": "fiil",
+  "tr": "başarmak, elde etmek",
+  "en": "to succeed in doing something after effort",
+  "es": [
+   "accomplish",
+   "attain",
+   "reach"
+  ],
+  "ornek": "She achieved a band of seven in three months.",
+  "ornekTr": "Üç ayda yedi bandına ulaştı.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0050",
+  "kelime": "acquire",
+  "tur": "fiil",
+  "tr": "edinmek, kazanmak",
+  "en": "to get or learn something over time",
+  "es": [
+   "obtain",
+   "gain",
+   "pick up"
+  ],
+  "ornek": "Children acquire their first language naturally.",
+  "ornekTr": "Çocuklar ilk dillerini doğal olarak edinir.",
+  "seviye": "B2",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0051",
+  "kelime": "adjust",
+  "tur": "fiil",
+  "tr": "ayarlamak, uyum sağlamak",
+  "en": "to change slightly to fit a situation",
+  "es": [
+   "adapt",
+   "modify",
+   "tweak"
+  ],
+  "ornek": "Adjust your reading speed to the text type.",
+  "ornekTr": "Okuma hızını metin türüne göre ayarla.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0052",
+  "kelime": "administration",
+  "tur": "isim",
+  "tr": "yönetim, idare",
+  "en": "the work of managing an organisation",
+  "es": [
+   "management",
+   "governance"
+  ],
+  "ornek": "University administration approved the change.",
+  "ornekTr": "Üniversite yönetimi değişikliği onayladı.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0053",
+  "kelime": "affect",
+  "tur": "fiil",
+  "tr": "etkilemek",
+  "en": "to have an effect on something",
+  "es": [
+   "influence",
+   "impact",
+   "shape"
+  ],
+  "ornek": "Sleep loss affects concentration.",
+  "ornekTr": "Uyku kaybı konsantrasyonu etkiler.",
+  "seviye": "B1",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0054",
+  "kelime": "appropriate",
+  "tur": "sıfat",
+  "tr": "uygun, yerinde",
+  "en": "suitable for a particular situation",
+  "es": [
+   "suitable",
+   "fitting",
+   "apt"
+  ],
+  "ornek": "Use an appropriate tone in formal writing.",
+  "ornekTr": "Resmî yazıda uygun bir ton kullan.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0055",
+  "kelime": "aspect",
+  "tur": "isim",
+  "tr": "yön, açı, boyut",
+  "en": "one part or feature of something",
+  "es": [
+   "facet",
+   "dimension",
+   "side"
+  ],
+  "ornek": "Cost is only one aspect of the problem.",
+  "ornekTr": "Maliyet sorunun yalnızca bir yönüdür.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0056",
+  "kelime": "category",
+  "tur": "isim",
+  "tr": "kategori, sınıf",
+  "en": "a group of things with shared features",
+  "es": [
+   "class",
+   "group",
+   "type"
+  ],
+  "ornek": "Answers fall into three categories.",
+  "ornekTr": "Cevaplar üç kategoriye ayrılır.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0057",
+  "kelime": "community",
+  "tur": "isim",
+  "tr": "topluluk, toplum",
+  "en": "a group of people living or working together",
+  "es": [
+   "society",
+   "neighbourhood"
+  ],
+  "ornek": "The whole community joined the clean-up.",
+  "ornekTr": "Bütün topluluk temizlik çalışmasına katıldı.",
+  "seviye": "B1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0058",
+  "kelime": "complex",
+  "tur": "sıfat",
+  "tr": "karmaşık, kompleks",
+  "en": "made of many connected parts; hard to understand",
+  "es": [
+   "complicated",
+   "intricate",
+   "involved"
+  ],
+  "ornek": "The causes of migration are complex.",
+  "ornekTr": "Göçün nedenleri karmaşıktır.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0059",
+  "kelime": "conclude",
+  "tur": "fiil",
+  "tr": "sonuca varmak, bitirmek",
+  "en": "to decide something after considering evidence",
+  "es": [
+   "deduce",
+   "infer",
+   "finish"
+  ],
+  "ornek": "The report concludes that the policy worked.",
+  "ornekTr": "Rapor politikanın işe yaradığı sonucuna varıyor.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0060",
+  "kelime": "consequence",
+  "tur": "isim",
+  "tr": "sonuç, akıbet",
+  "en": "a result of an action",
+  "es": [
+   "result",
+   "outcome",
+   "effect"
+  ],
+  "ornek": "Long droughts have serious consequences.",
+  "ornekTr": "Uzun kuraklıkların ciddi sonuçları var.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0061",
+  "kelime": "consume",
+  "tur": "fiil",
+  "tr": "tüketmek",
+  "en": "to use up resources or goods",
+  "es": [
+   "use up",
+   "expend",
+   "devour"
+  ],
+  "ornek": "Cities consume most of the world's energy.",
+  "ornekTr": "Şehirler dünya enerjisinin çoğunu tüketir.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0062",
+  "kelime": "culture",
+  "tur": "isim",
+  "tr": "kültür",
+  "en": "the customs and ideas of a society",
+  "es": [
+   "way of life",
+   "tradition",
+   "civilisation"
+  ],
+  "ornek": "Food is central to every culture.",
+  "ornekTr": "Yemek her kültürün merkezindedir.",
+  "seviye": "B1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0063",
+  "kelime": "design",
+  "tur": "isim",
+  "tr": "tasarım",
+  "en": "the way something is planned or made",
+  "es": [
+   "plan",
+   "layout",
+   "arrangement"
+  ],
+  "ornek": "The design of the survey reduced bias.",
+  "ornekTr": "Anketin tasarımı yanlılığı azalttı.",
+  "seviye": "B1",
+  "alan": "Sanat"
+ },
+ {
+  "id": "w0064",
+  "kelime": "distinct",
+  "tur": "sıfat",
+  "tr": "belirgin, ayrı, farklı",
+  "en": "clearly separate or different",
+  "es": [
+   "separate",
+   "different",
+   "pronounced"
+  ],
+  "ornek": "The two species have distinct calls.",
+  "ornekTr": "İki türün belirgin sesleri vardır.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0065",
+  "kelime": "element",
+  "tur": "isim",
+  "tr": "öge, unsur",
+  "en": "one part of a whole",
+  "es": [
+   "component",
+   "factor",
+   "ingredient"
+  ],
+  "ornek": "Trust is a key element of teamwork.",
+  "ornekTr": "Güven, ekip çalışmasının kilit unsurudur.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0066",
+  "kelime": "evaluate",
+  "tur": "fiil",
+  "tr": "değerlendirmek, ölçmek",
+  "en": "to judge carefully using criteria",
+  "es": [
+   "assess",
+   "appraise",
+   "weigh up"
+  ],
+  "ornek": "Evaluate both sides before you decide.",
+  "ornekTr": "Karar vermeden önce iki tarafı da değerlendir.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0067",
+  "kelime": "feature",
+  "tur": "isim",
+  "tr": "özellik, nitelik",
+  "en": "an important or noticeable part",
+  "es": [
+   "characteristic",
+   "trait",
+   "attribute"
+  ],
+  "ornek": "The main feature of the design is its simplicity.",
+  "ornekTr": "Tasarımın temel özelliği sadeliğidir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0068",
+  "kelime": "final",
+  "tur": "sıfat",
+  "tr": "son, nihai",
+  "en": "coming at the end",
+  "es": [
+   "last",
+   "ultimate",
+   "concluding"
+  ],
+  "ornek": "The final section is the hardest.",
+  "ornekTr": "Son bölüm en zorudur.",
+  "seviye": "A2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0069",
+  "kelime": "focus",
+  "tur": "fiil",
+  "tr": "odaklanmak",
+  "en": "to give attention to one thing",
+  "es": [
+   "concentrate",
+   "centre",
+   "zero in"
+  ],
+  "ornek": "Focus on keywords, not every word.",
+  "ornekTr": "Her kelimeye değil, anahtar kelimelere odaklan.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0070",
+  "kelime": "impact",
+  "tur": "isim",
+  "tr": "etki, tesir",
+  "en": "a strong effect on something",
+  "es": [
+   "effect",
+   "influence",
+   "consequence"
+  ],
+  "ornek": "Plastic has a huge impact on wildlife.",
+  "ornekTr": "Plastiğin yaban hayatına büyük etkisi var.",
+  "seviye": "B1",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0071",
+  "kelime": "institute",
+  "tur": "isim",
+  "tr": "enstitü, kurum",
+  "en": "an organisation for research or education",
+  "es": [
+   "organisation",
+   "body",
+   "academy"
+  ],
+  "ornek": "The institute publishes an annual report.",
+  "ornekTr": "Enstitü yıllık rapor yayımlıyor.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0072",
+  "kelime": "invest",
+  "tur": "fiil",
+  "tr": "yatırım yapmak",
+  "en": "to put money or effort into something for future gain",
+  "es": [
+   "fund",
+   "finance",
+   "put in"
+  ],
+  "ornek": "Governments should invest in public transport.",
+  "ornekTr": "Hükümetler toplu taşımaya yatırım yapmalı.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0073",
+  "kelime": "maintain",
+  "tur": "fiil",
+  "tr": "sürdürmek, korumak",
+  "en": "to keep something at the same level or in good condition",
+  "es": [
+   "sustain",
+   "preserve",
+   "keep up"
+  ],
+  "ornek": "It is hard to maintain motivation alone.",
+  "ornekTr": "Motivasyonu tek başına sürdürmek zordur.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0074",
+  "kelime": "normal",
+  "tur": "sıfat",
+  "tr": "normal, olağan",
+  "en": "usual or expected",
+  "es": [
+   "ordinary",
+   "standard",
+   "typical"
+  ],
+  "ornek": "It is normal to feel nervous before speaking.",
+  "ornekTr": "Konuşmadan önce gergin olmak normaldir.",
+  "seviye": "A2",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0075",
+  "kelime": "obtain",
+  "tur": "fiil",
+  "tr": "elde etmek, sağlamak",
+  "en": "to get something, often with effort",
+  "es": [
+   "acquire",
+   "secure",
+   "gain"
+  ],
+  "ornek": "You must obtain a visa before travelling.",
+  "ornekTr": "Seyahat etmeden önce vize almalısın.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0076",
+  "kelime": "option",
+  "tur": "isim",
+  "tr": "seçenek",
+  "en": "a choice among possibilities",
+  "es": [
+   "choice",
+   "alternative",
+   "possibility"
+  ],
+  "ornek": "Option B fits the paragraph better.",
+  "ornekTr": "B seçeneği paragrafa daha iyi uyuyor.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0077",
+  "kelime": "outcome",
+  "tur": "isim",
+  "tr": "sonuç, netice",
+  "en": "the result of a process or event",
+  "es": [
+   "result",
+   "consequence",
+   "upshot"
+  ],
+  "ornek": "The outcome of the trial surprised everyone.",
+  "ornekTr": "Duruşmanın sonucu herkesi şaşırttı.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0078",
+  "kelime": "participate",
+  "tur": "fiil",
+  "tr": "katılmak, iştirak etmek",
+  "en": "to take part in an activity",
+  "es": [
+   "take part",
+   "join in",
+   "engage"
+  ],
+  "ornek": "All students participated in the survey.",
+  "ornekTr": "Bütün öğrenciler ankete katıldı.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0079",
+  "kelime": "potential",
+  "tur": "isim",
+  "tr": "potansiyel, gizli güç",
+  "en": "the ability to develop in the future",
+  "es": [
+   "capacity",
+   "capability",
+   "promise"
+  ],
+  "ornek": "Solar power has huge potential in Turkey.",
+  "ornekTr": "Güneş enerjisinin Türkiye'de büyük potansiyeli var.",
+  "seviye": "B2",
+  "alan": "Enerji"
+ },
+ {
+  "id": "w0080",
+  "kelime": "previous",
+  "tur": "sıfat",
+  "tr": "önceki, geçmiş",
+  "en": "coming before in time",
+  "es": [
+   "earlier",
+   "prior",
+   "former"
+  ],
+  "ornek": "The previous question was easier.",
+  "ornekTr": "Önceki soru daha kolaydı.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0081",
+  "kelime": "primary",
+  "tur": "sıfat",
+  "tr": "birincil, temel",
+  "en": "most important or first in order",
+  "es": [
+   "main",
+   "chief",
+   "principal"
+  ],
+  "ornek": "The primary cause is human activity.",
+  "ornekTr": "Birincil neden insan faaliyetidir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0082",
+  "kelime": "purchase",
+  "tur": "fiil",
+  "tr": "satın almak",
+  "en": "to buy something",
+  "es": [
+   "buy",
+   "acquire",
+   "procure"
+  ],
+  "ornek": "Customers purchase most goods online now.",
+  "ornekTr": "Müşteriler artık çoğu ürünü çevrimiçi satın alıyor.",
+  "seviye": "B2",
+  "alan": "Ticaret"
+ },
+ {
+  "id": "w0083",
+  "kelime": "range",
+  "tur": "isim",
+  "tr": "aralık, yelpaze",
+  "en": "a variety of things of the same type",
+  "es": [
+   "variety",
+   "spectrum",
+   "array"
+  ],
+  "ornek": "The library offers a wide range of materials.",
+  "ornekTr": "Kütüphane geniş bir materyal yelpazesi sunar.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0084",
+  "kelime": "region",
+  "tur": "isim",
+  "tr": "bölge, yöre",
+  "en": "a large area of land",
+  "es": [
+   "area",
+   "zone",
+   "territory"
+  ],
+  "ornek": "Rainfall varies across the region.",
+  "ornekTr": "Yağış bölge genelinde değişir.",
+  "seviye": "B1",
+  "alan": "Coğrafya"
+ },
+ {
+  "id": "w0085",
+  "kelime": "regulate",
+  "tur": "fiil",
+  "tr": "düzenlemek, denetlemek",
+  "en": "to control an activity by rules",
+  "es": [
+   "control",
+   "govern",
+   "oversee"
+  ],
+  "ornek": "The city regulates traffic in the centre.",
+  "ornekTr": "Şehir merkezde trafiği düzenler.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0086",
+  "kelime": "relevant",
+  "tur": "sıfat",
+  "tr": "ilgili, alakalı",
+  "en": "connected with the subject",
+  "es": [
+   "related",
+   "pertinent",
+   "applicable"
+  ],
+  "ornek": "Include only relevant details in the summary.",
+  "ornekTr": "Özete yalnızca ilgili ayrıntıları ekle.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0087",
+  "kelime": "resource",
+  "tur": "isim",
+  "tr": "kaynak, kaynaklar",
+  "en": "something useful that can be used",
+  "es": [
+   "asset",
+   "supply",
+   "reserve"
+  ],
+  "ornek": "Water is a limited resource.",
+  "ornekTr": "Su sınırlı bir kaynaktır.",
+  "seviye": "B1",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0088",
+  "kelime": "restrict",
+  "tur": "fiil",
+  "tr": "kısıtlamak, sınırlamak",
+  "en": "to limit something",
+  "es": [
+   "limit",
+   "curb",
+   "confine"
+  ],
+  "ornek": "The law restricts car use in the old town.",
+  "ornekTr": "Yasa eski şehirde araç kullanımını kısıtlıyor.",
+  "seviye": "B2",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0089",
+  "kelime": "secure",
+  "tur": "sıfat",
+  "tr": "güvenli, emniyetli",
+  "en": "safe and protected",
+  "es": [
+   "safe",
+   "protected",
+   "stable"
+  ],
+  "ornek": "Keep your password secure.",
+  "ornekTr": "Şifreni güvenli tut.",
+  "seviye": "B2",
+  "alan": "Teknoloji"
+ },
+ {
+  "id": "w0090",
+  "kelime": "select",
+  "tur": "fiil",
+  "tr": "seçmek, ayırmak",
+  "en": "to choose carefully from a group",
+  "es": [
+   "choose",
+   "pick",
+   "opt for"
+  ],
+  "ornek": "Select the best title for each paragraph.",
+  "ornekTr": "Her paragraf için en iyi başlığı seç.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0091",
+  "kelime": "strategy",
+  "tur": "isim",
+  "tr": "strateji, izlem",
+  "en": "a plan to reach a goal",
+  "es": [
+   "plan",
+   "approach",
+   "tactic"
+  ],
+  "ornek": "Timing is the core of reading strategy.",
+  "ornekTr": "Zamanlama, okuma stratejisinin özüdür.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0092",
+  "kelime": "survey",
+  "tur": "isim",
+  "tr": "anket, araştırma",
+  "en": "a study that collects people's opinions",
+  "es": [
+   "questionnaire",
+   "poll",
+   "study"
+  ],
+  "ornek": "The survey covered two thousand adults.",
+  "ornekTr": "Anket iki bin yetişkini kapsadı.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0093",
+  "kelime": "tradition",
+  "tur": "isim",
+  "tr": "gelenek",
+  "en": "a custom passed down through generations",
+  "es": [
+   "custom",
+   "practice",
+   "heritage"
+  ],
+  "ornek": "Tea drinking is an old tradition here.",
+  "ornekTr": "Çay içmek burada eski bir gelenektir.",
+  "seviye": "B1",
+  "alan": "Kültür"
+ },
+ {
+  "id": "w0094",
+  "kelime": "transfer",
+  "tur": "fiil",
+  "tr": "aktarmak, devretmek",
+  "en": "to move from one place or person to another",
+  "es": [
+   "move",
+   "shift",
+   "hand over"
+  ],
+  "ornek": "Transfer your answers to the answer sheet.",
+  "ornekTr": "Cevaplarını cevap kâğıdına aktar.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0095",
+  "kelime": "alternative",
+  "tur": "isim",
+  "tr": "alternatif, seçenek",
+  "en": "one of two or more possibilities",
+  "es": [
+   "option",
+   "choice",
+   "substitute"
+  ],
+  "ornek": "Cycling is a healthy alternative to driving.",
+  "ornekTr": "Bisiklet, araba kullanmaya sağlıklı bir alternatiftir.",
+  "seviye": "B2",
+  "alan": "Ulaşım"
+ },
+ {
+  "id": "w0096",
+  "kelime": "circumstance",
+  "tur": "isim",
+  "tr": "durum, koşul",
+  "en": "a fact that affects a situation",
+  "es": [
+   "condition",
+   "situation",
+   "context"
+  ],
+  "ornek": "Under these circumstances, the result is fair.",
+  "ornekTr": "Bu koşullar altında sonuç adildir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0097",
+  "kelime": "component",
+  "tur": "isim",
+  "tr": "bileşen, parça",
+  "en": "one part of a larger whole",
+  "es": [
+   "part",
+   "element",
+   "unit"
+  ],
+  "ornek": "Listening is one component of the test.",
+  "ornekTr": "Dinleme sınavın bir bileşenidir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0098",
+  "kelime": "considerable",
+  "tur": "sıfat",
+  "tr": "hatırı sayılır, oldukça büyük",
+  "en": "large in amount or degree",
+  "es": [
+   "substantial",
+   "sizable",
+   "notable"
+  ],
+  "ornek": "There was considerable support for the plan.",
+  "ornekTr": "Plan için hatırı sayılır destek vardı.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0099",
+  "kelime": "constant",
+  "tur": "sıfat",
+  "tr": "sabit, sürekli",
+  "en": "not changing; happening all the time",
+  "es": [
+   "steady",
+   "continuous",
+   "persistent"
+  ],
+  "ornek": "Constant noise makes study difficult.",
+  "ornekTr": "Sürekli gürültü çalışmayı zorlaştırır.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0100",
+  "kelime": "contribute",
+  "tur": "fiil",
+  "tr": "katkıda bulunmak",
+  "en": "to give something to help a result",
+  "es": [
+   "add to",
+   "donate",
+   "play a part"
+  ],
+  "ornek": "Exercise contributes to better sleep.",
+  "ornekTr": "Egzersiz daha iyi uykuya katkıda bulunur.",
+  "seviye": "B2",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0101",
+  "kelime": "convention",
+  "tur": "isim",
+  "tr": "gelenek; sözleşme",
+  "en": "a usual way of doing things; a formal agreement",
+  "es": [
+   "custom",
+   "norm",
+   "agreement"
+  ],
+  "ornek": "Academic writing follows certain conventions.",
+  "ornekTr": "Akademik yazı belirli gelenekleri izler.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0102",
+  "kelime": "cooperate",
+  "tur": "fiil",
+  "tr": "işbirliği yapmak",
+  "en": "to work together towards a goal",
+  "es": [
+   "collaborate",
+   "work together"
+  ],
+  "ornek": "Countries must cooperate on climate.",
+  "ornekTr": "Ülkeler iklim konusunda işbirliği yapmalı.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0103",
+  "kelime": "core",
+  "tur": "isim",
+  "tr": "çekirdek, öz",
+  "en": "the central or most important part",
+  "es": [
+   "centre",
+   "heart",
+   "essence"
+  ],
+  "ornek": "Reading is at the core of the exam.",
+  "ornekTr": "Okuma, sınavın özünde yer alır.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0104",
+  "kelime": "corporate",
+  "tur": "sıfat",
+  "tr": "kurumsal, şirketle ilgili",
+  "en": "relating to a large company",
+  "es": [
+   "business",
+   "company",
+   "commercial"
+  ],
+  "ornek": "Corporate training is growing fast.",
+  "ornekTr": "Kurumsal eğitim hızla büyüyor.",
+  "seviye": "B2",
+  "alan": "İş"
+ },
+ {
+  "id": "w0105",
+  "kelime": "criteria",
+  "tur": "isim",
+  "tr": "ölçüt, kriter",
+  "en": "standards used to judge something",
+  "es": [
+   "standards",
+   "benchmarks",
+   "measures"
+  ],
+  "ornek": "Writing is marked against four criteria.",
+  "ornekTr": "Yazma dört ölçüte göre puanlanır.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0106",
+  "kelime": "decline",
+  "tur": "fiil",
+  "tr": "azalmak, düşmek; reddetmek",
+  "en": "to become smaller or to refuse",
+  "es": [
+   "decrease",
+   "fall",
+   "refuse"
+  ],
+  "ornek": "Birth rates declined after 1990.",
+  "ornekTr": "Doğum oranları 1990'dan sonra düştü.",
+  "seviye": "B2",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0107",
+  "kelime": "demonstrate",
+  "tur": "fiil",
+  "tr": "göstermek, kanıtlamak",
+  "en": "to show clearly with evidence",
+  "es": [
+   "show",
+   "prove",
+   "illustrate"
+  ],
+  "ornek": "The chart demonstrates a clear pattern.",
+  "ornekTr": "Grafik net bir örüntü gösteriyor.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0108",
+  "kelime": "document",
+  "tur": "isim",
+  "tr": "belge, doküman",
+  "en": "a written record giving information",
+  "es": [
+   "record",
+   "paper",
+   "file"
+  ],
+  "ornek": "Keep every document for your visa.",
+  "ornekTr": "Vize için her belgeyi sakla.",
+  "seviye": "B1",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0109",
+  "kelime": "dominate",
+  "tur": "fiil",
+  "tr": "egemen olmak, hâkim olmak",
+  "en": "to be the most important or powerful",
+  "es": [
+   "control",
+   "prevail",
+   "overshadow"
+  ],
+  "ornek": "One company dominates the market.",
+  "ornekTr": "Bir şirket piyasaya hâkim.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0110",
+  "kelime": "emphasis",
+  "tur": "isim",
+  "tr": "vurgu, önem",
+  "en": "special importance given to something",
+  "es": [
+   "stress",
+   "weight",
+   "priority"
+  ],
+  "ornek": "Put emphasis on the evidence sentence.",
+  "ornekTr": "Vurguyu kanıt cümlesine yap.",
+  "seviye": "B2",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0111",
+  "kelime": "ensure",
+  "tur": "fiil",
+  "tr": "sağlamak, güvence altına almak",
+  "en": "to make certain that something happens",
+  "es": [
+   "make sure",
+   "guarantee",
+   "secure"
+  ],
+  "ornek": "Ensure that every answer is spelled correctly.",
+  "ornekTr": "Her cevabın doğru yazıldığından emin ol.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0112",
+  "kelime": "exclude",
+  "tur": "fiil",
+  "tr": "hariç tutmak, dışlamak",
+  "en": "to leave something out",
+  "es": [
+   "omit",
+   "leave out",
+   "rule out"
+  ],
+  "ornek": "The price excludes delivery.",
+  "ornekTr": "Fiyata teslimat dahil değil.",
+  "seviye": "B2",
+  "alan": "Ticaret"
+ },
+ {
+  "id": "w0113",
+  "kelime": "framework",
+  "tur": "isim",
+  "tr": "çerçeve, yapı",
+  "en": "a basic structure of ideas or rules",
+  "es": [
+   "structure",
+   "system",
+   "model"
+  ],
+  "ornek": "The CEFR provides a framework for levels.",
+  "ornekTr": "CEFR seviyeler için bir çerçeve sunar.",
+  "seviye": "C1",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0114",
+  "kelime": "fund",
+  "tur": "fiil",
+  "tr": "finanse etmek",
+  "en": "to provide money for something",
+  "es": [
+   "finance",
+   "sponsor",
+   "back"
+  ],
+  "ornek": "The city funds free evening classes.",
+  "ornekTr": "Şehir ücretsiz akşam kurslarını finanse ediyor.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0115",
+  "kelime": "illustrate",
+  "tur": "fiil",
+  "tr": "örneklendirmek, göstermek",
+  "en": "to explain with examples or pictures",
+  "es": [
+   "demonstrate",
+   "exemplify",
+   "show"
+  ],
+  "ornek": "Illustrate your point with one clear example.",
+  "ornekTr": "Fikrini net bir örnekle göster.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0116",
+  "kelime": "imply",
+  "tur": "fiil",
+  "tr": "ima etmek, anıştırmak",
+  "en": "to suggest without saying directly",
+  "es": [
+   "suggest",
+   "hint",
+   "indicate"
+  ],
+  "ornek": "The author implies that the policy failed.",
+  "ornekTr": "Yazar politikanın başarısız olduğunu ima ediyor.",
+  "seviye": "C1",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0117",
+  "kelime": "initial",
+  "tur": "sıfat",
+  "tr": "ilk, başlangıç",
+  "en": "happening at the beginning",
+  "es": [
+   "first",
+   "opening",
+   "early"
+  ],
+  "ornek": "The initial results were encouraging.",
+  "ornekTr": "İlk sonuçlar cesaret vericiydi.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0118",
+  "kelime": "instance",
+  "tur": "isim",
+  "tr": "örnek, durum",
+  "en": "an example or single case",
+  "es": [
+   "example",
+   "case",
+   "occurrence"
+  ],
+  "ornek": "For instance, Sweden recycles most waste.",
+  "ornekTr": "Örneğin İsveç atığın çoğunu geri dönüştürür.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0119",
+  "kelime": "interact",
+  "tur": "fiil",
+  "tr": "etkileşmek, iletişim kurmak",
+  "en": "to communicate or have an effect on each other",
+  "es": [
+   "communicate",
+   "engage",
+   "interplay"
+  ],
+  "ornek": "Students interact in small groups.",
+  "ornekTr": "Öğrenciler küçük gruplarda etkileşir.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0120",
+  "kelime": "justify",
+  "tur": "fiil",
+  "tr": "haklı çıkarmak, gerekçelendirmek",
+  "en": "to give a good reason for something",
+  "es": [
+   "defend",
+   "warrant",
+   "account for"
+  ],
+  "ornek": "Justify your answer with the text.",
+  "ornekTr": "Cevabını metinle gerekçelendir.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0121",
+  "kelime": "layer",
+  "tur": "isim",
+  "tr": "katman, tabaka",
+  "en": "a level of material or meaning",
+  "es": [
+   "stratum",
+   "level",
+   "tier"
+  ],
+  "ornek": "The ozone layer protects the planet.",
+  "ornekTr": "Ozon tabakası gezegeni korur.",
+  "seviye": "B1",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0122",
+  "kelime": "link",
+  "tur": "fiil",
+  "tr": "bağlamak, ilişkilendirmek",
+  "en": "to connect two things",
+  "es": [
+   "connect",
+   "tie",
+   "associate"
+  ],
+  "ornek": "Link each idea to a reason.",
+  "ornekTr": "Her fikri bir nedene bağla.",
+  "seviye": "B1",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0123",
+  "kelime": "locate",
+  "tur": "fiil",
+  "tr": "yerini bulmak; yerleşmek",
+  "en": "to find the position of something",
+  "es": [
+   "find",
+   "position",
+   "site"
+  ],
+  "ornek": "Locate the keyword in the passage quickly.",
+  "ornekTr": "Anahtar kelimenin yerini metinde hızla bul.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0124",
+  "kelime": "maximum",
+  "tur": "sıfat",
+  "tr": "en yüksek, azami",
+  "en": "the largest possible amount",
+  "es": [
+   "highest",
+   "greatest",
+   "top"
+  ],
+  "ornek": "The maximum score for each part is nine.",
+  "ornekTr": "Her bölüm için en yüksek puan dokuzdur.",
+  "seviye": "B2",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0125",
+  "kelime": "minor",
+  "tur": "sıfat",
+  "tr": "küçük, önemsiz",
+  "en": "small or not important",
+  "es": [
+   "small",
+   "slight",
+   "lesser"
+  ],
+  "ornek": "A minor error will not lower your band.",
+  "ornekTr": "Küçük bir hata bandını düşürmez.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0126",
+  "kelime": "negative",
+  "tur": "sıfat",
+  "tr": "olumsuz, negatif",
+  "en": "bad or harmful; saying no",
+  "es": [
+   "adverse",
+   "unfavourable",
+   "harmful"
+  ],
+  "ornek": "Excessive screen time has negative effects.",
+  "ornekTr": "Aşırı ekran süresinin olumsuz etkileri var.",
+  "seviye": "B1",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0127",
+  "kelime": "partner",
+  "tur": "isim",
+  "tr": "ortak, eş",
+  "en": "a person you work or live with",
+  "es": [
+   "colleague",
+   "associate",
+   "mate"
+  ],
+  "ornek": "Study with a partner to practise speaking.",
+  "ornekTr": "Konuşma pratiği için bir ortakla çalış.",
+  "seviye": "A2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0128",
+  "kelime": "physical",
+  "tur": "sıfat",
+  "tr": "fiziksel, bedensel",
+  "en": "relating to the body or real things",
+  "es": [
+   "bodily",
+   "material",
+   "tangible"
+  ],
+  "ornek": "Physical activity improves mood.",
+  "ornekTr": "Fiziksel aktivite ruh hâlini iyileştirir.",
+  "seviye": "B1",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0129",
+  "kelime": "proportion",
+  "tur": "isim",
+  "tr": "oran, orantı",
+  "en": "a part compared with the whole",
+  "es": [
+   "ratio",
+   "share",
+   "percentage"
+  ],
+  "ornek": "A high proportion of students work part-time.",
+  "ornekTr": "Öğrencilerin büyük bir oranı yarı zamanlı çalışıyor.",
+  "seviye": "B2",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0130",
+  "kelime": "publish",
+  "tur": "fiil",
+  "tr": "yayımlamak",
+  "en": "to make information available to the public",
+  "es": [
+   "release",
+   "issue",
+   "print"
+  ],
+  "ornek": "The findings were published last month.",
+  "ornekTr": "Bulgular geçen ay yayımlandı.",
+  "seviye": "B2",
+  "alan": "Medya"
+ },
+ {
+  "id": "w0131",
+  "kelime": "react",
+  "tur": "fiil",
+  "tr": "tepki vermek",
+  "en": "to act in response to something",
+  "es": [
+   "respond",
+   "reply",
+   "answer"
+  ],
+  "ornek": "How did readers react to the article?",
+  "ornekTr": "Okurlar makaleye nasıl tepki verdi?",
+  "seviye": "B1",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0132",
+  "kelime": "rely",
+  "tur": "fiil",
+  "tr": "güvenmek, dayanmak",
+  "en": "to depend on someone or something",
+  "es": [
+   "depend",
+   "count on",
+   "trust"
+  ],
+  "ornek": "Do not rely on spell-check in the exam.",
+  "ornekTr": "Sınavda yazım denetimine güvenme.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0133",
+  "kelime": "remove",
+  "tur": "fiil",
+  "tr": "kaldırmak, çıkarmak",
+  "en": "to take something away",
+  "es": [
+   "take away",
+   "delete",
+   "eliminate"
+  ],
+  "ornek": "Remove unnecessary words from your essay.",
+  "ornekTr": "Denemenden gereksiz kelimeleri çıkar.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0134",
+  "kelime": "scheme",
+  "tur": "isim",
+  "tr": "plan, düzen; sistem",
+  "en": "an organised plan or arrangement",
+  "es": [
+   "plan",
+   "programme",
+   "system"
+  ],
+  "ornek": "The recycling scheme started in 2019.",
+  "ornekTr": "Geri dönüşüm programı 2019'da başladı.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0135",
+  "kelime": "sequence",
+  "tur": "isim",
+  "tr": "sıra, dizin",
+  "en": "a set of things in a particular order",
+  "es": [
+   "order",
+   "series",
+   "succession"
+  ],
+  "ornek": "Put the steps in the correct sequence.",
+  "ornekTr": "Adımları doğru sıraya koy.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0136",
+  "kelime": "shift",
+  "tur": "isim",
+  "tr": "değişim, kayma",
+  "en": "a change in position or opinion",
+  "es": [
+   "change",
+   "move",
+   "swing"
+  ],
+  "ornek": "There has been a shift towards remote work.",
+  "ornekTr": "Uzaktan çalışmaya doğru bir kayma oldu.",
+  "seviye": "B2",
+  "alan": "İş"
+ },
+ {
+  "id": "w0137",
+  "kelime": "sufficient",
+  "tur": "sıfat",
+  "tr": "yeterli",
+  "en": "enough for a particular purpose",
+  "es": [
+   "enough",
+   "adequate",
+   "ample"
+  ],
+  "ornek": "Two examples are sufficient for this task.",
+  "ornekTr": "Bu görev için iki örnek yeterlidir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0138",
+  "kelime": "technique",
+  "tur": "isim",
+  "tr": "teknik, yöntem",
+  "en": "a skilled way of doing something",
+  "es": [
+   "method",
+   "approach",
+   "skill"
+  ],
+  "ornek": "Skimming is a useful reading technique.",
+  "ornekTr": "Göz gezdirme faydalı bir okuma tekniğidir.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0139",
+  "kelime": "technology",
+  "tur": "isim",
+  "tr": "teknoloji",
+  "en": "the use of scientific knowledge in practice",
+  "es": [
+   "innovation",
+   "tech",
+   "applied science"
+  ],
+  "ornek": "Technology changed how we study.",
+  "ornekTr": "Teknoloji çalışma biçimimizi değiştirdi.",
+  "seviye": "B1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0140",
+  "kelime": "valid",
+  "tur": "sıfat",
+  "tr": "geçerli, makbul",
+  "en": "legally or logically acceptable",
+  "es": [
+   "legitimate",
+   "sound",
+   "acceptable"
+  ],
+  "ornek": "Your passport must be valid for six months.",
+  "ornekTr": "Pasaportun altı ay geçerli olmalı.",
+  "seviye": "B2",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0141",
+  "kelime": "volume",
+  "tur": "isim",
+  "tr": "hacim, miktar; ses düzeyi",
+  "en": "the amount of something; loudness",
+  "es": [
+   "amount",
+   "quantity",
+   "capacity"
+  ],
+  "ornek": "The volume of traffic doubled in a decade.",
+  "ornekTr": "Trafik hacmi on yılda ikiye katlandı.",
+  "seviye": "B2",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0142",
+  "kelime": "access",
+  "tur": "isim",
+  "tr": "erişim, giriş",
+  "en": "the right or ability to use something",
+  "es": [
+   "entry",
+   "admission",
+   "availability"
+  ],
+  "ornek": "Free access to the library helps students.",
+  "ornekTr": "Kütüphaneye ücretsiz erişim öğrencilere yardım eder.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0143",
+  "kelime": "adequate",
+  "tur": "sıfat",
+  "tr": "yeterli, kâfi",
+  "en": "enough in quantity or quality",
+  "es": [
+   "sufficient",
+   "satisfactory",
+   "acceptable"
+  ],
+  "ornek": "The room had adequate light for reading.",
+  "ornekTr": "Odada okumak için yeterli ışık vardı.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0144",
+  "kelime": "annual",
+  "tur": "sıfat",
+  "tr": "yıllık",
+  "en": "happening once every year",
+  "es": [
+   "yearly",
+   "per annum"
+  ],
+  "ornek": "The annual report shows steady growth.",
+  "ornekTr": "Yıllık rapor istikrarlı büyüme gösteriyor.",
+  "seviye": "B1",
+  "alan": "İş"
+ },
+ {
+  "id": "w0145",
+  "kelime": "apparent",
+  "tur": "sıfat",
+  "tr": "belli, aşikâr, görünürdeki",
+  "en": "clearly visible or understood; seeming",
+  "es": [
+   "obvious",
+   "evident",
+   "seeming"
+  ],
+  "ornek": "It soon became apparent that the plan failed.",
+  "ornekTr": "Planın başarısız olduğu kısa sürede belli oldu.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0146",
+  "kelime": "approximate",
+  "tur": "sıfat",
+  "tr": "yaklaşık, takribî",
+  "en": "close to but not exact",
+  "es": [
+   "rough",
+   "estimated",
+   "near"
+  ],
+  "ornek": "Give an approximate figure in Task One.",
+  "ornekTr": "Task 1'de yaklaşık bir değer ver.",
+  "seviye": "B2",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0147",
+  "kelime": "attitude",
+  "tur": "isim",
+  "tr": "tutum, tavır",
+  "en": "the way you think or feel about something",
+  "es": [
+   "outlook",
+   "stance",
+   "view"
+  ],
+  "ornek": "A positive attitude helps exam performance.",
+  "ornekTr": "Olumlu tutum sınav performansına yardım eder.",
+  "seviye": "B2",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0148",
+  "kelime": "attribute",
+  "tur": "fiil",
+  "tr": "atfetmek, bağlamak",
+  "en": "to say that something is caused by something else",
+  "es": [
+   "ascribe",
+   "credit",
+   "blame"
+  ],
+  "ornek": "Scientists attribute warming to emissions.",
+  "ornekTr": "Bilim insanları ısınmayı emisyonlara atfediyor.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0149",
+  "kelime": "civil",
+  "tur": "sıfat",
+  "tr": "sivil, medeni",
+  "en": "relating to ordinary citizens, not the army",
+  "es": [
+   "public",
+   "civic",
+   "civilian"
+  ],
+  "ornek": "Civil society pushed for cleaner air.",
+  "ornekTr": "Sivil toplum daha temiz hava için baskı yaptı.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0150",
+  "kelime": "commit",
+  "tur": "fiil",
+  "tr": "işlemek; kendini adamak",
+  "en": "to do something wrong; to promise seriously",
+  "es": [
+   "carry out",
+   "devote",
+   "pledge"
+  ],
+  "ornek": "She committed three hours a day to study.",
+  "ornekTr": "Günde üç saatini çalışmaya adadı.",
+  "seviye": "B2",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0151",
+  "kelime": "communicate",
+  "tur": "fiil",
+  "tr": "iletişim kurmak",
+  "en": "to share information or feelings",
+  "es": [
+   "convey",
+   "express",
+   "get across"
+  ],
+  "ornek": "Good writers communicate ideas clearly.",
+  "ornekTr": "İyi yazarlar fikirleri net iletir.",
+  "seviye": "B1",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0152",
+  "kelime": "concentrate",
+  "tur": "fiil",
+  "tr": "yoğunlaşmak, odaklanmak",
+  "en": "to give all your attention to something",
+  "es": [
+   "focus",
+   "centre",
+   "apply yourself"
+  ],
+  "ornek": "It is hard to concentrate in a noisy room.",
+  "ornekTr": "Gürültülü odada yoğunlaşmak zordur.",
+  "seviye": "B1",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0153",
+  "kelime": "contrast",
+  "tur": "isim",
+  "tr": "karşıtlık, tezat",
+  "en": "a clear difference between things",
+  "es": [
+   "difference",
+   "opposition",
+   "disparity"
+  ],
+  "ornek": "The essay contrasts city and village life.",
+  "ornekTr": "Deneme şehir ve köy yaşamını karşılaştırıyor.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0154",
+  "kelime": "debate",
+  "tur": "isim",
+  "tr": "tartışma, münazara",
+  "en": "a formal discussion of opposing views",
+  "es": [
+   "discussion",
+   "argument",
+   "dispute"
+  ],
+  "ornek": "The debate over homework continues.",
+  "ornekTr": "Ödev tartışması sürüyor.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0155",
+  "kelime": "despite",
+  "tur": "edat",
+  "tr": "-e rağmen",
+  "en": "in spite of",
+  "es": [
+   "in spite of",
+   "notwithstanding"
+  ],
+  "ornek": "Despite the rain, attendance was high.",
+  "ornekTr": "Yağmura rağmen katılım yüksekti.",
+  "seviye": "B2",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0156",
+  "kelime": "dimension",
+  "tur": "isim",
+  "tr": "boyut, ölçü",
+  "en": "a part or aspect of a situation",
+  "es": [
+   "aspect",
+   "facet",
+   "side"
+  ],
+  "ornek": "Cost adds another dimension to the problem.",
+  "ornekTr": "Maliyet soruna başka bir boyut ekliyor.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0157",
+  "kelime": "domestic",
+  "tur": "sıfat",
+  "tr": "ev içi; yerli, ülke içi",
+  "en": "relating to the home or to one country",
+  "es": [
+   "household",
+   "internal",
+   "national"
+  ],
+  "ornek": "Domestic tourism grew by nine percent.",
+  "ornekTr": "İç turizm yüzde dokuz arttı.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0158",
+  "kelime": "emerge",
+  "tur": "fiil",
+  "tr": "ortaya çıkmak, belirmek",
+  "en": "to appear or become known",
+  "es": [
+   "appear",
+   "surface",
+   "come out"
+  ],
+  "ornek": "New evidence emerged during the trial.",
+  "ornekTr": "Duruşma sırasında yeni kanıt ortaya çıktı.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0159",
+  "kelime": "error",
+  "tur": "isim",
+  "tr": "hata, yanlış",
+  "en": "a mistake",
+  "es": [
+   "mistake",
+   "fault",
+   "slip"
+  ],
+  "ornek": "One small error changed the whole meaning.",
+  "ornekTr": "Küçük bir hata bütün anlamı değiştirdi.",
+  "seviye": "A2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0160",
+  "kelime": "ethnic",
+  "tur": "sıfat",
+  "tr": "etnik, kavimsel",
+  "en": "relating to a group with shared culture",
+  "es": [
+   "racial",
+   "cultural",
+   "tribal"
+  ],
+  "ornek": "The city has many ethnic communities.",
+  "ornekTr": "Şehirde birçok etnik topluluk var.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0161",
+  "kelime": "goal",
+  "tur": "isim",
+  "tr": "hedef, amaç",
+  "en": "something you aim to achieve",
+  "es": [
+   "aim",
+   "objective",
+   "target"
+  ],
+  "ornek": "Set one clear goal for each week.",
+  "ornekTr": "Her hafta için net bir hedef belirle.",
+  "seviye": "A2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0162",
+  "kelime": "grant",
+  "tur": "fiil",
+  "tr": "vermek, bahşetmek",
+  "en": "to agree to give or allow something",
+  "es": [
+   "award",
+   "give",
+   "bestow"
+  ],
+  "ornek": "The council granted permission for the market.",
+  "ornekTr": "Belediye pazara izin verdi.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0163",
+  "kelime": "hence",
+  "tur": "zarf",
+  "tr": "dolayısıyla, bu nedenle",
+  "en": "for this reason",
+  "es": [
+   "therefore",
+   "thus",
+   "consequently"
+  ],
+  "ornek": "Emissions fell; hence air quality improved.",
+  "ornekTr": "Emisyonlar düştü; dolayısıyla hava kalitesi iyileşti.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0164",
+  "kelime": "implement",
+  "tur": "fiil",
+  "tr": "uygulamak, hayata geçirmek",
+  "en": "to put a plan into action",
+  "es": [
+   "carry out",
+   "apply",
+   "execute"
+  ],
+  "ornek": "The school implemented the new timetable.",
+  "ornekTr": "Okul yeni programı uyguladı.",
+  "seviye": "C1",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0165",
+  "kelime": "impose",
+  "tur": "fiil",
+  "tr": "yüklemek, dayatmak",
+  "en": "to force a rule, tax or opinion on someone",
+  "es": [
+   "enforce",
+   "levy",
+   "inflict"
+  ],
+  "ornek": "The government imposed a sugar tax.",
+  "ornekTr": "Hükümet şeker vergisi koydu.",
+  "seviye": "C1",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0166",
+  "kelime": "integrate",
+  "tur": "fiil",
+  "tr": "bütünleştirmek, kaynaştırmak",
+  "en": "to combine things into one whole",
+  "es": [
+   "combine",
+   "merge",
+   "incorporate"
+  ],
+  "ornek": "Schools integrate technology into lessons.",
+  "ornekTr": "Okullar teknolojiyi derslere entegre eder.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0167",
+  "kelime": "internal",
+  "tur": "sıfat",
+  "tr": "iç, dâhilî",
+  "en": "inside something or a country",
+  "es": [
+   "inner",
+   "domestic",
+   "inside"
+  ],
+  "ornek": "The report is for internal use only.",
+  "ornekTr": "Rapor yalnızca iç kullanım içindir.",
+  "seviye": "B2",
+  "alan": "İş"
+ },
+ {
+  "id": "w0168",
+  "kelime": "investigate",
+  "tur": "fiil",
+  "tr": "araştırmak, soruşturmak",
+  "en": "to examine a problem carefully",
+  "es": [
+   "examine",
+   "explore",
+   "look into"
+  ],
+  "ornek": "Police investigated the cause of the fire.",
+  "ornekTr": "Polis yangının nedenini araştırdı.",
+  "seviye": "B2",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0169",
+  "kelime": "label",
+  "tur": "isim",
+  "tr": "etiket",
+  "en": "a small note giving information about something",
+  "es": [
+   "tag",
+   "sticker",
+   "marker"
+  ],
+  "ornek": "Read the nutrition label before buying.",
+  "ornekTr": "Satın almadan önce besin etiketini oku.",
+  "seviye": "B1",
+  "alan": "Ticaret"
+ },
+ {
+  "id": "w0170",
+  "kelime": "mechanism",
+  "tur": "isim",
+  "tr": "mekanizma, düzenek",
+  "en": "a system of parts that work together",
+  "es": [
+   "system",
+   "process",
+   "workings"
+  ],
+  "ornek": "The body has a cooling mechanism.",
+  "ornekTr": "Vücudun bir soğutma mekanizması var.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0171",
+  "kelime": "obvious",
+  "tur": "sıfat",
+  "tr": "apaçık, belli",
+  "en": "easy to see or understand",
+  "es": [
+   "clear",
+   "evident",
+   "plain"
+  ],
+  "ornek": "The answer was obvious from the first line.",
+  "ornekTr": "Cevap ilk satırdan apaçıktı.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0172",
+  "kelime": "output",
+  "tur": "isim",
+  "tr": "çıktı, üretim",
+  "en": "the amount produced",
+  "es": [
+   "production",
+   "yield",
+   "result"
+  ],
+  "ornek": "Factory output rose last quarter.",
+  "ornekTr": "Fabrika üretimi geçen çeyrek arttı.",
+  "seviye": "B2",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0173",
+  "kelime": "overall",
+  "tur": "sıfat",
+  "tr": "genel, toplam",
+  "en": "considering everything",
+  "es": [
+   "general",
+   "total",
+   "all-round"
+  ],
+  "ornek": "The overall trend is upward.",
+  "ornekTr": "Genel eğilim yukarı yönlü.",
+  "seviye": "B2",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0174",
+  "kelime": "parallel",
+  "tur": "sıfat",
+  "tr": "paralel, koşut",
+  "en": "very similar or happening at the same time",
+  "es": [
+   "similar",
+   "equivalent",
+   "matching"
+  ],
+  "ornek": "There are parallel changes in both graphs.",
+  "ornekTr": "İki grafikte paralel değişimler var.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0175",
+  "kelime": "parameter",
+  "tur": "isim",
+  "tr": "parametre, değişken",
+  "en": "a limit or factor that defines a system",
+  "es": [
+   "limit",
+   "boundary",
+   "variable"
+  ],
+  "ornek": "Work within the parameters of the task.",
+  "ornekTr": "Görevin parametreleri içinde çalış.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0176",
+  "kelime": "predict",
+  "tur": "fiil",
+  "tr": "öngörmek, tahmin etmek",
+  "en": "to say what will happen in the future",
+  "es": [
+   "forecast",
+   "foresee",
+   "project"
+  ],
+  "ornek": "Experts predict a rise in sea levels.",
+  "ornekTr": "Uzmanlar deniz seviyesinde artış öngörüyor.",
+  "seviye": "B1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0177",
+  "kelime": "retain",
+  "tur": "fiil",
+  "tr": "korumak, elde tutmak",
+  "en": "to keep something",
+  "es": [
+   "keep",
+   "preserve",
+   "hold on to"
+  ],
+  "ornek": "Cities retain heat at night.",
+  "ornekTr": "Şehirler gece ısıyı tutar.",
+  "seviye": "B2",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0178",
+  "kelime": "statistics",
+  "tur": "isim",
+  "tr": "istatistik",
+  "en": "numbers that describe facts",
+  "es": [
+   "figures",
+   "data",
+   "numbers"
+  ],
+  "ornek": "The statistics show a clear pattern.",
+  "ornekTr": "İstatistikler net bir örüntü gösteriyor.",
+  "seviye": "B2",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0179",
+  "kelime": "status",
+  "tur": "isim",
+  "tr": "statü, durum",
+  "en": "the position or condition of something",
+  "es": [
+   "standing",
+   "rank",
+   "condition"
+  ],
+  "ornek": "The city gained UNESCO status in 2014.",
+  "ornekTr": "Şehir 2014'te UNESCO statüsü kazandı.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0180",
+  "kelime": "subsequent",
+  "tur": "sıfat",
+  "tr": "sonraki, müteakip",
+  "en": "coming after something else",
+  "es": [
+   "later",
+   "following",
+   "succeeding"
+  ],
+  "ornek": "Subsequent studies confirmed the result.",
+  "ornekTr": "Sonraki çalışmalar sonucu doğruladı.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0181",
+  "kelime": "summary",
+  "tur": "isim",
+  "tr": "özet",
+  "en": "a short statement of the main points",
+  "es": [
+   "outline",
+   "recap",
+   "synopsis"
+  ],
+  "ornek": "Write a summary in three sentences.",
+  "ornekTr": "Üç cümlelik bir özet yaz.",
+  "seviye": "B1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0182",
+  "kelime": "undertake",
+  "tur": "fiil",
+  "tr": "üstlenmek, girişmek",
+  "en": "to agree to do a task",
+  "es": [
+   "take on",
+   "carry out",
+   "embark on"
+  ],
+  "ornek": "The team undertook a long study.",
+  "ornekTr": "Ekip uzun bir çalışma üstlendi.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0183",
+  "kelime": "accommodate",
+  "tur": "fiil",
+  "tr": "barındırmak, uyum sağlamak",
+  "en": "to provide space for; to adapt",
+  "es": [
+   "house",
+   "hold",
+   "fit in"
+  ],
+  "ornek": "The hall accommodates two hundred people.",
+  "ornekTr": "Salon iki yüz kişiyi barındırır.",
+  "seviye": "C1",
+  "alan": "Mimarlık"
+ },
+ {
+  "id": "w0184",
+  "kelime": "acknowledge",
+  "tur": "fiil",
+  "tr": "kabul etmek, teslim etmek",
+  "en": "to accept that something is true",
+  "es": [
+   "admit",
+   "recognise",
+   "concede"
+  ],
+  "ornek": "The report acknowledges several limitations.",
+  "ornekTr": "Rapor bazı sınırlılıkları kabul ediyor.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0185",
+  "kelime": "advocate",
+  "tur": "fiil",
+  "tr": "savunmak, önermek",
+  "en": "to publicly support an idea",
+  "es": [
+   "support",
+   "champion",
+   "recommend"
+  ],
+  "ornek": "Many doctors advocate daily walking.",
+  "ornekTr": "Birçok doktor günlük yürüyüşü savunuyor.",
+  "seviye": "C1",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0186",
+  "kelime": "allocate",
+  "tur": "fiil",
+  "tr": "tahsis etmek, ayırmak",
+  "en": "to give out for a particular purpose",
+  "es": [
+   "assign",
+   "allot",
+   "distribute"
+  ],
+  "ornek": "The budget allocated funds to libraries.",
+  "ornekTr": "Bütçe kütüphanelere kaynak ayırdı.",
+  "seviye": "C1",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0187",
+  "kelime": "ambiguous",
+  "tur": "sıfat",
+  "tr": "belirsiz, muğlak",
+  "en": "having more than one possible meaning",
+  "es": [
+   "unclear",
+   "vague",
+   "equivocal"
+  ],
+  "ornek": "The question wording was ambiguous.",
+  "ornekTr": "Soru ifadesi belirsizdi.",
+  "seviye": "C1",
+  "alan": "Dil"
+ },
+ {
+  "id": "w0188",
+  "kelime": "amend",
+  "tur": "fiil",
+  "tr": "değiştirmek, düzeltmek",
+  "en": "to change a text or law slightly",
+  "es": [
+   "modify",
+   "revise",
+   "alter"
+  ],
+  "ornek": "Parliament amended the law in 2020.",
+  "ornekTr": "Parlamento yasayı 2020'de değiştirdi.",
+  "seviye": "C1",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0189",
+  "kelime": "anticipate",
+  "tur": "fiil",
+  "tr": "önceden tahmin etmek, beklemek",
+  "en": "to expect something to happen",
+  "es": [
+   "expect",
+   "foresee",
+   "predict"
+  ],
+  "ornek": "Anticipate the answer before the audio plays.",
+  "ornekTr": "Ses başlamadan cevabı tahmin et.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0190",
+  "kelime": "assure",
+  "tur": "fiil",
+  "tr": "güvence vermek, temin etmek",
+  "en": "to tell someone confidently to remove doubt",
+  "es": [
+   "reassure",
+   "promise",
+   "convince"
+  ],
+  "ornek": "The teacher assured us the test was fair.",
+  "ornekTr": "Öğretmen sınavın adil olduğu konusunda güvence verdi.",
+  "seviye": "C1",
+  "alan": "İletişim"
+ },
+ {
+  "id": "w0191",
+  "kelime": "attain",
+  "tur": "fiil",
+  "tr": "elde etmek, ulaşmak",
+  "en": "to achieve something after effort",
+  "es": [
+   "achieve",
+   "reach",
+   "accomplish"
+  ],
+  "ornek": "She attained band eight after a year.",
+  "ornekTr": "Bir yıl sonra sekiz bandına ulaştı.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0192",
+  "kelime": "bulk",
+  "tur": "isim",
+  "tr": "yığın, büyük kısım",
+  "en": "the main or largest part",
+  "es": [
+   "majority",
+   "mass",
+   "most"
+  ],
+  "ornek": "The bulk of the cost is transport.",
+  "ornekTr": "Maliyetin büyük kısmı ulaşımdır.",
+  "seviye": "C1",
+  "alan": "Ticaret"
+ },
+ {
+  "id": "w0193",
+  "kelime": "cease",
+  "tur": "fiil",
+  "tr": "durmak, sona ermek",
+  "en": "to stop happening",
+  "es": [
+   "stop",
+   "end",
+   "halt"
+  ],
+  "ornek": "Rain ceased before the ceremony.",
+  "ornekTr": "Tören öncesi yağmur durdu.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0194",
+  "kelime": "coherent",
+  "tur": "sıfat",
+  "tr": "tutarlı, anlaşılır",
+  "en": "logical and clearly connected",
+  "es": [
+   "logical",
+   "consistent",
+   "clear"
+  ],
+  "ornek": "A coherent essay is easier to score high.",
+  "ornekTr": "Tutarlı bir deneme yüksek puan almak için daha kolaydır.",
+  "seviye": "C1",
+  "alan": "Yazma"
+ },
+ {
+  "id": "w0195",
+  "kelime": "coincide",
+  "tur": "fiil",
+  "tr": "çakışmak, aynı zamana gelmek",
+  "en": "to happen at the same time or agree",
+  "es": [
+   "overlap",
+   "correspond",
+   "match"
+  ],
+  "ornek": "Exam dates coincide with the festival.",
+  "ornekTr": "Sınav tarihleri festivalle çakışıyor.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0196",
+  "kelime": "compatible",
+  "tur": "sıfat",
+  "tr": "uyumlu, bağdaşır",
+  "en": "able to exist or work together",
+  "es": [
+   "consistent",
+   "harmonious",
+   "matching"
+  ],
+  "ornek": "The app is compatible with old phones.",
+  "ornekTr": "Uygulama eski telefonlarla uyumlu.",
+  "seviye": "B2",
+  "alan": "Teknoloji"
+ },
+ {
+  "id": "w0197",
+  "kelime": "compensate",
+  "tur": "fiil",
+  "tr": "telafi etmek, karşılamak",
+  "en": "to make up for something",
+  "es": [
+   "make up for",
+   "offset",
+   "recompense"
+  ],
+  "ornek": "Extra practice compensates for lost time.",
+  "ornekTr": "Ekstra çalışma kaybedilen zamanı telafi eder.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0198",
+  "kelime": "compile",
+  "tur": "fiil",
+  "tr": "derlemek, toplamak",
+  "en": "to collect information from different sources",
+  "es": [
+   "gather",
+   "assemble",
+   "collect"
+  ],
+  "ornek": "The team compiled a list of sources.",
+  "ornekTr": "Ekip kaynak listesi derledi.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0199",
+  "kelime": "complement",
+  "tur": "fiil",
+  "tr": "tamamlamak, bütünlemek",
+  "en": "to add to something to make it better",
+  "es": [
+   "supplement",
+   "enhance",
+   "complete"
+  ],
+  "ornek": "Practice complements classroom lessons.",
+  "ornekTr": "Pratik, sınıf derslerini tamamlar.",
+  "seviye": "C1",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0200",
+  "kelime": "comprise",
+  "tur": "fiil",
+  "tr": "oluşmak, kapsamak",
+  "en": "to consist of or include",
+  "es": [
+   "consist of",
+   "include",
+   "contain"
+  ],
+  "ornek": "The course comprises twelve modules.",
+  "ornekTr": "Kurs on iki modülden oluşur.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0201",
+  "kelime": "concurrent",
+  "tur": "sıfat",
+  "tr": "eşzamanlı",
+  "en": "happening at the same time",
+  "es": [
+   "simultaneous",
+   "parallel",
+   "coexisting"
+  ],
+  "ornek": "The study ran two concurrent trials.",
+  "ornekTr": "Araştırma iki eşzamanlı deney yürüttü.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0202",
+  "kelime": "constitute",
+  "tur": "fiil",
+  "tr": "oluşturmak, teşkil etmek",
+  "en": "to be or form something",
+  "es": [
+   "form",
+   "make up",
+   "comprise"
+  ],
+  "ornek": "Women constitute half of the workforce.",
+  "ornekTr": "Kadınlar işgücünün yarısını oluşturur.",
+  "seviye": "C1",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0203",
+  "kelime": "constrain",
+  "tur": "fiil",
+  "tr": "kısıtlamak, sınırlamak",
+  "en": "to limit someone's freedom or actions",
+  "es": [
+   "restrict",
+   "limit",
+   "confine"
+  ],
+  "ornek": "A small budget constrained the project.",
+  "ornekTr": "Küçük bütçe projeyi kısıtladı.",
+  "seviye": "C1",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0204",
+  "kelime": "controversial",
+  "tur": "sıfat",
+  "tr": "tartışmalı, ihtilaflı",
+  "en": "causing strong disagreement",
+  "es": [
+   "contentious",
+   "disputed",
+   "divisive"
+  ],
+  "ornek": "The decision was highly controversial.",
+  "ornekTr": "Karar son derece tartışmalıydı.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0205",
+  "kelime": "coordinate",
+  "tur": "fiil",
+  "tr": "eşgüdümlemek, düzenlemek",
+  "en": "to organise activities so they work together",
+  "es": [
+   "organise",
+   "synchronise",
+   "harmonise"
+  ],
+  "ornek": "Volunteers coordinated the rescue.",
+  "ornekTr": "Gönüllüler kurtarma çalışmasını eşgüdümledi.",
+  "seviye": "C1",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0206",
+  "kelime": "correspond",
+  "tur": "fiil",
+  "tr": "denk gelmek; yazışmak",
+  "en": "to match or be similar to; to write letters",
+  "es": [
+   "match",
+   "equate",
+   "agree"
+  ],
+  "ornek": "The figures correspond to last year's data.",
+  "ornekTr": "Rakamlar geçen yılın verileriyle denk geliyor.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0207",
+  "kelime": "deduce",
+  "tur": "fiil",
+  "tr": "çıkarım yapmak, anlam çıkarmak",
+  "en": "to reach a conclusion by reasoning",
+  "es": [
+   "infer",
+   "conclude",
+   "work out"
+  ],
+  "ornek": "You can deduce the meaning from the context.",
+  "ornekTr": "Anlamı bağlamdan çıkarabilirsin.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0208",
+  "kelime": "deteriorate",
+  "tur": "fiil",
+  "tr": "kötüleşmek, bozulmak",
+  "en": "to become worse",
+  "es": [
+   "worsen",
+   "decline",
+   "degenerate"
+  ],
+  "ornek": "Air quality deteriorated after the fires.",
+  "ornekTr": "Yangınlardan sonra hava kalitesi kötüleşti.",
+  "seviye": "C1",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0209",
+  "kelime": "discrepancy",
+  "tur": "isim",
+  "tr": "tutarsızlık, uyuşmazlık",
+  "en": "a difference between things that should match",
+  "es": [
+   "inconsistency",
+   "mismatch",
+   "gap"
+  ],
+  "ornek": "There is a discrepancy between the two reports.",
+  "ornekTr": "İki rapor arasında bir tutarsızlık var.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0210",
+  "kelime": "diverse",
+  "tur": "sıfat",
+  "tr": "çeşitli, farklı",
+  "en": "showing a lot of variety",
+  "es": [
+   "varied",
+   "assorted",
+   "manifold"
+  ],
+  "ornek": "The city has a diverse population.",
+  "ornekTr": "Şehrin çeşitli bir nüfusu var.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0211",
+  "kelime": "dwell",
+  "tur": "fiil",
+  "tr": "oturmak, ikamet etmek; üzerinde durmak",
+  "en": "to live in a place; to keep thinking about",
+  "es": [
+   "reside",
+   "inhabit",
+   "linger"
+  ],
+  "ornek": "Half the population dwells in cities.",
+  "ornekTr": "Nüfusun yarısı şehirlerde yaşıyor.",
+  "seviye": "C1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0212",
+  "kelime": "emphasise",
+  "tur": "fiil",
+  "tr": "vurgulamak, altını çizmek",
+  "en": "to give special importance to something",
+  "es": [
+   "stress",
+   "highlight",
+   "underline"
+  ],
+  "ornek": "The author emphasises the role of habit.",
+  "ornekTr": "Yazar alışkanlığın rolünü vurguluyor.",
+  "seviye": "B2",
+  "alan": "Yazma"
+ },
+ {
+  "id": "w0213",
+  "kelime": "exceed",
+  "tur": "fiil",
+  "tr": "aşmak, geçmek",
+  "en": "to be greater than a number or limit",
+  "es": [
+   "surpass",
+   "go beyond",
+   "outstrip"
+  ],
+  "ornek": "Do not exceed the word limit.",
+  "ornekTr": "Kelime sınırını aşma.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0214",
+  "kelime": "facilitate",
+  "tur": "fiil",
+  "tr": "kolaylaştırmak",
+  "en": "to make something easier",
+  "es": [
+   "ease",
+   "enable",
+   "assist"
+  ],
+  "ornek": "Small groups facilitate speaking practice.",
+  "ornekTr": "Küçük gruplar konuşma pratiğini kolaylaştırır.",
+  "seviye": "C1",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0215",
+  "kelime": "fluctuate",
+  "tur": "fiil",
+  "tr": "dalgalanmak, inip çıkmak",
+  "en": "to rise and fall irregularly",
+  "es": [
+   "vary",
+   "waver",
+   "swing"
+  ],
+  "ornek": "Prices fluctuated throughout the year.",
+  "ornekTr": "Fiyatlar yıl boyunca dalgalandı.",
+  "seviye": "C1",
+  "alan": "İstatistik"
+ },
+ {
+  "id": "w0216",
+  "kelime": "genuine",
+  "tur": "sıfat",
+  "tr": "gerçek, samimi",
+  "en": "real and sincere, not fake",
+  "es": [
+   "authentic",
+   "real",
+   "sincere"
+  ],
+  "ornek": "She showed genuine interest in the topic.",
+  "ornekTr": "Konuya gerçek bir ilgi gösterdi.",
+  "seviye": "B2",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0217",
+  "kelime": "highlight",
+  "tur": "fiil",
+  "tr": "öne çıkarmak, vurgulamak",
+  "en": "to draw attention to something",
+  "es": [
+   "emphasise",
+   "stress",
+   "point up"
+  ],
+  "ornek": "The report highlights three risks.",
+  "ornekTr": "Rapor üç riski öne çıkarıyor.",
+  "seviye": "B2",
+  "alan": "Yazma"
+ },
+ {
+  "id": "w0218",
+  "kelime": "hypothesis",
+  "tur": "isim",
+  "tr": "hipotez, varsayım",
+  "en": "an idea suggested as an explanation",
+  "es": [
+   "theory",
+   "assumption",
+   "premise"
+  ],
+  "ornek": "The hypothesis was rejected by the data.",
+  "ornekTr": "Hipotez veriler tarafından reddedildi.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0219",
+  "kelime": "incentive",
+  "tur": "isim",
+  "tr": "teşvik, özendirici",
+  "en": "something that encourages action",
+  "es": [
+   "motivation",
+   "reward",
+   "inducement"
+  ],
+  "ornek": "Tax cuts act as an incentive to invest.",
+  "ornekTr": "Vergi indirimleri yatırım için teşvik işlevi görür.",
+  "seviye": "C1",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0220",
+  "kelime": "inevitable",
+  "tur": "sıfat",
+  "tr": "kaçınılmaz",
+  "en": "certain to happen",
+  "es": [
+   "unavoidable",
+   "certain",
+   "inescapable"
+  ],
+  "ornek": "Some mistakes are inevitable at first.",
+  "ornekTr": "Başlangıçta bazı hatalar kaçınılmazdır.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0221",
+  "kelime": "infer",
+  "tur": "fiil",
+  "tr": "anlam çıkarmak, sonuç çıkarmak",
+  "en": "to conclude from evidence",
+  "es": [
+   "deduce",
+   "gather",
+   "conclude"
+  ],
+  "ornek": "Readers must infer the writer's attitude.",
+  "ornekTr": "Okuyucular yazarın tutumunu çıkarsamalıdır.",
+  "seviye": "C1",
+  "alan": "Okuma"
+ },
+ {
+  "id": "w0222",
+  "kelime": "inherent",
+  "tur": "sıfat",
+  "tr": "doğasında olan, içkin",
+  "en": "existing as a natural part of something",
+  "es": [
+   "intrinsic",
+   "innate",
+   "built-in"
+  ],
+  "ornek": "There is an inherent risk in every test.",
+  "ornekTr": "Her sınavda doğasında olan bir risk vardır.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0223",
+  "kelime": "innovative",
+  "tur": "sıfat",
+  "tr": "yenilikçi, özgün",
+  "en": "introducing new ideas",
+  "es": [
+   "inventive",
+   "novel",
+   "original"
+  ],
+  "ornek": "The school uses innovative teaching.",
+  "ornekTr": "Okul yenilikçi öğretim yöntemleri kullanıyor.",
+  "seviye": "B2",
+  "alan": "Teknoloji"
+ },
+ {
+  "id": "w0224",
+  "kelime": "insight",
+  "tur": "isim",
+  "tr": "içgörü, kavrayış",
+  "en": "a clear understanding of something",
+  "es": [
+   "understanding",
+   "perception",
+   "awareness"
+  ],
+  "ornek": "The interview gave insight into student life.",
+  "ornekTr": "Söyleşi öğrenci yaşamına içgörü sağladı.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0225",
+  "kelime": "intervene",
+  "tur": "fiil",
+  "tr": "müdahale etmek, araya girmek",
+  "en": "to become involved to change a situation",
+  "es": [
+   "step in",
+   "interfere",
+   "mediate"
+  ],
+  "ornek": "The government intervened to stabilise prices.",
+  "ornekTr": "Hükümet fiyatları dengelemek için müdahale etti.",
+  "seviye": "C1",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0226",
+  "kelime": "lucrative",
+  "tur": "sıfat",
+  "tr": "kazançlı, kârlı",
+  "en": "producing a lot of money",
+  "es": [
+   "profitable",
+   "well-paid",
+   "rewarding"
+  ],
+  "ornek": "Tourism is a lucrative industry here.",
+  "ornekTr": "Turizm burada kazançlı bir sektördür.",
+  "seviye": "C1",
+  "alan": "Ekonomi"
+ },
+ {
+  "id": "w0227",
+  "kelime": "magnitude",
+  "tur": "isim",
+  "tr": "büyüklük, çap",
+  "en": "the great size or importance of something",
+  "es": [
+   "scale",
+   "extent",
+   "size"
+  ],
+  "ornek": "Few grasp the magnitude of the problem.",
+  "ornekTr": "Sorunun büyüklüğünü az kişi kavrıyor.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0228",
+  "kelime": "mandatory",
+  "tur": "sıfat",
+  "tr": "zorunlu, mecburi",
+  "en": "required by law or rules",
+  "es": [
+   "compulsory",
+   "obligatory",
+   "required"
+  ],
+  "ornek": "Helmets are mandatory for cyclists.",
+  "ornekTr": "Kask bisikletliler için zorunludur.",
+  "seviye": "C1",
+  "alan": "Hukuk"
+ },
+ {
+  "id": "w0229",
+  "kelime": "negotiate",
+  "tur": "fiil",
+  "tr": "müzakere etmek, pazarlık etmek",
+  "en": "to discuss to reach an agreement",
+  "es": [
+   "bargain",
+   "discuss",
+   "broker"
+  ],
+  "ornek": "Unions negotiated a shorter week.",
+  "ornekTr": "Sendikalar daha kısa hafta için müzakere etti.",
+  "seviye": "B2",
+  "alan": "İş"
+ },
+ {
+  "id": "w0230",
+  "kelime": "notion",
+  "tur": "isim",
+  "tr": "kavram, düşünce",
+  "en": "an idea or belief about something",
+  "es": [
+   "idea",
+   "concept",
+   "belief"
+  ],
+  "ornek": "The notion that money buys happiness is false.",
+  "ornekTr": "Paranın mutluluk aldığı düşüncesi yanlıştır.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0231",
+  "kelime": "notorious",
+  "tur": "sıfat",
+  "tr": "kötü şöhretli, adı çıkmış",
+  "en": "famous for something bad",
+  "es": [
+   "infamous",
+   "ill-famed"
+  ],
+  "ornek": "The junction is notorious for accidents.",
+  "ornekTr": "Kavşak kazalarla ünlü.",
+  "seviye": "C1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0232",
+  "kelime": "offset",
+  "tur": "fiil",
+  "tr": "dengelemek, telafi etmek",
+  "en": "counteract something",
+  "es": [
+   "counterbalance",
+   "compensate",
+   "cancel out"
+  ],
+  "ornek": "Planting trees offsets some emissions.",
+  "ornekTr": "Ağaç dikmek bazı emisyonları dengeler.",
+  "seviye": "C1",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0233",
+  "kelime": "perceive",
+  "tur": "fiil",
+  "tr": "algılamak, sezmek",
+  "en": "to become aware of or understand something",
+  "es": [
+   "notice",
+   "perceive",
+   "sense"
+  ],
+  "ornek": "Students perceive grammar as difficult.",
+  "ornekTr": "Öğrenciler dil bilgisini zor algılar.",
+  "seviye": "C1",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0234",
+  "kelime": "persist",
+  "tur": "fiil",
+  "tr": "ısrar etmek, sürmek",
+  "en": "to continue firmly despite difficulty",
+  "es": [
+   "continue",
+   "persevere",
+   "keep on"
+  ],
+  "ornek": "The problem persists in rural areas.",
+  "ornekTr": "Sorun kırsal bölgelerde sürüyor.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0235",
+  "kelime": "phenomenon",
+  "tur": "isim",
+  "tr": "olgu, görüngü",
+  "en": "a fact or event that can be observed",
+  "es": [
+   "occurrence",
+   "event",
+   "fact"
+  ],
+  "ornek": "Urban heat is a well-known phenomenon.",
+  "ornekTr": "Kentsel ısı iyi bilinen bir olgudur.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w0236",
+  "kelime": "pivotal",
+  "tur": "sıfat",
+  "tr": "kilit, çok önemli",
+  "en": "of central importance",
+  "es": [
+   "crucial",
+   "vital",
+   "key"
+  ],
+  "ornek": "Teachers play a pivotal role in motivation.",
+  "ornekTr": "Öğretmenler motivasyonda kilit rol oynar.",
+  "seviye": "C1",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w0237",
+  "kelime": "prevalent",
+  "tur": "sıfat",
+  "tr": "yaygın, hüküm süren",
+  "en": "common in a particular place or time",
+  "es": [
+   "widespread",
+   "common",
+   "rife"
+  ],
+  "ornek": "Smartphone use is prevalent among teens.",
+  "ornekTr": "Akıllı telefon kullanımı gençler arasında yaygın.",
+  "seviye": "C1",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0238",
+  "kelime": "prominent",
+  "tur": "sıfat",
+  "tr": "önde gelen, göze çarpan",
+  "en": "important, famous or easily seen",
+  "es": [
+   "leading",
+   "notable",
+   "conspicuous"
+  ],
+  "ornek": "She is a prominent climate scientist.",
+  "ornekTr": "Önde gelen bir iklim bilimcisi.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0239",
+  "kelime": "reluctant",
+  "tur": "sıfat",
+  "tr": "isteksiz, gönülsüz",
+  "en": "unwilling and hesitant",
+  "es": [
+   "unwilling",
+   "hesitant",
+   "disinclined"
+  ],
+  "ornek": "Many are reluctant to speak in public.",
+  "ornekTr": "Birçoğu topluluk önünde konuşmaya isteksiz.",
+  "seviye": "B2",
+  "alan": "Davranış"
+ },
+ {
+  "id": "w0240",
+  "kelime": "resilient",
+  "tur": "sıfat",
+  "tr": "dayanıklı, çabuk toparlanan",
+  "en": "able to recover quickly from difficulties",
+  "es": [
+   "tough",
+   "adaptable",
+   "hardy"
+  ],
+  "ornek": "Children are more resilient than we think.",
+  "ornekTr": "Çocuklar düşündüğümüzden daha dayanıklı.",
+  "seviye": "C1",
+  "alan": "Psikoloji"
+ },
+ {
+  "id": "w0241",
+  "kelime": "scrutiny",
+  "tur": "isim",
+  "tr": "dikkatli inceleme, denetim",
+  "en": "careful and critical examination",
+  "es": [
+   "examination",
+   "inspection",
+   "review"
+  ],
+  "ornek": "The plan came under public scrutiny.",
+  "ornekTr": "Plan kamu denetimine girdi.",
+  "seviye": "C1",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0242",
+  "kelime": "substitute",
+  "tur": "isim",
+  "tr": "yerine geçen şey, ikame",
+  "en": "a person or thing used instead of another",
+  "es": [
+   "replacement",
+   "alternative",
+   "stand-in"
+  ],
+  "ornek": "Beans are a good substitute for meat.",
+  "ornekTr": "Fasulye et için iyi bir ikamedir.",
+  "seviye": "B2",
+  "alan": "Beslenme"
+ },
+ {
+  "id": "w0243",
+  "kelime": "substantial",
+  "tur": "sıfat",
+  "tr": "önemli ölçüde büyük, ciddi",
+  "en": "large in amount or importance",
+  "es": [
+   "considerable",
+   "significant",
+   "sizeable"
+  ],
+  "ornek": "There was substantial evidence against it.",
+  "ornekTr": "Aleyhinde ciddi kanıt vardı.",
+  "seviye": "B2",
+  "alan": "Akademik"
+ },
+ {
+  "id": "w0244",
+  "kelime": "sustainable",
+  "tur": "sıfat",
+  "tr": "sürdürülebilir",
+  "en": "able to continue without damaging the environment",
+  "es": [
+   "viable",
+   "eco-friendly",
+   "renewable"
+  ],
+  "ornek": "We need sustainable farming methods.",
+  "ornekTr": "Sürdürülebilir tarım yöntemlerine ihtiyacımız var.",
+  "seviye": "B2",
+  "alan": "Çevre"
+ },
+ {
+  "id": "w0245",
+  "kelime": "tackle",
+  "tur": "fiil",
+  "tr": "üstesinden gelmek, ele almak",
+  "en": "to deal with a problem",
+  "es": [
+   "address",
+   "deal with",
+   "confront"
+  ],
+  "ornek": "The city tackled traffic with a new metro.",
+  "ornekTr": "Şehir trafiği yeni metroyla ele aldı.",
+  "seviye": "B2",
+  "alan": "Yönetim"
+ },
+ {
+  "id": "w0246",
+  "kelime": "thrive",
+  "tur": "fiil",
+  "tr": "gelişmek, serpilmek",
+  "en": "to grow well and be healthy",
+  "es": [
+   "flourish",
+   "prosper",
+   "boom"
+  ],
+  "ornek": "Plants thrive in warm, wet climates.",
+  "ornekTr": "Bitkiler sıcak ve nemli iklimlerde serpilir.",
+  "seviye": "C1",
+  "alan": "Biyoloji"
+ },
+ {
+  "id": "w0247",
+  "kelime": "undermine",
+  "tur": "fiil",
+  "tr": "zayıflatmak, baltalamak",
+  "en": "to weaken something gradually",
+  "es": [
+   "weaken",
+   "erode",
+   "damage"
+  ],
+  "ornek": "Lack of sleep undermines memory.",
+  "ornekTr": "Uyku eksikliği hafızayı zayıflatır.",
+  "seviye": "C1",
+  "alan": "Sağlık"
+ },
+ {
+  "id": "w0248",
+  "kelime": "viable",
+  "tur": "sıfat",
+  "tr": "uygulanabilir, yaşayabilir",
+  "en": "able to work successfully",
+  "es": [
+   "feasible",
+   "workable",
+   "practicable"
+  ],
+  "ornek": "Solar power is now a viable option.",
+  "ornekTr": "Güneş enerjisi artık uygulanabilir bir seçenek.",
+  "seviye": "C1",
+  "alan": "Enerji"
+ },
+ {
+  "id": "w0249",
+  "kelime": "widespread",
+  "tur": "sıfat",
+  "tr": "yaygın, geniş ölçüde",
+  "en": "existing over a large area or among many people",
+  "es": [
+   "extensive",
+   "prevalent",
+   "pervasive"
+  ],
+  "ornek": "There is widespread support for the ban.",
+  "ornekTr": "Yasak için yaygın bir destek var.",
+  "seviye": "B2",
+  "alan": "Toplum"
+ },
+ {
+  "id": "w0250",
+  "kelime": "yield",
+  "tur": "fiil",
+  "tr": "vermek, üretmek; boyun eğmek",
+  "en": "to produce a result or crop",
+  "es": [
+   "produce",
+   "generate",
+   "give"
+  ],
+  "ornek": "The experiment yielded surprising results.",
+  "ornekTr": "Deney şaşırtıcı sonuçlar verdi.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ }
+]

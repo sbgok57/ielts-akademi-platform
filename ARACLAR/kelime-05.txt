@@ -1,0 +1,98 @@
+# IELTS SÖZLÜĞÜ — VERİ (5. BÖLÜM: Sınav dili, yazma/konuşma kalıpları, son akademik fiiller)
+# Biçim: kelime|tür|Türkçe anlam|İngilizce tanım|eş anlamlılar|İngilizce örnek|Türkçe çeviri|seviye|alan
+analyse the question|kalıp|soruyu çözümlemek|to identify what the question really asks|break down the question|Always analyse the question before planning.|Planlamadan önce her zaman soruyu çözümle.|B2|Yazma
+answer key|isim|cevap anahtarı|the list of correct answers|solutions, key|Check the answer key only after you finish.|Cevap anahtarına ancak bitirdikten sonra bak.|B1|Sınav
+appeal to|kalıp|hitap etmek, çekici gelmek|to attract or interest someone|attract, interest|Short videos appeal to younger learners.|Kısa videolar genç öğrencilere hitap eder.|C1|Medya
+as opposed to|kalıp|-in aksine, -den farklı olarak|in contrast with|rather than, instead of|Use facts as opposed to opinions.|Görüşlerin aksine olguları kullan.|C1|Yazma
+bear in mind|kalıp|akılda tutmak|to remember and consider|keep in mind, remember|Bear in mind the word limit.|Kelime sınırını akılda tut.|B2|Sınav
+body paragraph|isim|gelişme paragrafı|a paragraph developing one main point|main paragraph|Each body paragraph needs one idea.|Her gelişme paragrafı bir fikir gerektirir.|B2|Yazma
+boost confidence|kalıp|özgüveni artırmak|to make someone feel more confident|raise confidence|Small wins boost confidence.|Küçük kazanımlar özgüveni artırır.|B2|Psikoloji
+brainstorm|fiil|fikir fırtınası yapmak|to generate ideas quickly before writing|generate ideas, list ideas|Brainstorm for two minutes before writing.|Yazmadan önce iki dakika fikir fırtınası yap.|B2|Yazma
+broadly speaking|kalıp|genel olarak konuşursak|generally|generally, on the whole|Broadly speaking, both methods work.|Genel olarak konuşursak iki yöntem de işe yarıyor.|C1|Yazma
+clear-cut|sıfat|net, kesin|definite and easy to see|definite, unambiguous|The trend is not clear-cut.|Eğilim net değil.|C1|İstatistik
+cohesive device|isim|bağlaç ögesi, bağlayıcı|a word that links ideas in a text|linking word, connector|Use cohesive devices without overusing them.|Bağlaç ögelerini aşırıya kaçmadan kullan.|C1|Yazma
+concluding sentence|isim|sonuç cümlesi|the final sentence of a paragraph|closing sentence|A concluding sentence ties the paragraph together.|Sonuç cümlesi paragrafı birleştirir.|B2|Yazma
+connector|isim|bağlayıcı, bağlaç|a word joining ideas|linking word, transition|Connectors must match the logic.|Bağlayıcılar mantığa uymalı.|B2|Yazma
+cue card|isim|konu kartı|the card used in the speaking test|task card, prompt card|The cue card gives you four prompts.|Konu kartı sana dört ipucu verir.|B2|Konuşma
+data point|isim|veri noktası|a single item of information in a chart|figure, value|Compare data points across years.|Veri noktalarını yıllara göre karşılaştır.|C1|İstatistik
+detail question|isim|ayrıntı sorusu|a question about specific information|specific question|Detail questions need scanning.|Ayrıntı soruları taramayı gerektirir.|B2|Okuma
+draft|isim|taslak|a first version of a piece of writing|first version, rough copy|Write a quick draft, then improve it.|Hızlı bir taslak yaz, sonra geliştir.|B2|Yazma
+example sentence|isim|örnek cümle|a sentence showing a word in use|model sentence|Keep one example sentence per word.|Her kelime için bir örnek cümle tut.|B2|Öğrenme
+fill in the blanks|kalıp|boşlukları doldurmak|to complete missing words in a text|complete the gaps|Fill in the blanks with one word only.|Boşlukları yalnızca bir kelimeyle doldur.|B2|Sınav
+fluency drill|isim|akıcılık alıştırması|a repeated speaking exercise for speed|speaking drill|Fluency drills build speed.|Akıcılık alıştırmaları hız kazandırır.|C1|Konuşma
+focus question|isim|odak sorusu|the main question to answer|key question|Write the focus question on top of your plan.|Odak sorusunu planının başına yaz.|B2|Yazma
+gist question|isim|ana fikir sorusu|a question about the main idea|main idea question|Gist questions come first in the passage.|Ana fikir soruları metinde önce gelir.|B2|Okuma
+half a band|isim|yarım band|a 0.5 step improvement in score|partial band|Half a band often comes from spelling.|Yarım band çoğu zaman yazımdan gelir.|B2|Sınav
+in a nutshell|kalıp|özetle, kısaca|in summary|in short, briefly|In a nutshell, practise daily.|Özetle her gün pratik yap.|C1|Konuşma
+keep track of|kalıp|takip etmek, izlemek|to monitor the progress of something|track, monitor|Keep track of your mistakes in a notebook.|Hatalarını bir defterde takip et.|B2|Öğrenme
+level of detail|isim|ayrıntı düzeyi|how much detail something includes|degree of detail|Match the level of detail to the task.|Ayrıntı düzeyini göreve uydur.|C1|Okuma
+main idea|isim|ana fikir|the central point of a text|central idea, gist|Find the main idea of each paragraph.|Her paragrafın ana fikrini bul.|B2|Okuma
+matching headings|isim|başlık eşleştirme|a task linking paragraphs to titles|heading matching|Matching headings rewards topic sentences.|Başlık eşleştirme konu cümlelerini ödüllendirir.|B2|Okuma
+model answer|isim|örnek cevap, model cevap|an example of a high-scoring answer|sample answer|Study a model answer after writing your own.|Kendin yazdıktan sonra model cevabı incele.|B2|Sınav
+multi-word answer|isim|çok kelimeli cevap|an answer of several words|phrase answer|Multi-word answers must respect the limit.|Çok kelimeli cevaplar sınıra uymalı.|B2|Sınav
+note completion|isim|not tamamlama|filling in notes from audio|note filling|Note completion tests listening for detail.|Not tamamlama ayrıntı dinlemeyi ölçer.|B2|Dinleme
+paraphrase the prompt|kalıp|soruyu yeniden ifade etmek|to restate the question in your own words|reword the task|Paraphrase the prompt in your introduction.|Girişte soruyu yeniden ifade et.|C1|Yazma
+penalty|isim|ceza, kesinti|a punishment or loss|punishment, deduction|Spelling errors bring a small penalty.|Yazım hataları küçük bir kesinti getirir.|B2|Sınav
+planning time|isim|planlama süresi|the time set aside for planning|preparation time|Use the full planning time.|Planlama süresini tamamen kullan.|B2|Sınav
+point of view|isim|bakış açısı|a way of considering something|perspective, viewpoint|Write from a neutral point of view.|Tarafsız bir bakış açısıyla yaz.|B2|Yazma
+practice test|isim|deneme testi|a test used for practice|mock, rehearsal test|Take one practice test per week.|Haftada bir deneme testi yap.|B2|Sınav
+question stem|isim|soru kökü|the main part of a question|question wording|Underline key words in the question stem.|Soru kökündeki anahtar kelimelerin altını çiz.|C1|Sınav
+reading passage|isim|okuma metni|the text used in the reading test|text, article|Each reading passage has about nine hundred words.|Her okuma metni yaklaşık dokuz yüz kelimedir.|B2|Okuma
+refer back to|kalıp|geri dönüp bakmak, atıfta bulunmak|to mention or look at again|refer to, go back to|Refer back to the text for evidence.|Kanıt için metne geri dön.|C1|Okuma
+sample answer|isim|örnek cevap|an example answer|model answer|Read a sample answer to calibrate your level.|Seviyeni ölçmek için örnek cevap oku.|B2|Sınav
+scaffold|fiil|iskelet kurmak, desteklemek|to provide support for learning|support, structure|Scaffold writing with sentence frames.|Yazmayı cümle kalıplarıyla destekle.|C1|Eğitim
+sentence frame|isim|cümle kalıbı, kalıp cümle|a partly finished sentence used as a model|template sentence|Sentence frames speed up writing.|Cümle kalıpları yazmayı hızlandırır.|B2|Yazma
+skim and scan|kalıp|hızlıca gözden geçirmek|to read quickly for ideas and details|speed read|Skim and scan before answering.|Cevaplamadan önce hızlıca gözden geçir.|B2|Okuma
+speaking part one|isim|konuşma birinci bölüm|the introduction section of the speaking test|interview section|Speaking Part One covers familiar topics.|Konuşma birinci bölüm tanıdık konuları kapsar.|B2|Konuşma
+speaking part three|isim|konuşma üçüncü bölüm|the discussion section of the speaking test|discussion section|Speaking Part Three asks for opinions with reasons.|Konuşma üçüncü bölüm nedenli görüş ister.|B2|Konuşma
+speaking part two|isim|konuşma ikinci bölüm|the long turn of the speaking test|long turn, individual turn|Speaking Part Two lasts two minutes.|Konuşma ikinci bölüm iki dakika sürer.|B2|Konuşma
+sub-skill|isim|alt beceri|a smaller skill within a main skill|micro-skill|Dictation is a listening sub-skill.|Dikte bir dinleme alt becerisidir.|C1|Eğitim
+summary completion|isim|özet tamamlama|filling gaps in a summary of the text|summary gap fill|Summary completion mixes reading with vocabulary.|Özet tamamlama okumayı kelimeyle birleştirir.|C1|Okuma
+take notes|kalıp|not almak|to write down key information|make notes, jot down|Take notes while you listen.|Dinlerken not al.|B2|Dinleme
+task achievement|isim|görevi yerine getirme|how fully a task is answered|task response|Task achievement is worth a quarter of the marks.|Görevi yerine getirme puanın dörtte biridir.|C1|Yazma
+topic sentence|isim|konu cümlesi|the sentence stating a paragraph's main idea|opening sentence|Start each paragraph with a topic sentence.|Her paragrafa konu cümlesiyle başla.|B2|Yazma
+transition word|isim|geçiş sözcüğü|a word that moves the reader between ideas|linking word, connector|Transition words should be varied.|Geçiş sözcükleri çeşitlendirilmeli.|B2|Yazma
+true false not given|isim|doğru yanlış bilgi yok|a factual accuracy question type|TFNG|True False Not Given punishes assumptions.|Doğru Yanlış Bilgi Yok varsayımları cezalandırır.|B2|Okuma
+under time pressure|kalıp|zaman baskısı altında|with little time available|under a deadline|Reading happens under time pressure.|Okuma zaman baskısı altında gerçekleşir.|C1|Sınav
+word family|isim|kelime ailesi|a group of words from the same root|derived forms|Learn a word family: decide, decision, decisive.|Bir kelime ailesi öğren: decide, decision, decisive.|C1|Dil
+word formation|isim|kelime türetme|changing a word's form|derivation, morphology|Word formation questions test grammar and spelling.|Kelime türetme soruları dil bilgisi ve yazımı ölçer.|C1|Dil
+writing task one|isim|birinci yazma görevi|the report or letter task|Task 1|Writing Task One needs an overview.|Birinci yazma görevi bir özet gerektirir.|B2|Yazma
+writing task two|isim|ikinci yazma görevi|the essay task|Task 2|Writing Task Two needs a clear position.|İkinci yazma görevi net bir tutum gerektirir.|B2|Yazma
+zero in on|kalıp|odaklanmak, yönelmek|to focus attention on something|focus on, target|Zero in on the evidence sentence.|Kanıt cümlesine odaklan.|C1|Okuma
+abbreviation|isim|kısaltma|a shortened form of a word|short form, acronym|Learn common abbreviations such as e.g.|e.g. gibi yaygın kısaltmaları öğren.|B2|Dil
+academic word list|isim|akademik kelime listesi|a list of the most useful academic words|AWL|The academic word list covers most exam vocabulary.|Akademik kelime listesi sınav kelimelerinin çoğunu kapsar.|C1|Akademik
+adjacent|sıfat|bitişik, komşu|next to something|neighbouring, adjoining|The two adjacent bars show a clear gap.|İki bitişik çubuk net bir fark gösteriyor.|C1|İstatistik
+aggregate data|isim|toplu veri|combined data from many sources|combined data|Aggregate data hides individual variation.|Toplu veri bireysel farklılığı gizler.|C1|Bilim
+alongside|edat|yanı sıra, beraberinde|next to or together with|beside, together with|Alongside reading, listen daily.|Okumanın yanı sıra her gün dinle.|B2|Akademik
+ample|sıfat|bol, geniş|more than enough|plentiful, abundant|There is ample time for three passages.|Üç metin için bol zaman var.|C1|İstatistik
+
+annual report|isim|yıllık rapor|a report published once a year by a company or institution|yearly report, financial statement|The university annual report showed record student numbers.|Üniversite yıllık raporu rekor öğrenci sayıları gösterdi.|B2|İş
+autonomous learning|isim|özerk öğrenme|learning independently without direct supervision|self-directed learning, independent study|Autonomous learning is vital for postgraduate studies.|Özerk öğrenme lisansüstü eğitim için hayatidir.|C1|Eğitim
+benchmark|isim|kriter, ölçüt, kıyaslama noktası|a standard or point of reference against which things may be compared|standard, criterion, yardstick|The score is used as an international benchmark.|Bu puan uluslararası bir ölçüt olarak kullanılır.|C1|Akademik
+brainstorming session|isim|beyin fırtınası oturumu|a meeting to generate new ideas and solutions|idea session, creative meeting|Hold a brainstorming session before drafting your essay.|Denemeni yazmadan önce bir beyin fırtınası oturumu yap.|B2|Yazma
+chronological order|isim|kronolojik sıra|arranged in the order of time of occurrence|sequential order, time order|List the historical events in chronological order.|Tarihi olayları kronolojik sıraya göre listele.|B2|Akademik
+circumstantial evidence|isim|dolaylı kanıt|evidence that relies on an inference to connect it to a conclusion|indirect proof, presumptive evidence|The conclusion relies on circumstantial evidence.|Sonuç dolaylı kanıta dayanmaktadır.|C1|Akademik
+clause|isim|cümlecik, yan tümce|a group of words containing a subject and predicate|phrase, sentence element|Relative clauses give extra information about a noun.|Sıfat cümlecikleri bir isim hakkında ekstra bilgi verir.|B2|Dil
+comparative analysis|isim|karşılaştırmalı analiz|item-by-item comparison of two or more things|comparison study, contrastive study|The author conducts a comparative analysis of both systems.|Yazar her iki sistemin karşılaştırmalı analizini yapıyor.|C1|Akademik
+competency|isim|yetkinlik, yeterlilik|the ability to do something successfully or efficiently|capability, proficiency, aptitude|Language competency is evaluated across four macro skills.|Dil yetkinliği dört makro beceride değerlendirilir.|C1|Eğitim
+complex sentence|isim|karmaşık cümle|a sentence containing one independent and at least one dependent clause|compound-complex sentence|Using complex sentences boosts your grammatical range.|Karmaşık cümleler kullanmak gramer aralığını artırır.|B2|Dil
+concession|isim|ödün, kabullenme|admitting that something is true before making a counter-argument|acknowledgment, allowance|Make a concession before presenting your primary argument.|Ana argümanını sunmadan önce bir kabullenme yap.|C1|Yazma
+counter-argument|isim|karşıt argüman|an argument or set of reasons put forward to oppose an idea|counterpoint, opposing view|Address the main counter-argument in your second body paragraph.|İkinci gelişme paragrafında ana karşıt argümanı ele al.|C1|Yazma
+curriculum design|isim|müfredat tasarımı|the planning and structuring of an educational course|syllabus design, course structure|Modern curriculum design prioritises critical thinking.|Modern müfredat tasarımı eleştirel düşünmeyi önceler.|C1|Eğitim
+deductive reasoning|isim|tümdengelim|the process of reasoning from one or more statements to reach a logical conclusion|top-down logic, deduction|Deductive reasoning leads from general rules to specific facts.|Tümdengelim genel kurallardan özel olgulara ulaştırır.|C1|Bilim
+descriptive statistics|isim|betimsel istatistik|statistics that summarize or describe characteristics of a dataset|summary statistics|Descriptive statistics provide a clear picture of the sample.|Betimsel istatistik örneklem hakkında net bir tablo sunar.|C1|İstatistik
+empirical evidence|isim|ampirik kanıt, deneysel kanıt|information acquired by observation or experimentation|factual evidence, observed data|Strong empirical evidence supports the new hypothesis.|Güçlü ampirik kanıt yeni hipotezi desteklemektedir.|C1|Bilim
+epistemology|isim|epistemoloji, bilgi felsefesi|the theory of knowledge and justified belief|philosophy of knowledge|Epistemology investigates the origins of human understanding.|Epistemoloji insan kavrayışının kökenlerini inceler.|C2|Felsefe
+extrapolate|fiil|tahmin yürütmek, kestirim yapmak|to infer or estimate by extending known information|project, estimate, extend|Researchers extrapolate future climate patterns from current data.|Araştırmacılar mevcut verilerden gelecekteki iklim modellerini kestirir.|C1|Bilim
+inductive reasoning|isim|tümevarım|reasoning in which the premises seek to supply strong evidence for the truth|bottom-up logic, induction|Inductive reasoning builds theories from empirical observations.|Tümevarım ampirik gözlemlerden kuramlar inşa eder.|C1|Bilim
+interdisciplinary|sıfat|disiplinlerarası|relating to more than one branch of knowledge|cross-disciplinary, multidisciplinary|Climate research demands an interdisciplinary approach.|İklim araştırması disiplinlerarası bir yaklaşım gerektirir.|C1|Akademik
+lexical resource|isim|sözcüksel kaynak, kelime hazinesi|the range and accuracy of vocabulary used|vocabulary range, vocabulary bank|Lexical resource is one of the four official IELTS writing criteria.|Sözcüksel kaynak resmi dört IELTS yazma ölçütünden biridir.|C1|Sınav
+longitudinal study|isim|uzunlamasına araştırma, boylamsal çalışma|an observational research method where data is gathered repeatedly over time|long-term study, cohort study|A longitudinal study tracked language development over ten years.|Boylamsal bir çalışma dil gelişimini on yıl boyunca izledi.|C1|Bilim
+peer assessment|isim|akran değerlendirmesi|the assessment of students by other students of equal status|peer grading, peer evaluation|Peer assessment encourages constructive feedback among classmates.|Akran değerlendirmesi sınıf arkadaşları arasında yapıcı geri bildirimi teşvik eder.|B2|Eğitim
+plagiarism detector|isim|intihal tespit aracı|software used to identify copied content in academic texts|similarity checker, anti-plagiarism tool|Universities run all student dissertations through a plagiarism detector.|Üniversiteler tüm öğrenci tezlerini bir intihal tespit aracından geçirir.|B2|Eğitim
+qualitative research|isim|nitel araştırma|research relying on non-numerical data like words and interviews|descriptive research, narrative inquiry|Qualitative research captures in-depth student experiences.|Nitel araştırma öğrencilerin derinlemesine deneyimlerini yakalar.|C1|Bilim
+quantitative analysis|isim|nicel analiz|the analysis of numerical data using mathematical techniques|statistical analysis, numerical study|Quantitative analysis reveals statistical correlations in test scores.|Nicel analiz sınav puanlarındaki istatistiksel ilişkileri ortaya koyar.|C1|Bilim
+self-regulation|isim|özdüzenleme|the ability to monitor and manage one's energy states and thoughts|self-management, self-control|Self-regulation is essential for consistent daily vocabulary review.|Özdüzenleme günlük istikrarlı kelime tekrarı için esastır.|C1|Psikoloji
+thesis statement|isim|tez cümlesi, ana sav|a short statement summarizing the main point or claim of an essay|main claim, central argument|State your thesis statement clearly at the end of the introduction.|Giriş bölümünün sonunda tez cümleni net biçimde belirt.|B2|Yazma
+threshold level|isim|eşik düzeyi|the minimum level of competency required for a specific goal|entry level, minimum standard|Reaching the threshold level of B2 enables academic fluency.|B2 eşik düzeyine ulaşmak akademik akıcılığı mümkün kılar.|B2|Eğitim
+validity and reliability|isim|geçerlilik ve güvenilirlik|the degree to which an assessment tool measures accurately and consistently|soundness and dependability|Standardised tests undergo rigorous testing for validity and reliability.|Standart sınavlar geçerlilik ve güvenilirlik için titiz testlerden geçer.|C1|Akademik

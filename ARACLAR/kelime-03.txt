@@ -1,0 +1,159 @@
+# IELTS SÖZLÜĞÜ — VERİ (3. BÖLÜM: Bağlaçlar, akademik kalıplar, konuşma kalıpları, konu kelimeleri)
+# Biçim: kelime|tür|Türkçe anlam|İngilizce tanım|eş anlamlılar|İngilizce örnek|Türkçe çeviri|seviye|alan
+however|zarf|ancak, ne var ki|used to introduce a contrast|nevertheless, yet, nonetheless|The plan was cheap; however, it was slow.|Plan ucuzdu; ancak yavaştı.|B2|Bağlaç
+therefore|zarf|bu nedenle, dolayısıyla|for that reason|thus, consequently, hence|Costs fell; therefore profits rose.|Maliyetler düştü; bu nedenle kâr arttı.|B2|Bağlaç
+moreover|zarf|üstelik, ayrıca|in addition to what has been said|furthermore, besides, in addition|Moreover, the survey covered rural areas.|Üstelik anket kırsal alanları da kapsıyordu.|C1|Bağlaç
+furthermore|zarf|dahası, bundan başka|in addition|moreover, additionally|Furthermore, the evidence is limited.|Dahası kanıt sınırlıdır.|C1|Bağlaç
+whereas|bağlaç|oysa, halbuki|in contrast to the fact that|while, whilst|Cities grew, whereas villages shrank.|Şehirler büyüdü, oysa köyler küçüldü.|C1|Bağlaç
+although|bağlaç|-e rağmen, gerçi|despite the fact that|though, even though|Although it rained, they walked.|Yağmur yağmasına rağmen yürüdüler.|B2|Bağlaç
+nevertheless|zarf|buna rağmen, yine de|in spite of that|nonetheless, however, still|It was hard; nevertheless, she finished.|Zordu; yine de bitirdi.|C1|Bağlaç
+consequently|zarf|sonuç olarak, dolayısıyla|as a result|as a result, therefore, accordingly|Traffic rose; consequently, air quality fell.|Trafik arttı; sonuç olarak hava kalitesi düştü.|C1|Bağlaç
+additionally|zarf|ek olarak, ilaveten|as an extra point|also, besides, moreover|Additionally, free courses are available online.|Ek olarak çevrimiçi ücretsiz kurslar var.|C1|Bağlaç
+in contrast|zarf|buna karşılık|when compared with something different|on the other hand, conversely|In contrast, the second graph falls sharply.|Buna karşılık ikinci grafik keskin düşüyor.|C1|Bağlaç
+similarly|zarf|benzer şekilde|in the same way|likewise, equally, in the same vein|Similarly, both countries increased spending.|Benzer şekilde iki ülke de harcamayı artırdı.|B2|Bağlaç
+likewise|zarf|aynı biçimde|in the same way|similarly, equally|Likewise, older students performed well.|Aynı biçimde yaşlı öğrenciler de iyi performans gösterdi.|C1|Bağlaç
+for instance|zarf|örneğin|as an example|for example, such as, e.g.|For instance, Japan recycles most of its plastic.|Örneğin Japonya plastiğinin çoğunu geri dönüştürüyor.|B2|Bağlaç
+such as|bağlaç|gibi, örneğin|used to give examples|like, for example, including|Renewable sources such as wind and solar grew.|Rüzgâr ve güneş gibi yenilenebilir kaynaklar arttı.|B2|Bağlaç
+in addition|zarf|buna ek olarak|used to add information|also, besides, furthermore|In addition, the course is free.|Buna ek olarak kurs ücretsizdir.|B2|Bağlaç
+as a result|zarf|sonuç olarak|because of this|consequently, therefore|Attendance fell; as a result, the class closed.|Devam düştü; sonuç olarak sınıf kapandı.|B2|Bağlaç
+due to|edat|-den dolayı, nedeniyle|because of|owing to, because of, on account of|Delays were due to heavy snow.|Gecikmeler yoğun kardan dolayıydı.|B2|Bağlaç
+owing to|edat|-den ötürü|because of|due to, on account of|Owing to the storm, the ferry stopped.|Fırtınadan ötürü feribot durdu.|C1|Bağlaç
+in order to|bağlaç|için, amacıyla|with the purpose of|so as to, to|She revised daily in order to keep the streak.|Seriyi korumak için her gün tekrar yaptı.|B2|Bağlaç
+so that|bağlaç|ki, -sın diye|with the result that|in order that|Speak slowly so that everyone understands.|Herkes anlasın diye yavaş konuş.|B2|Bağlaç
+on the other hand|zarf|öte yandan|used to give the opposite view|conversely, in contrast|On the other hand, costs may rise.|Öte yandan maliyetler artabilir.|B2|Bağlaç
+in other words|zarf|başka bir deyişle|used to explain more clearly|that is to say, namely|In other words, practice beats talent.|Başka bir deyişle pratik yeteneği yener.|B2|Bağlaç
+to sum up|zarf|özetle|used to conclude|in conclusion, to conclude|To sum up, both approaches work.|Özetle iki yaklaşım da işe yarıyor.|B2|Bağlaç
+in conclusion|zarf|sonuç olarak|used to end an essay|to conclude, finally|In conclusion, the benefits outweigh the risks.|Sonuç olarak faydalar risklerden fazladır.|B2|Bağlaç
+firstly|zarf|ilk olarak|used to introduce the first point|first, to begin with|Firstly, the sample was small.|İlk olarak örneklem küçüktü.|B2|Bağlaç
+secondly|zarf|ikinci olarak|used to introduce the second point|second, next|Secondly, the results were unclear.|İkinci olarak sonuçlar belirsizdi.|B2|Bağlaç
+finally|zarf|son olarak, nihayet|used to introduce the last point|lastly, ultimately|Finally, timing is the key skill.|Son olarak kilit beceri zamanlamadır.|B2|Bağlaç
+besides|zarf|ayrıca, bundan başka|in addition|moreover, also, as well|Besides, the fee includes materials.|Ayrıca ücret materyalleri içeriyor.|C1|Bağlaç
+rather than|bağlaç|-den ziyade|instead of|instead of, as opposed to|Use keywords rather than every word.|Her kelime yerine anahtar kelimeleri kullan.|B2|Bağlaç
+as long as|bağlaç|-dığı sürece|on condition that|provided that, if|You will improve as long as you practise.|Pratik yaptığın sürece gelişirsin.|B2|Bağlaç
+even though|bağlaç|-e rağmen|despite the fact that|although, albeit|Even though he was tired, he listened.|Yorgun olmasına rağmen dinledi.|B2|Bağlaç
+in spite of|edat|-e rağmen|despite|despite, notwithstanding|In spite of the noise, she focused.|Gürültüye rağmen odaklandı.|B2|Bağlaç
+by contrast|zarf|buna karşılık|in comparison|in contrast, conversely|By contrast, rural numbers rose.|Buna karşılık kırsal sayılar arttı.|C1|Bağlaç
+as well as|bağlaç|hem de, -ile birlikte|in addition to|besides, along with|Reading as well as listening improves spelling.|Okuma da dinleme de yazımı geliştirir.|B2|Bağlaç
+not only|bağlaç|sadece ... değil|used for emphasis before the first of two items|not just|Not only is the method cheap, but it is fast.|Yöntem sadece ucuz değil, aynı zamanda hızlı.|C1|Bağlaç
+the more|bağlaç|ne kadar ... o kadar|used to show parallel increase|as ... as|The more you listen, the better you hear.|Ne kadar çok dinlersen o kadar iyi duyarsın.|C1|Bağlaç
+although|bağlaç|her ne kadar|see also even though|though, while|Although the task looks simple, it is tricky.|Görev basit görünse de zorludur.|B2|Bağlaç
+it is argued that|kalıp|savunulmaktadır ki|used to report an opinion impersonally|it is claimed that, it is suggested that|It is argued that homework harms family time.|Ödevin aile zamanına zarar verdiği savunulmaktadır.|C1|Akademik kalıp
+it is widely believed that|kalıp|yaygın olarak inanılmaktadır ki|used to report a common belief|it is commonly thought that|It is widely believed that sleep boosts memory.|Uykunun hafızayı güçlendirdiğine yaygın olarak inanılır.|C1|Akademik kalıp
+there is evidence that|kalıp|kanıt vardır ki|used to report research findings|research shows that|There is evidence that green roofs cool cities.|Yeşil çatıların şehirleri serinlettiğine dair kanıt var.|C1|Akademik kalıp
+according to|edat|-e göre|as stated by|as stated by, as reported by|According to the chart, sales doubled.|Grafiğe göre satışlar ikiye katlandı.|B2|Akademik kalıp
+with regard to|kalıp|-e ilişkin, konusunda|concerning|regarding, concerning, with respect to|With regard to cost, the plan is weak.|Maliyet konusunda plan zayıf.|C1|Akademik kalıp
+in terms of|kalıp|açısından, bakımından|as measured by, regarding|regarding, as far as ... is concerned|In terms of speed, the metro wins.|Hız açısından metro kazanır.|C1|Akademik kalıp
+plays a vital role in|kalıp|-de hayati rol oynar|is very important in|is crucial to, is central to|Diet plays a vital role in recovery.|Beslenme iyileşmede hayati rol oynar.|C1|Akademik kalıp
+has a significant impact on|kalıp|üzerinde önemli etkisi vardır|strongly affects|strongly influences|Noise has a significant impact on learning.|Gürültünün öğrenme üzerinde önemli etkisi vardır.|C1|Akademik kalıp
+it is worth noting that|kalıp|dikkate değer ki|used to highlight a point|it should be noted that|It is worth noting that both graphs peak in 2019.|Her iki grafiğin de 2019'da zirve yaptığı dikkate değer.|C1|Akademik kalıp
+in the long term|kalıp|uzun vadede|over a long period|in the long run|In the long term, prevention saves money.|Uzun vadede önleme para tasarrufu sağlar.|C1|Akademik kalıp
+to some extent|kalıp|bir ölçüde|partly|partly, in some measure|To some extent, the criticism is fair.|Bir ölçüde eleştiri haklı.|C1|Akademik kalıp
+on average|kalıp|ortalama olarak|typically, as an average|typically, generally|On average, students study two hours a day.|Ortalama olarak öğrenciler günde iki saat çalışıyor.|B2|Akademik kalıp
+in particular|kalıp|özellikle|especially|especially, particularly|Young adults, in particular, use short videos.|Özellikle genç yetişkinler kısa video izliyor.|B2|Akademik kalıp
+for the most part|kalıp|çoğunlukla, büyük ölçüde|mostly|mostly, largely, mainly|For the most part, the results agree.|Sonuçlar büyük ölçüde örtüşüyor.|C1|Akademik kalıp
+as a whole|kalıp|bir bütün olarak|considered together|overall, collectively|The class as a whole improved.|Sınıf bir bütün olarak gelişti.|C1|Akademik kalıp
+in my view|kalıp|bence, görüşüme göre|used to give a personal opinion|to my mind, personally|In my view, the ban is necessary.|Bence yasak gerekli.|B2|Konuşma kalıbı
+i would argue that|kalıp|şunu savunurum ki|used to state an opinion formally|I believe that|I would argue that testing helps memory.|Test etmenin hafızaya yardım ettiğini savunurum.|C1|Konuşma kalıbı
+to be honest|kalıp|dürüst olmak gerekirse|used to introduce a frank remark|frankly, honestly speaking|To be honest, I was nervous at first.|Dürüst olmak gerekirse başta gergindim.|B2|Konuşma kalıbı
+that is a good question|kalıp|bu iyi bir soru|used to buy time politely in speaking|good point|That is a good question; let me think.|Bu iyi bir soru; düşüneyim.|B2|Konuşma kalıbı
+let me think for a second|kalıp|bir saniye düşüneyim|a natural filler in speaking|let me see|Let me think for a second — I would say yes.|Bir saniye düşüneyim — evet derdim.|B2|Konuşma kalıbı
+as far as i know|kalıp|bildiğim kadarıyla|used to soften a claim|to the best of my knowledge|As far as I know, the fee is small.|Bildiğim kadarıyla ücret az.|B2|Konuşma kalıbı
+i am not sure but|kalıp|emin değilim ama|used to express uncertainty politely|I am not certain, but|I am not sure, but I think it started in 2015.|Emin değilim ama sanırım 2015'te başladı.|B2|Konuşma kalıbı
+the thing is|kalıp|şu var ki, mesele şu|used to introduce the main point|the point is|The thing is, I have never lived abroad.|Mesele şu ki hiç yurt dışında yaşamadım.|B2|Konuşma kalıbı
+for example in turkish|kalıp|örneğin Türkçede|example phrase|for instance|For example, in Turkish we say hayırlı olsun.|Örneğin Türkçede hayırlı olsun deriz.|B2|Konuşma kalıbı
+i would say that|kalıp|şöyle diyebilirim|soft opinion marker|I would say|I would say the biggest change is technology.|En büyük değişiklik teknoloji diyebilirim.|B2|Konuşma kalıbı
+it depends on|kalıp|-e bağlı|used to give a conditional answer|it varies depending on|It depends on how much time you have.|Ne kadar zamanın olduğuna bağlı.|B2|Konuşma kalıbı
+education system|isim|eğitim sistemi|the structure of schooling in a country|school system|The education system needs more funding.|Eğitim sisteminin daha fazla kaynağa ihtiyacı var.|B2|Eğitim
+private school|isim|özel okul|a school not run by the state|independent school|Private schools charge high fees.|Özel okullar yüksek ücret alıyor.|B2|Eğitim
+state school|isim|devlet okulu|a school funded by the government|public school|State schools are free of charge.|Devlet okulları ücretsizdir.|B2|Eğitim
+distance learning|isim|uzaktan eğitim|studying without attending in person|online learning, remote study|Distance learning suits working adults.|Uzaktan eğitim çalışan yetişkinlere uygundur.|B2|Eğitim
+class size|isim|sınıf mevcudu|the number of students in a class|class numbers|Smaller class sizes improve attention.|Daha küçük sınıf mevcudu dikkati artırır.|B2|Eğitim
+extracurricular|sıfat|ders dışı, müfredat dışı|outside normal lessons|after-school, non-academic|Extracurricular clubs build confidence.|Ders dışı kulüpler özgüven kurar.|C1|Eğitim
+lifelong learning|isim|yaşam boyu öğrenme|learning throughout your whole life|continuous learning|Lifelong learning keeps skills fresh.|Yaşam boyu öğrenme becerileri taze tutar.|C1|Eğitim
+critical thinking|isim|eleştirel düşünme|the ability to analyse ideas carefully|analytical thinking|Exams increasingly test critical thinking.|Sınavlar giderek eleştirel düşünmeyi ölçüyor.|C1|Eğitim
+problem solving|isim|problem çözme|finding solutions to difficulties|troubleshooting|Group work develops problem solving.|Grup çalışması problem çözmeyi geliştirir.|B2|Eğitim
+public health|isim|halk sağlığı|health services for the whole population|community health|Public health campaigns cut smoking.|Halk sağlığı kampanyaları sigarayı azalttı.|B2|Sağlık
+health care|isim|sağlık hizmeti, sağlık bakımı|medical services|medical care, healthcare|Health care should be affordable.|Sağlık hizmeti erişilebilir olmalı.|B2|Sağlık
+life expectancy|isim|yaşam süresi, ortalama ömür|how long people usually live|lifespan|Life expectancy rose to eighty-one.|Ortalama ömür seksen bire çıktı.|C1|Sağlık
+ageing population|isim|yaşlanan nüfus|a rising share of older people|greying population|An ageing population needs more care workers.|Yaşlanan nüfus daha çok bakım elemanı gerektirir.|C1|Toplum
+birth rate|isim|doğum oranı|the number of births per thousand people|natality rate|The birth rate fell for a decade.|Doğum oranı on yıl boyunca düştü.|C1|İstatistik
+urban area|isim|kentsel alan|a city or town area|city area, metropolitan zone|Urban areas grow faster than rural ones.|Kentsel alanlar kırsal alanlardan hızlı büyüyor.|B2|Şehir
+rural area|isim|kırsal alan|the countryside|countryside, village area|Rural areas often lack fast internet.|Kırsal alanlarda genellikle hızlı internet yok.|B2|Şehir
+cost of living|isim|geçim maliyeti, yaşam maliyeti|how expensive daily life is|living costs, expenses|The cost of living rose sharply.|Geçim maliyeti hızla arttı.|B2|Ekonomi
+standard of living|isim|yaşam standardı|the level of comfort and wealth people have|quality of life|The standard of living improved after 2005.|Yaşam standardı 2005'ten sonra iyileşti.|B2|Ekonomi
+natural resources|isim|doğal kaynaklar|materials found in nature that are useful|raw materials|Natural resources are not unlimited.|Doğal kaynaklar sınırsız değildir.|B2|Çevre
+fossil fuel|isim|fosil yakıt|coal, oil or gas formed underground|coal, oil and gas|Fossil fuels must be phased out.|Fosil yakıtlar aşamalı olarak bırakılmalı.|B2|Enerji
+nuclear power|isim|nükleer enerji|energy produced from splitting atoms|atomic energy|Nuclear power produces no carbon dioxide.|Nükleer enerji karbondioksit üretmez.|B2|Enerji
+carbon dioxide|isim|karbondioksit|a gas produced by burning fuel|CO2|Carbon dioxide levels keep rising.|Karbondioksit seviyeleri artmaya devam ediyor.|B2|Çevre
+ozone layer|isim|ozon tabakası|the layer that protects us from the sun|ozonosphere|The ozone layer is slowly recovering.|Ozon tabakası yavaş yavaş iyileşiyor.|B2|Çevre
+plastic waste|isim|plastik atık|discarded plastic material|plastic rubbish|Plastic waste fills the oceans.|Plastik atık okyanusları dolduruyor.|B1|Çevre
+single-use plastic|isim|tek kullanımlık plastik|plastic used once and thrown away|disposable plastic|Many cities ban single-use plastic.|Birçok şehir tek kullanımlık plastiği yasaklıyor.|B2|Çevre
+public transport network|isim|toplu taşıma ağı|the system of buses and trains|transit network|The public transport network expanded.|Toplu taşıma ağı genişledi.|B2|Ulaşım
+smart city|isim|akıllı şehir|a city that uses technology to improve services|digital city|Smart city projects cut energy waste.|Akıllı şehir projeleri enerji israfını azaltıyor.|C1|Şehir
+remote work|isim|uzaktan çalışma|working from home using technology|teleworking, home working|Remote work became common after 2020.|Uzaktan çalışma 2020'den sonra yaygınlaştı.|B2|İş
+gig economy|isim|gig ekonomisi|short-term and freelance work|freelance economy|The gig economy offers flexibility but no security.|Gig ekonomisi esneklik sunar ama güvence vermez.|C1|Ekonomi
+minimum standard|isim|asgari standart|the lowest acceptable level|basic standard|Safety must meet a minimum standard.|Güvenlik asgari standardı karşılamalı.|C1|Yönetim
+social media platform|isim|sosyal medya platformu|a website where users share content|network, app|Social media platforms shape news.|Sosyal medya platformları haberleri şekillendiriyor.|B2|Medya
+screen addiction|isim|ekran bağımlılığı|compulsive use of devices|digital addiction|Screen addiction affects sleep.|Ekran bağımlılığı uykuyu etkiler.|C1|Sağlık
+fake news|isim|yalan haber|false information presented as news|disinformation, misinformation|Fake news spreads faster than facts.|Yalan haber gerçeklerden hızlı yayılıyor.|B2|Medya
+digital literacy|isim|dijital okuryazarlık|the ability to use and judge digital information|media literacy|Digital literacy should be taught at school.|Dijital okuryazarlık okulda öğretilmeli.|C1|Eğitim
+personal data|isim|kişisel veri|information about a person|private information|Companies collect personal data.|Şirketler kişisel veri topluyor.|B2|Hukuk
+volunteer work|isim|gönüllü çalışma|unpaid work that helps others|community service|Volunteer work teaches empathy.|Gönüllü çalışma empati öğretir.|B2|Toplum
+social cohesion|isim|toplumsal uyum|the strength of relationships in a society|social unity|Shared festivals build social cohesion.|Ortak festivaller toplumsal uyum kurar.|C1|Toplum
+gender equality|isim|toplumsal cinsiyet eşitliği|equal rights for all genders|equality of the sexes|Gender equality improves economies.|Toplumsal cinsiyet eşitliği ekonomileri iyileştirir.|B2|Toplum
+human rights|isim|insan hakları|the basic rights of every person|civil rights|Human rights apply to everyone.|İnsan hakları herkes için geçerlidir.|B2|Hukuk
+freedom of speech|isim|ifade özgürlüğü|the right to express opinions|free speech|Freedom of speech has limits.|İfade özgürlüğünün sınırları var.|B2|Hukuk
+peer learning|isim|akran öğrenmesi|learning from people of the same level|collaborative learning|Peer learning works well in small groups.|Akran öğrenmesi küçük gruplarda iyi işler.|C1|Eğitim
+spaced repetition|isim|aralıklı tekrar|reviewing at increasing intervals|distributed practice|Spaced repetition fixes vocabulary.|Aralıklı tekrar kelimeyi kalıcı kılar.|C1|Öğrenme
+active recall|isim|etkin hatırlama|testing yourself instead of rereading|retrieval practice|Active recall beats highlighting.|Etkin hatırlama fosforlu kalemden iyidir.|C1|Öğrenme
+goal setting|isim|hedef belirleme|deciding what you want to achieve|targeting|Goal setting makes progress visible.|Hedef belirleme ilerlemeyi görünür kılar.|B2|Öğrenme
+time management|isim|zaman yönetimi|organising your time well|scheduling|Time management wins the reading section.|Zaman yönetimi okuma bölümünü kazandırır.|B2|Öğrenme
+study plan|isim|çalışma planı|a schedule of what to study|revision timetable|Follow the study plan even on busy days.|Yoğun günlerde bile çalışma planına uy.|B2|Öğrenme
+milestone|isim|kilometre taşı, önemli aşama|an important stage in progress|landmark, stage|Each milestone unlocks a badge.|Her kilometre taşı bir rozet açar.|B2|Öğrenme
+progress tracker|isim|ilerleme takipçisi|a tool that records your improvement|progress chart|The progress tracker shows a growing streak.|İlerleme takipçisi büyüyen seriyi gösteriyor.|B2|Öğrenme
+leaderboard|isim|sıralama tablosu|lost of top performers|ranking table|Leaderboards can motivate or discourage.|Sıralama tabloları motive edebilir ya da cesaret kırabilir.|B2|Oyun
+streak|isim|seri, kesintisiz dizi|a series of consecutive days of activity|run, chain|A long streak builds strong habits.|Uzun seri güçlü alışkanlıklar kurar.|B2|Oyun
+experience points|isim|deneyim puanı|points earned for completing tasks|XP|Every correct answer gives ten experience points.|Her doğru cevap on deneyim puanı verir.|B2|Oyun
+badge|isim|rozet, nişan|an award for an achievement|award, medal, achievement|You earned the First Step badge.|İlk Adım rozetini kazandın.|A2|Oyun
+level up|fiil|seviye atlamak|to move to the next level in a game|advance, progress|You level up every hundred points.|Her yüz puanda seviye atlarsın.|B2|Oyun
+challenge|isim|meydan okuma, zorluk|a difficult task that tests ability|test, difficulty|Weekly challenges keep learners engaged.|Haftalık meydan okumalar öğrencileri bağlı tutar.|B2|Oyun
+reward|isim|ödül|something given for good performance|prize, bonus, incentive|Small rewards protect motivation.|Küçük ödüller motivasyonu korur.|B2|Oyun
+account|isim|hesap, kullanıcı hesabı|a personal profile on a website|profile, membership|Create a free account to save progress.|İlerlemeyi kaydetmek için ücretsiz hesap aç.|B1|Teknoloji
+log in|fiil|giriş yapmak|to enter your account details|sign in|Log in to see your dashboard.|Panelini görmek için giriş yap.|B1|Teknoloji
+sign up|fiil|kaydolmak|to create a new account|register, enrol|Sign up with your email address.|E-posta adresinle kaydol.|B1|Teknoloji
+password|isim|şifre, parola|a secret word that protects an account|passcode, passphrase|Use at least eight characters in your password.|Şifrende en az sekiz karakter kullan.|A2|Teknoloji
+profile|isim|profil|a page with your personal information|account page|Update your profile with your target band.|Profilini hedef bandınla güncelle.|B1|Teknoloji
+dashboard|isim|panel, kontrol paneli|a page showing your main information|control panel, home screen|The dashboard shows XP, streak and badges.|Panel XP, seri ve rozetleri gösteriyor.|B2|Teknoloji
+dark mode|isim|karanlık mod|a dark colour scheme for screens|night mode|Dark mode reduces eye strain at night.|Karanlık mod gece göz yorgunluğunu azaltır.|B1|Teknoloji
+light mode|isim|aydınlık mod|a light colour scheme for screens|day mode|Light mode uses a white background.|Aydınlık mod beyaz bir arka plan kullanır.|B1|Teknoloji
+theme|isim|tema, görünüm|a colour scheme for a website|colour scheme, skin|Choose from one hundred themes.|Yüz temadan birini seç.|B1|Teknoloji
+subtitle|isim|alt yazı|text shown at the bottom of a video|caption|Turn on English subtitles for videos.|Videolar için İngilizce alt yazıyı aç.|B1|Medya
+transcript download|isim|deşifre metni indirme|saving the written version of audio|text download|Download the transcript after each episode.|Her bölümden sonra deşifre metnini indir.|B2|Medya
+playlist|isim|çalma listesi|a list of audio or video items|collection, queue|Build a playlist for your commute.|İşe gidip gelirken dinlemek için çalma listesi oluştur.|B1|Medya
+episode|isim|bölüm|one part of a series|instalment, part|Episode one explains the exam format.|Birinci bölüm sınav formatını anlatıyor.|B1|Medya
+podcast|isim|podcast, ses yayını|a series of spoken audio episodes|audio show|Listen to the podcast while cooking.|Yemek yaparken podcast dinle.|B1|Medya
+narration|isim|anlatım, seslendirme|spoken description over audio or video|voice-over, commentary|Each episode has male and female narration.|Her bölümün kadın ve erkek seslendirmesi var.|B2|Medya
+voice-over|isim|dış ses, seslendirme|recorded voice added to a video|narration|The voice-over explains each graph.|Dış ses her grafiği açıklıyor.|B2|Medya
+accent training|isim|aksen çalışması|practice in understanding different accents|accent practice|Accent training covers six English accents.|Aksen çalışması altı İngilizce akseni kapsar.|B2|Dinleme
+listening lab|isim|dinleme laboratuvarı|a section for listening practice|listening practice area|The listening lab has dictation drills.|Dinleme laboratuvarında dikte alıştırmaları var.|B2|Dinleme
+reading lab|isim|okuma laboratuvarı|a section for reading practice|reading practice area|The reading lab offers timed passages.|Okuma laboratuvarı süreli metinler sunar.|B2|Okuma
+speaking lab|isim|konuşma laboratuvarı|a section for speaking practice|speaking practice area|The speaking lab records your voice.|Konuşma laboratuvarı sesini kaydeder.|B2|Konuşma
+writing lab|isim|yazma laboratuvarı|a section for writing practice|writing practice area|The writing lab gives band feedback.|Yazma laboratuvarı band geri bildirimi verir.|B2|Yazma
+feedback report|isim|geri bildirim raporu|a document describing your strengths and weaknesses|assessment report|The feedback report lists three fixes.|Geri bildirim raporu üç düzeltme sıralıyor.|B2|Eğitim
+target band|isim|hedef band|the score you want to achieve|goal score|Set your target band in your profile.|Profilinde hedef bandını belirle.|B2|Sınav
+exam date|isim|sınav tarihi|the day of your test|test day|Add your exam date to see a countdown.|Geri sayım görmek için sınav tarihini ekle.|B2|Sınav
+countdown|isim|geri sayım|time remaining until an event|timer|The countdown keeps urgency high.|Geri sayım aciliyeti yüksek tutar.|B2|Sınav
+past paper|isim|çıkmış soru, geçmiş sınav|an exam paper from a previous year|previous paper, past exam|Past papers reveal question patterns.|Çıkmış sorular soru örüntülerini gösterir.|B2|Sınav
+question type|isim|soru tipi|a category of exam question|task type|Each question type needs its own strategy.|Her soru tipi kendi stratejisini gerektirir.|B2|Sınav
+distractor|isim|çeldirici|a wrong option that looks correct|decoy|Two of the options are distractors.|Seçeneklerden ikisi çeldiricidir.|C1|Sınav
+word limit|isim|kelime sınırı|the maximum number of words allowed|maximum words|Check the word limit before you write.|Yazmadan önce kelime sınırını kontrol et.|B2|Sınav
+rubric|isim|yönerge, ölçüt açıklaması|the instructions or marking criteria of a task|instructions, criteria|Read the rubric carefully.|Yönergeyi dikkatle oku.|C1|Sınav
+marking criteria|isim|değerlendirme ölçütleri|the standards used by examiners|assessment criteria|The marking criteria reward clear structure.|Değerlendirme ölçütleri net yapıyı ödüllendirir.|C1|Sınav
+examiner|isim|sınav görevlisi, puanlayıcı|the person who marks the test|assessor, marker|The examiner listens for fluency.|Puanlayıcı akıcılığı dinler.|B2|Sınav
+candidate|isim|aday, sınava giren|a person taking an exam|test-taker, applicant|Candidates must bring photo identification.|Adaylar fotoğraflı kimlik getirmelidir.|B2|Sınav
+invigilator|isim|gözetmen|the person who supervises an exam|supervisor, proctor|The invigilator collected the papers.|Gözetmen kâğıtları topladı.|C1|Sınav
+test centre|isim|sınav merkezi|the place where the exam is taken|exam venue|Arrive at the test centre early.|Sınav merkezine erken gel.|B2|Sınav
+identification|isim|kimlik|an official document proving who you are|ID, papers|Bring your identification to the test centre.|Sınav merkezine kimliğini getir.|B2|Sınav
+breaks|isim|aralar, molalar|short rest periods during an exam|pauses|Use breaks to breathe and reset.|Araları nefes alıp toparlanmak için kullan.|B2|Sınav
+score report|isim|puan raporu|a document showing your results|results sheet, TRF|The score report arrives by email.|Puan raporu e-posta ile gelir.|B2|Sınav
+validity|isim|geçerlilik|how long a result can be used|valid period|Check the validity of your score.|Puanının geçerliliğini kontrol et.|C1|Sınav

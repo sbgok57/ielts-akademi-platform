@@ -1,0 +1,200 @@
+[
+ {
+  "bolum": "p001",
+  "baslik": "Bölüm 1 · Motivasyon",
+  "hedefAksan": "Amerikan İngilizcesi (American)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p001.tr.US.E.mp3",
+  "enDosya": "p001.en.US.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p002",
+  "baslik": "Bölüm 2 · Motivasyon",
+  "hedefAksan": "Kanada İngilizcesi (Canadian)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p002.tr.CA.K.mp3",
+  "enDosya": "p002.en.CA.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p003",
+  "baslik": "Bölüm 3 · Motivasyon",
+  "hedefAksan": "Avustralya İngilizcesi (Australian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p003.tr.AU.E.mp3",
+  "enDosya": "p003.en.AU.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p004",
+  "baslik": "Bölüm 4 · Motivasyon",
+  "hedefAksan": "Yeni Zelanda İngilizcesi (New Zealand)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p004.tr.NZ.K.mp3",
+  "enDosya": "p004.en.NZ.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p005",
+  "baslik": "Bölüm 5 · Motivasyon",
+  "hedefAksan": "Hint İngilizcesi (Indian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p005.tr.IN.E.mp3",
+  "enDosya": "p005.en.IN.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p006",
+  "baslik": "Bölüm 6 · Motivasyon",
+  "hedefAksan": "İngiliz İngilizcesi (British)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p006.tr.GB.K.mp3",
+  "enDosya": "p006.en.GB.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p007",
+  "baslik": "Bölüm 7 · Motivasyon",
+  "hedefAksan": "Amerikan İngilizcesi (American)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p007.tr.US.E.mp3",
+  "enDosya": "p007.en.US.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p008",
+  "baslik": "Bölüm 8 · Soru Taktikleri",
+  "hedefAksan": "Kanada İngilizcesi (Canadian)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p008.tr.CA.K.mp3",
+  "enDosya": "p008.en.CA.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p009",
+  "baslik": "Bölüm 9 · Soru Taktikleri",
+  "hedefAksan": "Avustralya İngilizcesi (Australian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p009.tr.AU.E.mp3",
+  "enDosya": "p009.en.AU.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p010",
+  "baslik": "Bölüm 10 · Soru Taktikleri",
+  "hedefAksan": "Yeni Zelanda İngilizcesi (New Zealand)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p010.tr.NZ.K.mp3",
+  "enDosya": "p010.en.NZ.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p011",
+  "baslik": "Bölüm 11 · Soru Taktikleri",
+  "hedefAksan": "Hint İngilizcesi (Indian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p011.tr.IN.E.mp3",
+  "enDosya": "p011.en.IN.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p012",
+  "baslik": "Bölüm 12 · IELTS Gramer",
+  "hedefAksan": "İngiliz İngilizcesi (British)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p012.tr.GB.K.mp3",
+  "enDosya": "p012.en.GB.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p013",
+  "baslik": "Bölüm 13 · IELTS Gramer",
+  "hedefAksan": "Amerikan İngilizcesi (American)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p013.tr.US.E.mp3",
+  "enDosya": "p013.en.US.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p014",
+  "baslik": "Bölüm 14 · IELTS Gramer",
+  "hedefAksan": "Kanada İngilizcesi (Canadian)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p014.tr.CA.K.mp3",
+  "enDosya": "p014.en.CA.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p015",
+  "baslik": "Bölüm 15 · IELTS Gramer",
+  "hedefAksan": "Avustralya İngilizcesi (Australian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p015.tr.AU.E.mp3",
+  "enDosya": "p015.en.AU.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p016",
+  "baslik": "Bölüm 16 · Kelime",
+  "hedefAksan": "Yeni Zelanda İngilizcesi (New Zealand)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p016.tr.NZ.K.mp3",
+  "enDosya": "p016.en.NZ.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p017",
+  "baslik": "Bölüm 17 · Kelime",
+  "hedefAksan": "Hint İngilizcesi (Indian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p017.tr.IN.E.mp3",
+  "enDosya": "p017.en.IN.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p018",
+  "baslik": "Bölüm 18 · Kelime",
+  "hedefAksan": "İngiliz İngilizcesi (British)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p018.tr.GB.K.mp3",
+  "enDosya": "p018.en.GB.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p019",
+  "baslik": "Bölüm 19 · Beceri Antrenmanı",
+  "hedefAksan": "Amerikan İngilizcesi (American)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p019.tr.US.E.mp3",
+  "enDosya": "p019.en.US.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p020",
+  "baslik": "Bölüm 20 · Beceri Antrenmanı",
+  "hedefAksan": "Kanada İngilizcesi (Canadian)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p020.tr.CA.K.mp3",
+  "enDosya": "p020.en.CA.K.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p021",
+  "baslik": "Bölüm 21 · Sınav Günü",
+  "hedefAksan": "Avustralya İngilizcesi (Australian)",
+  "hedefCinsiyet": "E (erkek)",
+  "trDosya": "p021.tr.AU.E.mp3",
+  "enDosya": "p021.en.AU.E.mp3",
+  "kayitli": false
+ },
+ {
+  "bolum": "p022",
+  "baslik": "Bölüm 22 · Sınav Günü",
+  "hedefAksan": "Yeni Zelanda İngilizcesi (New Zealand)",
+  "hedefCinsiyet": "K (kadın)",
+  "trDosya": "p022.tr.NZ.K.mp3",
+  "enDosya": "p022.en.NZ.K.mp3",
+  "kayitli": false
+ }
+]

@@ -1,0 +1,223 @@
+# IELTS SÖZLÜĞÜ — VERİ (2. BÖLÜM: Konu kelimeleri — çevre, eğitim, sağlık, teknoloji...)
+# Biçim: kelime|tür|Türkçe anlam|İngilizce tanım|eş anlamlılar|İngilizce örnek|Türkçe çeviri|seviye|alan
+pollution|isim|kirlilik|the presence of harmful substances in the environment|contamination, taint|Air pollution shortens lives in big cities.|Hava kirliliği büyük şehirlerde yaşamı kısaltıyor.|B1|Çevre
+emission|isim|salım, emisyon|gas sent out into the air|release, discharge|Carbon emissions must fall sharply.|Karbon emisyonları hızla düşmeli.|B2|Çevre
+renewable|sıfat|yenilenebilir|able to be replaced naturally|sustainable, green|Wind is a renewable energy source.|Rüzgâr yenilenebilir bir enerji kaynağıdır.|B2|Enerji
+recycle|fiil|geri dönüştürmek|to process waste so it can be used again|reuse, reprocess|Households recycle glass and paper.|Haneler cam ve kâğıdı geri dönüştürür.|A2|Çevre
+deforestation|isim|ormansızlaşma|the cutting down of forests|forest clearance, logging|Deforestation destroys animal habitats.|Ormansızlaşma hayvan yaşam alanlarını yok eder.|C1|Çevre
+drought|isim|kuraklık|a long period without rain|dry spell, water shortage|The drought lasted eighteen months.|Kuraklık on sekiz ay sürdü.|B2|Çevre
+flood|isim|sel, su baskını|a large amount of water covering dry land|inundation, deluge|Heavy rain caused floods in the valley.|Şiddetli yağmur vadide sele neden oldu.|B1|Çevre
+habitat|isim|yaşam alanı, doğal ortam|the natural home of a plant or animal|environment, home range|Wetlands are vital habitats for birds.|Sulak alanlar kuşlar için hayati yaşam alanlarıdır.|B2|Biyoloji
+species|isim|tür|a group of living things that can breed together|kind, type, breed|Several species disappeared from the lake.|Gölden birkaç tür kayboldu.|B2|Biyoloji
+waste|isim|atık, israf|unwanted material; careless use of something|rubbish, refuse, garbage|Food waste is a growing problem.|Gıda atığı büyüyen bir sorundur.|A2|Çevre
+energy|isim|enerji|power that makes things work|power, vigour|Solar energy is getting cheaper.|Güneş enerjisi giderek ucuzluyor.|A2|Enerji
+agriculture|isim|tarım|the practice of farming|farming, cultivation|Agriculture uses most of the fresh water.|Tarım, tatlı suyun çoğunu kullanıyor.|B2|Tarım
+irrigation|isim|sulama|supplying water to land for crops|watering, water supply|Drip irrigation saves a lot of water.|Damla sulama çok su tasarrufu sağlar.|C1|Tarım
+pesticide|isim|tarım ilacı, pestisit|a chemical used to kill insects on crops|insecticide, chemical spray|Pesticides can harm bees.|Tarım ilaçları arılara zarar verebilir.|B2|Tarım
+organic|sıfat|organik|grown without chemicals|natural, chemical-free|Organic vegetables cost more.|Organik sebzeler daha pahalı.|B1|Tarım
+biodiversity|isim|biyoçeşitlilik|the variety of plants and animals in an area|biological diversity, richness|Biodiversity is highest in the tropics.|Biyoçeşitlilik tropik bölgelerde en yüksektir.|C1|Çevre
+conservation|isim|koruma, muhafaza|the protection of nature and resources|protection, preservation, upkeep|Conservation projects saved the last tigers.|Koruma projeleri son kaplanları kurtardı.|B2|Çevre
+global warming|isim|küresel ısınma|the rise in the earth's temperature|climate change, heating|Global warming melts polar ice.|Küresel ısınma kutup buzullarını eritiyor.|B1|Çevre
+atmosphere|isim|atmosfer; ortam|the layer of air around the earth; a mood|air, sky, ambience|Greenhouse gases trap heat in the atmosphere.|Sera gazları atmosferde ısıyı tutar.|B1|Bilim
+enrol|fiil|kaydolmak, kaydetmek|to join a course or school officially|register, sign up, matriculate|Two hundred students enrolled this year.|Bu yıl iki yüz öğrenci kaydoldu.|B2|Eğitim
+curriculum|isim|müfredat, öğretim programı|the subjects taught in a school|syllabus, programme of study|Coding was added to the curriculum.|Kodlama müfredata eklendi.|C1|Eğitim
+tuition|isim|öğretim; ders ücreti|teaching, especially to small groups; a fee|teaching, instruction, fee|Private tuition helps weaker students catch up.|Özel ders, zayıf öğrencilerin yetişmesine yardım eder.|C1|Eğitim
+scholarship|isim|burs|money given to a student to study|grant, award, bursary|She won a full scholarship to study abroad.|Yurt dışında okumak için tam burs kazandı.|B2|Eğitim
+assessment|isim|değerlendirme, ölçme|the process of judging work or progress|evaluation, appraisal, testing|Continuous assessment reduces exam stress.|Sürekli değerlendirme sınav kaygısını azaltır.|B2|Eğitim
+literacy|isim|okuryazarlık|the ability to read and write|reading ability, letters|Adult literacy improved in the region.|Bölgede yetişkin okuryazarlığı iyileşti.|B2|Eğitim
+numeracy|isim|sayısal beceri|the ability to work with numbers|mathematical skill|Numeracy is as important as literacy.|Sayısal beceri en az okuryazarlık kadar önemlidir.|C1|Eğitim
+discipline|isim|disiplin; bilim dalı|controlled behaviour; a field of study|order, control, field|Classroom discipline improves results.|Sınıf disiplini sonuçları iyileştirir.|B2|Eğitim
+attendance|isim|devam, katılım|being present at school or work|presence, turnout|Attendance improved after the reward scheme.|Devam oranı ödül sisteminden sonra arttı.|B2|Eğitim
+graduate|fiil|mezun olmak|to complete a degree or course|complete, finish, qualify|She graduated in 2024 with honours.|2024'te onur derecesiyle mezun oldu.|B1|Eğitim
+vocational|sıfat|mesleki, meslekî|relating to practical job skills|occupational, professional, technical|Vocational training offers a faster route to work.|Mesleki eğitim işe daha hızlı bir yol sunar.|C1|Eğitim
+nutrition|isim|beslenme|the process of getting food for health|diet, nourishment|Good nutrition supports learning.|İyi beslenme öğrenmeyi destekler.|B2|Beslenme
+obesity|isim|obezite, aşırı şişmanlık|the condition of being very overweight|overweight, corpulence|Childhood obesity is rising worldwide.|Çocukluk obezitesi dünya çapında artıyor.|B2|Sağlık
+epidemic|isim|salgın, epidemi|a disease affecting many people quickly|outbreak, plague|The city faced a flu epidemic.|Şehir grip salgınıyla karşılaştı.|C1|Sağlık
+vaccine|isim|aşı|a substance that protects against disease|injection, immunization|The vaccine reduced cases by ninety percent.|Aşı vakaları yüzde doksan azalttı.|B2|Sağlık
+symptom|isim|belirti, semptom|a sign of an illness|sign, indication|Fatigue is a common symptom.|Yorgunluk yaygın bir belirtidir.|B1|Sağlık
+treatment|isim|tedavi|medical care for an illness|therapy, care, cure|Early treatment saves lives.|Erken tedavi hayat kurtarır.|B1|Sağlık
+prevention|isim|önleme, korunma|stopping something before it happens|avoidance, precaution|Prevention is cheaper than cure.|Önlemek tedavi etmekten ucuzdur.|B2|Sağlık
+sedentary|sıfat|hareketsiz, oturgan|involving too much sitting|inactive, desk-bound|A sedentary lifestyle weakens the heart.|Hareketsiz yaşam kalbi zayıflatır.|C1|Sağlık
+chronic|sıfat|kronik, süreğen|lasting a long time (illness)|persistent, long-term|Diabetes is a chronic condition.|Diyabet kronik bir rahatsızlıktır.|C1|Sağlık
+immune|sıfat|bağışık, bağışıklık|protected against a disease|resistant, protected|Sleep keeps the immune system strong.|Uyku bağışıklık sistemini güçlü tutar.|B2|Sağlık
+therapy|isim|terapi, tedavi|treatment for body or mind|treatment, care, counselling|Music therapy helps with anxiety.|Müzik terapisi kaygıya iyi gelir.|B2|Sağlık
+mental health|isim|ruh sağlığı|the state of a person's emotional wellbeing|psychological wellbeing|Schools now discuss mental health openly.|Okullar artık ruh sağlığını açıkça konuşuyor.|B2|Sağlık
+wellbeing|isim|iyilik hâli, refah|the state of being comfortable and healthy|welfare, wellness|Holidays improve wellbeing.|Tatiller iyilik hâlini iyileştirir.|B2|Sağlık
+software|isim|yazılım|programs used by a computer|program, application|The software corrects grammar instantly.|Yazılım dil bilgisini anında düzeltir.|B1|Teknoloji
+algorithm|isim|algoritma|a set of steps a computer follows to solve a problem|procedure, rule set|The algorithm recommends suitable texts.|Algoritma uygun metinleri önerir.|C1|Teknoloji
+automation|isim|otomasyon, özdevinim|using machines to do work automatically|mechanisation, robotisation|Automation changed factory jobs.|Otomasyon fabrika işlerini değiştirdi.|C1|Teknoloji
+breakthrough|isim|çığır açan gelişme, atılım|an important discovery|advance, leap, discovery|The vaccine was a medical breakthrough.|Aşı tıbbi bir atılımdı.|B2|Bilim
+device|isim|cihaz, aygıt|a machine or tool made for a purpose|gadget, appliance, instrument|Most students own two devices.|Çoğu öğrenci iki cihaza sahip.|B1|Teknoloji
+digital|sıfat|dijital, sayısal|using computer technology|electronic, online|Digital books are cheaper.|Dijital kitaplar daha ucuz.|A2|Teknoloji
+innovation|isim|yenilik, inovasyon|a new idea, method or product|novelty, invention, improvement|Innovation drives economic growth.|Yenilik ekonomik büyümeyi tetikler.|B2|Teknoloji
+artificial intelligence|isim|yapay zekâ|computer systems that can perform tasks that need human intelligence|machine intelligence, AI|Artificial intelligence can mark simple tests.|Yapay zekâ basit sınavları puanlayabilir.|B2|Teknoloji
+data privacy|isim|veri gizliliği|the right to control personal information|information privacy, data protection|Data privacy laws protect users.|Veri gizliliği yasaları kullanıcıları korur.|C1|Teknoloji
+cybercrime|isim|siber suç|crime committed using computers|online crime, hacking|Cybercrime costs billions each year.|Siber suç her yıl milyarlara mal oluyor.|C1|Hukuk
+screen time|isim|ekran süresi|time spent looking at screens|device time, digital time|Doctors advise limiting children's screen time.|Doktorlar çocukların ekran süresini sınırlamayı öneriyor.|B1|Sağlık
+unemployment|isim|işsizlik|the state of having no job|joblessness, redundancy|Youth unemployment fell last year.|Genç işsizliği geçen yıl düştü.|B2|İş
+workforce|isim|işgücü, çalışan nüfus|all the people who work in a company or country|labour force, employees, staff|Women make up half the workforce.|Kadınlar işgücünün yarısını oluşturuyor.|B2|İş
+salary|isim|maaş, aylık ücret|money paid monthly for work|wage, pay, income|Salaries rose faster than prices.|Maaşlar fiyatlardan hızlı arttı.|B1|İş
+wage|isim|yevmiye, ücret|money paid for work, often hourly|pay, earnings, salary|The minimum wage was raised.|Asgari ücret artırıldı.|B1|İş
+promotion|isim|terfi|a move to a higher position at work|advancement, upgrade|Hard work led to a promotion.|Sıkı çalışmak terfi getirdi.|B2|İş
+commute|fiil|işe gidip gelmek|to travel regularly between home and work|travel, journey|She commutes an hour each way.|Her gün iki yön birer saat yol gidiyor.|B2|Ulaşım
+flexible|sıfat|esnek|able to change to suit new conditions|adaptable, adjustable|Flexible hours help working parents.|Esnek çalışma saatleri çalışan ebeveynlere yardım eder.|B2|İş
+freelance|sıfat|serbest çalışan|working independently for different clients|self-employed, independent|Many designers work freelance.|Birçok tasarımcı serbest çalışır.|B2|İş
+productivity|isim|verimlilik, üretkenlik|the rate of producing work or goods|efficiency, output|Short breaks increase productivity.|Kısa molalar verimliliği artırır.|B2|İş
+entrepreneur|isim|girişimci|a person who starts a business|business owner, founder|Young entrepreneurs need cheap loans.|Genç girişimciler uygun krediye ihtiyaç duyar.|C1|İş
+retired|sıfat|emekli|having stopped work permanently|pensioned off|My grandfather retired at sixty-five.|Dedem altmış beşte emekli oldu.|B2|İş
+tourism|isim|turizm|the business of travel for pleasure|travel industry, sightseeing|Tourism brings income to coastal towns.|Turizm kıyı kasabalarına gelir getirir.|B1|Turizm
+destination|isim|varış yeri, hedef|the place someone is travelling to|end point, target|Cappadocia is a popular destination.|Kapadokya popüler bir varış yeridir.|B2|Turizm
+itinerary|isim|seyahat programı|a planned route or schedule of a journey|schedule, travel plan|Our itinerary includes three cities.|Programımız üç şehri içeriyor.|C1|Turizm
+accommodation|isim|konaklama|a place to stay|lodging, housing|Student accommodation is expensive.|Öğrenci konaklaması pahalı.|B2|Turizm
+souvenir|isim|hatıra eşyası|something bought to remember a place|keepsake, memento|She bought a small souvenir at the museum.|Müzede küçük bir hatıra aldı.|B2|Turizm
+heritage|isim|miras, kültürel miras|traditions and buildings passed down from the past|legacy, inheritance, tradition|The old town is a world heritage site.|Eski şehir bir dünya mirası alanıdır.|B2|Kültür
+sightseeing|isim|gezi, gezme|visiting interesting places as a tourist|touring, exploring|We spent the morning sightseeing.|Sabahı gezerek geçirdik.|B2|Turizm
+hospitality|isim|konukseverlik; konaklama sektörü|friendly treatment of guests; the hotel industry|welcoming, warmth|Hospitality is central to Turkish culture.|Konukseverlik Türk kültürünün merkezindedir.|B2|Turizm
+cuisine|isim|mutfak, yemek kültürü|a style of cooking|food, cooking, gastronomy|Turkish cuisine is famous for variety.|Türk mutfağı çeşitliliğiyle ünlüdür.|B2|Kültür
+heritage site|isim|miras alanı|a place protected for its cultural value|historic site, monument|Visitors must protect heritage sites.|Ziyaretçiler miras alanlarını korumalıdır.|B2|Kültür
+festival|isim|festival, şenlik|a public celebration with music and food|carnival, fete, celebration|The film festival lasts ten days.|Film festivali on gün sürer.|A2|Kültür
+ritual|isim|ritüel, tören|a set of actions performed in a fixed way|ceremony, custom, rite|Tea drinking is almost a ritual here.|Çay içmek burada neredeyse bir ritüeldir.|C1|Kültür
+identity|isim|kimlik|who a person or group is|self, character, individuality|Language is part of cultural identity.|Dil, kültürel kimliğin bir parçasıdır.|B2|Toplum
+generation|isim|nesil, kuşak|all the people born around the same time|age group, cohort|Each generation faces new problems.|Her nesil yeni sorunlarla karşılaşır.|B1|Toplum
+urbanisation|isim|kentleşme|the growth of towns and cities|city growth, urban expansion|Rapid urbanisation strains water supplies.|Hızlı kentleşme su kaynaklarını zorluyor.|C1|Şehir
+infrastructure|isim|altyapı|basic systems like roads and water|public works, facilities|The city invested in infrastructure.|Şehir altyapıya yatırım yaptı.|C1|Şehir
+congestion|isim|tıkanıklık, sıkışıklık|overcrowding, especially traffic|traffic jam, crowding|Road pricing reduced traffic congestion.|Yol ücretlendirmesi trafik tıkanıklığını azalttı.|B2|Ulaşım
+crowded|sıfat|kalabalık|full of people|packed, congested, busy|The market is crowded on Saturdays.|Pazar cumartesileri kalabalıktır.|A2|Toplum
+suburb|isim|banliyö, kenar mahalle|an area outside the centre of a city|outskirts, residential area|Families often move to the suburbs.|Aileler sık sık banliyölere taşınır.|B2|Şehir
+public transport|isim|toplu taşıma|buses, trains and other shared transport|mass transit, public transit|Cheap public transport cuts emissions.|Ucuz toplu taşıma emisyonları azaltır.|A2|Ulaşım
+pedestrian|isim|yaya|a person walking in a street|walker, foot traffic|The centre is closed to pedestrians? No, for cars, open to pedestrians.|Merkez arabalara kapalı, yayalara açık.|B2|Ulaşım
+pollutant|isim|kirletici madde|a substance that pollutes|contaminant, impurity|Factories release several pollutants.|Fabrikalar birkaç kirletici salıyor.|C1|Çevre
+media|isim|medya|newspapers, television and online news|press, news outlets|Social media shapes public opinion.|Sosyal medya kamuoyunu şekillendirir.|B1|Medya
+advertisement|isim|reklam|a notice that promotes a product|ad, commercial, promotion|Advertisements target young people.|Reklamlar gençleri hedefliyor.|B1|Medya
+censorship|isim|sansür|the control of information by authorities|suppression, restriction|Censorship limits public debate.|Sansür kamu tartışmasını sınırlar.|C1|Medya
+journalist|isim|gazeteci|a person who writes news|reporter, correspondent|Journalists must check their sources.|Gazeteciler kaynaklarını doğrulamalıdır.|B1|Medya
+headline|isim|manşet, başlık|the title of a news story|title, heading|The headline was misleading.|Manşet yanıltıcıydı.|B2|Medya
+broadcast|fiil|yayımlamak, yayınlamak|to send out a programme on TV or radio|air, transmit, stream|The match was broadcast live.|Maç canlı yayımlandı.|B2|Medya
+reliable|sıfat|güvenilir|able to be trusted|dependable, trustworthy, credible|Use reliable sources in your essay.|Denemende güvenilir kaynaklar kullan.|B2|Akademik
+credible|sıfat|inandırıcı, güvenilir|able to be believed|believable, plausible, convincing|The witness gave a credible account.|Tanık inandırıcı bir ifade verdi.|C1|Akademik
+bias|isim|yanlılık, önyargı|an unfair preference for or against something|prejudice, partiality|The survey had a clear bias.|Ankette net bir yanlılık vardı.|C1|Bilim
+crime|isim|suç|an illegal act|offence, wrongdoing|Street crime fell after the lights were installed.|Sokak aydınlatmasından sonra sokak suçları azaldı.|A2|Hukuk
+punishment|isim|ceza, cezalandırma|a penalty for breaking a rule|penalty, sanction|The punishment must fit the crime.|Ceza suça uygun olmalı.|B1|Hukuk
+offender|isim|suçlu, fail|a person who commits a crime|criminal, wrongdoer, perpetrator|Young offenders receive lighter sentences.|Genç suçlular daha hafif ceza alır.|B2|Hukuk
+rehabilitation|isim|rehabilitasyon, ıslah|helping someone return to normal life|reform, recovery, reintegration|Prisons should focus on rehabilitation.|Cezaevleri ıslaha odaklanmalı.|C1|Hukuk
+deterrent|isim|caydırıcı|something that stops people from acting|disincentive, discouragement|Cameras act as a deterrent to thieves.|Kameralar hırsızlara caydırıcı olur.|C1|Hukuk
+justify|fiil|haklı çıkarmak|to show that something is reasonable|defend, warrant|Can you justify such a harsh rule?|Bu kadar sert bir kuralı haklı çıkarabilir misin?|C1|Hukuk
+witness|isim|tanık|a person who sees an event|observer, bystander|The witness described the car.|Tanık arabayı tarif etti.|B2|Hukuk
+verdict|isim|karar, hüküm|a decision in a court case|judgment, ruling, decision|The jury reached a verdict quickly.|Jüri hızlı bir karara vardı.|C1|Hukuk
+legislation|isim|mevzuat, yasama|laws considered as a group|laws, statutes, regulations|New legislation bans plastic bags.|Yeni mevzuat plastik poşetleri yasaklıyor.|C1|Hukuk
+tax|isim|vergi|money paid to the government|levy, duty, charge|Sugar taxes reduce consumption.|Şeker vergileri tüketimi azaltır.|B1|Ekonomi
+budget|isim|bütçe|a plan for spending money|allowance, allocation, funds|The city increased its education budget.|Şehir eğitim bütçesini artırdı.|B1|Ekonomi
+inflation|isim|enflasyon|a general rise in prices|price rise|Inflation reached ten percent.|Enflasyon yüzde ona ulaştı.|B2|Ekonomi
+poverty|isim|yoksulluk|the state of being very poor|deprivation, hardship|Poverty limits access to education.|Yoksulluk eğitime erişimi sınırlar.|B2|Toplum
+wealth|isim|servet, zenginlik|a large amount of money or possessions|riches, fortune, affluence|Wealth is concentrated in a few hands.|Servet birkaç elde toplanmış.|B2|Ekonomi
+inequality|isim|eşitsizlik|an unfair difference between groups|disparity, imbalance|Income inequality widened.|Gelir eşitsizliği arttı.|C1|Toplum
+welfare|isim|refah, sosyal yardım|health and happiness; state support|wellbeing, benefits, aid|Welfare payments support poor families.|Sosyal yardım ödemeleri yoksul aileleri destekler.|B2|Toplum
+charity|isim|hayır kurumu; yardım|an organisation that helps people|non-profit, aid agency|She donates to a children's charity.|Bir çocuk yardım kurumuna bağış yapıyor.|B1|Toplum
+volunteer|isim|gönüllü|a person who works without payment|helper, unpaid worker|Volunteers cleaned the beach.|Gönüllüler plajı temizledi.|B1|Toplum
+donate|fiil|bağışlamak|to give money or goods to help others|give, contribute, gift|Readers donated five thousand books.|Okurlar beş bin kitap bağışladı.|B2|Toplum
+research centre|isim|araştırma merkezi|a place where studies are carried out|laboratory, institute|The new research centre opens in autumn.|Yeni araştırma merkezi sonbaharda açılıyor.|B2|Bilim
+experiment|isim|deney|a scientific test|test, trial, study|The experiment was repeated twice.|Deney iki kez tekrarlandı.|B1|Bilim
+observation|isim|gözlem|watching something carefully|watching, monitoring|Careful observation revealed a pattern.|Dikkatli gözlem bir örüntü ortaya çıkardı.|B2|Bilim
+measurement|isim|ölçüm, ölçme|the act of finding size or amount|calculation, reading|Accurate measurement is essential.|Doğru ölçüm şarttır.|B2|Bilim
+sample|isim|örnek, numune|a small part that represents the whole|specimen, example|The sample included 500 adults.|Örnek 500 yetişkini içeriyordu.|B2|Bilim
+variable|isim|değişken|something that can change in an experiment|factor, element|Temperature was the main variable.|Sıcaklık temel değişkendi.|C1|Bilim
+analyse|fiil|analiz etmek|to examine in detail|examine, study|We analysed the results by age group.|Sonuçları yaş grubuna göre analiz ettik.|B2|Bilim
+findings|isim|bulgular|the results of a study|results, outcomes|The findings surprised the team.|Bulgular ekibi şaşırttı.|C1|Bilim
+correlation|isim|ilişki, korelasyon|a connection between two things|link, association, relationship|There is a correlation between sleep and grades.|Uyku ve notlar arasında bir ilişki var.|C1|Bilim
+causation|isim|nedensellik|a cause-and-effect relationship|cause and effect|Correlation is not causation.|İlişki nedensellik değildir.|C1|Bilim
+trial|isim|deneme, sınav|a test of something|test, experiment|Clinical trials take years.|Klinik denemeler yıllar sürer.|B2|Sağlık
+side effect|isim|yan etki|an unwanted result of a medicine or action|after-effect, consequence|The drug has few side effects.|İlacın az yan etkisi var.|B2|Sağlık
+dosage|isim|dozaj, doz|the amount of medicine to take|dose, amount|Follow the correct dosage.|Doğru dozajı takip et.|C1|Sağlık
+prescription|isim|reçete|a doctor's written order for medicine|order, script|Antibiotics need a prescription.|Antibiyotikler reçete gerektirir.|B2|Sağlık
+allergy|isim|alerji|a harmful reaction to something|sensitivity, intolerance|Nut allergies can be serious.|Kuruyemiş alerjisi ciddi olabilir.|B2|Sağlık
+calorie|isim|kalori|a unit of energy in food|energy unit|Soft drinks contain many empty calories.|Gazlı içecekler çok boş kalori içerir.|B2|Beslenme
+protein|isim|protein|a nutrient that builds the body|nutrient|Beans are a cheap source of protein.|Fasulye ucuz bir protein kaynağıdır.|B2|Beslenme
+diet|isim|beslenme düzeni, diyet|the food a person usually eats|eating plan, nutrition|A balanced diet improves concentration.|Dengeli beslenme konsantrasyonu artırır.|A2|Beslenme
+fast food|isim|fast food, hazır yemek|quickly prepared food sold in chains|junk food, convenience food|Fast food is cheap but unhealthy.|Fast food ucuz ama sağlıksızdır.|A2|Beslenme
+pedestrian crossing|isim|yaya geçidi|a place where people cross the road|crosswalk, zebra crossing|The pedestrian crossing needs better lighting.|Yaya geçidinin daha iyi aydınlatmaya ihtiyacı var.|B1|Ulaşım
+traffic jam|isim|trafik sıkışıklığı|a line of cars that cannot move|gridlock, congestion|We were stuck in a traffic jam for an hour.|Bir saat trafik sıkışıklığında kaldık.|B1|Ulaşım
+electric vehicle|isim|elektrikli araç|a car powered by electricity|EV, e-car|Electric vehicles cut urban air pollution.|Elektrikli araçlar kentsel hava kirliliğini azaltır.|B2|Ulaşım
+recycling bin|isim|geri dönüşüm kutusu|a container for materials to be recycled|waste bin|Every classroom has a recycling bin.|Her sınıfta geri dönüşüm kutusu var.|A2|Çevre
+solar panel|isim|güneş paneli|a device that turns sunlight into electricity|photovoltaic panel|Solar panels now cover the school roof.|Güneş panelleri artık okul çatısını kaplıyor.|B2|Enerji
+wind turbine|isim|rüzgâr türbini|a machine that makes electricity from wind|wind generator|Wind turbines dot the hillside.|Rüzgâr türbinleri yamaca yayılmış.|B2|Enerji
+greenhouse gas|isim|sera gazı|a gas that traps heat in the atmosphere|carbon gas, CO2|Greenhouse gases cause warming.|Sera gazları ısınmaya neden olur.|B2|Çevre
+carbon footprint|isim|karbon ayak izi|the amount of carbon dioxide a person or activity produces|emissions footprint|Cycling reduces your carbon footprint.|Bisiklet karbon ayak izini azaltır.|C1|Çevre
+food miles|isim|gıda mesafesi|the distance food travels from farm to plate|transport distance|Buying local cuts food miles.|Yerel alım gıda mesafesini kısaltır.|C1|Çevre
+fair trade|isim|adil ticaret|trade that pays producers fairly|ethical trade|Fair trade guarantees a minimum price.|Adil ticaret asgari fiyatı garanti eder.|C1|Ekonomi
+minimum wage|isim|asgari ücret|the lowest legal pay|base pay|The minimum wage rose in January.|Asgari ücret ocakta arttı.|B2|İş
+job satisfaction|isim|iş tatmini|the pleasure a person gets from work|work satisfaction|Flexible hours raise job satisfaction.|Esnek saatler iş tatminini artırır.|B2|İş
+work-life balance|isim|iş-yaşam dengesi|a healthy division between work and personal life|life balance|Remote work can improve work-life balance.|Uzaktan çalışma iş-yaşam dengesini iyileştirebilir.|C1|İş
+teamwork|isim|ekip çalışması|working well together in a group|collaboration, cooperation|Teamwork is essential in hospitals.|Ekip çalışması hastanelerde şarttır.|B2|İş
+leadership|isim|liderlik|the ability to lead a group|management, guidance|Good leadership listens first.|İyi liderlik önce dinler.|B2|İş
+peer pressure|isim|akran baskısı|influence from people of the same age|social pressure|Teenagers face strong peer pressure.|Gençler güçlü akran baskısıyla karşılaşır.|C1|Psikoloji
+role model|isim|rol modeli|a person others want to copy|example, idol|Teachers are natural role models.|Öğretmenler doğal rol modelleridir.|B2|Toplum
+self-esteem|isim|öz saygı, benlik saygısı|how much you value yourself|self-respect, confidence|Praise raises children's self-esteem.|Övgü çocukların öz saygısını artırır.|B2|Psikoloji
+motivation|isim|motivasyon, güdülenme|the reason and energy to do something|drive, incentive, enthusiasm|Small wins protect motivation.|Küçük kazanımlar motivasyonu korur.|B2|Psikoloji
+procrastination|isim|erteleme, geciktirme|delaying tasks that need doing|delay, stalling|Procrastination is a habit, not laziness.|Erteleme bir alışkanlıktır, tembellik değil.|C1|Psikoloji
+concentration|isim|konsantrasyon, odaklanma|the ability to focus|focus, attention|Noise ruins concentration.|Gürültü konsantrasyonu bozar.|B2|Psikoloji
+memory|isim|hafıza, bellek|the ability to remember|recall, retention|Sleep fixes memory.|Uyku hafızayı pekiştirir.|A2|Psikoloji
+habit|isim|alışkanlık|something you do regularly|routine, custom, practice|Study at the same hour to build a habit.|Alışkanlık kurmak için aynı saatte çalış.|A2|Psikoloji
+routine|isim|rutin, düzenli işleyiş|a fixed way of doing things|schedule, pattern|A morning routine saves decisions.|Sabah rutini kararlardan tasarruf eder.|B1|Psikoloji
+anxiety|isim|kaygı, endişe|a feeling of worry or fear|worry, unease, nervousness|Exam anxiety can be managed with breathing.|Sınav kaygısı nefesle yönetilebilir.|B2|Psikoloji
+stress|isim|stres, gerginlik|pressure that makes you tense|pressure, strain, tension|Short walks reduce stress.|Kısa yürüyüşler stresi azaltır.|B1|Psikoloji
+burnout|isim|tükenmişlik|exhaustion from long-term stress|exhaustion, fatigue|Burnout is common among exam candidates.|Tükenmişlik sınav adayları arasında yaygındır.|C1|Psikoloji
+mindfulness|isim|bilinçli farkındalık|paying calm attention to the present|awareness, meditation|Mindfulness helps before speaking tasks.|Bilinçli farkındalık konuşma görevleri öncesi yardım eder.|C1|Psikoloji
+resilience|isim|dayanıklılık, direnç|the ability to recover from difficulty|toughness, grit|Resilience grows with each small success.|Dayanıklılık her küçük başarıyla büyür.|C1|Psikoloji
+feedback|isim|geri bildirim|advice about how to improve|response, comment, critique|Feedback is most useful when it is specific.|Geri bildirim belirli olduğunda en faydalıdır.|B2|Eğitim
+peer review|isim|akran değerlendirmesi|checking work by experts in the same field|refereeing, evaluation|The paper passed peer review.|Makale akran değerlendirmesinden geçti.|C1|Bilim
+plagiarism|isim|intihal, aşırma|using someone's work without credit|copying, theft|Plagiarism ends a university career.|İntihal üniversite kariyerini bitirir.|C1|Akademik
+citation|isim|atıf, alıntı|a reference to a source|reference, quote|Add a citation after every quote.|Her alıntıdan sonra atıf ekle.|C1|Akademik
+paraphrase|fiil|kendi cümlelerinle ifade etmek|to express an idea in different words|reword, restate, rephrase|Paraphrase the question in your introduction.|Girişte soruyu kendi cümlelerinle ifade et.|C1|Akademik
+summarise|fiil|özetlemek|to give the main points briefly|sum up, outline, condense|Summarise the graph in one sentence.|Grafiği tek cümleyle özetle.|B2|Akademik
+cohesion|isim|bağlaşıklık, tutarlılık|the way parts of a text connect|unity, connectedness|Linking words improve cohesion.|Bağlaçlar bağlaşıklığı artırır.|C1|Yazma
+coherence|isim|anlaşılır bütünlük|clear and logical organisation|clarity, logic|Coherence matters as much as grammar.|Anlaşılır bütünlük dil bilgisi kadar önemlidir.|C1|Yazma
+paraphrasing|isim|yeniden ifadelendirme|saying the same thing in new words|restatement, rewording|Paraphrasing shows you understand the text.|Yeniden ifadelendirme metni anladığını gösterir.|C1|Yazma
+skimming|isim|göz gezdirme, hızlı okuma|reading quickly for the general idea|speed reading, scanning|Skim the passage before the questions.|Sorulardan önce metne göz gezdir.|B2|Okuma
+scanning|isim|tarama, göz atma|reading quickly for specific information|searching, looking for|Use scanning to find dates and names.|Tarih ve isim bulmak için tarama kullan.|B2|Okuma
+keyword|isim|anahtar kelime|an important word that carries meaning|key term, marker|Underline the keyword in the question.|Sorudaki anahtar kelimenin altını çiz.|B2|Okuma
+synonym|isim|eş anlamlı|a word with a similar meaning|equivalent, near-synonym|Questions usually paraphrase with synonyms.|Sorular genellikle eş anlamlılarla yeniden ifade eder.|B2|Dil
+antonym|isim|karşıt anlamlı|a word with the opposite meaning|opposite|Learn the antonym with each new word.|Her yeni kelimeyi karşıt anlamlısıyla öğren.|B2|Dil
+collocation|isim|eşdizim, kelime birlikteliği|words that naturally go together|word partnership, phrase|Learn collocations like heavy rain.|Heavy rain gibi eşdizimleri öğren.|C1|Dil
+idiom|isim|deyim|a phrase with a meaning that is not literal|expression, saying|Idioms make speech sound natural.|Deyimler konuşmayı doğal kılar.|B2|Dil
+register|isim|dil düzeyi, ton|the level of formality in language|style, tone|Academic register avoids slang.|Akademik dil düzeyi argodan kaçınır.|C1|Dil
+fluency|isim|akıcılık|the ability to speak smoothly|smoothness, ease|Fluency grows with daily speaking.|Akıcılık günlük konuşmayla gelişir.|B2|Konuşma
+accuracy|isim|doğruluk, hatasızlık|correctness in language use|precision, correctness|Accuracy and fluency both matter.|Doğruluk da akıcılık da önemlidir.|B2|Dil
+pronunciation|isim|telaffuz|the way words are spoken|articulation, enunciation|Pronunciation practice needs recording.|Telaffuz çalışması kayıt gerektirir.|B2|Konuşma
+intonation|isim|tonlama, ezgi|the rise and fall of the voice|pitch pattern, melody|Intonation shows emotion and meaning.|Tonlama duygu ve anlam gösterir.|C1|Konuşma
+accent|isim|aksen, şive|a way of speaking typical of a group|pronunciation, dialect|The test uses six different accents.|Sınav altı farklı aksen kullanır.|B2|Konuşma
+note-taking|isim|not alma|writing down key information while listening|jotting, shorthand|Note-taking improves listening scores.|Not alma dinleme puanlarını artırır.|B2|Dinleme
+dictation|isim|dikte|writing what you hear|transcription|Daily dictation sharpens listening.|Günlük dikte dinlemeyi keskinleştirir.|B2|Dinleme
+shadowing|isim|gölgeleme|repeating audio just after the speaker|echoing, repeating|Shadowing fixes pronunciation fast.|Gölgeleme telaffuzu hızlı düzeltir.|C1|Konuşma
+transcript|isim|deşifre metni, döküm|a written copy of spoken words|script, text version|Read the transcript after listening.|Dinledikten sonra deşifre metnini oku.|B2|Dinleme
+paraphrase question|isim|soru yeniden ifadesi|the question restated in different words|restatement|The paraphrase question tests understanding.|Soru yeniden ifadesi anlamayı ölçer.|C1|Okuma
+gist|isim|ana fikir, özet anlam|the main idea of a text or audio|main idea, essence|Catch the gist first, details later.|Önce ana fikri yakala, detaylar sonra.|B2|Okuma
+inference|isim|çıkarım|a conclusion reached from evidence|deduction, reasoning|Some questions require inference.|Bazı sorular çıkarım gerektirir.|C1|Okuma
+attitude question|isim|tutum sorusu|a question about the writer's feelings|opinion question|Attitude questions ask how the writer feels.|Tutum soruları yazarın ne hissettiğini sorar.|C1|Okuma
+matching|isim|eşleştirme|pairing items that belong together|pairing, linking|Matching tasks test detail reading.|Eşleştirme görevleri ayrıntılı okumayı ölçer.|B2|Okuma
+heading|isim|başlık|a short title above a section|title, caption|Choose the best heading for each paragraph.|Her paragraf için en iyi başlığı seç.|B2|Okuma
+true false not given|isim|doğru yanlış bilgi yok|a question type testing factual accuracy|TFNG|True False Not Given is the trickiest type.|Doğru Yanlış Bilgi Yok en zorlu soru tipidir.|B2|Okuma
+multiple choice|isim|çoktan seçmeli|a question with several possible answers|MCQ, objective test|Multiple choice options include two distractors.|Çoktan seçmeli seçenekler iki çeldirici içerir.|B2|Sınav
+gap fill|isim|boşluk doldurma|completing a text with missing words|cloze, fill in the blanks|Gap fill tests grammar and vocabulary.|Boşluk doldurma dil bilgisi ve kelime ölçer.|B2|Sınav
+short answer|isim|kısa yanıt|answering with a few words|brief response|Short answer questions limit you to three words.|Kısa yanıt soruları seni üç kelimeyle sınırlar.|B2|Sınav
+task one|isim|birinci görev (yazma)|the report or letter writing task|writing task 1|Task One asks for a factual report.|Birinci görev olgusal bir rapor ister.|B2|Yazma
+task two|isim|ikinci görev (yazma)|the essay writing task|writing task 2|Task Two carries twice the weight.|İkinci görev iki kat ağırlık taşır.|B2|Yazma
+overview|isim|genel bakış, özet|a general description of the main trends|summary, outline|Task One needs a clear overview.|Birinci görev net bir genel bakış gerektirir.|B2|Yazma
+trend|isim|eğilim, gidişat|a general direction of change|tendency, direction|Describe the overall trend first.|Önce genel eğilimi tanımla.|B2|İstatistik
+figure|isim|rakam, sayı; şekil|a number; a diagram|number, statistic|Quote figures accurately in Task One.|Birinci görevde rakamları doğru aktar.|B2|İstatistik
+percentage|isim|yüzde|an amount out of a hundred|proportion, rate|The percentage doubled in ten years.|Yüzde on yılda ikiye katlandı.|B2|İstatistik
+sharp|sıfat|keskin, ani|sudden and large (of a change)|abrupt, steep, dramatic|There was a sharp rise in 2019.|2019'da ani bir artış oldu.|B2|İstatistik
+gradual|sıfat|kademeli, yavaş yavaş|happening slowly over time|steady, progressive|A gradual decline followed.|Ardından kademeli bir düşüş geldi.|B2|İstatistik
+peak|isim|zirve, doruk|the highest point|top, maximum, summit|Sales peaked in December.|Satışlar aralıkta zirve yaptı.|B2|İstatistik
+plateau|fiil|aynı düzeyde kalmak, duraklamak|to stop rising or falling|level off, stabilise|Numbers plateaued after 2020.|Sayılar 2020'den sonra durakladı.|C1|İstatistik
+fluctuation|isim|dalgalanma|irregular rising and falling|variation, swing|Oil prices showed sharp fluctuations.|Petrol fiyatları keskin dalgalanmalar gösterdi.|C1|İstatistik
+consistent|sıfat|tutarlı, istikrarlı|always behaving in the same way|steady, uniform, stable|Consistent practice beats last-minute cramming.|İstikrarlı çalışma son dakika ezberini yener.|B2|Akademik
+cramming|isim|sınava sıkıştırarak çalışma|studying a lot just before an exam|last-minute study, rote learning|Cramming fails in productive skills.|Sıkıştırma, üretim becerilerinde işe yaramaz.|C1|Eğitim
+retention|isim|akılda tutma, hatırda kalma|the ability to keep information|memory, keeping|Spaced review improves retention.|Aralıklı tekrar akılda tutmayı geliştirir.|C1|Psikoloji
+revision|isim|tekrar, gözden geçirme|studying again what you learned|review, going over|Revision is not rereading; it is testing.|Tekrar, yeniden okumak değil; test etmektir.|B2|Eğitim
+mock exam|isim|deneme sınavı|a practice exam under real conditions|practice test, simulation|Take a mock exam every Saturday.|Her cumartesi deneme sınavı yap.|B2|Sınav
+band score|isim|band puanı|the IELTS score from 0 to 9|score, grade|A band score of 6.5 is common for university entry.|Üniversite girişi için 6.5 band puanı yaygındır.|B2|Sınav
+overall band|isim|genel band|the average of the four skill scores|total score|The overall band is the average of four skills.|Genel band dört becerinin ortalamasıdır.|B2|Sınav
+half band|isim|yarım band|a score ending in .5|point five|Half bands are given in 0.5 steps.|Yarım bandlar 0,5 adımlarla verilir.|B2|Sınav
+one skill retake|isim|tek beceri tekrarı|retaking one skill only|single skill resit, OSR|One Skill Retake allows a single resit.|Tek Beceri Tekrarı tek bir yeniden girmeye izin verir.|C1|Sınav
+test report form|isim|sınav sonuç belgesi|the official IELTS results document|score report, certificate|The Test Report Form is valid for two years.|Sınav sonuç belgesi iki yıl geçerlidir.|C1|Sınav
+computer-delivered|sıfat|bilgisayarda yapılan|taken on a computer|computer-based, CD-IELTS|Computer-delivered tests give results in days.|Bilgisayarda yapılan sınavlar sonuçları günler içinde verir.|B2|Sınav

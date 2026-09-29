@@ -1,0 +1,151 @@
+[
+ {
+  "id": "w1001",
+  "kelime": "lexical resource",
+  "tur": "isim",
+  "tr": "sözcüksel kaynak, kelime hazinesi",
+  "en": "the range and accuracy of vocabulary used",
+  "es": [
+   "vocabulary range",
+   "vocabulary bank"
+  ],
+  "ornek": "Lexical resource is one of the four official IELTS writing criteria.",
+  "ornekTr": "Sözcüksel kaynak resmi dört IELTS yazma ölçütünden biridir.",
+  "seviye": "C1",
+  "alan": "Sınav"
+ },
+ {
+  "id": "w1002",
+  "kelime": "longitudinal study",
+  "tur": "isim",
+  "tr": "uzunlamasına araştırma, boylamsal çalışma",
+  "en": "an observational research method where data is gathered repeatedly over time",
+  "es": [
+   "long-term study",
+   "cohort study"
+  ],
+  "ornek": "A longitudinal study tracked language development over ten years.",
+  "ornekTr": "Boylamsal bir çalışma dil gelişimini on yıl boyunca izledi.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w1003",
+  "kelime": "peer assessment",
+  "tur": "isim",
+  "tr": "akran değerlendirmesi",
+  "en": "the assessment of students by other students of equal status",
+  "es": [
+   "peer grading",
+   "peer evaluation"
+  ],
+  "ornek": "Peer assessment encourages constructive feedback among classmates.",
+  "ornekTr": "Akran değerlendirmesi sınıf arkadaşları arasında yapıcı geri bildirimi teşvik eder.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w1004",
+  "kelime": "plagiarism detector",
+  "tur": "isim",
+  "tr": "intihal tespit aracı",
+  "en": "software used to identify copied content in academic texts",
+  "es": [
+   "similarity checker",
+   "anti-plagiarism tool"
+  ],
+  "ornek": "Universities run all student dissertations through a plagiarism detector.",
+  "ornekTr": "Üniversiteler tüm öğrenci tezlerini bir intihal tespit aracından geçirir.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w1005",
+  "kelime": "qualitative research",
+  "tur": "isim",
+  "tr": "nitel araştırma",
+  "en": "research relying on non-numerical data like words and interviews",
+  "es": [
+   "descriptive research",
+   "narrative inquiry"
+  ],
+  "ornek": "Qualitative research captures in-depth student experiences.",
+  "ornekTr": "Nitel araştırma öğrencilerin derinlemesine deneyimlerini yakalar.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w1006",
+  "kelime": "quantitative analysis",
+  "tur": "isim",
+  "tr": "nicel analiz",
+  "en": "the analysis of numerical data using mathematical techniques",
+  "es": [
+   "statistical analysis",
+   "numerical study"
+  ],
+  "ornek": "Quantitative analysis reveals statistical correlations in test scores.",
+  "ornekTr": "Nicel analiz sınav puanlarındaki istatistiksel ilişkileri ortaya koyar.",
+  "seviye": "C1",
+  "alan": "Bilim"
+ },
+ {
+  "id": "w1007",
+  "kelime": "self-regulation",
+  "tur": "isim",
+  "tr": "özdüzenleme",
+  "en": "the ability to monitor and manage one's energy states and thoughts",
+  "es": [
+   "self-management",
+   "self-control"
+  ],
+  "ornek": "Self-regulation is essential for consistent daily vocabulary review.",
+  "ornekTr": "Özdüzenleme günlük istikrarlı kelime tekrarı için esastır.",
+  "seviye": "C1",
+  "alan": "Psikoloji"
+ },
+ {
+  "id": "w1008",
+  "kelime": "thesis statement",
+  "tur": "isim",
+  "tr": "tez cümlesi, ana sav",
+  "en": "a short statement summarizing the main point or claim of an essay",
+  "es": [
+   "main claim",
+   "central argument"
+  ],
+  "ornek": "State your thesis statement clearly at the end of the introduction.",
+  "ornekTr": "Giriş bölümünün sonunda tez cümleni net biçimde belirt.",
+  "seviye": "B2",
+  "alan": "Yazma"
+ },
+ {
+  "id": "w1009",
+  "kelime": "threshold level",
+  "tur": "isim",
+  "tr": "eşik düzeyi",
+  "en": "the minimum level of competency required for a specific goal",
+  "es": [
+   "entry level",
+   "minimum standard"
+  ],
+  "ornek": "Reaching the threshold level of B2 enables academic fluency.",
+  "ornekTr": "B2 eşik düzeyine ulaşmak akademik akıcılığı mümkün kılar.",
+  "seviye": "B2",
+  "alan": "Eğitim"
+ },
+ {
+  "id": "w1010",
+  "kelime": "validity and reliability",
+  "tur": "isim",
+  "tr": "geçerlilik ve güvenilirlik",
+  "en": "the degree to which an assessment tool measures accurately and consistently",
+  "es": [
+   "soundness and dependability"
+  ],
+  "ornek": "Standardised tests undergo rigorous testing for validity and reliability.",
+  "ornekTr": "Standart sınavlar geçerlilik ve güvenilirlik için titiz testlerden geçer.",
+  "seviye": "C1",
+  "alan": "Akademik"
+ }
+]

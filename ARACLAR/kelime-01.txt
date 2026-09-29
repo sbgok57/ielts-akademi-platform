@@ -1,0 +1,257 @@
+# IELTS SÖZLÜĞÜ — VERİ (1. BÖLÜM: Akademik çekirdek A–C)
+# Biçim: kelime|tür|Türkçe anlam|İngilizce tanım|eş anlamlılar|İngilizce örnek|Türkçe çeviri|seviye|alan
+analyse|fiil|analiz etmek, çözümlemek|to examine something in detail to understand it|examine, study, investigate|Researchers analyse the data before drawing conclusions.|Araştırmacılar sonuç çıkarmadan önce verileri analiz eder.|B2|Akademik
+approach|isim|yaklaşım, yöntem|a way of dealing with something|method, strategy, technique|A different approach to teaching grammar works better for adults.|Dil bilgisi öğretmede farklı bir yaklaşım yetişkinlerde daha iyi işliyor.|B1|Akademik
+assess|fiil|değerlendirmek, ölçmek|to judge the quality or value of something|evaluate, judge, appraise|Teachers assess writing with four criteria.|Öğretmenler yazmayı dört ölçütle değerlendirir.|B2|Eğitim
+assume|fiil|varsaymak, öyle kabul etmek|to accept something as true without proof|presume, suppose, take for granted|Do not assume that the answer is true just because it sounds familiar.|Cevabın tanıdık geldiği için doğru olduğunu varsayma.|B2|Akademik
+authority|isim|yetki, otorite; resmî kurum|the power to give orders or make decisions|power, jurisdiction, officialdom|The local authority funds the new library.|Yeni kütüphaneyi yerel yönetim finanse ediyor.|B2|Toplum
+available|sıfat|mevcut, kullanılabilir, müsait|able to be used or obtained|accessible, obtainable, on hand|The report is available online for free.|Rapor internette ücretsiz olarak mevcut.|B1|Akademik
+benefit|isim|fayda, yarar|an advantage or profit gained from something|advantage, gain, profit|Regular sleep brings clear benefits for memory.|Düzenli uyku hafıza için net faydalar sağlar.|B1|Sağlık
+concept|isim|kavram|an abstract idea or general notion|idea, notion, abstraction|The concept of fairness differs across cultures.|Adalet kavramı kültürden kültüre değişir.|B2|Akademik
+consist|fiil|oluşmak, meydana gelmek|to be made up of particular parts|comprise, be composed of, contain|The test consists of four sections.|Sınav dört bölümden oluşur.|B2|Akademik
+context|isim|bağlam, içerik|the situation that helps explain something|setting, background, circumstances|Guess the meaning of a new word from context.|Yeni bir kelimenin anlamını bağlamdan tahmin et.|B2|Dil
+create|fiil|yaratmak, oluşturmak|to bring something into existence|produce, generate, make|Green roofs create cooler cities.|Yeşil çatılar daha serin şehirler yaratır.|A2|Akademik
+data|isim|veri, veriler|facts and figures collected for analysis|information, statistics, figures|The data show a steady rise in enrolment.|Veriler kayıtta istikrarlı bir artış gösteriyor.|B2|Bilim
+define|fiil|tanımlamak|to state the exact meaning of something|describe, specify, characterise|Please define the term before you use it.|Terimi kullanmadan önce tanımla.|B2|Akademik
+derive|fiil|türetmek, elde etmek|to obtain something from a source|obtain, extract, gain|Many English words derive from Latin.|Birçok İngilizce kelime Latinceden türemiştir.|C1|Dil
+economy|isim|ekonomi|the system of trade and industry in a country|financial system, market|Tourism supports the local economy.|Turizm yerel ekonomiyi destekler.|B1|Ekonomi
+environment|isim|çevre|the natural world and the conditions around us|surroundings, habitat, ecosystem|Plastic waste harms the marine environment.|Plastik atık deniz çevresine zarar verir.|A2|Çevre
+establish|fiil|kurmak, tesis etmek|to start something that will last|found, set up, create|The university was established in 1989.|Üniversite 1989'da kurulmuştur.|B2|Akademik
+estimate|fiil|tahmin etmek, kestirmek|to judge an approximate value|calculate roughly, reckon, gauge|Experts estimate the cost at two million dollars.|Uzmanlar maliyeti iki milyon dolar olarak tahmin ediyor.|B2|Bilim
+evidence|isim|kanıt, delil|facts that show something is true|proof, testimony, data|Find the evidence sentence in the text.|Metindeki kanıt cümlesini bul.|B2|Akademik
+factor|isim|etken, faktör|one of the things that influence a result|element, cause, component|Cost is the main factor in their decision.|Kararlarında temel etken maliyettir.|B2|Akademik
+finance|isim|finans, maliye|the management of money|funding, capital, money matters|The project needs public finance.|Proje kamu finansmanı gerektiriyor.|B2|Ekonomi
+function|isim|işlev, görev|the purpose or role of something|purpose, role, duty|The main function of the skin is protection.|Derinin temel işlevi korumadır.|B2|Bilim
+identify|fiil|belirlemek, tanımlamak|to recognise and name something|recognise, pinpoint, determine|Identify the keyword before you read the passage.|Metni okumadan önce anahtar kelimeyi belirle.|B2|Akademik
+income|isim|gelir|the money a person receives regularly|earnings, revenue, salary|Average household income rose by four percent.|Ortalama hane geliri yüzde dört arttı.|B1|Ekonomi
+indicate|fiil|göstermek, belirtmek|to show or point out something|show, suggest, signify|The graph indicates a gradual decline.|Grafik kademeli bir düşüş gösteriyor.|B2|Akademik
+individual|isim|birey, kişi|a single person, considered separately|person, human being|Every individual learns at a different pace.|Her birey farklı hızda öğrenir.|B1|Toplum
+interpret|fiil|yorumlamak, çevirmek|to explain the meaning of something|explain, read, construe|Different readers interpret the same poem differently.|Farklı okurlar aynı şiiri farklı yorumlar.|B2|Dil
+involve|fiil|içermek, kapsamak|to include something as a necessary part|include, entail, require|Speaking involves both fluency and accuracy.|Konuşma hem akıcılığı hem doğruluğu içerir.|B2|Akademik
+issue|isim|sorun, konu, mesele|an important topic or problem|matter, problem, concern|Climate change is a global issue.|İklim değişikliği küresel bir sorundur.|B1|Toplum
+legal|sıfat|yasal, hukuki|allowed or required by law|lawful, legitimate, statutory|The company faces legal action.|Şirket yasal işlemle karşı karşıya.|B2|Hukuk
+major|sıfat|büyük, önemli, başlıca|very large or important|main, significant, principal|Traffic is a major source of pollution.|Trafik başlıca kirlilik kaynağıdır.|B1|Akademik
+method|isim|yöntem, metot|a particular way of doing something|technique, procedure, system|The survey method was carefully explained.|Anket yöntemi dikkatle açıklandı.|B2|Akademik
+occur|fiil|meydana gelmek, olmak|to happen, especially without being planned|happen, take place, arise|Most accidents occur near the home.|Kazaların çoğu ev yakınında meydana gelir.|B2|Akademik
+period|isim|dönem, süre|a length of time|span, interval, era|The study covered a ten-year period.|Araştırma on yıllık bir dönemi kapsadı.|B1|Akademik
+policy|isim|politika, siyaset|a plan of action agreed by an organisation|plan, strategy, guidelines|The new policy bans single-use plastic.|Yeni politika tek kullanımlık plastiği yasaklıyor.|B2|Yönetim
+principle|isim|ilke, prensip|a basic rule or belief|rule, doctrine, standard|Fairness is a basic principle of testing.|Adalet, sınavın temel ilkesidir.|B2|Akademik
+process|isim|süreç, işlem|a series of actions towards a result|procedure, operation, method|Learning a language is a slow process.|Dil öğrenmek yavaş bir süreçtir.|B1|Akademik
+require|fiil|gerektirmek, istemek|to need something|need, demand, call for|Band seven requires consistent practice.|Band yedi istikrarlı çalışma gerektirir.|B1|Akademik
+research|isim|araştırma|careful study to discover new facts|study, investigation, inquiry|Her research focuses on urban heat.|Araştırması kentsel ısıya odaklanıyor.|B1|Bilim
+respond|fiil|yanıt vermek, karşılık vermek|to answer or react to something|reply, answer, react|Please respond to all forty questions.|Lütfen kırk sorunun tamamına yanıt ver.|B1|Akademik
+role|isim|rol, görev|the function a person or thing has|part, function, duty|Diet plays a key role in heart health.|Beslenme kalp sağlığında kilit rol oynar.|B1|Toplum
+significant|sıfat|önemli, anlamlı; belirgin|large enough to be noticed or important|considerable, notable, substantial|There was a significant drop in emissions.|Emisyonlarda belirgin bir düşüş oldu.|B2|Akademik
+similar|sıfat|benzer|almost the same|alike, comparable, analogous|The two graphs show similar trends.|İki grafik benzer eğilimler gösteriyor.|A2|Akademik
+source|isim|kaynak|the place something comes from|origin, root, supplier|Renewable sources now supply half the energy.|Yenilenebilir kaynaklar artık enerjinin yarısını sağlıyor.|B1|Çevre
+specific|sıfat|belirli, özgül|clearly defined or exact|particular, precise, definite|Give a specific example in your essay.|Denemende belirli bir örnek ver.|B2|Akademik
+structure|isim|yapı, bünye|the way parts are arranged together|framework, arrangement, form|A clear essay structure helps the reader.|Net bir deneme yapısı okuyucuya yardım eder.|B2|Akademik
+theory|isim|teori, kuram|a system of ideas explaining something|hypothesis, explanation, model|The theory was tested in three countries.|Teori üç ülkede test edildi.|B2|Bilim
+vary|fiil|değişmek, farklılık göstermek|to differ or change|differ, fluctuate, range|Prices vary from city to city.|Fiyatlar şehirden şehre değişir.|B2|Akademik
+achieve|fiil|başarmak, elde etmek|to succeed in doing something after effort|accomplish, attain, reach|She achieved a band of seven in three months.|Üç ayda yedi bandına ulaştı.|B1|Akademik
+acquire|fiil|edinmek, kazanmak|to get or learn something over time|obtain, gain, pick up|Children acquire their first language naturally.|Çocuklar ilk dillerini doğal olarak edinir.|B2|Dil
+adjust|fiil|ayarlamak, uyum sağlamak|to change slightly to fit a situation|adapt, modify, tweak|Adjust your reading speed to the text type.|Okuma hızını metin türüne göre ayarla.|B2|Akademik
+administration|isim|yönetim, idare|the work of managing an organisation|management, governance|University administration approved the change.|Üniversite yönetimi değişikliği onayladı.|B2|Yönetim
+affect|fiil|etkilemek|to have an effect on something|influence, impact, shape|Sleep loss affects concentration.|Uyku kaybı konsantrasyonu etkiler.|B1|Sağlık
+appropriate|sıfat|uygun, yerinde|suitable for a particular situation|suitable, fitting, apt|Use an appropriate tone in formal writing.|Resmî yazıda uygun bir ton kullan.|B2|Akademik
+aspect|isim|yön, açı, boyut|one part or feature of something|facet, dimension, side|Cost is only one aspect of the problem.|Maliyet sorunun yalnızca bir yönüdür.|B2|Akademik
+category|isim|kategori, sınıf|a group of things with shared features|class, group, type|Answers fall into three categories.|Cevaplar üç kategoriye ayrılır.|B2|Akademik
+community|isim|topluluk, toplum|a group of people living or working together|society, neighbourhood|The whole community joined the clean-up.|Bütün topluluk temizlik çalışmasına katıldı.|B1|Toplum
+complex|sıfat|karmaşık, kompleks|made of many connected parts; hard to understand|complicated, intricate, involved|The causes of migration are complex.|Göçün nedenleri karmaşıktır.|B1|Akademik
+conclude|fiil|sonuca varmak, bitirmek|to decide something after considering evidence|deduce, infer, finish|The report concludes that the policy worked.|Rapor politikanın işe yaradığı sonucuna varıyor.|B2|Akademik
+consequence|isim|sonuç, akıbet|a result of an action|result, outcome, effect|Long droughts have serious consequences.|Uzun kuraklıkların ciddi sonuçları var.|B2|Akademik
+consume|fiil|tüketmek|to use up resources or goods|use up, expend, devour|Cities consume most of the world's energy.|Şehirler dünya enerjisinin çoğunu tüketir.|B2|Ekonomi
+culture|isim|kültür|the customs and ideas of a society|way of life, tradition, civilisation|Food is central to every culture.|Yemek her kültürün merkezindedir.|B1|Toplum
+design|isim|tasarım|the way something is planned or made|plan, layout, arrangement|The design of the survey reduced bias.|Anketin tasarımı yanlılığı azalttı.|B1|Sanat
+distinct|sıfat|belirgin, ayrı, farklı|clearly separate or different|separate, different, pronounced|The two species have distinct calls.|İki türün belirgin sesleri vardır.|B2|Bilim
+element|isim|öge, unsur|one part of a whole|component, factor, ingredient|Trust is a key element of teamwork.|Güven, ekip çalışmasının kilit unsurudur.|B2|Akademik
+evaluate|fiil|değerlendirmek, ölçmek|to judge carefully using criteria|assess, appraise, weigh up|Evaluate both sides before you decide.|Karar vermeden önce iki tarafı da değerlendir.|C1|Akademik
+feature|isim|özellik, nitelik|an important or noticeable part|characteristic, trait, attribute|The main feature of the design is its simplicity.|Tasarımın temel özelliği sadeliğidir.|B2|Akademik
+final|sıfat|son, nihai|coming at the end|last, ultimate, concluding|The final section is the hardest.|Son bölüm en zorudur.|A2|Akademik
+focus|fiil|odaklanmak|to give attention to one thing|concentrate, centre, zero in|Focus on keywords, not every word.|Her kelimeye değil, anahtar kelimelere odaklan.|B1|Akademik
+impact|isim|etki, tesir|a strong effect on something|effect, influence, consequence|Plastic has a huge impact on wildlife.|Plastiğin yaban hayatına büyük etkisi var.|B1|Çevre
+institute|isim|enstitü, kurum|an organisation for research or education|organisation, body, academy|The institute publishes an annual report.|Enstitü yıllık rapor yayımlıyor.|B2|Eğitim
+invest|fiil|yatırım yapmak|to put money or effort into something for future gain|fund, finance, put in|Governments should invest in public transport.|Hükümetler toplu taşımaya yatırım yapmalı.|B2|Ekonomi
+maintain|fiil|sürdürmek, korumak|to keep something at the same level or in good condition|sustain, preserve, keep up|It is hard to maintain motivation alone.|Motivasyonu tek başına sürdürmek zordur.|B2|Akademik
+normal|sıfat|normal, olağan|usual or expected|ordinary, standard, typical|It is normal to feel nervous before speaking.|Konuşmadan önce gergin olmak normaldir.|A2|Sağlık
+obtain|fiil|elde etmek, sağlamak|to get something, often with effort|acquire, secure, gain|You must obtain a visa before travelling.|Seyahat etmeden önce vize almalısın.|B2|Akademik
+option|isim|seçenek|a choice among possibilities|choice, alternative, possibility|Option B fits the paragraph better.|B seçeneği paragrafa daha iyi uyuyor.|B1|Akademik
+outcome|isim|sonuç, netice|the result of a process or event|result, consequence, upshot|The outcome of the trial surprised everyone.|Duruşmanın sonucu herkesi şaşırttı.|B2|Akademik
+participate|fiil|katılmak, iştirak etmek|to take part in an activity|take part, join in, engage|All students participated in the survey.|Bütün öğrenciler ankete katıldı.|B2|Eğitim
+potential|isim|potansiyel, gizli güç|the ability to develop in the future|capacity, capability, promise|Solar power has huge potential in Turkey.|Güneş enerjisinin Türkiye'de büyük potansiyeli var.|B2|Enerji
+previous|sıfat|önceki, geçmiş|coming before in time|earlier, prior, former|The previous question was easier.|Önceki soru daha kolaydı.|B1|Akademik
+primary|sıfat|birincil, temel|most important or first in order|main, chief, principal|The primary cause is human activity.|Birincil neden insan faaliyetidir.|B2|Akademik
+purchase|fiil|satın almak|to buy something|buy, acquire, procure|Customers purchase most goods online now.|Müşteriler artık çoğu ürünü çevrimiçi satın alıyor.|B2|Ticaret
+range|isim|aralık, yelpaze|a variety of things of the same type|variety, spectrum, array|The library offers a wide range of materials.|Kütüphane geniş bir materyal yelpazesi sunar.|B2|Akademik
+region|isim|bölge, yöre|a large area of land|area, zone, territory|Rainfall varies across the region.|Yağış bölge genelinde değişir.|B1|Coğrafya
+regulate|fiil|düzenlemek, denetlemek|to control an activity by rules|control, govern, oversee|The city regulates traffic in the centre.|Şehir merkezde trafiği düzenler.|B2|Yönetim
+relevant|sıfat|ilgili, alakalı|connected with the subject|related, pertinent, applicable|Include only relevant details in the summary.|Özete yalnızca ilgili ayrıntıları ekle.|B2|Akademik
+resource|isim|kaynak, kaynaklar|something useful that can be used|asset, supply, reserve|Water is a limited resource.|Su sınırlı bir kaynaktır.|B1|Çevre
+restrict|fiil|kısıtlamak, sınırlamak|to limit something|limit, curb, confine|The law restricts car use in the old town.|Yasa eski şehirde araç kullanımını kısıtlıyor.|B2|Hukuk
+secure|sıfat|güvenli, emniyetli|safe and protected|safe, protected, stable|Keep your password secure.|Şifreni güvenli tut.|B2|Teknoloji
+select|fiil|seçmek, ayırmak|to choose carefully from a group|choose, pick, opt for|Select the best title for each paragraph.|Her paragraf için en iyi başlığı seç.|B1|Akademik
+strategy|isim|strateji, izlem|a plan to reach a goal|plan, approach, tactic|Timing is the core of reading strategy.|Zamanlama, okuma stratejisinin özüdür.|B2|Akademik
+survey|isim|anket, araştırma|a study that collects people's opinions|questionnaire, poll, study|The survey covered two thousand adults.|Anket iki bin yetişkini kapsadı.|B2|Bilim
+theory|isim|kuram, teori|a set of ideas that explains something|hypothesis, model, explanation|The theory explains why cities heat up.|Kuram şehirlerin neden ısındığını açıklar.|B2|Bilim
+tradition|isim|gelenek|a custom passed down through generations|custom, practice, heritage|Tea drinking is an old tradition here.|Çay içmek burada eski bir gelenektir.|B1|Kültür
+transfer|fiil|aktarmak, devretmek|to move from one place or person to another|move, shift, hand over|Transfer your answers to the answer sheet.|Cevaplarını cevap kâğıdına aktar.|B2|Akademik
+alternative|isim|alternatif, seçenek|one of two or more possibilities|option, choice, substitute|Cycling is a healthy alternative to driving.|Bisiklet, araba kullanmaya sağlıklı bir alternatiftir.|B2|Ulaşım
+circumstance|isim|durum, koşul|a fact that affects a situation|condition, situation, context|Under these circumstances, the result is fair.|Bu koşullar altında sonuç adildir.|B2|Akademik
+component|isim|bileşen, parça|one part of a larger whole|part, element, unit|Listening is one component of the test.|Dinleme sınavın bir bileşenidir.|B2|Akademik
+considerable|sıfat|hatırı sayılır, oldukça büyük|large in amount or degree|substantial, sizable, notable|There was considerable support for the plan.|Plan için hatırı sayılır destek vardı.|B2|Akademik
+constant|sıfat|sabit, sürekli|not changing; happening all the time|steady, continuous, persistent|Constant noise makes study difficult.|Sürekli gürültü çalışmayı zorlaştırır.|B2|Akademik
+contribute|fiil|katkıda bulunmak|to give something to help a result|add to, donate, play a part|Exercise contributes to better sleep.|Egzersiz daha iyi uykuya katkıda bulunur.|B2|Sağlık
+convention|isim|gelenek; sözleşme|a usual way of doing things; a formal agreement|custom, norm, agreement|Academic writing follows certain conventions.|Akademik yazı belirli gelenekleri izler.|B2|Akademik
+cooperate|fiil|işbirliği yapmak|to work together towards a goal|collaborate, work together|Countries must cooperate on climate.|Ülkeler iklim konusunda işbirliği yapmalı.|B2|Yönetim
+core|isim|çekirdek, öz|the central or most important part|centre, heart, essence|Reading is at the core of the exam.|Okuma, sınavın özünde yer alır.|B2|Akademik
+corporate|sıfat|kurumsal, şirketle ilgili|relating to a large company|business, company, commercial|Corporate training is growing fast.|Kurumsal eğitim hızla büyüyor.|B2|İş
+criteria|isim|ölçüt, kriter|standards used to judge something|standards, benchmarks, measures|Writing is marked against four criteria.|Yazma dört ölçüte göre puanlanır.|B2|Eğitim
+decline|fiil|azalmak, düşmek; reddetmek|to become smaller or to refuse|decrease, fall, refuse|Birth rates declined after 1990.|Doğum oranları 1990'dan sonra düştü.|B2|İstatistik
+demonstrate|fiil|göstermek, kanıtlamak|to show clearly with evidence|show, prove, illustrate|The chart demonstrates a clear pattern.|Grafik net bir örüntü gösteriyor.|B2|Akademik
+document|isim|belge, doküman|a written record giving information|record, paper, file|Keep every document for your visa.|Vize için her belgeyi sakla.|B1|Hukuk
+dominate|fiil|egemen olmak, hâkim olmak|to be the most important or powerful|control, prevail, overshadow|One company dominates the market.|Bir şirket piyasaya hâkim.|B2|Ekonomi
+emphasis|isim|vurgu, önem|special importance given to something|stress, weight, priority|Put emphasis on the evidence sentence.|Vurguyu kanıt cümlesine yap.|B2|Dil
+ensure|fiil|sağlamak, güvence altına almak|to make certain that something happens|make sure, guarantee, secure|Ensure that every answer is spelled correctly.|Her cevabın doğru yazıldığından emin ol.|B2|Akademik
+exclude|fiil|hariç tutmak, dışlamak|to leave something out|omit, leave out, rule out|The price excludes delivery.|Fiyata teslimat dahil değil.|B2|Ticaret
+framework|isim|çerçeve, yapı|a basic structure of ideas or rules|structure, system, model|The CEFR provides a framework for levels.|CEFR seviyeler için bir çerçeve sunar.|C1|Eğitim
+fund|fiil|finanse etmek|to provide money for something|finance, sponsor, back|The city funds free evening classes.|Şehir ücretsiz akşam kurslarını finanse ediyor.|B2|Ekonomi
+illustrate|fiil|örneklendirmek, göstermek|to explain with examples or pictures|demonstrate, exemplify, show|Illustrate your point with one clear example.|Fikrini net bir örnekle göster.|B2|Akademik
+imply|fiil|ima etmek, anıştırmak|to suggest without saying directly|suggest, hint, indicate|The author implies that the policy failed.|Yazar politikanın başarısız olduğunu ima ediyor.|C1|Dil
+initial|sıfat|ilk, başlangıç|happening at the beginning|first, opening, early|The initial results were encouraging.|İlk sonuçlar cesaret vericiydi.|B2|Akademik
+instance|isim|örnek, durum|an example or single case|example, case, occurrence|For instance, Sweden recycles most waste.|Örneğin İsveç atığın çoğunu geri dönüştürür.|B2|Akademik
+interact|fiil|etkileşmek, iletişim kurmak|to communicate or have an effect on each other|communicate, engage, interplay|Students interact in small groups.|Öğrenciler küçük gruplarda etkileşir.|B2|Eğitim
+justify|fiil|haklı çıkarmak, gerekçelendirmek|to give a good reason for something|defend, warrant, account for|Justify your answer with the text.|Cevabını metinle gerekçelendir.|C1|Akademik
+layer|isim|katman, tabaka|a level of material or meaning|stratum, level, tier|The ozone layer protects the planet.|Ozon tabakası gezegeni korur.|B1|Çevre
+link|fiil|bağlamak, ilişkilendirmek|to connect two things|connect, tie, associate|Link each idea to a reason.|Her fikri bir nedene bağla.|B1|Dil
+locate|fiil|yerini bulmak; yerleşmek|to find the position of something|find, position, site|Locate the keyword in the passage quickly.|Anahtar kelimenin yerini metinde hızla bul.|B2|Akademik
+maximum|sıfat|en yüksek, azami|the largest possible amount|highest, greatest, top|The maximum score for each part is nine.|Her bölüm için en yüksek puan dokuzdur.|B2|İstatistik
+minor|sıfat|küçük, önemsiz|small or not important|small, slight, lesser|A minor error will not lower your band.|Küçük bir hata bandını düşürmez.|B2|Akademik
+negative|sıfat|olumsuz, negatif|bad or harmful; saying no|adverse, unfavourable, harmful|Excessive screen time has negative effects.|Aşırı ekran süresinin olumsuz etkileri var.|B1|Sağlık
+partner|isim|ortak, eş|a person you work or live with|colleague, associate, mate|Study with a partner to practise speaking.|Konuşma pratiği için bir ortakla çalış.|A2|Toplum
+physical|sıfat|fiziksel, bedensel|relating to the body or real things|bodily, material, tangible|Physical activity improves mood.|Fiziksel aktivite ruh hâlini iyileştirir.|B1|Sağlık
+proportion|isim|oran, orantı|a part compared with the whole|ratio, share, percentage|A high proportion of students work part-time.|Öğrencilerin büyük bir oranı yarı zamanlı çalışıyor.|B2|İstatistik
+publish|fiil|yayımlamak|to make information available to the public|release, issue, print|The findings were published last month.|Bulgular geçen ay yayımlandı.|B2|Medya
+react|fiil|tepki vermek|to act in response to something|respond, reply, answer|How did readers react to the article?|Okurlar makaleye nasıl tepki verdi?|B1|Davranış
+rely|fiil|güvenmek, dayanmak|to depend on someone or something|depend, count on, trust|Do not rely on spell-check in the exam.|Sınavda yazım denetimine güvenme.|B2|Akademik
+remove|fiil|kaldırmak, çıkarmak|to take something away|take away, delete, eliminate|Remove unnecessary words from your essay.|Denemenden gereksiz kelimeleri çıkar.|B1|Akademik
+scheme|isim|plan, düzen; sistem|an organised plan or arrangement|plan, programme, system|The recycling scheme started in 2019.|Geri dönüşüm programı 2019'da başladı.|B2|Yönetim
+sequence|isim|sıra, dizin|a set of things in a particular order|order, series, succession|Put the steps in the correct sequence.|Adımları doğru sıraya koy.|B2|Akademik
+shift|isim|değişim, kayma|a change in position or opinion|change, move, swing|There has been a shift towards remote work.|Uzaktan çalışmaya doğru bir kayma oldu.|B2|İş
+strategy|isim|strateji, izlem|a plan designed to achieve a goal|plan, approach, scheme|Use a different strategy for each question type.|Her soru tipi için farklı bir strateji kullan.|B2|Akademik
+sufficient|sıfat|yeterli|enough for a particular purpose|enough, adequate, ample|Two examples are sufficient for this task.|Bu görev için iki örnek yeterlidir.|B2|Akademik
+technique|isim|teknik, yöntem|a skilled way of doing something|method, approach, skill|Skimming is a useful reading technique.|Göz gezdirme faydalı bir okuma tekniğidir.|B2|Akademik
+technology|isim|teknoloji|the use of scientific knowledge in practice|innovation, tech, applied science|Technology changed how we study.|Teknoloji çalışma biçimimizi değiştirdi.|B1|Bilim
+valid|sıfat|geçerli, makbul|legally or logically acceptable|legitimate, sound, acceptable|Your passport must be valid for six months.|Pasaportun altı ay geçerli olmalı.|B2|Hukuk
+volume|isim|hacim, miktar; ses düzeyi|the amount of something; loudness|amount, quantity, capacity|The volume of traffic doubled in a decade.|Trafik hacmi on yılda ikiye katlandı.|B2|İstatistik
+access|isim|erişim, giriş|the right or ability to use something|entry, admission, availability|Free access to the library helps students.|Kütüphaneye ücretsiz erişim öğrencilere yardım eder.|B2|Eğitim
+adequate|sıfat|yeterli, kâfi|enough in quantity or quality|sufficient, satisfactory, acceptable|The room had adequate light for reading.|Odada okumak için yeterli ışık vardı.|B2|Akademik
+annual|sıfat|yıllık|happening once every year|yearly, per annum|The annual report shows steady growth.|Yıllık rapor istikrarlı büyüme gösteriyor.|B1|İş
+apparent|sıfat|belli, aşikâr, görünürdeki|clearly visible or understood; seeming|obvious, evident, seeming|It soon became apparent that the plan failed.|Planın başarısız olduğu kısa sürede belli oldu.|B2|Akademik
+approximate|sıfat|yaklaşık, takribî|close to but not exact|rough, estimated, near|Give an approximate figure in Task One.|Task 1'de yaklaşık bir değer ver.|B2|İstatistik
+attitude|isim|tutum, tavır|the way you think or feel about something|outlook, stance, view|A positive attitude helps exam performance.|Olumlu tutum sınav performansına yardım eder.|B2|Davranış
+attribute|fiil|atfetmek, bağlamak|to say that something is caused by something else|ascribe, credit, blame|Scientists attribute warming to emissions.|Bilim insanları ısınmayı emisyonlara atfediyor.|C1|Bilim
+civil|sıfat|sivil, medeni|relating to ordinary citizens, not the army|public, civic, civilian|Civil society pushed for cleaner air.|Sivil toplum daha temiz hava için baskı yaptı.|B2|Toplum
+commit|fiil|işlemek; kendini adamak|to do something wrong; to promise seriously|carry out, devote, pledge|She committed three hours a day to study.|Günde üç saatini çalışmaya adadı.|B2|Davranış
+communicate|fiil|iletişim kurmak|to share information or feelings|convey, express, get across|Good writers communicate ideas clearly.|İyi yazarlar fikirleri net iletir.|B1|Dil
+concentrate|fiil|yoğunlaşmak, odaklanmak|to give all your attention to something|focus, centre, apply yourself|It is hard to concentrate in a noisy room.|Gürültülü odada yoğunlaşmak zordur.|B1|Davranış
+contrast|isim|karşıtlık, tezat|a clear difference between things|difference, opposition, disparity|The essay contrasts city and village life.|Deneme şehir ve köy yaşamını karşılaştırıyor.|B2|Akademik
+debate|isim|tartışma, münazara|a formal discussion of opposing views|discussion, argument, dispute|The debate over homework continues.|Ödev tartışması sürüyor.|B2|Toplum
+despite|edat|-e rağmen|in spite of|in spite of, notwithstanding|Despite the rain, attendance was high.|Yağmura rağmen katılım yüksekti.|B2|Dil
+dimension|isim|boyut, ölçü|a part or aspect of a situation|aspect, facet, side|Cost adds another dimension to the problem.|Maliyet soruna başka bir boyut ekliyor.|C1|Akademik
+domestic|sıfat|ev içi; yerli, ülke içi|relating to the home or to one country|household, internal, national|Domestic tourism grew by nine percent.|İç turizm yüzde dokuz arttı.|B2|Ekonomi
+emerge|fiil|ortaya çıkmak, belirmek|to appear or become known|appear, surface, come out|New evidence emerged during the trial.|Duruşma sırasında yeni kanıt ortaya çıktı.|B2|Akademik
+error|isim|hata, yanlış|a mistake|mistake, fault, slip|One small error changed the whole meaning.|Küçük bir hata bütün anlamı değiştirdi.|A2|Akademik
+ethnic|sıfat|etnik, kavimsel|relating to a group with shared culture|racial, cultural, tribal|The city has many ethnic communities.|Şehirde birçok etnik topluluk var.|B2|Toplum
+goal|isim|hedef, amaç|something you aim to achieve|aim, objective, target|Set one clear goal for each week.|Her hafta için net bir hedef belirle.|A2|Akademik
+grant|fiil|vermek, bahşetmek|to agree to give or allow something|award, give, bestow|The council granted permission for the market.|Belediye pazara izin verdi.|B2|Yönetim
+hence|zarf|dolayısıyla, bu nedenle|for this reason|therefore, thus, consequently|Emissions fell; hence air quality improved.|Emisyonlar düştü; dolayısıyla hava kalitesi iyileşti.|C1|Akademik
+implement|fiil|uygulamak, hayata geçirmek|to put a plan into action|carry out, apply, execute|The school implemented the new timetable.|Okul yeni programı uyguladı.|C1|Yönetim
+impose|fiil|yüklemek, dayatmak|to force a rule, tax or opinion on someone|enforce, levy, inflict|The government imposed a sugar tax.|Hükümet şeker vergisi koydu.|C1|Hukuk
+integrate|fiil|bütünleştirmek, kaynaştırmak|to combine things into one whole|combine, merge, incorporate|Schools integrate technology into lessons.|Okullar teknolojiyi derslere entegre eder.|B2|Eğitim
+internal|sıfat|iç, dâhilî|inside something or a country|inner, domestic, inside|The report is for internal use only.|Rapor yalnızca iç kullanım içindir.|B2|İş
+investigate|fiil|araştırmak, soruşturmak|to examine a problem carefully|examine, explore, look into|Police investigated the cause of the fire.|Polis yangının nedenini araştırdı.|B2|Hukuk
+label|isim|etiket|a small note giving information about something|tag, sticker, marker|Read the nutrition label before buying.|Satın almadan önce besin etiketini oku.|B1|Ticaret
+mechanism|isim|mekanizma, düzenek|a system of parts that work together|system, process, workings|The body has a cooling mechanism.|Vücudun bir soğutma mekanizması var.|C1|Bilim
+obvious|sıfat|apaçık, belli|easy to see or understand|clear, evident, plain|The answer was obvious from the first line.|Cevap ilk satırdan apaçıktı.|B1|Akademik
+output|isim|çıktı, üretim|the amount produced|production, yield, result|Factory output rose last quarter.|Fabrika üretimi geçen çeyrek arttı.|B2|Ekonomi
+overall|sıfat|genel, toplam|considering everything|general, total, all-round|The overall trend is upward.|Genel eğilim yukarı yönlü.|B2|İstatistik
+parallel|sıfat|paralel, koşut|very similar or happening at the same time|similar, equivalent, matching|There are parallel changes in both graphs.|İki grafikte paralel değişimler var.|B2|Akademik
+parameter|isim|parametre, değişken|a limit or factor that defines a system|limit, boundary, variable|Work within the parameters of the task.|Görevin parametreleri içinde çalış.|C1|Bilim
+predict|fiil|öngörmek, tahmin etmek|to say what will happen in the future|forecast, foresee, project|Experts predict a rise in sea levels.|Uzmanlar deniz seviyesinde artış öngörüyor.|B1|Bilim
+purchase|isim|satın alma|the act of buying something|buy, acquisition, order|Online purchase doubled in five years.|Çevrimiçi alışveriş beş yılda ikiye katlandı.|B2|Ticaret
+retain|fiil|korumak, elde tutmak|to keep something|keep, preserve, hold on to|Cities retain heat at night.|Şehirler gece ısıyı tutar.|B2|Çevre
+statistics|isim|istatistik|numbers that describe facts|figures, data, numbers|The statistics show a clear pattern.|İstatistikler net bir örüntü gösteriyor.|B2|Bilim
+status|isim|statü, durum|the position or condition of something|standing, rank, condition|The city gained UNESCO status in 2014.|Şehir 2014'te UNESCO statüsü kazandı.|B2|Toplum
+subsequent|sıfat|sonraki, müteakip|coming after something else|later, following, succeeding|Subsequent studies confirmed the result.|Sonraki çalışmalar sonucu doğruladı.|C1|Akademik
+summary|isim|özet|a short statement of the main points|outline, recap, synopsis|Write a summary in three sentences.|Üç cümlelik bir özet yaz.|B1|Akademik
+undertake|fiil|üstlenmek, girişmek|to agree to do a task|take on, carry out, embark on|The team undertook a long study.|Ekip uzun bir çalışma üstlendi.|C1|Akademik
+accommodate|fiil|barındırmak, uyum sağlamak|to provide space for; to adapt|house, hold, fit in|The hall accommodates two hundred people.|Salon iki yüz kişiyi barındırır.|C1|Mimarlık
+acknowledge|fiil|kabul etmek, teslim etmek|to accept that something is true|admit, recognise, concede|The report acknowledges several limitations.|Rapor bazı sınırlılıkları kabul ediyor.|C1|Akademik
+advocate|fiil|savunmak, önermek|to publicly support an idea|support, champion, recommend|Many doctors advocate daily walking.|Birçok doktor günlük yürüyüşü savunuyor.|C1|Sağlık
+allocate|fiil|tahsis etmek, ayırmak|to give out for a particular purpose|assign, allot, distribute|The budget allocated funds to libraries.|Bütçe kütüphanelere kaynak ayırdı.|C1|Yönetim
+ambiguous|sıfat|belirsiz, muğlak|having more than one possible meaning|unclear, vague, equivocal|The question wording was ambiguous.|Soru ifadesi belirsizdi.|C1|Dil
+amend|fiil|değiştirmek, düzeltmek|to change a text or law slightly|modify, revise, alter|Parliament amended the law in 2020.|Parlamento yasayı 2020'de değiştirdi.|C1|Hukuk
+anticipate|fiil|önceden tahmin etmek, beklemek|to expect something to happen|expect, foresee, predict|Anticipate the answer before the audio plays.|Ses başlamadan cevabı tahmin et.|C1|Akademik
+assure|fiil|güvence vermek, temin etmek|to tell someone confidently to remove doubt|reassure, promise, convince|The teacher assured us the test was fair.|Öğretmen sınavın adil olduğu konusunda güvence verdi.|C1|İletişim
+attain|fiil|elde etmek, ulaşmak|to achieve something after effort|achieve, reach, accomplish|She attained band eight after a year.|Bir yıl sonra sekiz bandına ulaştı.|C1|Akademik
+bulk|isim|yığın, büyük kısım|the main or largest part|majority, mass, most|The bulk of the cost is transport.|Maliyetin büyük kısmı ulaşımdır.|C1|Ticaret
+cease|fiil|durmak, sona ermek|to stop happening|stop, end, halt|Rain ceased before the ceremony.|Tören öncesi yağmur durdu.|C1|Akademik
+coherent|sıfat|tutarlı, anlaşılır|logical and clearly connected|logical, consistent, clear|A coherent essay is easier to score high.|Tutarlı bir deneme yüksek puan almak için daha kolaydır.|C1|Yazma
+coincide|fiil|çakışmak, aynı zamana gelmek|to happen at the same time or agree|overlap, correspond, match|Exam dates coincide with the festival.|Sınav tarihleri festivalle çakışıyor.|C1|Akademik
+compatible|sıfat|uyumlu, bağdaşır|able to exist or work together|consistent, harmonious, matching|The app is compatible with old phones.|Uygulama eski telefonlarla uyumlu.|B2|Teknoloji
+compensate|fiil|telafi etmek, karşılamak|to make up for something|make up for, offset, recompense|Extra practice compensates for lost time.|Ekstra çalışma kaybedilen zamanı telafi eder.|C1|Akademik
+compile|fiil|derlemek, toplamak|to collect information from different sources|gather, assemble, collect|The team compiled a list of sources.|Ekip kaynak listesi derledi.|C1|Akademik
+complement|fiil|tamamlamak, bütünlemek|to add to something to make it better|supplement, enhance, complete|Practice complements classroom lessons.|Pratik, sınıf derslerini tamamlar.|C1|Eğitim
+comprise|fiil|oluşmak, kapsamak|to consist of or include|consist of, include, contain|The course comprises twelve modules.|Kurs on iki modülden oluşur.|C1|Akademik
+concurrent|sıfat|eşzamanlı|happening at the same time|simultaneous, parallel, coexisting|The study ran two concurrent trials.|Araştırma iki eşzamanlı deney yürüttü.|C1|Bilim
+constitute|fiil|oluşturmak, teşkil etmek|to be or form something|form, make up, comprise|Women constitute half of the workforce.|Kadınlar işgücünün yarısını oluşturur.|C1|İstatistik
+constrain|fiil|kısıtlamak, sınırlamak|to limit someone's freedom or actions|restrict, limit, confine|A small budget constrained the project.|Küçük bütçe projeyi kısıtladı.|C1|Yönetim
+controversial|sıfat|tartışmalı, ihtilaflı|causing strong disagreement|contentious, disputed, divisive|The decision was highly controversial.|Karar son derece tartışmalıydı.|B2|Toplum
+coordinate|fiil|eşgüdümlemek, düzenlemek|to organise activities so they work together|organise, synchronise, harmonise|Volunteers coordinated the rescue.|Gönüllüler kurtarma çalışmasını eşgüdümledi.|C1|Yönetim
+correspond|fiil|denk gelmek; yazışmak|to match or be similar to; to write letters|match, equate, agree|The figures correspond to last year's data.|Rakamlar geçen yılın verileriyle denk geliyor.|C1|Akademik
+deduce|fiil|çıkarım yapmak, anlam çıkarmak|to reach a conclusion by reasoning|infer, conclude, work out|You can deduce the meaning from the context.|Anlamı bağlamdan çıkarabilirsin.|C1|Akademik
+deteriorate|fiil|kötüleşmek, bozulmak|to become worse|worsen, decline, degenerate|Air quality deteriorated after the fires.|Yangınlardan sonra hava kalitesi kötüleşti.|C1|Çevre
+discrepancy|isim|tutarsızlık, uyuşmazlık|a difference between things that should match|inconsistency, mismatch, gap|There is a discrepancy between the two reports.|İki rapor arasında bir tutarsızlık var.|C1|Akademik
+diverse|sıfat|çeşitli, farklı|showing a lot of variety|varied, assorted, manifold|The city has a diverse population.|Şehrin çeşitli bir nüfusu var.|B2|Toplum
+dwell|fiil|oturmak, ikamet etmek; üzerinde durmak|to live in a place; to keep thinking about|reside, inhabit, linger|Half the population dwells in cities.|Nüfusun yarısı şehirlerde yaşıyor.|C1|Toplum
+emphasise|fiil|vurgulamak, altını çizmek|to give special importance to something|stress, highlight, underline|The author emphasises the role of habit.|Yazar alışkanlığın rolünü vurguluyor.|B2|Yazma
+exceed|fiil|aşmak, geçmek|to be greater than a number or limit|surpass, go beyond, outstrip|Do not exceed the word limit.|Kelime sınırını aşma.|B2|Akademik
+facilitate|fiil|kolaylaştırmak|to make something easier|ease, enable, assist|Small groups facilitate speaking practice.|Küçük gruplar konuşma pratiğini kolaylaştırır.|C1|Eğitim
+fluctuate|fiil|dalgalanmak, inip çıkmak|to rise and fall irregularly|vary, waver, swing|Prices fluctuated throughout the year.|Fiyatlar yıl boyunca dalgalandı.|C1|İstatistik
+genuine|sıfat|gerçek, samimi|real and sincere, not fake|authentic, real, sincere|She showed genuine interest in the topic.|Konuya gerçek bir ilgi gösterdi.|B2|Davranış
+highlight|fiil|öne çıkarmak, vurgulamak|to draw attention to something|emphasise, stress, point up|The report highlights three risks.|Rapor üç riski öne çıkarıyor.|B2|Yazma
+hypothesis|isim|hipotez, varsayım|an idea suggested as an explanation|theory, assumption, premise|The hypothesis was rejected by the data.|Hipotez veriler tarafından reddedildi.|C1|Bilim
+incentive|isim|teşvik, özendirici|something that encourages action|motivation, reward, inducement|Tax cuts act as an incentive to invest.|Vergi indirimleri yatırım için teşvik işlevi görür.|C1|Ekonomi
+inevitable|sıfat|kaçınılmaz|certain to happen|unavoidable, certain, inescapable|Some mistakes are inevitable at first.|Başlangıçta bazı hatalar kaçınılmazdır.|B2|Akademik
+infer|fiil|anlam çıkarmak, sonuç çıkarmak|to conclude from evidence|deduce, gather, conclude|Readers must infer the writer's attitude.|Okuyucular yazarın tutumunu çıkarsamalıdır.|C1|Okuma
+inherent|sıfat|doğasında olan, içkin|existing as a natural part of something|intrinsic, innate, built-in|There is an inherent risk in every test.|Her sınavda doğasında olan bir risk vardır.|C1|Akademik
+innovative|sıfat|yenilikçi, özgün|introducing new ideas|inventive, novel, original|The school uses innovative teaching.|Okul yenilikçi öğretim yöntemleri kullanıyor.|B2|Teknoloji
+insight|isim|içgörü, kavrayış|a clear understanding of something|understanding, perception, awareness|The interview gave insight into student life.|Söyleşi öğrenci yaşamına içgörü sağladı.|C1|Akademik
+intervene|fiil|müdahale etmek, araya girmek|to become involved to change a situation|step in, interfere, mediate|The government intervened to stabilise prices.|Hükümet fiyatları dengelemek için müdahale etti.|C1|Yönetim
+justify|fiil|haklı göstermek, gerekçelendirmek|to show that something is reasonable|defend, warrant, rationalise|Can you justify your choice of title?|Başlık seçimini gerekçelendirebilir misin?|C1|Yazma
+lucrative|sıfat|kazançlı, kârlı|producing a lot of money|profitable, well-paid, rewarding|Tourism is a lucrative industry here.|Turizm burada kazançlı bir sektördür.|C1|Ekonomi
+magnitude|isim|büyüklük, çap|the great size or importance of something|scale, extent, size|Few grasp the magnitude of the problem.|Sorunun büyüklüğünü az kişi kavrıyor.|C1|Bilim
+mandatory|sıfat|zorunlu, mecburi|required by law or rules|compulsory, obligatory, required|Helmets are mandatory for cyclists.|Kask bisikletliler için zorunludur.|C1|Hukuk
+negotiate|fiil|müzakere etmek, pazarlık etmek|to discuss to reach an agreement|bargain, discuss, broker|Unions negotiated a shorter week.|Sendikalar daha kısa hafta için müzakere etti.|B2|İş
+notion|isim|kavram, düşünce|an idea or belief about something|idea, concept, belief|The notion that money buys happiness is false.|Paranın mutluluk aldığı düşüncesi yanlıştır.|C1|Akademik
+notorious|sıfat|kötü şöhretli, adı çıkmış|famous for something bad|infamous, ill-famed|The junction is notorious for accidents.|Kavşak kazalarla ünlü.|C1|Toplum
+offset|fiil|dengelemek, telafi etmek|counteract something|counterbalance, compensate, cancel out|Planting trees offsets some emissions.|Ağaç dikmek bazı emisyonları dengeler.|C1|Çevre
+perceive|fiil|algılamak, sezmek|to become aware of or understand something|notice, perceive, sense|Students perceive grammar as difficult.|Öğrenciler dil bilgisini zor algılar.|C1|Davranış
+persist|fiil|ısrar etmek, sürmek|to continue firmly despite difficulty|continue, persevere, keep on|The problem persists in rural areas.|Sorun kırsal bölgelerde sürüyor.|B2|Akademik
+phenomenon|isim|olgu, görüngü|a fact or event that can be observed|occurrence, event, fact|Urban heat is a well-known phenomenon.|Kentsel ısı iyi bilinen bir olgudur.|C1|Bilim
+pivotal|sıfat|kilit, çok önemli|of central importance|crucial, vital, key|Teachers play a pivotal role in motivation.|Öğretmenler motivasyonda kilit rol oynar.|C1|Eğitim
+prevalent|sıfat|yaygın, hüküm süren|common in a particular place or time|widespread, common, rife|Smartphone use is prevalent among teens.|Akıllı telefon kullanımı gençler arasında yaygın.|C1|Toplum
+prominent|sıfat|önde gelen, göze çarpan|important, famous or easily seen|leading, notable, conspicuous|She is a prominent climate scientist.|Önde gelen bir iklim bilimcisi.|C1|Akademik
+proportion|isim|oran, orantı|a part or share of a whole|ratio, share, fraction|A large proportion of waste is food.|Atığın büyük bir oranı gıdadır.|B2|İstatistik
+reluctant|sıfat|isteksiz, gönülsüz|unwilling and hesitant|unwilling, hesitant, disinclined|Many are reluctant to speak in public.|Birçoğu topluluk önünde konuşmaya isteksiz.|B2|Davranış
+resilient|sıfat|dayanıklı, çabuk toparlanan|able to recover quickly from difficulties|tough, adaptable, hardy|Children are more resilient than we think.|Çocuklar düşündüğümüzden daha dayanıklı.|C1|Psikoloji
+scrutiny|isim|dikkatli inceleme, denetim|careful and critical examination|examination, inspection, review|The plan came under public scrutiny.|Plan kamu denetimine girdi.|C1|Yönetim
+substitute|isim|yerine geçen şey, ikame|a person or thing used instead of another|replacement, alternative, stand-in|Beans are a good substitute for meat.|Fasulye et için iyi bir ikamedir.|B2|Beslenme
+substantial|sıfat|önemli ölçüde büyük, ciddi|large in amount or importance|considerable, significant, sizeable|There was substantial evidence against it.|Aleyhinde ciddi kanıt vardı.|B2|Akademik
+sustainable|sıfat|sürdürülebilir|able to continue without damaging the environment|viable, eco-friendly, renewable|We need sustainable farming methods.|Sürdürülebilir tarım yöntemlerine ihtiyacımız var.|B2|Çevre
+tackle|fiil|üstesinden gelmek, ele almak|to deal with a problem|address, deal with, confront|The city tackled traffic with a new metro.|Şehir trafiği yeni metroyla ele aldı.|B2|Yönetim
+thrive|fiil|gelişmek, serpilmek|to grow well and be healthy|flourish, prosper, boom|Plants thrive in warm, wet climates.|Bitkiler sıcak ve nemli iklimlerde serpilir.|C1|Biyoloji
+undermine|fiil|zayıflatmak, baltalamak|to weaken something gradually|weaken, erode, damage|Lack of sleep undermines memory.|Uyku eksikliği hafızayı zayıflatır.|C1|Sağlık
+viable|sıfat|uygulanabilir, yaşayabilir|able to work successfully|feasible, workable, practicable|Solar power is now a viable option.|Güneş enerjisi artık uygulanabilir bir seçenek.|C1|Enerji
+widespread|sıfat|yaygın, geniş ölçüde|existing over a large area or among many people|extensive, prevalent, pervasive|There is widespread support for the ban.|Yasak için yaygın bir destek var.|B2|Toplum
+yield|fiil|vermek, üretmek; boyun eğmek|to produce a result or crop|produce, generate, give|The experiment yielded surprising results.|Deney şaşırtıcı sonuçlar verdi.|C1|Bilim

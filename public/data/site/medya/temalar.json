@@ -1,0 +1,902 @@
+[
+ {
+  "id": "t-light-01",
+  "ad": "Canlı Palet 1",
+  "mod": "light",
+  "vurgu": "#f23c3c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-02",
+  "ad": "Canlı Palet 2",
+  "mod": "light",
+  "vurgu": "#f2523c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-03",
+  "ad": "Canlı Palet 3",
+  "mod": "light",
+  "vurgu": "#f2683c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-04",
+  "ad": "Canlı Palet 4",
+  "mod": "light",
+  "vurgu": "#f27d3c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-05",
+  "ad": "Canlı Palet 5",
+  "mod": "light",
+  "vurgu": "#f2933c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-06",
+  "ad": "Canlı Palet 6",
+  "mod": "light",
+  "vurgu": "#f2a93c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-07",
+  "ad": "Canlı Palet 7",
+  "mod": "light",
+  "vurgu": "#f2bf3c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-08",
+  "ad": "Canlı Palet 8",
+  "mod": "light",
+  "vurgu": "#f2d53c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-09",
+  "ad": "Canlı Palet 9",
+  "mod": "light",
+  "vurgu": "#f2ea3c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-10",
+  "ad": "Canlı Palet 10",
+  "mod": "light",
+  "vurgu": "#e3f23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-11",
+  "ad": "Canlı Palet 11",
+  "mod": "light",
+  "vurgu": "#cdf23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-12",
+  "ad": "Canlı Palet 12",
+  "mod": "light",
+  "vurgu": "#b8f23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-13",
+  "ad": "Canlı Palet 13",
+  "mod": "light",
+  "vurgu": "#a2f23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-14",
+  "ad": "Canlı Palet 14",
+  "mod": "light",
+  "vurgu": "#8cf23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-15",
+  "ad": "Canlı Palet 15",
+  "mod": "light",
+  "vurgu": "#76f23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-16",
+  "ad": "Canlı Palet 16",
+  "mod": "light",
+  "vurgu": "#60f23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-17",
+  "ad": "Canlı Palet 17",
+  "mod": "light",
+  "vurgu": "#4bf23c",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-18",
+  "ad": "Canlı Palet 18",
+  "mod": "light",
+  "vurgu": "#3cf243",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-19",
+  "ad": "Canlı Palet 19",
+  "mod": "light",
+  "vurgu": "#3cf259",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-20",
+  "ad": "Canlı Palet 20",
+  "mod": "light",
+  "vurgu": "#3cf26f",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-21",
+  "ad": "Canlı Palet 21",
+  "mod": "light",
+  "vurgu": "#3cf285",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-22",
+  "ad": "Canlı Palet 22",
+  "mod": "light",
+  "vurgu": "#3cf29b",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-23",
+  "ad": "Canlı Palet 23",
+  "mod": "light",
+  "vurgu": "#3cf2b0",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-24",
+  "ad": "Canlı Palet 24",
+  "mod": "light",
+  "vurgu": "#3cf2c6",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-25",
+  "ad": "Canlı Palet 25",
+  "mod": "light",
+  "vurgu": "#3cf2dc",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-26",
+  "ad": "Canlı Palet 26",
+  "mod": "light",
+  "vurgu": "#3cf2f2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-27",
+  "ad": "Canlı Palet 27",
+  "mod": "light",
+  "vurgu": "#3cdcf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-28",
+  "ad": "Canlı Palet 28",
+  "mod": "light",
+  "vurgu": "#3cc6f2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-29",
+  "ad": "Canlı Palet 29",
+  "mod": "light",
+  "vurgu": "#3cb0f2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-30",
+  "ad": "Canlı Palet 30",
+  "mod": "light",
+  "vurgu": "#3c9bf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-31",
+  "ad": "Canlı Palet 31",
+  "mod": "light",
+  "vurgu": "#3c85f2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-32",
+  "ad": "Canlı Palet 32",
+  "mod": "light",
+  "vurgu": "#3c6ff2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-33",
+  "ad": "Canlı Palet 33",
+  "mod": "light",
+  "vurgu": "#3c59f2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-34",
+  "ad": "Canlı Palet 34",
+  "mod": "light",
+  "vurgu": "#3c43f2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-35",
+  "ad": "Canlı Palet 35",
+  "mod": "light",
+  "vurgu": "#4b3cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-36",
+  "ad": "Canlı Palet 36",
+  "mod": "light",
+  "vurgu": "#603cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-37",
+  "ad": "Canlı Palet 37",
+  "mod": "light",
+  "vurgu": "#763cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-38",
+  "ad": "Canlı Palet 38",
+  "mod": "light",
+  "vurgu": "#8c3cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-39",
+  "ad": "Canlı Palet 39",
+  "mod": "light",
+  "vurgu": "#a23cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-40",
+  "ad": "Canlı Palet 40",
+  "mod": "light",
+  "vurgu": "#b83cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-41",
+  "ad": "Canlı Palet 41",
+  "mod": "light",
+  "vurgu": "#cd3cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-42",
+  "ad": "Canlı Palet 42",
+  "mod": "light",
+  "vurgu": "#e33cf2",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-43",
+  "ad": "Canlı Palet 43",
+  "mod": "light",
+  "vurgu": "#f23cea",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-44",
+  "ad": "Canlı Palet 44",
+  "mod": "light",
+  "vurgu": "#f23cd5",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-45",
+  "ad": "Canlı Palet 45",
+  "mod": "light",
+  "vurgu": "#f23cbf",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-46",
+  "ad": "Canlı Palet 46",
+  "mod": "light",
+  "vurgu": "#f23ca9",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-47",
+  "ad": "Canlı Palet 47",
+  "mod": "light",
+  "vurgu": "#f23c93",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-48",
+  "ad": "Canlı Palet 48",
+  "mod": "light",
+  "vurgu": "#f23c7d",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-49",
+  "ad": "Canlı Palet 49",
+  "mod": "light",
+  "vurgu": "#f23c68",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-light-50",
+  "ad": "Canlı Palet 50",
+  "mod": "light",
+  "vurgu": "#f23c52",
+  "arkaplan": "#FAF6EF",
+  "kart": "#FFFFFF",
+  "metin": "#17181C"
+ },
+ {
+  "id": "t-dark-01",
+  "ad": "Karanlık Spektrum 1",
+  "mod": "dark",
+  "vurgu": "#26ffff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-02",
+  "ad": "Karanlık Spektrum 2",
+  "mod": "dark",
+  "vurgu": "#26e4ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-03",
+  "ad": "Karanlık Spektrum 3",
+  "mod": "dark",
+  "vurgu": "#26caff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-04",
+  "ad": "Karanlık Spektrum 4",
+  "mod": "dark",
+  "vurgu": "#26b0ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-05",
+  "ad": "Karanlık Spektrum 5",
+  "mod": "dark",
+  "vurgu": "#2696ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-06",
+  "ad": "Karanlık Spektrum 6",
+  "mod": "dark",
+  "vurgu": "#267cff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-07",
+  "ad": "Karanlık Spektrum 7",
+  "mod": "dark",
+  "vurgu": "#2662ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-08",
+  "ad": "Karanlık Spektrum 8",
+  "mod": "dark",
+  "vurgu": "#2648ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-09",
+  "ad": "Karanlık Spektrum 9",
+  "mod": "dark",
+  "vurgu": "#262eff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-10",
+  "ad": "Karanlık Spektrum 10",
+  "mod": "dark",
+  "vurgu": "#3726ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-11",
+  "ad": "Karanlık Spektrum 11",
+  "mod": "dark",
+  "vurgu": "#5126ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-12",
+  "ad": "Karanlık Spektrum 12",
+  "mod": "dark",
+  "vurgu": "#6b26ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-13",
+  "ad": "Karanlık Spektrum 13",
+  "mod": "dark",
+  "vurgu": "#8526ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-14",
+  "ad": "Karanlık Spektrum 14",
+  "mod": "dark",
+  "vurgu": "#9f26ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-15",
+  "ad": "Karanlık Spektrum 15",
+  "mod": "dark",
+  "vurgu": "#b926ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-16",
+  "ad": "Karanlık Spektrum 16",
+  "mod": "dark",
+  "vurgu": "#d326ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-17",
+  "ad": "Karanlık Spektrum 17",
+  "mod": "dark",
+  "vurgu": "#ed26ff",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-18",
+  "ad": "Karanlık Spektrum 18",
+  "mod": "dark",
+  "vurgu": "#ff26f6",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-19",
+  "ad": "Karanlık Spektrum 19",
+  "mod": "dark",
+  "vurgu": "#ff26dc",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-20",
+  "ad": "Karanlık Spektrum 20",
+  "mod": "dark",
+  "vurgu": "#ff26c2",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-21",
+  "ad": "Karanlık Spektrum 21",
+  "mod": "dark",
+  "vurgu": "#ff26a8",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-22",
+  "ad": "Karanlık Spektrum 22",
+  "mod": "dark",
+  "vurgu": "#ff268e",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-23",
+  "ad": "Karanlık Spektrum 23",
+  "mod": "dark",
+  "vurgu": "#ff2674",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-24",
+  "ad": "Karanlık Spektrum 24",
+  "mod": "dark",
+  "vurgu": "#ff265a",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-25",
+  "ad": "Karanlık Spektrum 25",
+  "mod": "dark",
+  "vurgu": "#ff2640",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-26",
+  "ad": "Karanlık Spektrum 26",
+  "mod": "dark",
+  "vurgu": "#ff2626",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-27",
+  "ad": "Karanlık Spektrum 27",
+  "mod": "dark",
+  "vurgu": "#ff4026",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-28",
+  "ad": "Karanlık Spektrum 28",
+  "mod": "dark",
+  "vurgu": "#ff5a26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-29",
+  "ad": "Karanlık Spektrum 29",
+  "mod": "dark",
+  "vurgu": "#ff7426",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-30",
+  "ad": "Karanlık Spektrum 30",
+  "mod": "dark",
+  "vurgu": "#ff8e26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-31",
+  "ad": "Karanlık Spektrum 31",
+  "mod": "dark",
+  "vurgu": "#ffa826",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-32",
+  "ad": "Karanlık Spektrum 32",
+  "mod": "dark",
+  "vurgu": "#ffc226",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-33",
+  "ad": "Karanlık Spektrum 33",
+  "mod": "dark",
+  "vurgu": "#ffdc26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-34",
+  "ad": "Karanlık Spektrum 34",
+  "mod": "dark",
+  "vurgu": "#fff626",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-35",
+  "ad": "Karanlık Spektrum 35",
+  "mod": "dark",
+  "vurgu": "#edff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-36",
+  "ad": "Karanlık Spektrum 36",
+  "mod": "dark",
+  "vurgu": "#d3ff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-37",
+  "ad": "Karanlık Spektrum 37",
+  "mod": "dark",
+  "vurgu": "#b9ff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-38",
+  "ad": "Karanlık Spektrum 38",
+  "mod": "dark",
+  "vurgu": "#9fff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-39",
+  "ad": "Karanlık Spektrum 39",
+  "mod": "dark",
+  "vurgu": "#85ff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-40",
+  "ad": "Karanlık Spektrum 40",
+  "mod": "dark",
+  "vurgu": "#6bff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-41",
+  "ad": "Karanlık Spektrum 41",
+  "mod": "dark",
+  "vurgu": "#51ff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-42",
+  "ad": "Karanlık Spektrum 42",
+  "mod": "dark",
+  "vurgu": "#37ff26",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-43",
+  "ad": "Karanlık Spektrum 43",
+  "mod": "dark",
+  "vurgu": "#26ff2e",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-44",
+  "ad": "Karanlık Spektrum 44",
+  "mod": "dark",
+  "vurgu": "#26ff48",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-45",
+  "ad": "Karanlık Spektrum 45",
+  "mod": "dark",
+  "vurgu": "#26ff62",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-46",
+  "ad": "Karanlık Spektrum 46",
+  "mod": "dark",
+  "vurgu": "#26ff7c",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-47",
+  "ad": "Karanlık Spektrum 47",
+  "mod": "dark",
+  "vurgu": "#26ff96",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-48",
+  "ad": "Karanlık Spektrum 48",
+  "mod": "dark",
+  "vurgu": "#26ffb0",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-49",
+  "ad": "Karanlık Spektrum 49",
+  "mod": "dark",
+  "vurgu": "#26ffca",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ },
+ {
+  "id": "t-dark-50",
+  "ad": "Karanlık Spektrum 50",
+  "mod": "dark",
+  "vurgu": "#26ffe4",
+  "arkaplan": "#000000",
+  "kart": "#0A0A0A",
+  "metin": "#FFFFFF"
+ }
+]
