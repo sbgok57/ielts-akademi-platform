@@ -17,6 +17,18 @@ const config: Config = {
         indigo: "var(--indigo)",
         ink:    "var(--ink)",
         paper:  "var(--paper)",
+        /* Gökkuşağı renkleri */
+        rainbow: {
+          red:    "var(--rainbow-red)",
+          orange: "var(--rainbow-orange)",
+          amber:  "var(--rainbow-amber)",
+          green:  "var(--rainbow-green)",
+          cyan:   "var(--rainbow-cyan)",
+          blue:   "var(--rainbow-blue)",
+          indigo: "var(--rainbow-indigo)",
+          violet: "var(--rainbow-violet)",
+          pink:   "var(--rainbow-pink)",
+        },
         /* Geriye dönük uyumluluk alias'ları */
         brand: {
           1: "var(--brand-1)",
@@ -41,9 +53,9 @@ const config: Config = {
         badge: "var(--badge)",
       },
       fontFamily: {
-        sans:    ["Inter", "system-ui", "sans-serif"],
-        display: ["Fraunces", "Georgia", "serif"],   /* serif başlıklar */
-        reading: ["Fraunces", "Georgia", "serif"],
+        sans:    ["'Plus Jakarta Sans'", "Inter", "system-ui", "sans-serif"],
+        display: ["'Plus Jakarta Sans'", "Inter", "system-ui", "sans-serif"],
+        reading: ["'Plus Jakarta Sans'", "Inter", "system-ui", "sans-serif"],
       },
       animation: {
         "pulse-slow":    "pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite",

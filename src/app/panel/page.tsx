@@ -74,9 +74,12 @@ export default async function Panel() {
     { slug: "konusma", ad: "Konuşma", icon: "🎤", renk: "var(--sun)",    yuzde: 61 },
   ];
 
+  /* XP ve Seriye göre kazanılan gerçek rozet sayısı (Yeni kullanıcıda 0'dır, çalıştıkça açılır) */
+  const acikRozet = xp > 0 ? Math.min(1000, Math.floor(xp / 100) + (seri > 0 ? 1 : 0)) : 0;
+
   return (
     <div
-      className="min-h-screen py-8 px-4 sm:px-6"
+      className="min-h-screen py-8 px-4 sm:px-6 dark:bg-black"
       style={{ background: "var(--bg)" }}
     >
       <div className="mx-auto max-w-5xl">
@@ -85,49 +88,41 @@ export default async function Panel() {
         <header className="mb-8 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h1
-              className="font-display text-3xl font-bold"
-              style={{ color: "var(--text)" }}
+              className="text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white"
             >
               Merhaba, {ad} 👋
             </h1>
-            <p className="mt-1 text-sm" style={{ color: "var(--text-muted)" }}>
+            <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
               Seviye {seviye} · {cefr} · Hedef Band {band}
             </p>
           </div>
           <form action="/cikis" method="post">
             <button
-              className="rounded-2xl border px-4 py-2 text-sm font-semibold transition-colors hover:border-[var(--coral)] hover:text-[var(--coral)]"
-              style={{ borderColor: "var(--border)", color: "var(--text-muted)" }}
+              className="rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-700 transition hover:border-rose-500 hover:text-rose-600 dark:border-slate-800 dark:bg-[#0a0a0a] dark:text-slate-300 dark:hover:border-rose-400"
             >
               Çıkış yap
             </button>
           </form>
         </header>
 
-        {/* ─── ÖZET SAYAÇLAR ─── */}
-        <div className="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+        {/* ─── ÖZET SAYAÇLAR (5'li Dinamik Sayaç) ─── */}
+        <div className="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-5">
           {[
-            { etiket: "XP Puanı",       deger: xp.toLocaleString("tr"),     renk: "var(--sun)",    ikon: "⚡" },
-            { etiket: "Günlük Seri",    deger: `${seri} gün`,               renk: "var(--coral)",  ikon: "🔥" },
-            { etiket: "CEFR Seviyesi",  deger: cefr,                        renk: "var(--teal)",   ikon: "🎯" },
-            { etiket: "Hedef Band",     deger: band,                         renk: "var(--indigo)", ikon: "🏆" },
+            { etiket: "XP Puanı",         deger: xp.toLocaleString("tr"),          renk: "text-amber-500",   border: "border-amber-500/20",   ikon: "⚡" },
+            { etiket: "Günlük Seri",      deger: `${seri} gün`,                    renk: "text-rose-500",    border: "border-rose-500/20",    ikon: "🔥" },
+            { etiket: "CEFR Seviyesi",    deger: cefr,                             renk: "text-emerald-500", border: "border-emerald-500/20", ikon: "🎯" },
+            { etiket: "Hedef Band",       deger: band,                             renk: "text-blue-500",    border: "border-blue-500/20",    ikon: "🏆" },
+            { etiket: "1,000 Rozet",      deger: `${acikRozet} Açık`,              renk: "text-purple-500",  border: "border-purple-500/20",  ikon: "🎖️" },
           ].map((k) => (
             <div
               key={k.etiket}
-              className="rounded-3xl border p-4"
-              style={{
-                background: "var(--bg-soft)",
-                borderColor: "var(--border)",
-              }}
+              className={`rounded-3xl border bg-white p-4 shadow-sm transition hover:shadow-md dark:border-slate-800 dark:bg-[#0a0a0a] ${k.border}`}
             >
               <p className="text-2xl">{k.ikon}</p>
-              <p
-                className="font-display text-xl font-bold mt-1"
-                style={{ color: k.renk }}
-              >
+              <p className={`text-xl font-black mt-1 ${k.renk}`}>
                 {k.deger}
               </p>
-              <p className="text-xs mt-0.5" style={{ color: "var(--text-muted)" }}>
+              <p className="text-xs mt-0.5 text-slate-500 dark:text-slate-400 font-semibold">
                 {k.etiket}
               </p>
             </div>

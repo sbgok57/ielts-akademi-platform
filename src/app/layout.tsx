@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FAF6EF" },
-    { media: "(prefers-color-scheme: dark)",  color: "#17181C" },
+    { media: "(prefers-color-scheme: light)", color: "#F8FAFC" },
+    { media: "(prefers-color-scheme: dark)",  color: "#000000" },
   ],
   width: "device-width",
   initialScale: 1,
@@ -58,14 +58,13 @@ export default function RootLayout({
         <main id="main-content" className="min-h-[calc(100vh-140px)]">
           {children}
         </main>
-        <footer className="border-t py-8 text-center text-xs backdrop-blur-sm"
-                style={{ borderColor: "var(--border)", background: "var(--bg-soft)", color: "var(--text-muted)" }}>
-          <div className="mx-auto max-w-7xl px-4">
-            <p>
-              IELTS Akademi Platform • A1→C2 &amp; Academic IELTS Hazırlık Sistemi •{" "}
-              <Link href="/varliklar" className="font-bold underline transition-colors hover:text-[var(--coral)]">
-                Varlık Durumu (10 GIF + 25 SVG)
-              </Link>
+        <footer className="border-t border-slate-200/90 py-8 text-center text-xs backdrop-blur-sm dark:border-slate-800 dark:bg-black text-slate-500 dark:text-slate-400">
+          <div className="mx-auto max-w-7xl px-4 space-y-2">
+            <p className="font-semibold">
+              IELTS Akademi Platform • A1→C2 &amp; Academic &amp; General IELTS Hazırlık Sistemi
+            </p>
+            <p className="text-[11px] text-slate-400 dark:text-slate-500">
+              6 Doğal İnsan Aksanı · 12 İnteraktif Modül · 1,000+ Başarı Rozeti · Lumi Yapay Zekâ Koçu
             </p>
           </div>
         </footer>

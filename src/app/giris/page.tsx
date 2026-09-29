@@ -94,14 +94,14 @@ export default function GirisSayfasi() {
         <div className="relative z-10">
           <Link href="/" className="inline-flex items-center gap-2 mb-8">
             <img src="/img/logo.svg" alt="Logo" width={36} height={36} />
-            <span className="font-display text-2xl font-bold text-white">
-              IELTS <span style={{ color: "var(--sun)" }}>Akademi</span>
+            <span className="text-2xl font-black text-white tracking-tight">
+              IELTS <span className="rainbow-text-bright">Akademi</span>
             </span>
           </Link>
 
-          <h1 className="font-display text-4xl font-bold leading-tight text-white">
+          <h1 className="text-4xl font-black leading-tight text-white tracking-tight">
             A1&apos;den C2&apos;ye<br />
-            <span style={{ color: "var(--coral)" }}>gerçek ilerleme.</span>
+            <span className="rainbow-text-bright">gerçek ilerleme.</span>
           </h1>
 
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.75)" }}>
@@ -114,7 +114,7 @@ export default function GirisSayfasi() {
             {STATS.map((s) => (
               <div key={s.etiket} className="flex items-center gap-3">
                 <span
-                  className="font-display text-2xl font-bold"
+                  className="text-2xl font-black"
                   style={{ color: "var(--sun)" }}
                 >
                   {s.rakam}
