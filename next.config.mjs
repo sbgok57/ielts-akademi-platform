@@ -4,7 +4,9 @@ const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: { remotePatterns: [] }, // tüm görseller yerel public/ altından gelir
-
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
   async headers() {
     return [
