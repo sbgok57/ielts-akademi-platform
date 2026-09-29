@@ -1,0 +1,18 @@
+{
+  "name": "IELTS & YDS Akademi Platform",
+  "short_name": "IELTS Akademi",
+  "description": "A1→C2 IELTS ve YDS Tam Hazırlık Platformu — AI Speaking, Sesli Gramer, Haberler ve Resmi Sertifikalar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FF334B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

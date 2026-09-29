@@ -6,10 +6,11 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "IELTS Akademi Platform — A1→C2 + IELTS Tam Platform",
+  title: "IELTS & YDS Akademi Platform — A1→C2 + IELTS & YDS Tam Platform",
   description:
-    "Oyunlaştırılmış, bilimsel temelli, 6 aksanlı gerçek insan sesli ve yapay zekâ koçlu (Lumi) tam teşekküllü İngilizce & IELTS hazırlık platformu.",
-  keywords: ["IELTS", "İngilizce", "CEFR", "A1", "C2", "Academic", "General Training", "Lumi", "Antigravity"],
+    "Oyunlaştırılmış, bilimsel temelli, 7 aksanlı gerçek insan sesli, yapay zekâ speaking koçlu, sesli gramer anlatımlı tam teşekküllü İngilizce, IELTS & YDS hazırlık platformu.",
+  keywords: ["IELTS", "YDS", "İngilizce", "CEFR", "A1", "C2", "Academic", "General Training", "Lumi", "Antigravity", "Speaking AI"],
+  manifest: "/manifest.json",
 };
 
 export const viewport: Viewport = {

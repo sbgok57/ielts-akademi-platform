@@ -17,6 +17,10 @@ import {
   MOTIVASYON_SOZLERI,
 } from "@/lib/sampleContent";
 import SpeakingPracticeStudio from "@/components/SpeakingPracticeStudio";
+import GrammarStudyHub from "@/components/GrammarStudyHub";
+import ReadingPronunciationChecker from "@/components/ReadingPronunciationChecker";
+import ExamTimer from "@/components/ExamTimer";
+import VocabularyVaultExplorer from "@/components/VocabularyVaultExplorer";
 import { addStudentXp } from "@/lib/progress-store";
 
 const MODUL_BILGILERI: Record<string, { ad: string; anim: string; renk: string; sonraki: string; sonrakiAd: string }> = {
@@ -130,6 +134,9 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
             </div>
           </div>
 
+          {/* Yapay Zekâ Sesli Okuma & Telaffuz Testi */}
+          <ReadingPronunciationChecker targetSentence="Green roofs cool buildings in summer and keep heat inside during winter. They also slow rainwater, which reduces flooding." />
+
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <h3 className="text-xl font-bold text-slate-900 dark:text-white">Alıştırma Soruları (TFNG)</h3>
             <p className="mt-1 text-sm text-slate-500">
@@ -182,40 +189,10 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
         </section>
       )}
 
-      {/* 2. GRAMER MODÜLÜ */}
+      {/* 2. GRAMER MODÜLÜ — A1→C2 HAFIZA KODLAMALI SESLİ ANLATIM & YOUTUBE DERSLERİ */}
       {slug === "gramer" && (
         <section className="space-y-6">
-          {GRAMER_LISTESI.map((g, idx) => (
-            <div
-              key={g.baslik}
-              className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900"
-            >
-              <div className="flex items-center gap-2">
-                <span className="rounded-md bg-purple-100 px-2.5 py-0.5 text-xs font-extrabold text-purple-700 dark:bg-purple-950 dark:text-purple-300">
-                  {g.seviye}
-                </span>
-                <span className="text-xs text-slate-500">9 Bloklu Ders Yapısı • Blok {idx + 1}</span>
-              </div>
-              <h2 className="mt-2 text-xl font-bold text-slate-900 dark:text-white">{g.baslik}</h2>
-              <p className="mt-2 text-slate-700 dark:text-slate-300">
-                <strong>Kural:</strong> {g.kural}
-              </p>
-              <div className="mt-3 space-y-1">
-                <strong className="text-sm text-slate-600 dark:text-slate-400">Doğru Örnekler:</strong>
-                <ul className="list-inside list-disc text-sm text-slate-700 dark:text-slate-300">
-                  {g.ornek.map((o, i) => (
-                    <li key={i}>{o}</li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-4 rounded-xl bg-amber-50 p-3 text-xs text-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
-                <strong>⚠️ Klasik Türk Öğrenci Tuzağı:</strong> {g.hatalar[0]}
-              </div>
-              <div className="mt-2 rounded-xl bg-violet-50 p-3 text-xs text-violet-900 dark:bg-violet-950/40 dark:text-violet-200">
-                <strong>🎯 Sınav Kritik Detayı:</strong> {g.kritik}
-              </div>
-            </div>
-          ))}
+          <GrammarStudyHub />
         </section>
       )}
 
@@ -361,31 +338,10 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
         </section>
       )}
 
-      {/* 6. KELİME MODÜLÜ */}
+      {/* 6. KELİME MODÜLÜ — 1,000+ IELTS & YDS KELİME ENVANTERİ & 7 DOĞAL AKSAN */}
       {slug === "kelime" && (
-        <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {KELIME_LISTESI.map((k) => (
-            <div
-              key={k.kelime}
-              className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition hover:shadow-md dark:border-slate-800 dark:bg-slate-900"
-            >
-              <div className="flex items-center justify-between">
-                <strong className="text-lg font-extrabold text-purple-600 dark:text-purple-400">
-                  {k.kelime}
-                </strong>
-                <span className="rounded bg-purple-100 px-2 py-0.5 text-xs font-bold text-purple-700 dark:bg-purple-950 dark:text-purple-300">
-                  {k.seviye}
-                </span>
-              </div>
-              <p className="mt-2 text-sm font-semibold text-slate-800 dark:text-slate-200">
-                🇹🇷 {k.tr}
-              </p>
-              <p className="mt-1 text-xs text-slate-500">Eş Anlamlı: {k.es}</p>
-              <div className="mt-3 rounded-xl bg-slate-50 p-2 text-xs italic text-slate-600 dark:bg-slate-800/60 dark:text-slate-300">
-                &ldquo;{k.orn}&rdquo;
-              </div>
-            </div>
-          ))}
+        <section className="space-y-6">
+          <VocabularyVaultExplorer />
         </section>
       )}
 
@@ -393,9 +349,18 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
       {slug === "deneme" && (
         <section className="space-y-6">
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+            {/* Süreli Geriye Sayım Sayacı */}
+            <div className="mb-6">
+              <ExamTimer
+                initialMinutes={180}
+                questionCount={DENEME_SORULARI.length}
+                examTitle="ÖSYM YDS & IELTS Akademik Deneme Sınavı (180 Dakika)"
+              />
+            </div>
+
             <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Deneme Sınav Modu</h2>
             <p className="mt-1 text-sm text-slate-500">
-              Süre kontrollü, tam ölçekli IELTS deneme soruları.
+              Süre kontrollü, tam ölçekli IELTS & YDS deneme soruları.
             </p>
 
             <div className="mt-6 space-y-6">

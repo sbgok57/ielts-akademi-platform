@@ -47,6 +47,9 @@ export interface StudentProgress {
     kelime: number;
   };
 
+  // Admin & Rol
+  isAdmin?: boolean;
+
   // Tamamlanan aktiviteler
   completedModules: string[];
   completedQuizzes: Record<string, boolean>;
@@ -163,16 +166,19 @@ export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenc
     },
   };
 
+  const isSbgok57 = studentName.toLowerCase().includes("sbgok57") || email.toLowerCase().includes("sbgok57");
+
   return {
-    id: "stu_" + Math.random().toString(36).slice(2, 9),
-    studentName,
-    email,
+    id: isSbgok57 ? "admin-sbgok57" : "stu_" + Math.random().toString(36).slice(2, 9),
+    studentName: isSbgok57 ? "Sinem Buse Gök (sbgok57)" : studentName,
+    email: isSbgok57 ? "sbgok57@ieltsakademi.com" : email,
+    isAdmin: isSbgok57,
     enrolledDate: new Date().toLocaleDateString("tr-TR"),
-    targetBand: 7.5,
-    currentCefr: "A1",
-    currentLevelNumber: 1,
-    xpTotal: 450,
-    streakDays: 7,
+    targetBand: isSbgok57 ? 9.0 : 7.5,
+    currentCefr: isSbgok57 ? "C2" : "A1",
+    currentLevelNumber: isSbgok57 ? 6 : 1,
+    xpTotal: isSbgok57 ? 9500 : 450,
+    streakDays: isSbgok57 ? 45 : 7,
     lastActiveDate: new Date().toISOString().split("T")[0]!,
     overallPercentage: 28,
     levelProgressPercentage: 65,

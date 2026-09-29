@@ -107,6 +107,22 @@ const MODULLER: ModulItem[] = [
     renkSinifi: "border-l-4 border-l-pink-600 hover:border-pink-400 group-hover:text-pink-500",
     badge: "bg-pink-50 text-pink-600 dark:bg-pink-950/50 dark:text-pink-400",
   },
+  {
+    yol: "/haberler",
+    ikon: "/img/ikon-okuma.svg",
+    ad: "2,000+ Gündem Haber",
+    ozet: "Sesli dinleme, arka planda çalma ve tıklanabilir Türkçe çeviri",
+    renkSinifi: "border-l-4 border-l-blue-500 hover:border-blue-400 group-hover:text-blue-500",
+    badge: "bg-blue-50 text-blue-600 dark:bg-blue-950/50 dark:text-blue-400",
+  },
+  {
+    yol: "/sertifika",
+    ikon: "/img/ikon-rozet.svg",
+    ad: "Resmi Sertifikalar",
+    ozet: "A1→C2 geçerli ve doğrulanabilir renkli diplomalar",
+    renkSinifi: "border-l-4 border-l-amber-500 hover:border-amber-400 group-hover:text-amber-500",
+    badge: "bg-amber-50 text-amber-600 dark:bg-amber-950/50 dark:text-amber-400",
+  },
 ];
 
 export default function ModuleGrid() {

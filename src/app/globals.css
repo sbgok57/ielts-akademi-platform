@@ -35,9 +35,9 @@
   --bg-elevated: #FFFFFF;
 
   /* Metin ve sınırlar */
-  --text:       #0F172A;
-  --text-muted: #64748B;
-  --border:     #E2E8F0;
+  --text:       #0F172A;   /* Koyu berrak metin */
+  --text-muted: #334155;   /* Yüksek kontrastlı, net okunabilir gri (aydınlık mod netliği) */
+  --border:     #CBD5E1;   /* Belirgin, net sınır çizgileri */
 
   /* Sistem renkleri */
   --success: #10B981;

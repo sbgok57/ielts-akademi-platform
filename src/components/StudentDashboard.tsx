@@ -110,6 +110,11 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
             <span className="text-xs font-black uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
               Kalıcı Öğrenci Hesabı Aktif
             </span>
+            {(progress.isAdmin || progress.studentName.toLowerCase().includes("sbgok57")) && (
+              <span className="rounded-full bg-amber-500 px-2.5 py-0.5 text-[10px] font-black uppercase text-white shadow-sm flex items-center gap-1">
+                <span>👑 SİSTEM YÖNETİCİSİ (ADMIN)</span>
+              </span>
+            )}
           </div>
           <h1 className="mt-1 text-2xl sm:text-3xl font-black tracking-tight text-slate-900 dark:text-white">
             Merhaba, {progress.studentName} 👋
@@ -147,6 +152,52 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
           </form>
         </div>
       </header>
+
+      {/* 👑 YÖNETİCİ KONTROL PANELİ (sbgok57 İÇİN ÖZEL) */}
+      {(progress.isAdmin || progress.studentName.toLowerCase().includes("sbgok57")) && (
+        <div className="rounded-3xl border-2 border-amber-500/50 bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-rose-500/15 p-6 shadow-xl dark:bg-[#0c0c0c]">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-2xl">👑</span>
+                <h3 className="text-lg font-black text-slate-900 dark:text-white">
+                  Yönetici Kontrol Merkezi (Admin Panel) · sbgok57
+                </h3>
+              </div>
+              <p className="mt-1 text-xs text-slate-600 dark:text-slate-300">
+                Sistem yöneticisi yetkileri devredildi: Platformu yönetebilir, tüm seviyelerin sertifikalarını anında test edebilir ve canlı içerikleri denetleyebilirsiniz.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  const updated = { ...progress, xpTotal: progress.xpTotal + 1000 };
+                  saveStudentProgress(updated);
+                  setProgress(updated);
+                  setImportStatus("Yönetici Bonusu: +1000 XP Hesaba Eklendi! 🎉");
+                  setTimeout(() => setImportStatus(null), 3000);
+                }}
+                className="rounded-xl bg-amber-500 px-3.5 py-2 text-xs font-black text-white hover:bg-amber-600 shadow-sm"
+              >
+                ⚡ +1000 XP Ekle
+              </button>
+              <Link
+                href="/sertifika"
+                className="rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 px-3.5 py-2 text-xs font-black text-white hover:opacity-90 shadow-sm"
+              >
+                🏅 Sertifika Yönetimi
+              </Link>
+              <Link
+                href="/haberler"
+                className="rounded-xl bg-gradient-to-r from-blue-600 to-teal-600 px-3.5 py-2 text-xs font-black text-white hover:opacity-90 shadow-sm"
+              >
+                📰 2,000+ Haber Portalı
+              </Link>
+            </div>
+          </div>
+        </div>
+      )}
 
       {importStatus && (
         <div className="rounded-2xl border border-emerald-500/30 bg-emerald-50 p-4 text-xs font-bold text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200 animate-fadeIn">
@@ -244,6 +295,31 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
             className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-pink-600 to-indigo-600 px-5 py-3 text-xs font-black text-white shadow-md hover:opacity-95"
           >
             <span>Speaking Pratiğine Başla</span>
+            <ChevronRight className="h-4 w-4" />
+          </Link>
+        </div>
+      </div>
+
+      {/* ─── 2,000+ GÜNDEM İNGİLİZCE HABERLER ÖNE ÇIKAN KART ─── */}
+      <div className="rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-500/5 via-teal-500/5 to-purple-500/5 p-6 dark:border-slate-800 dark:bg-[#0c0c0c] sm:p-7">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="space-y-1">
+            <span className="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-blue-600 dark:text-blue-400">
+              <Headphones className="h-3.5 w-3.5" />
+              2,000+ Gündem İngilizce Haber & Sesli Dinleme
+            </span>
+            <h3 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
+              Gündem İngilizce Haber Portalı 🌍
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+              Teknoloji, bilim, çevre ve ekonomi alanındaki haberleri kadın veya erkek spiker sesiyle dinleyin, telefon kilitlense bile dinlemeye devam edin.
+            </p>
+          </div>
+          <Link
+            href="/haberler"
+            className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-blue-600 to-teal-600 px-5 py-3 text-xs font-black text-white shadow-md hover:opacity-95"
+          >
+            <span>Haberleri Dinle & Oku</span>
             <ChevronRight className="h-4 w-4" />
           </Link>
         </div>
