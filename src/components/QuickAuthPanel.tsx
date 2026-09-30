@@ -72,7 +72,7 @@ export default function QuickAuthPanel() {
         try {
           await signIn("credentials", {
             email: "sbgok57@ieltsakademi.com",
-            password: password || "sbgok57Admin!",
+            password: password || "220802Sbg",
             redirect: false,
             callbackUrl: "/panel",
           });
@@ -85,7 +85,7 @@ export default function QuickAuthPanel() {
 
       const res = await signIn("credentials", {
         email,
-        password: password || "sbgok57Admin!",
+        password: password || "220802Sbg",
         redirect: false,
         callbackUrl: "/panel",
       });

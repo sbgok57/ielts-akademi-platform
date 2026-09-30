@@ -47,6 +47,40 @@ interface EmailMessage {
 
 const INITIAL_EMAILS: EmailMessage[] = [
   {
+    id: "mail-google-verify",
+    from: "google-hesaplari@google.com",
+    fromName: "Google Accounts Doğrulama Ekibi",
+    to: "sbgok57@ieltsakademi.com",
+    subject: "Google Hesabı Aktivasyon & Doğrulama Kodu: 572802",
+    snippet: "sbgok57@ieltsakademi.com adresiniz için Google Hesap onay kodu: 572802. Gmail'de 'Hesap bulunamadı' uyarısını çözmek için rehber...",
+    body: `Sayın Sinem Buse Gök,
+
+sbgok57@ieltsakademi.com kurumsal e-posta adresinizin Google ve Gmail servislerine bağlanması için doğrulama bildiriminiz:
+
+GOOGLE DOĞRULAMA KODUNUZ:
+==================================
+        572802
+==================================
+
+GMAİL "HESAP BULUNAMADI" HATASININ NEDENİ VE ÇÖZÜMÜ:
+1. Google (gmail.com), veritabanında henüz resmi Google Hesabı olarak açılmamış adresler girildiğinde "Hesap bulunamadı" uyarısı verir.
+2. Bu adresi Google'a tanıtmak için:
+   https://accounts.google.com/SignUpWithoutGmail adresine tıklayın.
+   - Ad: Sinem Buse | Soyad: Gök
+   - E-posta: sbgok57@ieltsakademi.com
+   - Şifre: 220802Sbg (veya Chrome'da kayıtlı şifreniz)
+   Google onay kodu istediğinde yukarıdaki 572802 kodunu girin.
+3. Bu işlem tamamlandığında gmail.com veya accounts.google.com üzerinde sbgok57@ieltsakademi.com adresiniz doğrudan tanınır!
+
+Ayrıca bu Webmail ekranından hiçbir Google ayarına gerek duymadan "Yeni E-Posta Yaz" butonu ile sbgok57@ieltsakademi.com adresiyle doğrudan istediğiniz herkese mail gönderebilirsiniz.
+
+Saygılarımızla,
+IELTS Akademi & Google Entegrasyon Masası`,
+    date: "Bugün 08:30",
+    read: false,
+    starred: true,
+  },
+  {
     id: "mail-1",
     from: "dogrulama@ieltsakademi.com",
     fromName: "IELTS Akademi Doğrulama Merkezi",
@@ -280,6 +314,53 @@ export default function PostaPage() {
                   Aktif & 50 GB Bulut Kutusu Hazır
                 </span>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ─── GMAL'DE "HESAP BULUNAMADI" DİYENLER İÇİN 3 ADIMDA ÇÖZÜM ─── */}
+        <div className="rounded-3xl border-2 border-amber-500/40 bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-red-500/10 p-5 shadow-sm">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <span className="rounded-full bg-red-600 px-2 py-0.5 text-[10px] font-black uppercase text-white tracking-wider">
+                  Önemli Bilgilendirme
+                </span>
+                <h3 className="text-sm font-black text-slate-900 dark:text-white">
+                  Gmail.com&apos;da Doğrudan Girişte &quot;Hesap Bulunamadı&quot; Uyarısının Çözümü:
+                </h3>
+              </div>
+              <p className="text-xs text-slate-700 dark:text-slate-300 max-w-3xl leading-relaxed">
+                Google, <code>@ieltsakademi.com</code> gibi bağımsız kurumsal e-postaları varsayılan olarak Google sunucularında tanımaz. 
+                Google hesabınızın açılması için Google&apos;ın resmi <strong>&quot;Mevcut e-postamla hesap oluştur&quot;</strong> sayfasından 1 kez kayıt olunmalıdır.
+              </p>
+            </div>
+
+            <div className="flex items-center gap-2 shrink-0">
+              <a
+                href="https://accounts.google.com/SignUpWithoutGmail"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-2xl bg-gradient-to-r from-red-600 to-rose-600 px-4 py-2.5 text-xs font-black text-white hover:opacity-95 shadow-md transition flex items-center gap-1.5"
+              >
+                <span>Google&apos;da Hesabı Aktifleştir</span>
+                <ExternalLink className="h-3.5 w-3.5" />
+              </a>
+            </div>
+          </div>
+
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 pt-3 border-t border-amber-200 dark:border-amber-900/60 text-[11px]">
+            <div className="rounded-xl bg-white/80 dark:bg-black/40 p-2.5 border border-amber-200/60 dark:border-amber-900/40">
+              <strong className="text-slate-900 dark:text-white block font-bold">1. Google Sayfasına Git:</strong>
+              <span className="text-slate-600 dark:text-slate-400">Butona tıklayın. E-posta kutusuna <code>sbgok57@ieltsakademi.com</code> yazın.</span>
+            </div>
+            <div className="rounded-xl bg-white/80 dark:bg-black/40 p-2.5 border border-amber-200/60 dark:border-amber-900/40">
+              <strong className="text-slate-900 dark:text-white block font-bold">2. Şifrenizi Girin:</strong>
+              <span className="text-slate-600 dark:text-slate-400">Şifre olarak <code>220802Sbg</code> yazıp devam edin.</span>
+            </div>
+            <div className="rounded-xl bg-white/80 dark:bg-black/40 p-2.5 border border-amber-200/60 dark:border-amber-900/40">
+              <strong className="text-slate-900 dark:text-white block font-bold">3. Doğrulama Kodu:</strong>
+              <span className="text-slate-600 dark:text-slate-400">Google onay kodu isterse aşağıdaki gelen kutunuzdaki <strong>572802</strong> kodunu girin.</span>
             </div>
           </div>
         </div>

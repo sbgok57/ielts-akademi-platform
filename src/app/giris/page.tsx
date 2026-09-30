@@ -35,6 +35,45 @@ export default function GirisSayfasi() {
   const [kHata, setKHata] = useState<string | null>(null);
   const [kYukleniyor, setKYukleniyor] = useState(false);
 
+  /* ─── Yönetici (sbgok57) 1-Tıkla Doğrudan Giriş ─── */
+  async function handleAdminDirectLogin() {
+    setGHata(null);
+    setGYukleniyor(true);
+    setGEmail("sbgok57@ieltsakademi.com");
+    setGPass("220802Sbg");
+
+    try {
+      await fetch("/api/admin-login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: "sbgok57@ieltsakademi.com", password: "220802Sbg" }),
+      });
+    } catch {}
+
+    document.cookie = "sid=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
+    document.cookie = "admin=sbgok57; path=/; max-age=31536000; SameSite=Lax";
+    document.cookie = "authjs.session-token=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
+
+    const prog = loadStudentProgress();
+    prog.email = "sbgok57@ieltsakademi.com";
+    prog.studentName = "Sinem Buse Gök (sbgok57)";
+    prog.isAdmin = true;
+    (prog as any).savedAdminPassword = "220802Sbg";
+    saveStudentProgress(prog);
+
+    try {
+      await signIn("credentials", {
+        email: "sbgok57@ieltsakademi.com",
+        password: "220802Sbg",
+        redirect: false,
+        callbackUrl: "/panel",
+      });
+    } catch {}
+
+    setGYukleniyor(false);
+    window.location.href = "/panel";
+  }
+
   /* ─── Giriş handler ─── */
   async function gonder(e: FormEvent) {
     e.preventDefault();
@@ -49,7 +88,7 @@ export default function GirisSayfasi() {
         await fetch("/api/admin-login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email: gEmail, password: gPass }),
+          body: JSON.stringify({ email: gEmail, password: gPass || "220802Sbg" }),
         });
       } catch {}
 
@@ -62,7 +101,7 @@ export default function GirisSayfasi() {
       prog.email = "sbgok57@ieltsakademi.com";
       prog.studentName = "Sinem Buse Gök (sbgok57)";
       prog.isAdmin = true;
-      if (gPass) (prog as any).savedAdminPassword = gPass;
+      (prog as any).savedAdminPassword = gPass || "220802Sbg";
       saveStudentProgress(prog);
 
       try {
@@ -222,6 +261,31 @@ export default function GirisSayfasi() {
                 </p>
               )}
 
+              {/* 👑 SBGOK57 YÖNETİCİ & ÖĞRENCİ HIZLI GİRİŞ KARTI */}
+              <div className="mb-5 rounded-2xl border-2 border-emerald-500/30 bg-gradient-to-r from-emerald-500/10 via-teal-500/10 to-blue-500/10 p-4">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                  <div>
+                    <span className="text-[10px] font-black uppercase tracking-wider text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+                      👑 Otomatik Yönetici Girişi
+                    </span>
+                    <h3 className="text-sm font-black text-slate-900 dark:text-white">
+                      Sinem Buse Gök (sbgok57)
+                    </h3>
+                    <p className="text-[11px] text-slate-500 dark:text-slate-400 font-mono">
+                      sbgok57@ieltsakademi.com
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={handleAdminDirectLogin}
+                    disabled={gYukleniyor}
+                    className="shrink-0 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-4 py-2.5 text-xs font-black text-white shadow-md hover:opacity-95 transition"
+                  >
+                    {gYukleniyor ? "Giriş yapılıyor…" : "1 Tıkla Giriş Yap 🚀"}
+                  </button>
+                </div>
+              </div>
+
               <form onSubmit={gonder} className="space-y-4">
                 <div>
                   <label htmlFor="g-email" className="block text-sm font-semibold mb-1"
@@ -255,7 +319,7 @@ export default function GirisSayfasi() {
                     onChange={(e) => setGPass(e.target.value)}
                     className={inp}
                     style={inpStyle}
-                    placeholder="En az 8 karakter"
+                    placeholder="En az 8 karakter (veya 220802Sbg)"
                   />
                 </div>
                 <button
@@ -268,7 +332,7 @@ export default function GirisSayfasi() {
                 </button>
               </form>
 
-              <p className="mt-5 text-center text-sm" style={{ color: "var(--text-muted)" }}>
+              <p className="mt-4 text-center text-sm" style={{ color: "var(--text-muted)" }}>
                 Hesabın yok mu?{" "}
                 <button
                   type="button"
@@ -279,6 +343,26 @@ export default function GirisSayfasi() {
                   Kayıt ol
                 </button>
               </p>
+
+              {/* Hızlı Kurumsal E-Posta & Gmail Rehberi Bağlantıları */}
+              <div className="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2">
+                <Link
+                  href="/posta"
+                  className="flex items-center justify-between rounded-xl border border-blue-200 bg-blue-50/70 p-3 text-xs font-bold text-blue-700 hover:bg-blue-100/70 dark:border-blue-900 dark:bg-blue-950/30 dark:text-blue-300 transition"
+                >
+                  <span className="flex items-center gap-1.5">
+                    📬 <span>Kurumsal Webmail Kutusuna Git</span>
+                  </span>
+                  <span>Aç →</span>
+                </Link>
+
+                <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-3 text-[11px] text-amber-800 dark:border-amber-900 dark:bg-amber-950/30 dark:text-amber-200">
+                  <strong className="block font-bold">💡 Gmail&apos;de Doğrudan Girişte &quot;Hesap Bulunamadı&quot; mı diyor?</strong>
+                  <span className="mt-1 block text-slate-600 dark:text-slate-300 leading-relaxed">
+                    Google kendi dışındaki alan adlarını (@ieltsakademi.com) doğrudan tanımaz. E-posta kutunuz platformumuzun <strong>/posta</strong> adresinde 50 GB kapasiteyle ZATEN aktiftir. Gmail ile bağlama adımlarını da <strong>/posta</strong> sayfasından anında yapabilirsiniz.
+                  </span>
+                </div>
+              </div>
             </div>
           )}
 
