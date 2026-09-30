@@ -234,8 +234,14 @@ export default function PostaPage() {
               <ArrowLeft className="h-4 w-4" />
               <span>Yönetici Paneline Dön</span>
             </Link>
-            <h1 className="mt-1 text-2xl sm:text-3xl font-black text-slate-900 dark:text-white flex items-center gap-2">
-              <Mail className="h-7 w-7 text-blue-500" />
+            <h1 className="mt-1 text-2xl sm:text-3xl font-black text-slate-900 dark:text-white flex items-center gap-3">
+              <img
+                src="/icon.svg"
+                alt="IELTS Akademi Logo"
+                width={48}
+                height={48}
+                className="h-10 w-10 sm:h-12 sm:w-12 rounded-2xl shadow-md shadow-purple-500/20 shrink-0"
+              />
               <span>Kurumsal Webmail & E-Posta Merkezi</span>
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400">

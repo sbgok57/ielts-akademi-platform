@@ -35,18 +35,23 @@ export default function Navbar() {
 
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
 
-          {/* Logo — Sekmedeki ikon (/icon.svg) ile %100 aynı, başlık boyutunda büyük resmi ikon */}
-          <Link href="/" className="flex items-center gap-3 group">
+          {/* Logo — Sekmedeki ikon (/icon.svg) ile %100 aynı, ÇOK BÜYÜK ve GÖRKEMLİ resmi ikon */}
+          <Link href="/" className="flex items-center gap-3.5 sm:gap-4 group py-1">
             <img
               src="/icon.svg"
               alt="IELTS Akademi Logo"
-              width={44}
-              height={44}
-              className="h-10 w-10 sm:h-11 sm:w-11 rounded-2xl shadow-md shadow-purple-500/25 group-hover:scale-105 transition-transform shrink-0"
+              width={80}
+              height={80}
+              className="h-14 w-14 sm:h-18 sm:w-18 md:h-20 md:w-20 rounded-2xl sm:rounded-3xl shadow-xl shadow-purple-500/30 group-hover:scale-108 transition-all shrink-0 ring-2 ring-purple-500/40 hover:ring-purple-500/70 select-none"
             />
-            <span className="text-2xl sm:text-3xl font-black tracking-tight text-slate-900 dark:text-white">
-              IELTS <span className="rainbow-text">Akademi</span>
-            </span>
+            <div className="flex flex-col">
+              <span className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-slate-900 dark:text-white leading-none">
+                IELTS <span className="rainbow-text">Akademi</span>
+              </span>
+              <span className="text-[10px] sm:text-xs font-bold text-slate-500 dark:text-slate-400 tracking-wider uppercase mt-1">
+                Resmi Eğitim Platformu
+              </span>
+            </div>
           </Link>
 
         {/* Desktop Nav */}

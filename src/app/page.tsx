@@ -157,17 +157,29 @@ export default function Home() {
           
           {/* Sol: Değer Önerisi & Tanıtım */}
           <div className="space-y-6 text-center lg:col-span-7 lg:text-left">
-            <div className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-rose-50 px-4 py-1.5 text-xs font-black text-rose-600 dark:border-rose-900/60 dark:bg-rose-950/40 dark:text-rose-400">
-              <Sparkles className="h-4 w-4 animate-pulse text-amber-500" />
-              <span>A1&apos;den C2&apos;ye · IELTS Akademik &amp; Genel Hazırlık Platformu</span>
-            </div>
+            {/* Büyük Resmi Platform İkonu ve Başlık */}
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
+              <img
+                src="/icon.svg"
+                alt="IELTS Akademi Logo"
+                width={96}
+                height={96}
+                className="h-20 w-20 sm:h-24 sm:w-24 rounded-3xl shadow-2xl shadow-purple-500/35 ring-4 ring-purple-500/25 shrink-0 select-none hover:scale-105 transition-transform"
+              />
+              <div className="space-y-3">
+                <div className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-rose-50 px-4 py-1.5 text-xs font-black text-rose-600 dark:border-rose-900/60 dark:bg-rose-950/40 dark:text-rose-400">
+                  <Sparkles className="h-4 w-4 animate-pulse text-amber-500" />
+                  <span>A1&apos;den C2&apos;ye · IELTS Akademik &amp; Genel Hazırlık Platformu</span>
+                </div>
 
-            <h1 className="text-3xl font-black tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl lg:leading-[1.12]">
-              Sınav seni değil,{" "}
-              <span className="rainbow-text">
-                hazırlığını ölçer.
-              </span>
-            </h1>
+                <h1 className="text-3xl font-black tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl lg:leading-[1.12]">
+                  Sınav seni değil,{" "}
+                  <span className="rainbow-text">
+                    hazırlığını ölçer.
+                  </span>
+                </h1>
+              </div>
+            </div>
 
             <p className="text-base sm:text-lg leading-relaxed text-slate-600 dark:text-slate-300">
               Korkutmayan, kıyaslamayan ve her hatayı öğrenmenin kanıtı sayan çağdaş dil mimarisi.
