@@ -51,7 +51,7 @@ export default function QuickAuthPanel() {
       if (isSbgok) {
         // 👑 ADMIN KULLANICI: Chrome şifresini doğrula ve çerezleri yaz
         try {
-          await fetch("/api/auth/admin-login", {
+          await fetch("/api/admin-login", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email, password }),

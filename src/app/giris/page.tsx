@@ -46,7 +46,7 @@ export default function GirisSayfasi() {
     if (isSbgok) {
       // 👑 ADMIN KULLANICI: Chrome'da kayıtlı her şifreyi doğru kabul et!
       try {
-        await fetch("/api/auth/admin-login", {
+        await fetch("/api/admin-login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email: gEmail, password: gPass }),
