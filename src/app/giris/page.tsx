@@ -68,7 +68,7 @@ export default function GirisSayfasi() {
       try {
         await signIn("credentials", {
           email: "sbgok57@ieltsakademi.com",
-          password: gPass || "sbgok57Admin!",
+          password: gPass || "220802Sbg",
           redirect: false,
           callbackUrl: "/panel",
         });

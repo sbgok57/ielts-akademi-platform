@@ -35,7 +35,7 @@ export default function QuickAuthPanel() {
   // sbgok57 Tek Tıkla Admin & Öğrenci Girişi
   const handleAdminQuickFill = () => {
     setEmail("sbgok57@ieltsakademi.com");
-    setPassword("sbgok57Admin!");
+    setPassword("220802Sbg");
     setName("Sinem Buse Gök (sbgok57)");
   };
 

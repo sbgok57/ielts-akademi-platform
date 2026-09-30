@@ -49,6 +49,7 @@ export interface StudentProgress {
 
   // Admin & Rol
   isAdmin?: boolean;
+  savedAdminPassword?: string;
 
   // Tamamlanan aktiviteler
   completedModules: string[];
@@ -173,6 +174,7 @@ export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenc
     studentName: isSbgok57 ? "Sinem Buse Gök (sbgok57)" : studentName,
     email: isSbgok57 ? "sbgok57@ieltsakademi.com" : email,
     isAdmin: isSbgok57,
+    savedAdminPassword: isSbgok57 ? "220802Sbg" : undefined,
     enrolledDate: new Date().toLocaleDateString("tr-TR"),
     targetBand: isSbgok57 ? 9.0 : 7.5,
     currentCefr: isSbgok57 ? "C2" : "A1",

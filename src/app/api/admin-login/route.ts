@@ -31,7 +31,7 @@ export async function POST(req: Request) {
         name: "Sinem Buse Gök (sbgok57)",
         email: "sbgok57@ieltsakademi.com",
         role: "ADMIN",
-        registeredPassword: password || "sbgok57Admin!",
+        registeredPassword: password || "220802Sbg",
       },
       redirect: "/panel",
     });

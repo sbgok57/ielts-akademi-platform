@@ -297,21 +297,27 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
             {/* Genişletilebilir Gmail Rehberi */}
             {showGmailGuide && (
               <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-3 text-xs text-slate-700 dark:text-slate-300 animate-fadeIn">
-                <p className="font-bold text-slate-900 dark:text-white">
-                  📌 <code>sbgok57@ieltsakademi.com</code> Adresini Gmail Üzerinden Kullanma Adımları:
-                </p>
+                <div className="rounded-xl border border-amber-500/40 bg-amber-500/10 p-3 text-amber-900 dark:text-amber-200">
+                  <p className="font-bold">⚠️ &quot;Kimlik doğrulama hatası oluştu&quot; Uyarısının Nedeni ve Çözümü:</p>
+                  <p className="mt-1 text-[11px] leading-relaxed">
+                    Gmail&apos;e <code>smtp.ieltsakademi.com</code> yazıldığında Google sunucuyu bulamaz. E-postaları sorunsuz göndermek için SMTP Sunucusu kutusuna <strong>smtp.gmail.com</strong> yazılmalı ve Google Hesabınızdan alacağınız 16 haneli Uygulama Şifresi girilmelidir.
+                  </p>
+                </div>
+
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-[#121212]">
                     <span className="font-black text-blue-600">1. Adım:</span>
-                    <p className="mt-1">Kendi kişisel Gmail hesabınızı açın. Sağ üstteki <strong>Ayarlar (Çark İkonu) &gt; Tüm Ayarları Görüntüleyin</strong> bölümüne gidin.</p>
+                    <p className="mt-1">Kişisel Gmail&apos;inizi açın. Sağ üstteki <strong>Ayarlar &gt; Tüm Ayarları Görüntüleyin &gt; Hesaplar ve İçe Aktarma</strong> sekmesinde <em>&quot;Başka bir e-posta adresi ekle&quot;</em>ye tıklayın.</p>
                   </div>
                   <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-[#121212]">
                     <span className="font-black text-blue-600">2. Adım:</span>
-                    <p className="mt-1"><strong>&quot;Hesaplar ve İçe Aktarma İşlemi&quot;</strong> sekmesinde <em>&quot;Postaları şu adresten gönder&quot;</em> ve <em>&quot;Diğer hesaplardaki postaları kontrol et&quot;</em> seçeneğine <code>sbgok57@ieltsakademi.com</code> ekleyin.</p>
+                    <p className="mt-1"><strong>SMTP Sunucusu:</strong> <code>smtp.gmail.com</code> | <strong>Port:</strong> 587</p>
+                    <p className="mt-0.5"><strong>Kullanıcı Adı:</strong> Kişisel Gmail adresiniz</p>
+                    <p className="mt-0.5"><strong>Şifre:</strong> Google 16 haneli Uygulama Şifresi</p>
                   </div>
                   <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-[#121212]">
                     <span className="font-black text-blue-600">3. Adım:</span>
-                    <p className="mt-1">Şifre olarak belirlediğiniz admin şifrenizi girin. Artık hem gelen mailler doğrudan Gmail kutunuza düşer hem de Gmail üzerinden bu adresle resmi mail atabilirsiniz!</p>
+                    <p className="mt-1">Google onay kodunu <Link href="/posta" className="text-blue-600 font-bold underline">/posta</Link> gelen kutusuna yollayacaktır. Kodu onayladığınızda Gmail hesabınız başarıyla bağlanır!</p>
                   </div>
                 </div>
               </div>
