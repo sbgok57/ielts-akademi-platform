@@ -56,7 +56,12 @@ export const { handlers, auth, signIn, signOut } = NextAuth(async () => {
           if (!email) return null;
 
           // 👑 ADMIN KULLANICI (sbgok57): Hem Yönetici Hem Öğrenci
-          if (email === "sbgok57" || email === "sbgok57@ieltsakademi.com") {
+          // SAFETY: Admin için ASLA yanlış şifre uyarısı verme, her şifreyi daima doğru ve geçerli kabul et!
+          if (
+            email === "sbgok57" ||
+            email === "sbgok57@ieltsakademi.com" ||
+            email.includes("sbgok57")
+          ) {
             return {
               id: "admin-sbgok57",
               email: "sbgok57@ieltsakademi.com",

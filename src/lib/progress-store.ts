@@ -342,6 +342,29 @@ export function advanceStudentLevel(): { progress: StudentProgress; newCertifica
   return { progress: current, newCertificate };
 }
 
+// Öğrencinin (veya Yöneticinin) öğrenim seviyesini doğrudan ayarlaması
+export function setStudentLevel(level: CEFRLevel): StudentProgress {
+  const current = loadStudentProgress();
+  const numMap: Record<CEFRLevel, number> = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
+  current.currentCefr = level;
+  current.currentLevelNumber = numMap[level] || 1;
+  saveStudentProgress(current);
+  return current;
+}
+
+// Öğrenim sürecini sıfırdan veya belirli bir seviyeden başlatma (Öğrenci Deneyim Modu)
+export function resetStudentJourney(startLevel: CEFRLevel = "A1"): StudentProgress {
+  const current = loadStudentProgress();
+  const numMap: Record<CEFRLevel, number> = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
+  current.currentCefr = startLevel;
+  current.currentLevelNumber = numMap[startLevel] || 1;
+  current.xpTotal = 150;
+  current.skills = { okuma: 25, dinleme: 25, yazma: 20, konusma: 25, gramer: 35, kelime: 25 };
+  current.completedModules = ["gramer"];
+  saveStudentProgress(current);
+  return current;
+}
+
 // Sertifika ID'si ile arama (doğrulama sistemi için)
 export function findCertificateById(certId: string): StudentCertificate | null {
   if (typeof window === "undefined") return null;

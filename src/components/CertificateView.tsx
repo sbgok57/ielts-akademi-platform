@@ -4,7 +4,7 @@
 // Resmi, Renkli ve Doğrulanabilir Bitirme Sertifikası Bileşeni
 // CEFR ve IELTS Standartlarına uyumlu, yazdırma/PDF indirme destekli.
 
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import {
   Award,
   ShieldCheck,
@@ -15,18 +15,42 @@ import {
   ExternalLink,
   QrCode,
   Sparkles,
+  Download,
+  Edit3,
 } from "lucide-react";
 import { StudentCertificate, CEFR_METADATA } from "@/lib/progress-store";
+import { downloadCertificatePdf } from "@/lib/certificate-pdf";
 
 interface Props {
   cert: StudentCertificate;
 }
 
 export default function CertificateView({ cert }: Props) {
-  const [copied, setCopied] = React.useState(false);
+  const [copied, setCopied] = useState(false);
+  const [downloading, setDownloading] = useState(false);
+  const [isEditingName, setIsEditingName] = useState(false);
+  const [customName, setCustomName] = useState(cert.studentName);
   const certRef = useRef<HTMLDivElement>(null);
 
-  const meta = CEFR_METADATA[cert.level];
+  useEffect(() => {
+    setCustomName(cert.studentName);
+  }, [cert.studentName]);
+
+  const activeCert: StudentCertificate = {
+    ...cert,
+    studentName: customName || cert.studentName,
+  };
+
+  const meta = CEFR_METADATA[activeCert.level];
+
+  const handleDownloadPdf = () => {
+    setDownloading(true);
+    try {
+      downloadCertificatePdf(activeCert);
+    } finally {
+      setTimeout(() => setDownloading(false), 1200);
+    }
+  };
 
   const handlePrint = () => {
     window.print();
@@ -34,7 +58,7 @@ export default function CertificateView({ cert }: Props) {
 
   const handleCopyLink = () => {
     if (typeof window !== "undefined") {
-      const url = `${window.location.origin}/sertifika?id=${cert.id}`;
+      const url = `${window.location.origin}/sertifika?id=${activeCert.id}`;
       navigator.clipboard.writeText(url);
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
@@ -43,12 +67,12 @@ export default function CertificateView({ cert }: Props) {
 
   return (
     <div className="space-y-6">
-      {/* Eylem Çubuğu (Yazdırma & Paylaşım) */}
+      {/* Eylem Çubuğu (Doğrudan PDF İndirme & Yazdırma & Paylaşım) */}
       <div className="no-print flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white/90 p-4 shadow-sm backdrop-blur-md dark:border-slate-800 dark:bg-black/90">
         <div className="flex items-center gap-2">
           <span className="flex h-3 w-3 rounded-full bg-emerald-500 animate-ping" />
           <span className="text-xs font-black uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
-            ✅ Resmî ve Doğrulanmış Sertifika Belgesi
+            ✅ Resmî CEFR Onaylı Bitirme Sertifikası (Dünyada Geçerli)
           </span>
         </div>
 
@@ -59,7 +83,17 @@ export default function CertificateView({ cert }: Props) {
             className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50 px-3.5 py-2 text-xs font-bold text-slate-700 transition hover:bg-slate-100 dark:border-slate-800 dark:bg-[#141414] dark:text-slate-300"
           >
             {copied ? <CheckCircle2 className="h-4 w-4 text-emerald-500" /> : <Copy className="h-4 w-4" />}
-            <span>{copied ? "Bağlantı Kopyalandı!" : "Doğrulama Linkini Kopyala"}</span>
+            <span>{copied ? "Bağlantı Kopyalandı!" : "Doğrulama Linki"}</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={handleDownloadPdf}
+            disabled={downloading}
+            className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:opacity-95"
+          >
+            <Download className="h-4 w-4" />
+            <span>{downloading ? "PDF İndiriliyor..." : "PDF İndir (Doğrudan)"}</span>
           </button>
 
           <button
@@ -68,7 +102,7 @@ export default function CertificateView({ cert }: Props) {
             className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-amber-500 via-rose-500 to-indigo-600 px-4 py-2 text-xs font-black text-white shadow-md transition hover:opacity-90"
           >
             <Printer className="h-4 w-4" />
-            <span>Yazdır / PDF Olarak Kaydet</span>
+            <span>Yazdır / A4 Baskı</span>
           </button>
         </div>
       </div>
@@ -119,32 +153,61 @@ export default function CertificateView({ cert }: Props) {
           <p className="text-xs uppercase tracking-widest text-slate-400 font-semibold">
             BU SERTİFİKA İFTİHARLA TAKDİM EDİLİR:
           </p>
-          <div className="mt-2 inline-block border-b-2 border-amber-500 pb-2">
-            <span className="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white font-serif tracking-wide">
-              {cert.studentName}
-            </span>
+          <div className="mt-2 inline-flex items-center gap-2 border-b-2 border-amber-500 pb-2">
+            {isEditingName ? (
+              <div className="flex items-center gap-2">
+                <input
+                  type="text"
+                  value={customName}
+                  onChange={(e) => setCustomName(e.target.value)}
+                  className="rounded-xl border-2 border-amber-500 bg-amber-50/70 px-4 py-1 font-serif text-2xl font-black text-slate-900 outline-none dark:bg-black dark:text-white"
+                  autoFocus
+                />
+                <button
+                  type="button"
+                  onClick={() => setIsEditingName(false)}
+                  className="no-print rounded-lg bg-emerald-600 px-3 py-1 text-xs font-bold text-white hover:bg-emerald-700"
+                >
+                  Tamam
+                </button>
+              </div>
+            ) : (
+              <div className="flex items-center gap-2">
+                <span className="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white font-serif tracking-wide">
+                  {activeCert.studentName}
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setIsEditingName(true)}
+                  title="Sertifikadaki İsmi Düzenle"
+                  className="no-print p-1 text-slate-400 hover:text-amber-500 transition opacity-70 hover:opacity-100"
+                >
+                  <Edit3 className="h-4 w-4" />
+                </button>
+              </div>
+            )}
           </div>
         </div>
 
         {/* Başarılan Seviye & IELTS Bandı */}
         <div className="my-6 rounded-2xl border-2 border-amber-500/30 bg-amber-50/50 p-6 text-center dark:bg-amber-950/20">
           <span className="rounded-full bg-gradient-to-r from-amber-500 to-orange-500 px-4 py-1 text-xs font-black uppercase text-white shadow-sm">
-            {cert.levelTitle}
+            {activeCert.levelTitle}
           </span>
           <h3 className="mt-3 text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
-            CEFR {cert.level} Seviyesi Başarı Derecesi: {cert.grade}
+            CEFR {activeCert.level} Seviyesi Başarı Derecesi: {activeCert.grade}
           </h3>
           <p className="mt-1 text-xs font-bold text-amber-700 dark:text-amber-300">
-            IELTS Eşdeğerlik Standardı: {cert.ieltsBandEquivalent} · Başarı Puanı: %{cert.completionScore}
+            IELTS Eşdeğerlik Standardı: {activeCert.ieltsBandEquivalent} · Başarı Puanı: %{activeCert.completionScore}
           </p>
 
           {/* 4 Temel Beceri Puan Özeti */}
           <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
             {[
-              { ad: "Okuma (Reading)", puan: cert.skillsSummary.reading, renk: "text-teal-600" },
-              { ad: "Dinleme (Listening)", puan: cert.skillsSummary.listening, renk: "text-rose-600" },
-              { ad: "Yazma (Writing)", puan: cert.skillsSummary.writing, renk: "text-indigo-600" },
-              { ad: "Konuşma (Speaking)", puan: cert.skillsSummary.speaking, renk: "text-amber-600" },
+              { ad: "Okuma (Reading)", puan: activeCert.skillsSummary.reading, renk: "text-teal-600" },
+              { ad: "Dinleme (Listening)", puan: activeCert.skillsSummary.listening, renk: "text-rose-600" },
+              { ad: "Yazma (Writing)", puan: activeCert.skillsSummary.writing, renk: "text-indigo-600" },
+              { ad: "Konuşma (Speaking)", puan: activeCert.skillsSummary.speaking, renk: "text-amber-600" },
             ].map((s) => (
               <div
                 key={s.ad}
@@ -172,13 +235,13 @@ export default function CertificateView({ cert }: Props) {
                 Resmî Doğrulama Sicili
               </p>
               <p className="text-[11px] text-slate-500 font-mono">
-                Belge No: <strong>{cert.id}</strong>
+                Belge No: <strong>{activeCert.id}</strong>
               </p>
               <p className="text-[10px] text-slate-400 font-mono">
-                Güvenlik Kodu: {cert.verificationCode}
+                Güvenlik Kodu: {activeCert.verificationCode}
               </p>
               <p className="text-[10px] text-slate-400">
-                Tarih: {cert.issueDate}
+                Tarih: {activeCert.issueDate}
               </p>
             </div>
           </div>
@@ -207,7 +270,7 @@ export default function CertificateView({ cert }: Props) {
         {/* Alt Doğrulama Hash'i ve Kesin Geçerlilik Garantisi */}
         <div className="mt-6 rounded-xl bg-slate-50 p-2.5 text-center text-[10px] text-slate-400 font-mono dark:bg-black/40">
           <span>Kriptografik Doğrulama Hash&apos;i: </span>
-          <span className="text-slate-600 dark:text-slate-300 select-all font-semibold">{cert.verificationHash}</span>
+          <span className="text-slate-600 dark:text-slate-300 select-all font-semibold">{activeCert.verificationHash}</span>
         </div>
 
         {/* Alt Gökkuşağı Çizgisi */}
