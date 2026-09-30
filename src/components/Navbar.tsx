@@ -50,6 +50,7 @@ export default function Navbar() {
             { href: "/bolum/kelime",   label: "Kelime" },
             { href: "/bolum/deneme",   label: "Deneme" },
             { href: "/sertifika",      label: "Sertifika 🏅" },
+            { href: "/posta",          label: "Posta 📬" },
           ].map(({ href, label }) => (
             <Link
               key={href}
@@ -120,6 +121,7 @@ export default function Navbar() {
             { href: "/bolum/kelime",  label: "Kelime" },
             { href: "/bolum/deneme",  label: "Deneme Sınavı" },
             { href: "/sertifika",     label: "Sertifikalarım 🏅" },
+            { href: "/posta",         label: "Kurumsal Posta 📬" },
             { href: "/panel",         label: "Öğrenci Panelim" },
             { href: "/giris",         label: "Giriş yap" },
             { href: "/kayit",         label: "Ücretsiz Kayıt" },

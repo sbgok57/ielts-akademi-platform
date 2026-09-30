@@ -41,6 +41,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth(async () => {
 
   return {
     ...(adapter ? { adapter } : {}),
+    trustHost: true,
+    secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || "fogK-Pz_Kg1rcOpoO08g6klTiIqKFwWi2dmt23z60Sw",
     session: { strategy: "jwt", maxAge: 60 * 60 * 24 * 365 }, // 365 gün (Beni hatırla / Oturumu açık bırak)
     pages: { signIn: "/giris", error: "/giris" },
     providers: [

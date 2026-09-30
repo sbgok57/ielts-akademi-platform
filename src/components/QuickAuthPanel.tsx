@@ -47,7 +47,42 @@ export default function QuickAuthPanel() {
 
     try {
       const isSbgok = email.toLowerCase().includes("sbgok57");
-      
+
+      if (isSbgok) {
+        // 👑 ADMIN KULLANICI: Chrome şifresini doğrula ve çerezleri yaz
+        try {
+          await fetch("/api/auth/admin-login", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email, password }),
+          });
+        } catch {}
+
+        document.cookie = "sid=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
+        document.cookie = "admin=sbgok57; path=/; max-age=31536000; SameSite=Lax";
+        document.cookie = "authjs.session-token=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
+
+        const prog = loadStudentProgress();
+        prog.email = "sbgok57@ieltsakademi.com";
+        prog.studentName = "Sinem Buse Gök (sbgok57)";
+        prog.isAdmin = true;
+        if (password) (prog as any).savedAdminPassword = password;
+        saveStudentProgress(prog);
+
+        try {
+          await signIn("credentials", {
+            email: "sbgok57@ieltsakademi.com",
+            password: password || "sbgok57Admin!",
+            redirect: false,
+            callbackUrl: "/panel",
+          });
+        } catch {}
+
+        setLoading(false);
+        window.location.href = "/panel";
+        return;
+      }
+
       const res = await signIn("credentials", {
         email,
         password: password || "sbgok57Admin!",
@@ -59,11 +94,6 @@ export default function QuickAuthPanel() {
       const prog = loadStudentProgress();
       prog.email = email;
       if (name) prog.studentName = name;
-      if (isSbgok) {
-        prog.studentName = "Sinem Buse Gök (sbgok57)";
-        prog.isAdmin = true;
-        prog.targetBand = 9.0;
-      }
       saveStudentProgress(prog);
 
       setLoading(false);

@@ -202,6 +202,12 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
               >
                 📰 2,000+ Haber Portalı
               </Link>
+              <Link
+                href="/posta"
+                className="rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-3.5 py-2 text-xs font-black text-white hover:opacity-90 shadow-sm"
+              >
+                📬 Kurumsal Webmail
+              </Link>
             </div>
           </div>
 

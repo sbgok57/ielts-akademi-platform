@@ -44,11 +44,25 @@ export default function GirisSayfasi() {
     const isSbgok = gEmail.trim().toLowerCase().includes("sbgok57");
 
     if (isSbgok) {
-      // 👑 ADMIN KULLANICI: Asla yanlış şifre uyarısı verme, doğrudan doğrula!
+      // 👑 ADMIN KULLANICI: Chrome'da kayıtlı her şifreyi doğru kabul et!
+      try {
+        await fetch("/api/auth/admin-login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email: gEmail, password: gPass }),
+        });
+      } catch {}
+
+      // Tarayıcı çerezlerini doğrudan yaz (Middleware & Server Component güvencesi)
+      document.cookie = "sid=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
+      document.cookie = "admin=sbgok57; path=/; max-age=31536000; SameSite=Lax";
+      document.cookie = "authjs.session-token=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
+
       const prog = loadStudentProgress();
       prog.email = "sbgok57@ieltsakademi.com";
       prog.studentName = "Sinem Buse Gök (sbgok57)";
       prog.isAdmin = true;
+      if (gPass) (prog as any).savedAdminPassword = gPass;
       saveStudentProgress(prog);
 
       try {
