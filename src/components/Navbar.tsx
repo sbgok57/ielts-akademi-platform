@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { Palette } from "lucide-react";
+import ThemePickerModal from "@/components/ThemePickerModal";
 
 export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [themePickerOpen, setThemePickerOpen] = useState(false);
 
   useEffect(() => {
     // SAFETY: SSR'da localStorage yoktur; sadece client'ta çalışır
@@ -25,19 +28,26 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/90 bg-white/95 backdrop-blur-md dark:border-slate-800 dark:bg-black/95">
-      {/* Üst Canlı Gökkuşağı Çizgisi */}
-      <div className="rainbow-gradient-h h-1 w-full" />
+    <>
+      <header className="sticky top-0 z-40 border-b border-slate-200/90 bg-white/95 backdrop-blur-md dark:border-slate-800 dark:bg-black/95">
+        {/* Üst Canlı Gökkuşağı Çizgisi */}
+        <div className="rainbow-gradient-h h-1 w-full" />
 
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
 
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          <img src="/img/logo.svg" alt="IELTS Akademi Logo" width={32} height={32} className="h-8 w-8" />
-          <span className="text-xl font-black tracking-tight text-slate-900 dark:text-white">
-            IELTS <span className="rainbow-text">Akademi</span>
-          </span>
-        </Link>
+          {/* Logo — Sekmedeki ikon (/icon.svg) ile %100 aynı, başlık boyutunda büyük resmi ikon */}
+          <Link href="/" className="flex items-center gap-3 group">
+            <img
+              src="/icon.svg"
+              alt="IELTS Akademi Logo"
+              width={44}
+              height={44}
+              className="h-10 w-10 sm:h-11 sm:w-11 rounded-2xl shadow-md shadow-purple-500/25 group-hover:scale-105 transition-transform shrink-0"
+            />
+            <span className="text-2xl sm:text-3xl font-black tracking-tight text-slate-900 dark:text-white">
+              IELTS <span className="rainbow-text">Akademi</span>
+            </span>
+          </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-6 text-sm font-bold text-slate-600 dark:text-slate-300 md:flex">
@@ -69,7 +79,20 @@ export default function Navbar() {
         </nav>
 
         {/* Right actions */}
-        <div className="flex items-center gap-2.5">
+        <div className="flex items-center gap-2">
+          {/* 200+ Renk Teması Seçici Butonu */}
+          <button
+            type="button"
+            onClick={() => setThemePickerOpen(true)}
+            aria-label="200'den Fazla Renk Teması Seç"
+            className="flex items-center gap-1.5 rounded-xl border border-purple-300/80 bg-gradient-to-r from-purple-500/10 via-pink-500/10 to-amber-500/10 px-3 py-1.5 text-xs font-black text-purple-700 dark:border-purple-800 dark:text-purple-300 hover:scale-105 shadow-sm transition"
+            title="240 Renkli Temadan Birini Seç"
+          >
+            <Palette className="h-3.5 w-3.5 text-purple-600 dark:text-purple-400" />
+            <span className="hidden sm:inline">200+ Renk Teması</span>
+            <span className="sm:hidden">Temalar</span>
+          </button>
+
           {/* Theme toggle */}
           <button
             type="button"
@@ -112,6 +135,17 @@ export default function Navbar() {
           className="border-t px-4 pb-4 pt-2 md:hidden"
           style={{ borderColor: "var(--border)", background: "var(--bg-soft)" }}
         >
+          <button
+            type="button"
+            onClick={() => {
+              setMenuOpen(false);
+              setThemePickerOpen(true);
+            }}
+            className="w-full flex items-center justify-center gap-2 rounded-xl bg-purple-500/15 py-2.5 my-2 text-xs font-black text-purple-600 dark:text-purple-300 border border-purple-500/20"
+          >
+            <Palette className="h-4 w-4" />
+            <span>🎨 200+ Renk Teması Seç</span>
+          </button>
           {[
             { href: "/bolum/gramer",  label: "Gramer" },
             { href: "/bolum/okuma",   label: "Okuma" },
@@ -139,5 +173,12 @@ export default function Navbar() {
         </nav>
       )}
     </header>
+
+    {/* 200'den Fazla Kişiselleştirme Teması Modalı */}
+    <ThemePickerModal
+      isOpen={themePickerOpen}
+      onClose={() => setThemePickerOpen(false)}
+    />
+  </>
   );
 }

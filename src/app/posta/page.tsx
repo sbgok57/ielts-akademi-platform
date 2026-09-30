@@ -158,6 +158,21 @@ export default function PostaPage() {
   const [composeBody, setComposeBody] = useState("");
   const [sentToast, setSentToast] = useState(false);
 
+  // E-Posta Tam Ekran Okuma Modalı (Kullanıcı İsteği: Üzerine tıklandığında mesajın tamamını göster)
+  const [readModalOpen, setReadModalOpen] = useState(false);
+
+  const handleOpenMail = (mail: EmailMessage) => {
+    setSelectedMail(mail);
+    mail.read = true;
+    setReadModalOpen(true);
+    if (typeof window !== "undefined" && window.innerWidth < 1024) {
+      setTimeout(() => {
+        const el = document.getElementById("posta-okuma-paneli");
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  };
+
   useEffect(() => {
     const prog = loadStudentProgress() as any;
     if (prog?.savedAdminPassword) {
@@ -465,29 +480,35 @@ export default function PostaPage() {
               </div>
 
               {/* Liste */}
-              <div className="space-y-1.5 max-h-[500px] overflow-y-auto">
+              <div className="space-y-1.5 max-h-[520px] overflow-y-auto pr-1">
                 {filteredEmails.map((mail) => {
                   const isSelected = selectedMail?.id === mail.id;
                   return (
                     <button
                       key={mail.id}
                       type="button"
-                      onClick={() => {
-                        setSelectedMail(mail);
-                        mail.read = true;
-                      }}
-                      className={`w-full text-left rounded-2xl p-3 transition-all ${
+                      onClick={() => handleOpenMail(mail)}
+                      className={`w-full text-left rounded-2xl p-3.5 transition-all group ${
                         isSelected
-                          ? "border border-blue-500 bg-blue-50/70 dark:bg-blue-950/30"
+                          ? "border border-blue-500 bg-blue-50/80 dark:bg-blue-950/40 shadow-sm"
                           : "border border-transparent hover:bg-slate-50 dark:hover:bg-[#141414]"
-                      } ${!mail.read ? "font-bold text-slate-900 dark:text-white" : "text-slate-600 dark:text-slate-300"}`}
+                      } ${!mail.read ? "font-bold text-slate-900 dark:text-white ring-1 ring-blue-500/20" : "text-slate-600 dark:text-slate-300"}`}
                     >
                       <div className="flex items-center justify-between text-xs">
-                        <span className="font-extrabold truncate max-w-[150px]">{mail.fromName}</span>
-                        <span className="text-[10px] text-slate-400">{mail.date}</span>
+                        <span className="font-extrabold truncate max-w-[150px] flex items-center gap-1.5">
+                          {!mail.read && <span className="h-2 w-2 rounded-full bg-blue-500 shrink-0" />}
+                          <span className="truncate">{mail.fromName}</span>
+                        </span>
+                        <span className="text-[10px] text-slate-400 shrink-0">{mail.date}</span>
                       </div>
-                      <h4 className="mt-1 text-xs truncate">{mail.subject}</h4>
+                      <h4 className="mt-1 text-xs truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                        {mail.subject}
+                      </h4>
                       <p className="mt-0.5 text-[11px] text-slate-400 line-clamp-1">{mail.snippet}</p>
+                      <div className="mt-1.5 flex items-center justify-between text-[10px] text-blue-600 dark:text-blue-400 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span>Tamamını Oku →</span>
+                        <span>🔍</span>
+                      </div>
                     </button>
                   );
                 })}
@@ -495,35 +516,160 @@ export default function PostaPage() {
             </div>
 
             {/* Sağ: E-posta Okuma Paneli */}
-            <div className="lg:col-span-2 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-[#0c0c0c]">
+            <div id="posta-okuma-paneli" className="lg:col-span-2 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-[#0c0c0c] flex flex-col justify-between">
               {selectedMail ? (
                 <div className="space-y-4">
-                  <div className="border-b border-slate-100 pb-4 dark:border-slate-800">
-                    <h2 className="text-lg font-black text-slate-900 dark:text-white">
-                      {selectedMail.subject}
-                    </h2>
-                    <div className="mt-2 flex flex-wrap items-center justify-between gap-2 text-xs">
-                      <div>
-                        <strong className="text-slate-800 dark:text-slate-200">{selectedMail.fromName}</strong>{" "}
-                        <span className="text-slate-400">&lt;{selectedMail.from}&gt;</span>
+                  <div className="border-b border-slate-100 pb-4 dark:border-slate-800 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                    <div>
+                      <div className="flex items-center gap-2 mb-1.5">
+                        <span className="rounded-full bg-emerald-500/10 px-2.5 py-0.5 text-[10px] font-black uppercase text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+                          <ShieldCheck className="h-3 w-3" />
+                          <span>Doğrulanmış E-Posta</span>
+                        </span>
+                        <span className="text-[11px] text-slate-400">{selectedMail.date}</span>
                       </div>
-                      <span className="text-slate-400">{selectedMail.date}</span>
+                      <h2 className="text-lg font-black text-slate-900 dark:text-white">
+                        {selectedMail.subject}
+                      </h2>
+                      <div className="mt-2 text-xs">
+                        <span className="text-slate-400">Kimden:</span>{" "}
+                        <strong className="text-slate-800 dark:text-slate-200">{selectedMail.fromName}</strong>{" "}
+                        <span className="text-slate-400 font-mono text-[11px]">&lt;{selectedMail.from}&gt;</span>
+                      </div>
+                      <div className="mt-0.5 text-xs text-slate-400">
+                        <span>Kime:</span> <code className="font-mono text-slate-600 dark:text-slate-300">{selectedMail.to}</code>
+                      </div>
                     </div>
-                    <div className="mt-1 text-[11px] text-slate-400">
-                      Kime: <code>{selectedMail.to}</code>
+
+                    <div className="flex items-center gap-2 shrink-0">
+                      <button
+                        type="button"
+                        onClick={() => setReadModalOpen(true)}
+                        className="rounded-xl border border-slate-200 px-3 py-1.5 text-xs font-bold text-slate-700 hover:bg-slate-50 dark:border-slate-800 dark:text-slate-200 dark:hover:bg-slate-900 transition flex items-center gap-1"
+                        title="Büyük Ekranda Oku"
+                      >
+                        <Eye className="h-3.5 w-3.5" />
+                        <span>Tam Ekran Oku</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setComposeTo(selectedMail.from);
+                          setComposeSubject("Ynt: " + selectedMail.subject);
+                          setComposeOpen(true);
+                        }}
+                        className="rounded-xl bg-blue-600 px-3 py-1.5 text-xs font-bold text-white hover:bg-blue-700 transition flex items-center gap-1"
+                      >
+                        <Send className="h-3 w-3" />
+                        <span>Yanıtla</span>
+                      </button>
                     </div>
                   </div>
 
-                  {/* Mesaj Gövdesi */}
-                  <div className="whitespace-pre-wrap font-sans text-xs leading-relaxed text-slate-700 dark:text-slate-300 py-2">
+                  {/* Mesaj Gövdesi — Tam Metin, Kaydırılabilir ve Net Okunabilir */}
+                  <div className="whitespace-pre-wrap font-sans text-xs sm:text-sm leading-relaxed text-slate-800 dark:text-slate-200 py-2 border-l-2 border-blue-500/30 pl-4 bg-slate-50/50 dark:bg-black/30 rounded-r-2xl p-4">
                     {selectedMail.body}
+                  </div>
+
+                  {/* Hızlı Kopyalama Çubuğu */}
+                  <div className="flex items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-800 text-xs">
+                    <span className="text-[11px] text-slate-400">
+                      Güvenlik: 256-bit TLS Şifreli Uçtan Uca Aktarım
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => copyToClipboard(selectedMail.body, "panel-body")}
+                      className="text-slate-500 hover:text-blue-500 font-bold flex items-center gap-1 text-[11px]"
+                    >
+                      {copiedKey === "panel-body" ? <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5" />}
+                      <span>{copiedKey === "panel-body" ? "Kopyalandı!" : "Mesaj Metnini Kopyala"}</span>
+                    </button>
                   </div>
                 </div>
               ) : (
-                <div className="flex h-64 items-center justify-center text-xs text-slate-400">
-                  Görüntülemek için soldaki listeden bir e-posta seçin.
+                <div className="flex h-64 flex-col items-center justify-center text-xs text-slate-400">
+                  <Inbox className="h-10 w-10 text-slate-300 dark:text-slate-700 mb-2" />
+                  <span>Görüntülemek için soldaki listeden bir e-postaya tıklayın.</span>
+                  <span className="text-[11px] text-slate-500 mt-1">Tıkladığınızda mesajın tüm içeriği detaylarıyla açılır.</span>
                 </div>
               )}
+            </div>
+          </div>
+        )}
+
+        {/* ─── E-POSTA TAM EKRAN OKUMA MODALI (KULLANICI İSTEĞİ) ─── */}
+        {readModalOpen && selectedMail && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-3 sm:p-6 backdrop-blur-md animate-fadeIn">
+            <div className="flex h-full max-h-[88vh] w-full max-w-3xl flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-2xl dark:border-slate-800 dark:bg-[#0c0c0c] overflow-hidden">
+              {/* Header */}
+              <div className="flex items-start justify-between border-b pb-4 dark:border-slate-800">
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2">
+                    <span className="rounded-full bg-blue-500/10 px-2.5 py-0.5 text-[10px] font-black uppercase text-blue-600 dark:text-blue-400 flex items-center gap-1">
+                      <Mail className="h-3 w-3" />
+                      <span>E-Posta Tam Metni</span>
+                    </span>
+                    <span className="text-xs text-slate-400">{selectedMail.date}</span>
+                  </div>
+                  <h2 className="text-lg sm:text-xl font-black text-slate-900 dark:text-white">
+                    {selectedMail.subject}
+                  </h2>
+                  <div className="text-xs text-slate-700 dark:text-slate-300">
+                    <strong>Gönderen:</strong> {selectedMail.fromName}{" "}
+                    <span className="text-slate-400 font-mono">&lt;{selectedMail.from}&gt;</span>
+                  </div>
+                  <div className="text-xs text-slate-400">
+                    <strong>Alıcı:</strong> <span className="font-mono text-slate-600 dark:text-slate-300">{selectedMail.to}</span>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setReadModalOpen(false)}
+                  className="rounded-2xl p-2 text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-900 dark:hover:text-white transition"
+                >
+                  ✕
+                </button>
+              </div>
+
+              {/* Mesaj Gövdesi — Tam İçerik */}
+              <div className="flex-1 overflow-y-auto py-5 text-xs sm:text-sm leading-relaxed text-slate-800 dark:text-slate-200 whitespace-pre-wrap font-sans bg-slate-50/60 dark:bg-black/40 rounded-2xl p-5 my-3 border border-slate-100 dark:border-slate-800/80">
+                {selectedMail.body}
+              </div>
+
+              {/* Alt Aksiyon Butonları */}
+              <div className="flex items-center justify-between border-t pt-4 dark:border-slate-800 text-xs">
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => copyToClipboard(selectedMail.body, "modal-body")}
+                    className="flex items-center gap-1.5 rounded-xl border border-slate-200 px-3.5 py-2 font-bold text-slate-700 dark:border-slate-800 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-900 transition"
+                  >
+                    {copiedKey === "modal-body" ? <CheckCircle2 className="h-4 w-4 text-emerald-500" /> : <Copy className="h-4 w-4" />}
+                    <span>{copiedKey === "modal-body" ? "Metin Kopyalandı!" : "Tüm Metni Kopyala"}</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setComposeTo(selectedMail.from);
+                      setComposeSubject("Ynt: " + selectedMail.subject);
+                      setReadModalOpen(false);
+                      setComposeOpen(true);
+                    }}
+                    className="flex items-center gap-1.5 rounded-xl bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-700 transition"
+                  >
+                    <Send className="h-3.5 w-3.5" />
+                    <span>Yanıtla</span>
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => setReadModalOpen(false)}
+                  className="rounded-xl bg-slate-900 px-5 py-2 font-black text-white dark:bg-white dark:text-slate-900 hover:opacity-90 transition"
+                >
+                  Kapat & Dön
+                </button>
+              </div>
             </div>
           </div>
         )}

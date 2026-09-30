@@ -171,8 +171,14 @@ export default function GirisSayfasi() {
       {/* ─── SOL PANEL: Marka / Motivasyon ─── */}
       <aside className="brand-panel">
         <div className="relative z-10">
-          <Link href="/" className="inline-flex items-center gap-2 mb-8">
-            <img src="/img/logo.svg" alt="Logo" width={36} height={36} />
+          <Link href="/" className="inline-flex items-center gap-3 mb-8 group">
+            <img
+              src="/icon.svg"
+              alt="IELTS Akademi Logo"
+              width={44}
+              height={44}
+              className="h-10 w-10 sm:h-11 sm:w-11 rounded-2xl shadow-lg shadow-purple-500/25 shrink-0 group-hover:scale-105 transition-transform"
+            />
             <span className="text-2xl font-black text-white tracking-tight">
               IELTS <span className="rainbow-text-bright">Akademi</span>
             </span>

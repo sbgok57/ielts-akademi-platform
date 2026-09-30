@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import ThemeInitializer from "@/components/ThemeInitializer";
 import "./globals.css";
 
 
@@ -54,12 +55,31 @@ export default function RootLayout({
                 } else {
                   document.documentElement.classList.remove('dark');
                 }
+
+                // 240+ Öğrenci Kişiselleştirilmiş Renk Teması Yükleyici
+                const customTheme = localStorage.getItem('ielts_student_theme');
+                if (customTheme) {
+                  const t = JSON.parse(customTheme);
+                  if (t && t.primary) {
+                    const r = document.documentElement;
+                    r.style.setProperty('--coral', t.primary);
+                    r.style.setProperty('--teal', t.secondary);
+                    r.style.setProperty('--sun', t.accent);
+                    r.style.setProperty('--indigo', (t.previewColors && t.previewColors[3]) || t.primary);
+                    r.style.setProperty('--brand-1', t.primary);
+                    r.style.setProperty('--brand-2', t.secondary);
+                    r.style.setProperty('--brand-3', t.accent);
+                    r.style.setProperty('--brand-4', (t.previewColors && t.previewColors[3]) || t.secondary);
+                    if (t.gradient) r.style.setProperty('--rainbow-gradient-dynamic', t.gradient);
+                  }
+                }
               } catch (_) {}
             `,
           }}
         />
       </head>
       <body className="min-h-screen bg-bg text-foreground bg-mesh-pattern selection:bg-brand-1 selection:text-white">
+        <ThemeInitializer />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-xl focus:bg-violet-600 focus:px-4 focus:py-2 focus:text-white focus:outline-none"

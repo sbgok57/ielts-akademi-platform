@@ -26,6 +26,7 @@ import {
   Key,
   HelpCircle,
   Check,
+  Palette,
 } from "lucide-react";
 import {
   loadStudentProgress,
@@ -42,6 +43,7 @@ import {
 } from "@/lib/progress-store";
 import LevelUpModal from "@/components/LevelUpModal";
 import ModuleGrid from "@/components/ModuleGrid";
+import ThemePickerModal from "@/components/ThemePickerModal";
 
 interface Props {
   initialName?: string;
@@ -53,6 +55,7 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
   const [levelUpModalOpen, setLevelUpModalOpen] = useState(false);
   const [importStatus, setImportStatus] = useState<string | null>(null);
   const [showGmailGuide, setShowGmailGuide] = useState(false);
+  const [themePickerOpen, setThemePickerOpen] = useState(false);
 
   // Kalıcı progress'i yükle ve oturumdaki isimle senkronize et
   useEffect(() => {
@@ -208,6 +211,14 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
               >
                 📬 Kurumsal Webmail
               </Link>
+              <button
+                type="button"
+                onClick={() => setThemePickerOpen(true)}
+                className="rounded-xl bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-600 px-3.5 py-2 text-xs font-black text-white hover:opacity-90 shadow-sm flex items-center gap-1.5"
+              >
+                <Palette className="h-3.5 w-3.5" />
+                <span>🎨 200+ Renk Teması</span>
+              </button>
             </div>
           </div>
 
@@ -580,6 +591,12 @@ export default function StudentDashboard({ initialName, initialEmail }: Props) {
         xpTotal={progress.xpTotal}
         studentName={progress.studentName}
         onLevelUpSuccess={handleLevelUpSuccess}
+      />
+
+      {/* 200+ Kişiselleştirilmiş Renk Teması Modalı */}
+      <ThemePickerModal
+        isOpen={themePickerOpen}
+        onClose={() => setThemePickerOpen(false)}
       />
     </div>
   );
