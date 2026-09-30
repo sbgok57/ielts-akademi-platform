@@ -112,22 +112,22 @@ h1, h2, h3, h4, h5, h6, .font-display {
  * ========================================================================== */
 
 .rainbow-gradient {
-  background: linear-gradient(135deg, #FF334B 0%, #FF7A00 16%, #FFB800 32%, #10B981 48%, #06B6D4 64%, #2563EB 80%, #8B5CF6 92%, #EC4899 100%);
+  background: var(--rainbow-gradient-dynamic, linear-gradient(135deg, #FF334B 0%, #FF7A00 16%, #FFB800 32%, #10B981 48%, #06B6D4 64%, #2563EB 80%, #8B5CF6 92%, #EC4899 100%));
 }
 
 .rainbow-gradient-h {
-  background: linear-gradient(90deg, #FF334B, #FF7A00, #FFB800, #10B981, #06B6D4, #2563EB, #8B5CF6, #EC4899);
+  background: var(--rainbow-gradient-dynamic-h, var(--rainbow-gradient-dynamic, linear-gradient(90deg, #FF334B, #FF7A00, #FFB800, #10B981, #06B6D4, #2563EB, #8B5CF6, #EC4899)));
 }
 
 .rainbow-text {
-  background: linear-gradient(135deg, #FF334B 0%, #FF7A00 20%, #10B981 45%, #06B6D4 65%, #8B5CF6 85%, #EC4899 100%);
+  background: var(--rainbow-gradient-dynamic, linear-gradient(135deg, #FF334B 0%, #FF7A00 20%, #10B981 45%, #06B6D4 65%, #8B5CF6 85%, #EC4899 100%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .rainbow-text-bright {
-  background: linear-gradient(90deg, #FF5252, #FF9800, #4CAF50, #00E5FF, #7C4DFF, #FF4081);
+  background: var(--rainbow-gradient-dynamic, linear-gradient(90deg, #FF5252, #FF9800, #4CAF50, #00E5FF, #7C4DFF, #FF4081));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6, .font-display {
 .rainbow-border-wrap {
   position: relative;
   border-radius: 1.5rem;
-  background: linear-gradient(90deg, #FF334B, #FF7A00, #FFB800, #10B981, #06B6D4, #2563EB, #8B5CF6, #EC4899);
+  background: var(--rainbow-gradient-dynamic-h, var(--rainbow-gradient-dynamic, linear-gradient(90deg, #FF334B, #FF7A00, #FFB800, #10B981, #06B6D4, #2563EB, #8B5CF6, #EC4899)));
   padding: 2px;
 }
 

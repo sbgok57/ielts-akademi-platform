@@ -3869,7 +3869,90 @@ export const THEMES_CATALOG: StudentTheme[] = [
 ];
 
 /**
- * Seçilen temayı anında DOM üzerinde CSS değişkenlerine uygular
+ * Seçilen tema için sitenin her köşesini dönüştüren özel CSS üretir
+ */
+export function generateThemeCss(theme: StudentTheme): string {
+  const p1 = theme.primary;
+  const p2 = theme.secondary;
+  const p3 = theme.accent;
+  const p4 = theme.previewColors[3] || theme.secondary;
+  const p5 = theme.previewColors[4] || theme.primary;
+  const grad = theme.gradient;
+  const gradH = `linear-gradient(90deg, ${p1} 0%, ${p2} 25%, ${p3} 50%, ${p4} 75%, ${p5} 100%)`;
+
+  return `
+    :root, .dark {
+      --coral: ${p1} !important;
+      --teal: ${p2} !important;
+      --sun: ${p3} !important;
+      --indigo: ${p4} !important;
+      --brand-1: ${p1} !important;
+      --brand-2: ${p2} !important;
+      --brand-3: ${p3} !important;
+      --brand-4: ${p4} !important;
+      --rainbow-gradient-dynamic: ${grad} !important;
+      --rainbow-gradient-dynamic-h: ${gradH} !important;
+      --theme-active-p1: ${p1} !important;
+      --theme-active-p2: ${p2} !important;
+    }
+
+    /* 1. Üst Gökkuşağı Şeridi — Tüm site boyunca üst bar */
+    .rainbow-gradient-h {
+      background: ${gradH} !important;
+    }
+
+    /* 2. Gökkuşağı Degrade Paneller */
+    .rainbow-gradient, .gradient-progress {
+      background: ${grad} !important;
+    }
+
+    /* 3. Başlıklar ve Vurgulu Metinler */
+    .rainbow-text, .rainbow-text-bright, .gradient-text-brand {
+      background: ${grad} !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+      background-clip: text !important;
+    }
+
+    /* 4. Sayfa Üstü Atmosferik Parıltı (Kullanıcının Seçtiği Tema Rengiyle Yıkanır) */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 480px;
+      background: radial-gradient(ellipse 90% 55% at 50% 0%, ${p1}30 0%, ${p2}18 50%, transparent 80%) !important;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* 5. Vurgulu Eylem Butonları */
+    .bg-gradient-to-r.from-rose-500,
+    .bg-gradient-to-r.from-emerald-600,
+    .bg-gradient-to-r.from-blue-600,
+    .bg-gradient-to-r.from-purple-600,
+    .bg-gradient-to-r.from-emerald-500 {
+      background-image: ${grad} !important;
+    }
+
+    /* 6. Çerçeveler ve Parlamalar */
+    .rainbow-border-wrap {
+      background: ${gradH} !important;
+    }
+
+    .rainbow-glow {
+      box-shadow: 0 0 35px -5px ${p1}66, 0 0 25px -5px ${p2}66 !important;
+    }
+
+    .dark .rainbow-glow {
+      box-shadow: 0 0 45px -5px ${p1}88, 0 0 35px -5px ${p2}88 !important;
+    }
+  `;
+}
+
+/**
+ * Seçilen temayı anında DOM üzerinde CSS değişkenlerine ve dinamik style etiketine uygular
  */
 export function applyStudentTheme(theme: StudentTheme) {
   if (typeof document === "undefined") return;
@@ -3887,8 +3970,44 @@ export function applyStudentTheme(theme: StudentTheme) {
   
   root.style.setProperty("--rainbow-gradient-dynamic", theme.gradient);
   
+  // Kesin çözüm: Sitenin her köşesine anında etki eden global style etiketini enjekte et
+  let styleEl = document.getElementById("ielts-active-theme-styles");
+  if (!styleEl) {
+    styleEl = document.createElement("style");
+    styleEl.id = "ielts-active-theme-styles";
+    document.head.appendChild(styleEl);
+  }
+  styleEl.textContent = generateThemeCss(theme);
+  
   try {
     localStorage.setItem("ielts_student_theme", JSON.stringify(theme));
+  } catch {}
+}
+
+/**
+ * Özel temayı kaldırıp sitenin varsayılan gökkuşağı rengine döndürür
+ */
+export function removeStudentTheme() {
+  if (typeof document === "undefined") return;
+  const root = document.documentElement;
+  root.style.removeProperty("--coral");
+  root.style.removeProperty("--teal");
+  root.style.removeProperty("--sun");
+  root.style.removeProperty("--indigo");
+  root.style.removeProperty("--brand-1");
+  root.style.removeProperty("--brand-2");
+  root.style.removeProperty("--brand-3");
+  root.style.removeProperty("--brand-4");
+  root.style.removeProperty("--rainbow-gradient-dynamic");
+  root.style.removeProperty("--rainbow-gradient-dynamic-h");
+
+  const styleEl = document.getElementById("ielts-active-theme-styles");
+  if (styleEl && styleEl.parentNode) {
+    styleEl.parentNode.removeChild(styleEl);
+  }
+
+  try {
+    localStorage.removeItem("ielts_student_theme");
   } catch {}
 }
 

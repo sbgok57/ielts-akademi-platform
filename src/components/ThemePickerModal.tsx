@@ -19,6 +19,7 @@ import {
   THEME_CATEGORIES,
   StudentTheme,
   applyStudentTheme,
+  removeStudentTheme,
   loadSavedStudentTheme,
 } from "@/lib/themes-catalog";
 
@@ -31,6 +32,7 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
   const [selectedCategory, setSelectedCategory] = useState<string>("Tümü");
   const [searchQuery, setSearchQuery] = useState("");
   const [activeThemeId, setActiveThemeId] = useState<string | null>(null);
+  const [appliedNotice, setAppliedNotice] = useState<string | null>(null);
 
   useEffect(() => {
     const saved = loadSavedStudentTheme();
@@ -54,25 +56,15 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
   const handleSelectTheme = (theme: StudentTheme) => {
     setActiveThemeId(theme.id);
     applyStudentTheme(theme);
+    setAppliedNotice(`✨ "${theme.name}" teması tüm siteye anında uygulandı!`);
+    setTimeout(() => setAppliedNotice(null), 3500);
   };
 
   const handleResetDefault = () => {
     setActiveThemeId(null);
-    if (typeof document !== "undefined") {
-      const root = document.documentElement;
-      root.style.removeProperty("--coral");
-      root.style.removeProperty("--teal");
-      root.style.removeProperty("--sun");
-      root.style.removeProperty("--indigo");
-      root.style.removeProperty("--brand-1");
-      root.style.removeProperty("--brand-2");
-      root.style.removeProperty("--brand-3");
-      root.style.removeProperty("--brand-4");
-      root.style.removeProperty("--rainbow-gradient-dynamic");
-    }
-    try {
-      localStorage.removeItem("ielts_student_theme");
-    } catch {}
+    removeStudentTheme();
+    setAppliedNotice("🌈 Varsayılan gökkuşağı temasına dönüldü!");
+    setTimeout(() => setAppliedNotice(null), 3500);
   };
 
   return (
@@ -119,6 +111,13 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
             </button>
           </div>
         </div>
+
+        {appliedNotice && (
+          <div className="bg-emerald-500/15 border-b border-emerald-500/30 px-4 py-2.5 text-xs font-black text-emerald-700 dark:text-emerald-300 flex items-center justify-between animate-fadeIn">
+            <span>{appliedNotice}</span>
+            <span className="text-[10px] text-emerald-600 dark:text-emerald-400 font-normal">Arka plan, başlıklar ve butonlar güncellendi</span>
+          </div>
+        )}
 
         {/* Filtre ve Arama Alanı */}
         <div className="space-y-3 border-b border-slate-100 p-4 dark:border-slate-800/80 bg-slate-50/50 dark:bg-[#121212]/50">
