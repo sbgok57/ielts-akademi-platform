@@ -56,8 +56,8 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
   const handleSelectTheme = (theme: StudentTheme) => {
     setActiveThemeId(theme.id);
     applyStudentTheme(theme);
-    setAppliedNotice(`✨ "${theme.name}" teması tüm siteye anında uygulandı!`);
-    setTimeout(() => setAppliedNotice(null), 3500);
+    setAppliedNotice(`✨ "${theme.name}" teması uygulandı! Arka plan, kartlar ve butonlar hem aydınlık hem karanlık modda güncellendi.`);
+    setTimeout(() => setAppliedNotice(null), 4000);
   };
 
   const handleResetDefault = () => {
@@ -87,7 +87,7 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
                 </span>
               </div>
               <p className="text-xs text-slate-500 dark:text-slate-400">
-                Seçtiğiniz renk paleti sitenin butonlarına, vurgularına ve öğrenme alanlarına anında yansır.
+                Seçtiğiniz renk paleti sitenin arka planına, kartlarına ve tüm butonlarına hem aydınlık hem karanlık modda yansır.
               </p>
             </div>
           </div>

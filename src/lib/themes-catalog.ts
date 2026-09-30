@@ -3869,7 +3869,59 @@ export const THEMES_CATALOG: StudentTheme[] = [
 ];
 
 /**
- * Seçilen tema için sitenin her köşesini dönüştüren özel CSS üretir
+ * Hex renk kodunu [r, g, b] sayı dizisine çevirir
+ */
+export function hexToRgb(hex: string): [number, number, number] {
+  let c = (hex || "").replace("#", "").trim();
+  if (c.length === 3) {
+    c = c.split("").map((x) => x + x).join("");
+  }
+  const num = parseInt(c, 16);
+  if (isNaN(num)) return [99, 102, 241];
+  return [(num >> 16) & 255, (num >> 8) & 255, num & 255];
+}
+
+/**
+ * İki rengi belirli ağırlıkla hassas karıştırarak yeni hex üretir
+ */
+export function mixRgb(rgb1: [number, number, number], rgb2: [number, number, number], weight: number): string {
+  const w = Math.max(0, Math.min(1, weight));
+  const r = Math.round(rgb1[0] * w + rgb2[0] * (1 - w));
+  const g = Math.round(rgb1[1] * w + rgb2[1] * (1 - w));
+  const b = Math.round(rgb1[2] * w + rgb2[2] * (1 - w));
+  return `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`;
+}
+
+/**
+ * Seçilen tema için sitenin hem aydınlık hem karanlık moddaki arka plan, kart ve sınır renklerini hesaplar
+ */
+export function deriveThemeColors(theme: StudentTheme) {
+  const p1Rgb = hexToRgb(theme.primary);
+  
+  // Aydınlık Mod:
+  // Sayfa zemini (%8 tema rengi + %92 #F8FAFC): Net görülebilen, ferahlatıcı tematik pastel zemin
+  const bgLight = mixRgb(p1Rgb, [248, 250, 252], 0.08);
+  // Kart yüzeyleri: Beyaz zeminle temiz kontrast
+  const cardLight = "#FFFFFF";
+  const cardSoftLight = mixRgb(p1Rgb, [255, 255, 255], 0.03);
+  // Sınır çizgileri (%24 tema rengi + %76 #CBD5E1): Tematik net çerçeveler
+  const borderLight = mixRgb(p1Rgb, [203, 213, 225], 0.24);
+
+  // Karanlık Mod:
+  // Sayfa zemini (%12 tema rengi + %88 #000000): Zengin, derin tematik gece zemin
+  const bgDark = mixRgb(p1Rgb, [0, 0, 0], 0.12);
+  // Kart yüzeyleri (%18 tema rengi + %82 #0A0A0A): Temanın aurasını taşıyan asil kartlar
+  const cardDark = mixRgb(p1Rgb, [10, 10, 10], 0.18);
+  // Yükseltilmiş kartlar (%24 tema rengi + %76 #141414): Modal ve dropdown'lar
+  const cardElevatedDark = mixRgb(p1Rgb, [20, 20, 20], 0.24);
+  // Sınır çizgileri (%35 tema rengi + %65 #1F1F1F): Parıldayan tematik sınırlar
+  const borderDark = mixRgb(p1Rgb, [31, 31, 31], 0.35);
+
+  return { bgLight, cardLight, cardSoftLight, borderLight, bgDark, cardDark, cardElevatedDark, borderDark };
+}
+
+/**
+ * Seçilen tema için sitenin hem aydınlık hem de karanlık modunu kusursuzca dönüştüren CSS üretir
  */
 export function generateThemeCss(theme: StudentTheme): string {
   const p1 = theme.primary;
@@ -3880,8 +3932,13 @@ export function generateThemeCss(theme: StudentTheme): string {
   const grad = theme.gradient;
   const gradH = `linear-gradient(90deg, ${p1} 0%, ${p2} 25%, ${p3} 50%, ${p4} 75%, ${p5} 100%)`;
 
+  const { bgLight, cardLight, cardSoftLight, borderLight, bgDark, cardDark, cardElevatedDark, borderDark } = deriveThemeColors(theme);
+
   return `
-    :root, .dark {
+    /* ========================================================= */
+    /* 1. AYDINLIK MOD (LIGHT MODE) TEMATİK RENKLER               */
+    /* ========================================================= */
+    :root {
       --coral: ${p1} !important;
       --teal: ${p2} !important;
       --sun: ${p3} !important;
@@ -3894,19 +3951,108 @@ export function generateThemeCss(theme: StudentTheme): string {
       --rainbow-gradient-dynamic-h: ${gradH} !important;
       --theme-active-p1: ${p1} !important;
       --theme-active-p2: ${p2} !important;
+
+      --bg: ${bgLight} !important;
+      --bg-soft: ${cardLight} !important;
+      --bg-elevated: ${cardLight} !important;
+      --paper: ${bgLight} !important;
+      --border: ${borderLight} !important;
     }
 
-    /* 1. Üst Gökkuşağı Şeridi — Tüm site boyunca üst bar */
+    html:not(.dark) body, body:not(.dark) {
+      background-color: ${bgLight} !important;
+    }
+
+    html:not(.dark) header.sticky {
+      background-color: ${cardLight}f5 !important;
+      border-bottom-color: ${borderLight} !important;
+    }
+
+    html:not(.dark) footer {
+      background-color: ${bgLight} !important;
+      border-top-color: ${borderLight} !important;
+    }
+
+    html:not(.dark) .bg-white,
+    html:not(.dark) [class*="bg-white"] {
+      background-color: ${cardLight} !important;
+    }
+
+    html:not(.dark) .bg-slate-50 {
+      background-color: ${cardSoftLight} !important;
+    }
+
+    html:not(.dark) [class*="border-slate-200"],
+    html:not(.dark) [class*="border-slate-100"] {
+      border-color: ${borderLight} !important;
+    }
+
+    /* ========================================================= */
+    /* 2. KARANLIK MOD (DARK MODE) TEMATİK RENKLER               */
+    /* ========================================================= */
+    .dark, html.dark {
+      --coral: ${p1} !important;
+      --teal: ${p2} !important;
+      --sun: ${p3} !important;
+      --indigo: ${p4} !important;
+      --brand-1: ${p1} !important;
+      --brand-2: ${p2} !important;
+      --brand-3: ${p3} !important;
+      --brand-4: ${p4} !important;
+      --rainbow-gradient-dynamic: ${grad} !important;
+      --rainbow-gradient-dynamic-h: ${gradH} !important;
+      --theme-active-p1: ${p1} !important;
+      --theme-active-p2: ${p2} !important;
+
+      --bg: ${bgDark} !important;
+      --bg-soft: ${cardDark} !important;
+      --bg-elevated: ${cardElevatedDark} !important;
+      --paper: ${bgDark} !important;
+      --border: ${borderDark} !important;
+    }
+
+    html.dark body, body.dark {
+      background-color: ${bgDark} !important;
+    }
+
+    html.dark header.sticky, .dark header.sticky {
+      background-color: ${bgDark}f5 !important;
+      border-bottom-color: ${borderDark} !important;
+    }
+
+    html.dark footer, .dark footer {
+      background-color: ${bgDark} !important;
+      border-top-color: ${borderDark} !important;
+    }
+
+    /* Karanlık mod kartları ve zeminleri seçilen temanın gece aurasına bürünür */
+    .dark [class*="dark:bg-[#"],
+    .dark [class*="dark:bg-black"],
+    .dark [class*="dark:bg-slate-900"],
+    .dark [class*="dark:bg-slate-950"],
+    .dark [class*="dark:bg-bg-elevated"] {
+      background-color: ${cardDark} !important;
+    }
+
+    .dark [class*="dark:bg-slate-800"] {
+      background-color: ${cardElevatedDark} !important;
+    }
+
+    .dark [class*="dark:border-slate-"] {
+      border-color: ${borderDark} !important;
+    }
+
+    /* ========================================================= */
+    /* 3. ORTAK EFEKTLER, ATMOSFERİK IŞIK & GRADIENTLER          */
+    /* ========================================================= */
     .rainbow-gradient-h {
       background: ${gradH} !important;
     }
 
-    /* 2. Gökkuşağı Degrade Paneller */
     .rainbow-gradient, .gradient-progress {
       background: ${grad} !important;
     }
 
-    /* 3. Başlıklar ve Vurgulu Metinler */
     .rainbow-text, .rainbow-text-bright, .gradient-text-brand {
       background: ${grad} !important;
       -webkit-background-clip: text !important;
@@ -3914,7 +4060,7 @@ export function generateThemeCss(theme: StudentTheme): string {
       background-clip: text !important;
     }
 
-    /* 4. Sayfa Üstü Atmosferik Parıltı (Kullanıcının Seçtiği Tema Rengiyle Yıkanır) */
+    /* Sayfa Üstü Atmosferik Parıltı (Kullanıcının Seçtiği Tema Rengiyle Yıkanır) */
     body::before {
       content: "";
       position: fixed;
@@ -3922,12 +4068,31 @@ export function generateThemeCss(theme: StudentTheme): string {
       left: 0;
       right: 0;
       height: 480px;
-      background: radial-gradient(ellipse 90% 55% at 50% 0%, ${p1}30 0%, ${p2}18 50%, transparent 80%) !important;
+      background: radial-gradient(ellipse 90% 55% at 50% 0%, ${p1}25 0%, ${p2}15 50%, transparent 80%) !important;
       pointer-events: none;
       z-index: 1;
     }
 
-    /* 5. Vurgulu Eylem Butonları */
+    html.dark body::before {
+      background: radial-gradient(ellipse 95% 65% at 50% 0%, ${p1}45 0%, ${p2}25 50%, transparent 80%) !important;
+    }
+
+    /* Arka plan mesh deseni seçilen temanın renk tonlarıyla yıkanır */
+    .bg-mesh-pattern {
+      background-image:
+        radial-gradient(circle at 10% 10%, ${p1}14 0%, transparent 45%),
+        radial-gradient(circle at 90% 20%, ${p2}16 0%, transparent 50%),
+        radial-gradient(circle at 50% 85%, ${p3}14 0%, transparent 55%) !important;
+    }
+
+    .dark .bg-mesh-pattern, html.dark .bg-mesh-pattern {
+      background-image:
+        radial-gradient(circle at 10% 10%, ${p1}25 0%, transparent 45%),
+        radial-gradient(circle at 90% 20%, ${p2}20 0%, transparent 50%),
+        radial-gradient(circle at 50% 85%, ${p3}22 0%, transparent 55%) !important;
+    }
+
+    /* Vurgulu Eylem Butonları */
     .bg-gradient-to-r.from-rose-500,
     .bg-gradient-to-r.from-emerald-600,
     .bg-gradient-to-r.from-blue-600,
@@ -3936,7 +4101,7 @@ export function generateThemeCss(theme: StudentTheme): string {
       background-image: ${grad} !important;
     }
 
-    /* 6. Çerçeveler ve Parlamalar */
+    /* Çerçeveler ve Parlamalar */
     .rainbow-border-wrap {
       background: ${gradH} !important;
     }
@@ -3945,7 +4110,7 @@ export function generateThemeCss(theme: StudentTheme): string {
       box-shadow: 0 0 35px -5px ${p1}66, 0 0 25px -5px ${p2}66 !important;
     }
 
-    .dark .rainbow-glow {
+    .dark .rainbow-glow, html.dark .rainbow-glow {
       box-shadow: 0 0 45px -5px ${p1}88, 0 0 35px -5px ${p2}88 !important;
     }
   `;
@@ -4000,6 +4165,13 @@ export function removeStudentTheme() {
   root.style.removeProperty("--brand-4");
   root.style.removeProperty("--rainbow-gradient-dynamic");
   root.style.removeProperty("--rainbow-gradient-dynamic-h");
+  root.style.removeProperty("--theme-active-p1");
+  root.style.removeProperty("--theme-active-p2");
+  root.style.removeProperty("--bg");
+  root.style.removeProperty("--bg-soft");
+  root.style.removeProperty("--bg-elevated");
+  root.style.removeProperty("--paper");
+  root.style.removeProperty("--border");
 
   const styleEl = document.getElementById("ielts-active-theme-styles");
   if (styleEl && styleEl.parentNode) {
