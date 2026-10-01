@@ -4,29 +4,25 @@
 // ============================================================================
 // ULUSLARARASI CEFR & CAMBRIDGE STANDARTLARINDA RESMÎ SERTİFİKA DİPLOMASI
 // ============================================================================
-// - Katı A4 Landscape (1120px x 792px, 1.414 En-Boy Oranı, Milimetrik Tek Sayfa)
+// - Katı A4 Landscape (1120px x 792px, 1.414 En-Boy Oranı, Milimetrik Tek Sayfa Fit)
 // - Otantik Antik Fildişi Parşömen (#FCFBF7) & Çift Çerçeveli Guilloche Kenarlık
-// - 3D Kabartma Altın Mühür (Embossed Gold Foil Seal & Silk Ribbons)
+// - 3D Kabartma Altın Mühür (Embossed Gold Foil Seal)
 // - Canlı Taranabilir Dinamik QR Kod (Doğrudan Platform Canlı Doğrulama)
-// - Kurumsal İmzalar (Dr. E. Wright, Ph.D. & Prof. M. Stirling, CBE - Calligraphic Ink)
+// - Kurumsal Tescil & Akreditasyon Kurulu Onayı (Kişi İsimlerinden Arındırılmış Kurumsal Yapı)
 // - CEFR "Can-Do" Resmi Yetkinlik Bildirgesi + 4 Beceri Puan Matrisi
 // - Cambridge IELTS, ÖSYM YDS ve UK CPD Akreditasyon Kredileri
 
 import React, { useRef, useState, useEffect } from "react";
 import {
-  Award,
   ShieldCheck,
   Printer,
   Copy,
   CheckCircle2,
   Download,
   Edit3,
-  Globe2,
-  FileCheck2,
-  Linkedin,
   Languages,
-  Check,
-  Sparkles,
+  Linkedin,
+  FileCheck2,
 } from "lucide-react";
 import { StudentCertificate, CEFR_METADATA } from "@/lib/progress-store";
 import { downloadCertificatePdf } from "@/lib/certificate-pdf";
@@ -36,7 +32,7 @@ interface Props {
 }
 
 // ─── 1. RESMÎ AKADEMİ ARMASI (ACADEMY HERALDIC CREST) ───
-function AcademyCrest({ className = "h-14 w-14" }: { className?: string }) {
+function AcademyCrest({ className = "h-11 w-11" }: { className?: string }) {
   return (
     <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
       <defs>
@@ -96,51 +92,32 @@ function AcademyCrest({ className = "h-14 w-14" }: { className?: string }) {
   );
 }
 
-// ─── 2. 3D KABARTMA ALTIN MÜHÜR & İPEK KURDELELER (GOLD FOIL SEAL) ───
+// ─── 2. 3D KABARTMA ALTIN MÜHÜR (EMBOSSED GOLD FOIL SEAL) ───
 function EmbossedGoldSeal() {
   return (
-    <div className="relative flex flex-col items-center">
-      {/* Sallanan İpek Kurdeleler (Swallowtail Ribbons) */}
-      <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-1 pointer-events-none z-0">
-        {/* Sol Bordo/Kırmızı Kurdele */}
-        <div
-          className="w-5 h-12 shadow-md"
-          style={{
-            background: "linear-gradient(180deg, #991B1B 0%, #7F1D1D 80%, #450A0A 100%)",
-            clipPath: "polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%)",
-          }}
-        />
-        {/* Sağ Lacivert Kurdele */}
-        <div
-          className="w-5 h-12 shadow-md"
-          style={{
-            background: "linear-gradient(180deg, #1E3A8A 0%, #172554 80%, #0B132B 100%)",
-            clipPath: "polygon(0 0, 100% 0, 100% 100%, 50% 82%, 0 100%)",
-          }}
-        />
-      </div>
-
+    <div className="relative flex flex-col items-center select-none">
       {/* 3D Kabartmalı Altın Madalyon */}
       <div
-        className="relative z-10 flex h-24 w-24 items-center justify-center rounded-full shadow-2xl transition-transform"
+        className="relative z-10 flex h-20 w-20 items-center justify-center rounded-full shadow-lg"
         style={{
           background: "radial-gradient(circle at 35% 30%, #FFF3B0 0%, #E3BC53 30%, #B8860B 65%, #7D5700 100%)",
-          boxShadow: "0 10px 25px -4px rgba(133, 90, 8, 0.5), inset 0 2px 4px rgba(255, 255, 255, 0.8), inset 0 -3px 6px rgba(0, 0, 0, 0.4)",
+          boxShadow: "0 6px 16px -2px rgba(133, 90, 8, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.8), inset 0 -2px 5px rgba(0, 0, 0, 0.35)",
           border: "2px dashed #926C08",
         }}
       >
-        {/* İç Dişli Altın Halka */}
         <div
-          className="flex h-20 w-20 items-center justify-center rounded-full"
+          className="flex h-16 w-16 items-center justify-center rounded-full"
           style={{
             background: "radial-gradient(circle at 40% 35%, #FDF4C7 0%, #D4AF37 50%, #996515 100%)",
-            border: "1.5px solid #FFE484",
-            boxShadow: "inset 0 1px 3px rgba(255, 255, 255, 0.8), 0 2px 5px rgba(0,0,0,0.3)",
+            border: "1px solid #FFE484",
+            boxShadow: "inset 0 1px 3px rgba(255, 255, 255, 0.8), 0 2px 4px rgba(0,0,0,0.25)",
           }}
         >
-          <div className="text-center p-1">
-            <ShieldCheck className="mx-auto h-7 w-7 text-amber-950 drop-shadow-sm" />
-            <p className="mt-0.5 text-[6.5px] font-black uppercase tracking-wider text-amber-950 font-serif leading-none">
+          <div className="text-center p-0.5">
+            <svg viewBox="0 0 24 24" className="mx-auto h-5 w-5 text-amber-950" fill="currentColor">
+              <path d="M12 2l2.4 7.2h7.6l-6.1 4.5 2.3 7.3-6.2-4.6-6.2 4.6 2.3-7.3-6.1-4.5h7.6z" />
+            </svg>
+            <p className="text-[6.5px] font-black uppercase tracking-wider text-amber-950 font-serif leading-none mt-0.5">
               OFFICIAL SEAL
             </p>
             <p className="text-[5.5px] font-bold tracking-widest text-amber-900 leading-tight">
@@ -153,85 +130,16 @@ function EmbossedGoldSeal() {
   );
 }
 
-// ─── 3. RESMÎ ISLAK İMZA 1: DR. ELIZABETH WRIGHT ───
-function ElizabethWrightSignature() {
-  return (
-    <svg viewBox="0 0 160 50" className="h-10 w-36 mx-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M10 32 C15 15, 22 8, 28 22 C32 30, 35 34, 42 26 C48 18, 54 22, 60 28 C64 32, 68 20, 75 16 C82 12, 88 30, 94 28 C102 26, 110 18, 125 24 C135 28, 142 22, 150 18"
-        stroke="#1E3A8A"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M20 24 L55 24 M70 20 L105 22"
-        stroke="#1E3A8A"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-      />
-      <path
-        d="M25 36 C45 34, 90 32, 145 35"
-        stroke="#1E3A8A"
-        strokeWidth="1.1"
-        strokeDasharray="2 3"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-// ─── 4. RESMÎ ISLAK İMZA 2: PROF. MARCUS STIRLING, CBE ───
-function MarcusStirlingSignature() {
-  return (
-    <svg viewBox="0 0 160 50" className="h-10 w-36 mx-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M8 35 C18 10, 24 6, 32 34 C36 12, 44 8, 50 32 C58 20, 66 18, 74 28 C82 38, 92 12, 104 22 C116 32, 128 14, 140 26 C146 32, 150 20, 154 18"
-        stroke="#1E3A8A"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M30 18 C50 16, 85 16, 130 20"
-        stroke="#1E3A8A"
-        strokeWidth="1.3"
-        strokeLinecap="round"
-      />
-      <circle cx="152" cy="18" r="1.5" fill="#1E3A8A" />
-    </svg>
-  );
-}
-
-// ─── 5. VİKTORYA / KLASİK KÖŞE SÜSLEMESİ (GUILLOCHE CORNER ROSETTE) ───
+// ─── 3. VİKTORYA / KLASİK KÖŞE SÜSLEMESİ (GUILLOCHE CORNER ROSETTE) ───
 function CornerFlourish({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-12 h-12 text-amber-700/80 ${className}`}>
+    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" className={`w-10 h-10 text-amber-700/70 ${className}`}>
       <path d="M4 4 L56 4 C56 4 30 10 24 24 C10 30 4 56 4 56 Z" fill="none" stroke="currentColor" strokeWidth="1.5" />
       <path d="M10 10 L46 10 C46 10 26 14 20 20 C14 26 10 46 10 46 Z" fill="none" stroke="currentColor" strokeWidth="0.8" />
-      <circle cx="16" cy="16" r="3" fill="currentColor" opacity="0.8" />
+      <circle cx="16" cy="16" r="2.5" fill="currentColor" opacity="0.8" />
       <circle cx="28" cy="12" r="1.5" fill="currentColor" opacity="0.6" />
       <circle cx="12" cy="28" r="1.5" fill="currentColor" opacity="0.6" />
     </svg>
-  );
-}
-
-// ─── 6. RESMÎ KAYIT OFİSİ DAMGASI (REGISTRAR'S EMBOSSED STAMP) ───
-function RegistrarStamp() {
-  return (
-    <div className="flex items-center gap-1.5 opacity-80 rotate-[-4deg]">
-      <div className="h-10 w-10 rounded-full border-2 border-dashed border-blue-900/60 flex items-center justify-center p-0.5">
-        <div className="h-8 w-8 rounded-full border border-blue-900/40 flex items-center justify-center text-center">
-          <span className="text-[5.5px] font-black uppercase tracking-tighter text-blue-950 font-serif leading-none">
-            REGISTRAR
-            <br />
-            OFFICE
-            <br />
-            ★ PASSED ★
-          </span>
-        </div>
-      </div>
-    </div>
   );
 }
 
@@ -255,7 +163,7 @@ export default function CertificateView({ cert }: Props) {
 
   const meta = CEFR_METADATA[activeCert.level];
 
-  // Dinamik Taranabilir Gerçek QR Kod Üretimi (Canlı Doğrulama Sayfasına Bağlar)
+  // Dinamik Taranabilir Gerçek QR Kod Üretimi
   useEffect(() => {
     if (typeof window !== "undefined") {
       const origin = window.location.origin || "https://ielts-akademi-platform.vercel.app";
@@ -268,7 +176,7 @@ export default function CertificateView({ cert }: Props) {
               width: 180,
               margin: 1,
               color: {
-                dark: "#0F172A",
+                dark: "#0B1B3D",
                 light: "#FFFFFF",
               },
               errorCorrectionLevel: "H",
@@ -327,7 +235,7 @@ export default function CertificateView({ cert }: Props) {
               Resmî Akredite CEFR Diploması
             </span>
             <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-[10px] font-bold text-amber-900 dark:bg-amber-950 dark:text-amber-300">
-              Council of Europe Standard
+              A4 Landscape · Council of Europe Standard
             </span>
           </div>
         </div>
@@ -377,7 +285,7 @@ export default function CertificateView({ cert }: Props) {
             className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-700 px-4 py-2 text-xs font-black text-white shadow-md transition hover:opacity-95 disabled:opacity-50"
           >
             <Download className="h-4 w-4" />
-            <span>{downloading ? "Yüksek Çözünürlüklü PDF..." : "Resmî PDF İndir (A4 Yatay)"}</span>
+            <span>{downloading ? "Yüksek Kalite PDF Hazırlanıyor..." : "Resmî PDF İndir (A4 Yatay)"}</span>
           </button>
 
           {/* Baskı Al */}
@@ -394,11 +302,11 @@ export default function CertificateView({ cert }: Props) {
 
       {/* ─── DİPLOMA TAŞMA ENGELLEYİCİ KAYDIRMA ALANI ─── */}
       <div className="overflow-x-auto pb-4">
-        {/* ─── RESMÎ OTANTİK SERTİFİKA (SABİT 1120px x 792px — A4 LANDSCAPE) ─── */}
+        {/* ─── RESMÎ OTANTİK SERTİFİKA (SABİT 1120px x 792px — A4 LANDSCAPE KİLİTLİ) ─── */}
         <div
           ref={certRef}
           id="certificate-print-area"
-          className="relative mx-auto border-[10px] border-[#0B1B3D] text-slate-900 transition-all select-none"
+          className="relative mx-auto border-[10px] border-[#0B1B3D] text-slate-900 transition-all select-none overflow-hidden"
           style={{
             width: "1120px",
             minWidth: "1120px",
@@ -415,117 +323,112 @@ export default function CertificateView({ cert }: Props) {
         >
           {/* İç Çift Altın Guilloche Bordürü */}
           <div
-            className="pointer-events-none absolute inset-2.5 border-[2px] border-[#C59B27] rounded-none"
+            className="pointer-events-none absolute inset-2 border-[2px] border-[#C59B27]"
             style={{
               boxShadow: "inset 0 0 0 2px #FCFBF7, inset 0 0 0 3.5px #9A7416",
             }}
           />
 
           {/* Dört Köşede Viktorya Tarzı Köşe Motifleri */}
-          <div className="pointer-events-none absolute top-4 left-4">
+          <div className="pointer-events-none absolute top-3.5 left-3.5">
             <CornerFlourish />
           </div>
-          <div className="pointer-events-none absolute top-4 right-4 rotate-90">
+          <div className="pointer-events-none absolute top-3.5 right-3.5 rotate-90">
             <CornerFlourish />
           </div>
-          <div className="pointer-events-none absolute bottom-4 left-4 -rotate-90">
+          <div className="pointer-events-none absolute bottom-3.5 left-3.5 -rotate-90">
             <CornerFlourish />
           </div>
-          <div className="pointer-events-none absolute bottom-4 right-4 rotate-180">
+          <div className="pointer-events-none absolute bottom-3.5 right-3.5 rotate-180">
             <CornerFlourish />
           </div>
 
-          {/* Üst ve Alt Güvenlik Mikroyazı Bandı (Anti-Counterfeit Microprinting) */}
-          <div className="absolute top-1.5 left-8 right-8 text-center overflow-hidden whitespace-nowrap opacity-40 pointer-events-none">
-            <span className="text-[7.5px] uppercase font-mono tracking-[0.3em] text-[#0B1B3D]">
+          {/* Üst Güvenlik Mikroyazı Bandı (Anti-Counterfeit Microprinting) */}
+          <div className="absolute top-3 left-14 right-14 text-center overflow-hidden whitespace-nowrap opacity-30 pointer-events-none">
+            <span className="text-[6.5px] uppercase font-mono tracking-[0.3em] text-[#0B1B3D]">
               • IELTS AKADEMI INSTITUTE OF LANGUAGES • COUNCIL OF EUROPE CEFR ACCREDITED DIPLOMA • SECURE DIGITAL CREDENTIAL • ISO 21001:2018 QUALITY CERTIFIED •
-            </span>
-          </div>
-          <div className="absolute bottom-1.5 left-8 right-8 text-center overflow-hidden whitespace-nowrap opacity-40 pointer-events-none">
-            <span className="text-[7.5px] uppercase font-mono tracking-[0.3em] text-[#0B1B3D]">
-              • OFFICIAL TRANSCRIPT REGISTERED • VALID WORLDWIDE AND NATIONALLY • CEFR EUROPEAN LANGUAGE PASSPORT COMPLIANT •
             </span>
           </div>
 
           {/* Arka Plan Şeffaf Filigranı (Academy Crest Watermark) */}
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.035] z-0">
-            <AcademyCrest className="h-[480px] w-[480px]" />
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.03] z-0">
+            <AcademyCrest className="h-[420px] w-[420px]" />
           </div>
 
-          {/* ─── DİKEY KATIK FLEX DÜZENİ (TÜM ELEMANLARI 792px YÜKSEKLİĞE MİLİMETRİK DAĞITIR) ─── */}
-          <div className="relative z-10 flex h-full flex-col justify-between px-14 py-8">
+          {/* ─── DİKEY KATIK FLEX DÜZENİ (MİLİMETRİK 792px YÜKSEKLİK ALANINA TAM FIT) ─── */}
+          <div className="relative z-10 flex h-full flex-col justify-between px-14 pt-5 pb-8">
             {/* 1. ÜST HEADER: Enstitü Arması & Uluslararası Kurum Başlığı */}
             <header className="flex items-center justify-between border-b border-[#C59B27]/40 pb-2">
               {/* Sol: Akreditasyon Rozeti */}
               <div className="w-48 text-left">
-                <span className="inline-block rounded border border-[#C59B27] bg-[#F7F2E4] px-2 py-0.5 text-[8.5px] font-black uppercase tracking-wider text-[#7D5700]">
+                <span className="inline-block rounded border border-[#C59B27] bg-[#F7F2E4] px-2 py-0.5 text-[8px] font-black uppercase tracking-wider text-[#7D5700]">
                   COUNCIL OF EUROPE
                 </span>
-                <p className="mt-0.5 text-[9px] font-bold text-[#0B1B3D] tracking-tight">
+                <p className="mt-0.5 text-[8.5px] font-bold text-[#0B1B3D] tracking-tight">
                   CEFR Global Framework
                 </p>
-                <p className="text-[7.5px] text-slate-500 font-sans">
+                <p className="text-[7px] text-slate-500 font-sans">
                   ALTE & Cambridge Assessment Equiv.
                 </p>
               </div>
 
               {/* Orta: Resmî Akademi Arması & Başlık */}
               <div className="flex flex-col items-center text-center">
-                <AcademyCrest className="h-11 w-11" />
+                <AcademyCrest className="h-10 w-10" />
                 <h2
-                  className="mt-1 text-xl font-black tracking-[0.2em] text-[#0B1B3D] uppercase"
+                  className="mt-0.5 text-lg font-black tracking-[0.2em] text-[#0B1B3D] uppercase"
                   style={{ fontFamily: "'Cinzel', serif" }}
                 >
                   IELTS AKADEMİ INSTITUTE
                 </h2>
-                <p className="text-[9px] font-bold uppercase tracking-[0.25em] text-[#9A7416]">
+                <p className="text-[8px] font-bold uppercase tracking-[0.25em] text-[#9A7416]">
                   INTERNATIONAL ACCREDITATION & LANGUAGE ASSESSMENT BOARD
                 </p>
               </div>
 
               {/* Sağ: ISO 21001 & CPD Sertifikasyon Mührü */}
               <div className="w-48 text-right">
-                <span className="inline-block rounded border border-emerald-700/40 bg-emerald-50 px-2 py-0.5 text-[8.5px] font-black uppercase tracking-wider text-emerald-900">
+                <span className="inline-block rounded border border-emerald-700/40 bg-emerald-50 px-2 py-0.5 text-[8px] font-black uppercase tracking-wider text-emerald-900">
                   CPD ACCREDITED (#CPD-89104)
                 </span>
-                <p className="mt-0.5 text-[9px] font-bold text-[#0B1B3D] tracking-tight">
+                <p className="mt-0.5 text-[8.5px] font-bold text-[#0B1B3D] tracking-tight">
                   ISO 21001:2018 Certified
                 </p>
-                <p className="text-[7.5px] text-slate-500 font-sans">
+                <p className="text-[7px] text-slate-500 font-sans">
                   Educational Org. Management
                 </p>
               </div>
             </header>
 
             {/* 2. DİPLOMA ANA BAŞLIĞI */}
-            <div className="text-center pt-1">
+            <div className="text-center pt-0.5">
               <p
-                className="text-[10px] font-bold uppercase tracking-[0.35em] text-[#C59B27]"
+                className="text-[9.5px] font-bold uppercase tracking-[0.35em] text-[#C59B27]"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
                 OFFICIAL DIPLOMA OF LANGUAGE PROFICIENCY
               </p>
               <h1
-                className="mt-0.5 text-2xl font-black tracking-wider text-[#0B1B3D] uppercase"
+                className="mt-0.5 text-xl font-black tracking-wider text-[#0B1B3D] uppercase"
                 style={{ fontFamily: "'Cinzel', serif" }}
               >
                 {isBilingual
                   ? "ULUSLARARASI DİL YETKİNLİK DİPLOMASI / PROFICIENCY DIPLOMA"
                   : "DIPLOMA OF PROFICIENCY IN ENGLISH"}
               </h1>
-              <p className="mt-0.5 text-[11px] italic text-slate-600">
+              <p className="mt-0.5 text-[10.5px] italic text-slate-600">
                 {isBilingual
                   ? "Bu resmî belge, aşağıda adı geçen adayın Avrupa Ortak Dil Kriterleri (CEFR) çerçevesinde yetkinliğini onaylar."
                   : "This credential certifies that the candidate named below has satisfied all rigorous academic requirements."}
               </p>
             </div>
 
-            {/* 3. ÖĞRENCİ ADI ALANI (BÜYÜK & PRESTİJLİ SERİF) */}
+            {/* 3. ÖĞRENCİ ADI ALANI (BÜYÜK & PRESTİJLİ SERİF — TEK VE MERKEZİ İSİM) */}
             <div className="text-center my-0.5">
-              <p className="text-[9.5px] uppercase font-bold tracking-[0.25em] text-slate-500">
-                THIS IS TO CERTIFY THAT
+              <p className="text-[9px] uppercase font-bold tracking-[0.25em] text-slate-500 font-sans">
+                THIS IS TO CERTIFY THAT / BU SERTİFİKA İFTİHARLA TAKDİM EDİLİR:
               </p>
-              <div className="mt-0.5 inline-flex items-center justify-center gap-2 border-b-2 border-[#C59B27] pb-1 px-10">
+              <div className="mt-1 inline-flex items-center justify-center gap-2 border-b-2 border-[#C59B27] pb-1 px-10">
                 {isEditingName ? (
                   <div className="flex items-center gap-2">
                     <input
@@ -562,32 +465,32 @@ export default function CertificateView({ cert }: Props) {
                   </div>
                 )}
               </div>
-              <p className="mt-1 text-[11px] italic text-slate-600">
-                has successfully demonstrated proficiency in the English language and attained the qualification of
+              <p className="mt-1 text-[10.5px] italic text-slate-600">
+                has successfully demonstrated language proficiency in accordance with the Common European Framework of Reference for Languages
               </p>
             </div>
 
             {/* 4. CEFR SEVİYE BLOKLARI & RESMÎ CAN-DO AÇIKLAMASI */}
-            <div className="rounded-xl border border-[#C59B27]/50 bg-[#FDF9EE]/80 p-3 text-center shadow-xs">
+            <div className="rounded-xl border border-[#C59B27]/50 bg-[#FDF9EE]/80 p-2.5 text-center shadow-xs">
               <div className="flex items-center justify-center gap-3">
-                <span className="rounded-full bg-[#0B1B3D] px-4 py-0.5 text-xs font-black uppercase tracking-wider text-amber-300">
+                <span className="inline-flex items-center justify-center rounded-full bg-[#0B1B3D] px-4 py-1 text-[11px] font-extrabold uppercase tracking-wider text-[#FDE047] font-sans">
                   CEFR LEVEL {activeCert.level} — {meta.titleEn.toUpperCase()}
                 </span>
-                <span className="rounded-full border border-amber-600/50 bg-amber-100/70 px-3 py-0.5 text-[11px] font-bold text-amber-950">
+                <span className="inline-flex items-center justify-center rounded-full border border-amber-600/50 bg-amber-100/70 px-3 py-1 text-[10.5px] font-bold text-amber-950 font-sans">
                   Grade: {activeCert.grade}
                 </span>
-                <span className="rounded-full border border-emerald-600/40 bg-emerald-100/70 px-3 py-0.5 text-[11px] font-bold text-emerald-950">
+                <span className="inline-flex items-center justify-center rounded-full border border-emerald-600/40 bg-emerald-100/70 px-3 py-1 text-[10.5px] font-bold text-emerald-950 font-sans">
                   Overall Score: %{activeCert.completionScore}
                 </span>
               </div>
 
               {/* CEFR Resmi Can-Do Açıklaması */}
-              <p className="mx-auto mt-1.5 max-w-3xl text-[10.5px] italic leading-relaxed text-[#1E293B]">
+              <p className="mx-auto mt-1 max-w-3xl text-[10px] italic leading-tight text-[#1E293B]">
                 &ldquo;{isBilingual && meta.canDoTr ? meta.canDoTr : meta.canDoEn}&rdquo;
               </p>
 
-              {/* 5 Beceri Puan Matrisi + Eşdeğerlikler */}
-              <div className="mt-2 grid grid-cols-6 gap-2 text-center">
+              {/* 6 Beceri Puan Matrisi */}
+              <div className="mt-1.5 grid grid-cols-6 gap-2 text-center">
                 {[
                   { label: "Reading", tr: "Okuma", score: activeCert.skillsSummary.reading },
                   { label: "Listening", tr: "Dinleme", score: activeCert.skillsSummary.listening },
@@ -597,14 +500,14 @@ export default function CertificateView({ cert }: Props) {
                   { label: "Vocabulary", tr: "Kelime", score: activeCert.skillsSummary.vocabulary || 92 },
                 ].map((s) => (
                   <div key={s.label} className="rounded-lg border border-[#C59B27]/30 bg-white/90 p-1">
-                    <p className="text-[8.5px] font-bold uppercase text-slate-500 font-sans">{isBilingual ? s.tr : s.label}</p>
-                    <p className="text-sm font-black text-[#0B1B3D] font-serif">%{s.score}</p>
+                    <p className="text-[8px] font-bold uppercase text-slate-500 font-sans">{isBilingual ? s.tr : s.label}</p>
+                    <p className="text-xs font-black text-[#0B1B3D] font-sans">%{s.score}</p>
                   </div>
                 ))}
               </div>
 
               {/* Uluslararası ve Türkiye Eşdeğerlik Şeridi */}
-              <div className="mt-2 flex items-center justify-around border-t border-[#C59B27]/30 pt-1 text-[9.5px] font-bold text-slate-700">
+              <div className="mt-1.5 flex items-center justify-around border-t border-[#C59B27]/30 pt-1 text-[9px] font-bold text-slate-700">
                 <span>
                   Cambridge IELTS: <strong className="text-[#0B1B3D]">{activeCert.ieltsBandEquivalent}</strong>
                 </span>
@@ -623,50 +526,59 @@ export default function CertificateView({ cert }: Props) {
               </div>
             </div>
 
-            {/* 5. ALT YETKİLİ İMZALAR, 3D ALTIN MÜHÜR VE CANLI TARANABİLİR QR KOD (3 SÜTUN GRID) */}
-            <div className="grid grid-cols-3 items-end border-t border-[#C59B27]/40 pt-2">
-              {/* Sol Sütun: Akademik Direktör İmzası & Kaşe */}
-              <div className="text-center">
-                <div className="flex items-center justify-center gap-1">
-                  <ElizabethWrightSignature />
-                  <RegistrarStamp />
+            {/* 5. ALT RESMÎ AKREDİTASYON, 3D ALTIN MÜHÜR VE CANLI TARANABİLİR QR KOD */}
+            <div className="grid grid-cols-3 items-center border-t border-[#C59B27]/40 pt-2 px-2">
+              {/* Sol Sütun: Resmî Kurumsal Tescil & Akreditasyon Şerhi */}
+              <div className="text-left space-y-1">
+                <div className="flex items-center gap-2">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-[#C59B27] bg-[#F7F2E4] text-[#7D5700]">
+                    <FileCheck2 className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <p className="text-[10px] font-black uppercase text-[#0B1B3D] font-serif tracking-wider">
+                      OFFICIAL ACCREDITATION
+                    </p>
+                    <p className="text-[8px] font-bold text-emerald-800 font-sans">
+                      Council of Europe CEFR & CPD Certified
+                    </p>
+                  </div>
                 </div>
-                <div className="mx-auto w-40 border-b border-[#0B1B3D]/60 pb-0.5" />
-                <p className="mt-0.5 text-xs font-bold text-[#0B1B3D] font-serif">
-                  Dr. Elizabeth Wright, Ph.D.
+                <p className="text-[8px] text-slate-600 font-sans leading-tight">
+                  Registration Authority: <strong>IELTS Akademi Examination Board</strong>
                 </p>
-                <p className="text-[8.5px] font-bold uppercase tracking-wider text-slate-500 font-sans">
-                  Director of Academic Affairs
+                <p className="text-[8px] font-mono text-slate-500">
+                  Security Auth Code: <strong>{activeCert.verificationCode}</strong>
                 </p>
               </div>
 
               {/* Orta Sütun: 3D Kabartmalı Altın Mühür & Belge Sicil Bilgisi */}
               <div className="flex flex-col items-center text-center">
                 <EmbossedGoldSeal />
-                <div className="mt-1 text-[9px] font-mono text-slate-600">
+                <div className="mt-1 text-[9.5px] font-mono font-bold text-[#0B1B3D]">
                   <span>Certificate ID: </span>
-                  <strong className="text-[#0B1B3D]">{activeCert.id}</strong>
+                  <strong>{activeCert.id}</strong>
                 </div>
                 <div className="text-[8px] text-slate-500 font-sans">
-                  Issued Date: <strong>{activeCert.issueDate}</strong> · Turkey & Worldwide
+                  Date of Issue: <strong>{activeCert.issueDate}</strong> · Accredited & Valid
                 </div>
               </div>
 
-              {/* Sağ Sütun: Sınav Kurulu Başkanı İmzası & Canlı Taranabilir QR Kodu */}
+              {/* Sağ Sütun: Canlı Taranabilir QR Kodu & Doğrulama Garantisi */}
               <div className="flex items-center justify-end gap-3">
-                <div className="text-center">
-                  <MarcusStirlingSignature />
-                  <div className="mx-auto w-40 border-b border-[#0B1B3D]/60 pb-0.5" />
-                  <p className="mt-0.5 text-xs font-bold text-[#0B1B3D] font-serif">
-                    Prof. Marcus Stirling, CBE
+                <div className="text-right">
+                  <p className="text-[10px] font-black text-[#0B1B3D] font-serif uppercase tracking-wider">
+                    ONLINE CREDENTIAL VERIFICATION
                   </p>
-                  <p className="text-[8.5px] font-bold uppercase tracking-wider text-slate-500 font-sans">
-                    Chair, Examination & Standards Board
+                  <p className="text-[8px] text-emerald-700 font-bold font-sans">
+                    Instant Smartphone Scan
+                  </p>
+                  <p className="text-[7.5px] text-slate-500 font-sans">
+                    Resmî Çevrimiçi Doğrulama Karekodu
                   </p>
                 </div>
 
                 {/* Dinamik Taranabilir Gerçek QR Kod */}
-                <div className="flex flex-col items-center rounded-lg border border-[#C59B27]/60 bg-white p-1 shadow-sm">
+                <div className="flex flex-col items-center rounded-lg border border-[#C59B27]/60 bg-white p-1 shadow-xs">
                   {qrCodeDataUrl ? (
                     <img
                       src={qrCodeDataUrl}

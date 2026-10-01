@@ -87,6 +87,7 @@ export async function downloadCertificatePdf(
             clonedCert.style.maxHeight = "792px";
             clonedCert.style.backgroundColor = "#FCFBF7";
             clonedCert.style.color = "#0B1B3D";
+            clonedCert.style.overflow = "hidden";
           }
         },
       });
