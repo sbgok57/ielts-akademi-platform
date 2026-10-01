@@ -261,6 +261,11 @@ h1, h2, h3, h4, h5, h6, .font-display {
  * ========================================================================== */
 
 @media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+
   header, footer, nav, .no-print {
     display: none !important;
   }
@@ -270,6 +275,8 @@ h1, h2, h3, h4, h5, h6, .font-display {
     color: #000000 !important;
     padding: 0 !important;
     margin: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
   #certificate-print-area {
@@ -277,9 +284,16 @@ h1, h2, h3, h4, h5, h6, .font-display {
     border-color: #d97706 !important;
     box-shadow: none !important;
     page-break-inside: avoid !important;
-    max-width: 100% !important;
-    width: 100% !important;
+    page-break-after: avoid !important;
+    page-break-before: avoid !important;
+    width: 297mm !important;
+    min-width: 297mm !important;
+    max-width: 297mm !important;
+    height: 210mm !important;
+    min-height: 210mm !important;
+    max-height: 210mm !important;
     margin: 0 auto !important;
+    padding: 12mm 16mm !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
