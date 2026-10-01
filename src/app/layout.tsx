@@ -119,10 +119,13 @@ export default function RootLayout({
                     '.rainbow-glow { box-shadow:0 0 35px -5px ' + p1 + '66, 0 0 25px -5px ' + p2 + '66!important; } ' +
                     '.dark .rainbow-glow, html.dark .rainbow-glow { box-shadow:0 0 45px -5px ' + p1 + '88, 0 0 35px -5px ' + p2 + '88!important; }';
 
-                    var s = document.createElement('style');
-                    s.id = 'ielts-active-theme-styles';
+                    var s = document.getElementById('ielts-active-theme-styles');
+                    if (!s) {
+                      s = document.createElement('style');
+                      s.id = 'ielts-active-theme-styles';
+                      document.head.appendChild(s);
+                    }
                     s.textContent = css;
-                    document.head.appendChild(s);
                   }
                 }
               } catch (_) {}

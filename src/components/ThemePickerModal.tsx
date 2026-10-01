@@ -4,7 +4,7 @@
 // Öğrenciler için 200'den fazla (240 Adet) Renkli Kişiselleştirme Teması
 // Canlı önizleme, anında CSS değişkeni atama ve kalıcı kayıt
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Palette,
   X,
@@ -33,6 +33,7 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
   const [searchQuery, setSearchQuery] = useState("");
   const [activeThemeId, setActiveThemeId] = useState<string | null>(null);
   const [appliedNotice, setAppliedNotice] = useState<string | null>(null);
+  const noticeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const saved = loadSavedStudentTheme();
@@ -40,9 +41,22 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
       setActiveThemeId(saved.id);
       applyStudentTheme(saved);
     }
+    return () => {
+      // SAFETY: Bileşen kapandığında bekleyen zamanlayıcıyı temizle
+      if (noticeTimerRef.current) clearTimeout(noticeTimerRef.current);
+    };
   }, []);
 
   if (!isOpen) return null;
+
+  const showNotice = (msg: string, duration = 3500) => {
+    if (noticeTimerRef.current) clearTimeout(noticeTimerRef.current);
+    setAppliedNotice(msg);
+    noticeTimerRef.current = setTimeout(() => {
+      setAppliedNotice(null);
+      noticeTimerRef.current = null;
+    }, duration);
+  };
 
   const filteredThemes = THEMES_CATALOG.filter((theme) => {
     const matchesCat =
@@ -56,15 +70,13 @@ export default function ThemePickerModal({ isOpen, onClose }: ThemePickerModalPr
   const handleSelectTheme = (theme: StudentTheme) => {
     setActiveThemeId(theme.id);
     applyStudentTheme(theme);
-    setAppliedNotice(`✨ "${theme.name}" teması uygulandı! Arka plan, kartlar ve butonlar hem aydınlık hem karanlık modda güncellendi.`);
-    setTimeout(() => setAppliedNotice(null), 4000);
+    showNotice(`✨ "${theme.name}" teması uygulandı! Arka plan, kartlar ve butonlar hem aydınlık hem karanlık modda güncellendi.`, 4000);
   };
 
   const handleResetDefault = () => {
     setActiveThemeId(null);
     removeStudentTheme();
-    setAppliedNotice("🌈 Varsayılan gökkuşağı temasına dönüldü!");
-    setTimeout(() => setAppliedNotice(null), 3500);
+    showNotice("🌈 Varsayılan gökkuşağı temasına dönüldü!", 3500);
   };
 
   return (
