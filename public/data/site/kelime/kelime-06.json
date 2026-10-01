@@ -1,0 +1,2856 @@
+[
+ {
+  "id": "w1011",
+  "kelime": "ability",
+  "tur": "isim",
+  "tr": "yetenek, beceri",
+  "en": "the physical or mental power to do something",
+  "es": [
+   "skill",
+   "capacity",
+   "talent"
+  ],
+  "ornek": "She has the ability to learn languages quickly.",
+  "ornekTr": "Dilleri hızlı öğrenme yeteneğine sahiptir.",
+  "seviye": "A1",
+  "alan": "YDS Temel",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1012",
+  "kelime": "abroad",
+  "tur": "zarf",
+  "tr": "yurt dışı, yurt dışında",
+  "en": "in or to a foreign country",
+  "es": [
+   "overseas",
+   "foreign"
+  ],
+  "ornek": "Many students want to study abroad.",
+  "ornekTr": "Pek çok öğrenci yurt dışında okumak istiyor.",
+  "seviye": "A1",
+  "alan": "Genel",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1013",
+  "kelime": "accept",
+  "tur": "fiil",
+  "tr": "kabul etmek, razı olmak",
+  "en": "to agree to receive or take something",
+  "es": [
+   "receive",
+   "admit",
+   "approve"
+  ],
+  "ornek": "He decided to accept the job offer.",
+  "ornekTr": "İş teklifini kabul etmeye karar verdi.",
+  "seviye": "A1",
+  "alan": "YDS Temel",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1014",
+  "kelime": "achieve",
+  "tur": "fiil",
+  "tr": "başarmak, elde etmek",
+  "en": "to succeed in doing something good",
+  "es": [
+   "accomplish",
+   "attain",
+   "reach"
+  ],
+  "ornek": "She worked hard to achieve her goals.",
+  "ornekTr": "Hedeflerine ulaşmak için çok çalıştı.",
+  "seviye": "A1",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1015",
+  "kelime": "active",
+  "tur": "sıfat",
+  "tr": "aktif, hareketli, etkin",
+  "en": "doing things that require physical movement or effort",
+  "es": [
+   "energetic",
+   "lively",
+   "dynamic"
+  ],
+  "ornek": "Staying active is important for good health.",
+  "ornekTr": "Aktif kalmak iyi sağlık için önemlidir.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1016",
+  "kelime": "advice",
+  "tur": "isim",
+  "tr": "tavsiye, öğüt",
+  "en": "an opinion or recommendation given to someone",
+  "es": [
+   "suggestion",
+   "guidance",
+   "recommendation"
+  ],
+  "ornek": "He gave me some useful advice about the exam.",
+  "ornekTr": "Sınav hakkında bana faydalı tavsiyeler verdi.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1017",
+  "kelime": "afford",
+  "tur": "fiil",
+  "tr": "maddi gücü yetmek",
+  "en": "to have enough money to buy something",
+  "es": [
+   "pay for",
+   "manage",
+   "meet expenses"
+  ],
+  "ornek": "They cannot afford to buy a new car right now.",
+  "ornekTr": "Şu anda yeni bir araba almaya güçleri yetmiyor.",
+  "seviye": "A1",
+  "alan": "Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1018",
+  "kelime": "agree",
+  "tur": "fiil",
+  "tr": "aynı fikirde olmak, anlaşmak",
+  "en": "to have the same opinion as someone else",
+  "es": [
+   "concur",
+   "consent",
+   "accede"
+  ],
+  "ornek": "I completely agree with your proposal.",
+  "ornekTr": "Önerinize tamamen katılıyorum.",
+  "seviye": "A1",
+  "alan": "İletişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1019",
+  "kelime": "allow",
+  "tur": "fiil",
+  "tr": "izin vermek, olanak tanımak",
+  "en": "to give permission for someone to do something",
+  "es": [
+   "permit",
+   "let",
+   "authorize"
+  ],
+  "ornek": "Smoking is not allowed inside the building.",
+  "ornekTr": "Bina içinde sigara içilmesine izin verilmez.",
+  "seviye": "A1",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1020",
+  "kelime": "ancient",
+  "tur": "sıfat",
+  "tr": "antik, çok eski",
+  "en": "from a long time ago, having lasted for a long time",
+  "es": [
+   "antique",
+   "prehistoric",
+   "aged"
+  ],
+  "ornek": "They discovered an ancient Roman city.",
+  "ornekTr": "Antik bir Roma kenti keşfettiler.",
+  "seviye": "A1",
+  "alan": "Tarih & Kültür",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1021",
+  "kelime": "announce",
+  "tur": "fiil",
+  "tr": "duyurmak, ilan etmek",
+  "en": "to make something known publicly or officially",
+  "es": [
+   "declare",
+   "proclaim",
+   "broadcast"
+  ],
+  "ornek": "The airline announced a delay in flights.",
+  "ornekTr": "Havayolu şirketi uçuşlarda gecikme olduğunu duyurdu.",
+  "seviye": "A1",
+  "alan": "Medya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1022",
+  "kelime": "appear",
+  "tur": "fiil",
+  "tr": "görünmek, belirmek, ortaya çıkmak",
+  "en": "to become visible or seem to be true",
+  "es": [
+   "seem",
+   "look",
+   "emerge"
+  ],
+  "ornek": "Dark clouds began to appear in the sky.",
+  "ornekTr": "Gökyüzünde kara bulutlar belirmeye başladı.",
+  "seviye": "A1",
+  "alan": "Doğa",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1023",
+  "kelime": "apply",
+  "tur": "fiil",
+  "tr": "başvurmak, uygulamak",
+  "en": "to request something formally or to put into use",
+  "es": [
+   "implement",
+   "request",
+   "use"
+  ],
+  "ornek": "You can apply online for the university program.",
+  "ornekTr": "Üniversite programı için çevrim içi başvurabilirsiniz.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1024",
+  "kelime": "argue",
+  "tur": "fiil",
+  "tr": "tartışmak, ileri sürmek",
+  "en": "to speak angrily or give reasons for an opinion",
+  "es": [
+   "dispute",
+   "debate",
+   "contend"
+  ],
+  "ornek": "They argued about who should drive the car.",
+  "ornekTr": "Arabayı kimin kullanması gerektiği konusunda tartıştılar.",
+  "seviye": "A1",
+  "alan": "İletişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1025",
+  "kelime": "arrange",
+  "tur": "fiil",
+  "tr": "düzenlemek, planlamak",
+  "en": "to plan, prepare, or put in order",
+  "es": [
+   "organize",
+   "schedule",
+   "order"
+  ],
+  "ornek": "We need to arrange a meeting with the client.",
+  "ornekTr": "Müşteri ile bir toplantı düzenlememiz gerekiyor.",
+  "seviye": "A1",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1026",
+  "kelime": "arrive",
+  "tur": "fiil",
+  "tr": "varmak, ulaşmak",
+  "en": "to reach a place, especially at the end of a journey",
+  "es": [
+   "reach",
+   "land",
+   "enter"
+  ],
+  "ornek": "The train is scheduled to arrive at noon.",
+  "ornekTr": "Trenin öğle saatinde varması planlanıyor.",
+  "seviye": "A1",
+  "alan": "Ulaşım",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1027",
+  "kelime": "assist",
+  "tur": "fiil",
+  "tr": "yardım etmek, desteklemek",
+  "en": "to help someone do something",
+  "es": [
+   "help",
+   "aid",
+   "support"
+  ],
+  "ornek": "The assistant will assist you with the form.",
+  "ornekTr": "Asistan form konusunda size yardımcı olacaktır.",
+  "seviye": "A1",
+  "alan": "Sosyal",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1028",
+  "kelime": "attach",
+  "tur": "fiil",
+  "tr": "eklemek, iliştirmek, bağlamak",
+  "en": "to fasten, join, or connect something",
+  "es": [
+   "fasten",
+   "connect",
+   "affix"
+  ],
+  "ornek": "Please attach your photo to the application.",
+  "ornekTr": "Lütfen başvuruya fotoğrafınızı ekleyin.",
+  "seviye": "A1",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1029",
+  "kelime": "attend",
+  "tur": "fiil",
+  "tr": "katılmak, gitmek",
+  "en": "to go to an event, place, or class",
+  "es": [
+   "participate in",
+   "be present at",
+   "visit"
+  ],
+  "ornek": "He plans to attend the annual conference.",
+  "ornekTr": "Yıllık konferansa katılmayı planlıyor.",
+  "seviye": "A1",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1030",
+  "kelime": "attitude",
+  "tur": "isim",
+  "tr": "tutum, tavır, yaklaşım",
+  "en": "a feeling or opinion about something or someone",
+  "es": [
+   "stance",
+   "disposition",
+   "mindset"
+  ],
+  "ornek": "A positive attitude helps in overcoming obstacles.",
+  "ornekTr": "Olumlu bir tutum engelleri aşmada yardımcı olur.",
+  "seviye": "A1",
+  "alan": "Psikoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1031",
+  "kelime": "avoid",
+  "tur": "fiil",
+  "tr": "kaçınmak, uzak durmak",
+  "en": "to stay away from someone or something",
+  "es": [
+   "evade",
+   "shun",
+   "prevent"
+  ],
+  "ornek": "Drivers should avoid using phones while driving.",
+  "ornekTr": "Sürücüler araç kullanırken telefon kullanmaktan kaçınmalıdır.",
+  "seviye": "A1",
+  "alan": "Güvenlik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1032",
+  "kelime": "aware",
+  "tur": "sıfat",
+  "tr": "farkında, bilincinde",
+  "en": "knowing that something exists or having knowledge of it",
+  "es": [
+   "conscious",
+   "mindful",
+   "informed"
+  ],
+  "ornek": "Are you aware of the new traffic regulations?",
+  "ornekTr": "Yeni trafik düzenlemelerinden haberdar mısınız?",
+  "seviye": "A1",
+  "alan": "Toplum",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1033",
+  "kelime": "balance",
+  "tur": "isim",
+  "tr": "denge, dengelemek",
+  "en": "a state where things are of equal weight or force",
+  "es": [
+   "equilibrium",
+   "stability",
+   "harmony"
+  ],
+  "ornek": "Work-life balance is crucial for well-being.",
+  "ornekTr": "İş-yaşam dengesi esenlik için hayati önem taşır.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1034",
+  "kelime": "basic",
+  "tur": "sıfat",
+  "tr": "temel, esas",
+  "en": "forming the most important or necessary part of something",
+  "es": [
+   "fundamental",
+   "elementary",
+   "essential"
+  ],
+  "ornek": "The course covers the basic principles of physics.",
+  "ornekTr": "Ders, fiziğin temel ilkelerini kapsar.",
+  "seviye": "A1",
+  "alan": "Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1035",
+  "kelime": "behave",
+  "tur": "fiil",
+  "tr": "davranmak, uslu durmak",
+  "en": "to act in a particular way",
+  "es": [
+   "act",
+   "conduct oneself",
+   "function"
+  ],
+  "ornek": "Children usually behave well when praised.",
+  "ornekTr": "Çocuklar övüldüklerinde genellikle iyi davranırlar.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1036",
+  "kelime": "belong",
+  "tur": "fiil",
+  "tr": "ait olmak",
+  "en": "to be in the right place or owned by someone",
+  "es": [
+   "be owned by",
+   "fit",
+   "pertain to"
+  ],
+  "ornek": "These documents belong in the confidential folder.",
+  "ornekTr": "Bu belgeler gizli klasöre aittir.",
+  "seviye": "A1",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1037",
+  "kelime": "benefit",
+  "tur": "isim",
+  "tr": "fayda, yarar, kazanç",
+  "en": "a helpful or good effect, or something intended to help",
+  "es": [
+   "advantage",
+   "gain",
+   "profit"
+  ],
+  "ornek": "Regular exercise brings numerous health benefits.",
+  "ornekTr": "Düzenli egzersiz çok sayıda sağlık faydası sağlar.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1038",
+  "kelime": "brave",
+  "tur": "sıfat",
+  "tr": "cesur, korkusuz",
+  "en": "showing no fear of dangerous or difficult things",
+  "es": [
+   "courageous",
+   "fearless",
+   "valiant"
+  ],
+  "ornek": "Firefighters are admired for their brave actions.",
+  "ornekTr": "İtfaiyeciler cesur eylemleriyle takdir edilir.",
+  "seviye": "A1",
+  "alan": "Toplum",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1039",
+  "kelime": "bright",
+  "tur": "sıfat",
+  "tr": "parlak, zeki, aydınlık",
+  "en": "giving out or reflecting a lot of light; clever",
+  "es": [
+   "shining",
+   "radiant",
+   "clever"
+  ],
+  "ornek": "The morning sun was warm and bright.",
+  "ornekTr": "Sabah güneşi ılık ve parlaktı.",
+  "seviye": "A1",
+  "alan": "Doğa",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1040",
+  "kelime": "calm",
+  "tur": "sıfat",
+  "tr": "sakin, dingin, huzurlu",
+  "en": "peaceful, quiet, and without worry",
+  "es": [
+   "peaceful",
+   "serene",
+   "tranquil"
+  ],
+  "ornek": "Keep calm during emergency situations.",
+  "ornekTr": "Acil durumlarda sakinliğinizi koruyun.",
+  "seviye": "A1",
+  "alan": "Psikoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1041",
+  "kelime": "celebrate",
+  "tur": "fiil",
+  "tr": "kutlamak",
+  "en": "to take part in special enjoyable activities for an event",
+  "es": [
+   "commemorate",
+   "observe",
+   "rejoice"
+  ],
+  "ornek": "Families gather to celebrate the new year.",
+  "ornekTr": "Aileler yeni yılı kutlamak için toplanır.",
+  "seviye": "A1",
+  "alan": "Kültür",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1042",
+  "kelime": "certain",
+  "tur": "sıfat",
+  "tr": "belirli, kesin, emin",
+  "en": "having no doubts or knowing that something is true",
+  "es": [
+   "sure",
+   "definite",
+   "confident"
+  ],
+  "ornek": "I am certain that we will succeed.",
+  "ornekTr": "Başarılı olacağımızdan eminim.",
+  "seviye": "A1",
+  "alan": "Mantık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1043",
+  "kelime": "chance",
+  "tur": "isim",
+  "tr": "şans, fırsat, olasılık",
+  "en": "an occasion that allows something to be done",
+  "es": [
+   "opportunity",
+   "possibility",
+   "fortune"
+  ],
+  "ornek": "This scholarship offers a great chance to study in the UK.",
+  "ornekTr": "Bu burs İngiltere'de okumak için harika bir fırsat sunuyor.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1044",
+  "kelime": "change",
+  "tur": "fiil",
+  "tr": "değiştirmek, değişmek",
+  "en": "to make or become different",
+  "es": [
+   "alter",
+   "transform",
+   "shift"
+  ],
+  "ornek": "Technology has changed the way we communicate.",
+  "ornekTr": "Teknoloji iletişim kurma biçimimizi değiştirdi.",
+  "seviye": "A1",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1045",
+  "kelime": "collect",
+  "tur": "fiil",
+  "tr": "toplamak, biriktirmek",
+  "en": "to bring things together from different places",
+  "es": [
+   "gather",
+   "accumulate",
+   "compile"
+  ],
+  "ornek": "Scientists collect soil samples from the desert.",
+  "ornekTr": "Bilim insanları çölden toprak örnekleri toplar.",
+  "seviye": "A1",
+  "alan": "Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1046",
+  "kelime": "comfort",
+  "tur": "isim",
+  "tr": "rahatlık, konfor, teselli",
+  "en": "a pleasant feeling of being relaxed and free from pain",
+  "es": [
+   "ease",
+   "relief",
+   "solace"
+  ],
+  "ornek": "The hotel offers modern comfort at an affordable price.",
+  "ornekTr": "Otel uygun bir fiyata modern konfor sunmaktadır.",
+  "seviye": "A1",
+  "alan": "Turizm",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1047",
+  "kelime": "common",
+  "tur": "sıfat",
+  "tr": "ortak, yaygın, alışılmış",
+  "en": "occurring or found often, shared by two or more",
+  "es": [
+   "frequent",
+   "widespread",
+   "shared"
+  ],
+  "ornek": "Flu symptoms are very common in winter.",
+  "ornekTr": "Grip belirtileri kışın çok yaygındır.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1048",
+  "kelime": "compare",
+  "tur": "fiil",
+  "tr": "karşılaştırmak, kıyaslamak",
+  "en": "to examine the similarities or differences between things",
+  "es": [
+   "contrast",
+   "evaluate",
+   "match"
+  ],
+  "ornek": "It is helpful to compare prices before shopping.",
+  "ornekTr": "Alışveriş yapmadan önce fiyatları karşılaştırmak faydalıdır.",
+  "seviye": "A1",
+  "alan": "Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1049",
+  "kelime": "compete",
+  "tur": "fiil",
+  "tr": "rekabet etmek, yarışmak",
+  "en": "to try to be more successful than someone else",
+  "es": [
+   "vie",
+   "contest",
+   "rival"
+  ],
+  "ornek": "Over a hundred athletes will compete for the medal.",
+  "ornekTr": "Yüzden fazla sporcu madalya için yarışacak.",
+  "seviye": "A1",
+  "alan": "Spor",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1050",
+  "kelime": "complete",
+  "tur": "fiil",
+  "tr": "tamamlamak, bitirmek",
+  "en": "to finish doing something or make something whole",
+  "es": [
+   "finish",
+   "conclude",
+   "finalize"
+  ],
+  "ornek": "Students must complete the assignment by Friday.",
+  "ornekTr": "Öğrenciler ödevi Cuma gününe kadar tamamlamalıdır.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1051",
+  "kelime": "connect",
+  "tur": "fiil",
+  "tr": "bağlamak, birleştirmek",
+  "en": "to join together or relate to something",
+  "es": [
+   "join",
+   "link",
+   "attach"
+  ],
+  "ornek": "The new bridge connects the two islands.",
+  "ornekTr": "Yeni köprü iki adayı birbirine bağlıyor.",
+  "seviye": "A1",
+  "alan": "Altyapı",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1052",
+  "kelime": "contain",
+  "tur": "fiil",
+  "tr": "içermek, kapsamak",
+  "en": "to have something inside or include as a part",
+  "es": [
+   "include",
+   "hold",
+   "encompass"
+  ],
+  "ornek": "This box contains fragile glass objects.",
+  "ornekTr": "Bu kutu kırılabilir cam eşyalar içeriyor.",
+  "seviye": "A1",
+  "alan": "Lojistik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1053",
+  "kelime": "control",
+  "tur": "fiil",
+  "tr": "kontrol etmek, denetlemek",
+  "en": "to have power over a person, thing, or situation",
+  "es": [
+   "manage",
+   "direct",
+   "regulate"
+  ],
+  "ornek": "The pilot managed to control the aircraft safely.",
+  "ornekTr": "Pilot uçağı güvenli bir şekilde kontrol etmeyi başardı.",
+  "seviye": "A1",
+  "alan": "Havacılık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1054",
+  "kelime": "correct",
+  "tur": "sıfat",
+  "tr": "doğru, hatasız",
+  "en": "accurate or in accordance with fact or truth",
+  "es": [
+   "right",
+   "accurate",
+   "proper"
+  ],
+  "ornek": "Please ensure your phone number is correct.",
+  "ornekTr": "Lütfen telefon numaranızın doğru olduğundan emin olun.",
+  "seviye": "A1",
+  "alan": "İletişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1055",
+  "kelime": "create",
+  "tur": "fiil",
+  "tr": "yaratmak, oluşturmak",
+  "en": "to make something new, or invent something",
+  "es": [
+   "generate",
+   "produce",
+   "invent"
+  ],
+  "ornek": "The artist uses recycled materials to create sculptures.",
+  "ornekTr": "Sanatçı heykeller oluşturmak için geri dönüştürülmüş malzemeler kullanır.",
+  "seviye": "A1",
+  "alan": "Sanat",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1056",
+  "kelime": "crowd",
+  "tur": "isim",
+  "tr": "kalabalık, topluluk",
+  "en": "a large number of people gathered together",
+  "es": [
+   "gathering",
+   "multitude",
+   "mob"
+  ],
+  "ornek": "A huge crowd gathered outside the stadium.",
+  "ornekTr": "Stadyumun dışında dev bir kalabalık toplandı.",
+  "seviye": "A1",
+  "alan": "Toplum",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1057",
+  "kelime": "custom",
+  "tur": "isim",
+  "tr": "gelenek, görenek, adet",
+  "en": "a way of behaving that has existed for a long time",
+  "es": [
+   "tradition",
+   "practice",
+   "habit"
+  ],
+  "ornek": "Greeting with a handshake is a common custom.",
+  "ornekTr": "El sıkışarak selamlaşmak yaygın bir gelenektir.",
+  "seviye": "A1",
+  "alan": "Kültür",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1058",
+  "kelime": "daily",
+  "tur": "sıfat",
+  "tr": "günlük, gündelik",
+  "en": "happening or done every day",
+  "es": [
+   "everyday",
+   "routine",
+   "diurnal"
+  ],
+  "ornek": "Drinking enough water is an essential daily habit.",
+  "ornekTr": "Yeterli su içmek temel bir günlük alışkanlıktır.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1059",
+  "kelime": "danger",
+  "tur": "isim",
+  "tr": "tehlike, risk",
+  "en": "the possibility of harm or death to someone",
+  "es": [
+   "hazard",
+   "peril",
+   "risk"
+  ],
+  "ornek": "Smoking poses a serious danger to human health.",
+  "ornekTr": "Sigara içmek insan sağlığı için ciddi bir tehlike oluşturur.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1060",
+  "kelime": "decide",
+  "tur": "fiil",
+  "tr": "karar vermek",
+  "en": "to choose something after thinking about several possibilities",
+  "es": [
+   "determine",
+   "resolve",
+   "settle"
+  ],
+  "ornek": "She decided to study computer engineering.",
+  "ornekTr": "Bilgisayar mühendisliği okumaya karar verdi.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1061",
+  "kelime": "deep",
+  "tur": "sıfat",
+  "tr": "derin, engin",
+  "en": "going a long way down or inside",
+  "es": [
+   "profound",
+   "bottomless",
+   "intense"
+  ],
+  "ornek": "The submarine dove into deep ocean waters.",
+  "ornekTr": "Denizaltı derin okyanus sularına daldı.",
+  "seviye": "A1",
+  "alan": "Denizcilik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1062",
+  "kelime": "defend",
+  "tur": "fiil",
+  "tr": "savunmak, korumak",
+  "en": "to protect someone or something against an attack",
+  "es": [
+   "protect",
+   "shield",
+   "guard"
+  ],
+  "ornek": "The army was sent to defend the borders.",
+  "ornekTr": "Ordu sınırları savunmak üzere gönderildi.",
+  "seviye": "A1",
+  "alan": "Güvenlik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1063",
+  "kelime": "define",
+  "tur": "fiil",
+  "tr": "tanımlamak, açıklamak",
+  "en": "to say what the meaning of something is",
+  "es": [
+   "explain",
+   "describe",
+   "clarify"
+  ],
+  "ornek": "Dictionaries define words clearly for learners.",
+  "ornekTr": "Sözlükler kelimeleri öğrenenler için net bir şekilde tanımlar.",
+  "seviye": "A1",
+  "alan": "Dil",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1064",
+  "kelime": "deliver",
+  "tur": "fiil",
+  "tr": "teslim etmek, ulaştırmak",
+  "en": "to take goods or messages to people",
+  "es": [
+   "transport",
+   "carry",
+   "distribute"
+  ],
+  "ornek": "The courier will deliver the package tomorrow.",
+  "ornekTr": "Kurye paketi yarın teslim edecek.",
+  "seviye": "A1",
+  "alan": "Ticaret",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1065",
+  "kelime": "depend",
+  "tur": "fiil",
+  "tr": "bağlı olmak, güvenmek",
+  "en": "to be decided by or rely on something else",
+  "es": [
+   "rely on",
+   "hinge on",
+   "trust"
+  ],
+  "ornek": "Our success depends on hard work and teamwork.",
+  "ornekTr": "Başarımız sıkı çalışmaya ve takım çalışmasına bağlıdır.",
+  "seviye": "A1",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1066",
+  "kelime": "describe",
+  "tur": "fiil",
+  "tr": "tanımlamak, betimlemek",
+  "en": "to say what someone or something is like",
+  "es": [
+   "depict",
+   "portray",
+   "characterize"
+  ],
+  "ornek": "Can you describe the person you saw at the station?",
+  "ornekTr": "İstasyonda gördüğünüz kişiyi betimleyebilir misiniz?",
+  "seviye": "A1",
+  "alan": "İletişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1067",
+  "kelime": "destroy",
+  "tur": "fiil",
+  "tr": "yıkmak, yok etmek, imha etmek",
+  "en": "to damage something badly so it cannot be used",
+  "es": [
+   "demolish",
+   "ruin",
+   "wreck"
+  ],
+  "ornek": "The earthquake destroyed several historic bridges.",
+  "ornekTr": "Deprem birkaç tarihi köprüyü yıktı.",
+  "seviye": "A1",
+  "alan": "Afet & Coğrafya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1068",
+  "kelime": "develop",
+  "tur": "fiil",
+  "tr": "geliştirmek, gelişmek",
+  "en": "to grow or change into a more advanced form",
+  "es": [
+   "evolve",
+   "expand",
+   "advance"
+  ],
+  "ornek": "Engineers develop new clean energy systems.",
+  "ornekTr": "Mühendisler yeni temiz enerji sistemleri geliştiriyor.",
+  "seviye": "A1",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1069",
+  "kelime": "difference",
+  "tur": "isim",
+  "tr": "fark, ayrım, farklılık",
+  "en": "the way in which two things are not the same",
+  "es": [
+   "contrast",
+   "distinction",
+   "variation"
+  ],
+  "ornek": "There is a significant difference between the two methods.",
+  "ornekTr": "İki yöntem arasında önemli bir fark var.",
+  "seviye": "A1",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1070",
+  "kelime": "direct",
+  "tur": "sıfat",
+  "tr": "doğrudan, dolaysız, direkt",
+  "en": "going in a straight line or without delay",
+  "es": [
+   "straightforward",
+   "immediate",
+   "explicit"
+  ],
+  "ornek": "We took a direct flight from Istanbul to London.",
+  "ornekTr": "İstanbul'dan Londra'ya doğrudan bir uçuş yaptık.",
+  "seviye": "A1",
+  "alan": "Ulaşım",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1071",
+  "kelime": "discover",
+  "tur": "fiil",
+  "tr": "keşfetmek, bulmak",
+  "en": "to find information, a place, or an object for the first time",
+  "es": [
+   "find",
+   "uncover",
+   "detect"
+  ],
+  "ornek": "Scientists discovered water ice on the lunar surface.",
+  "ornekTr": "Bilim insanları ay yüzeyinde su buzu keşfetti.",
+  "seviye": "A1",
+  "alan": "Uzay",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1072",
+  "kelime": "discuss",
+  "tur": "fiil",
+  "tr": "tartışmak, görüşmek",
+  "en": "to talk about a subject with someone",
+  "es": [
+   "talk about",
+   "deliberate",
+   "confer"
+  ],
+  "ornek": "The panel will discuss climate change strategies.",
+  "ornekTr": "Panel, iklim değişikliği stratejilerini tartışacak.",
+  "seviye": "A1",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1073",
+  "kelime": "disease",
+  "tur": "isim",
+  "tr": "hastalık, rahatsızlık",
+  "en": "an illness affecting humans or animals",
+  "es": [
+   "illness",
+   "sickness",
+   "disorder"
+  ],
+  "ornek": "Vaccines protect children from dangerous diseases.",
+  "ornekTr": "Aşılar çocukları tehlikeli hastalıklardan korur.",
+  "seviye": "A1",
+  "alan": "Tıp",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1074",
+  "kelime": "distance",
+  "tur": "isim",
+  "tr": "mesafe, uzaklık",
+  "en": "the amount of space between two places",
+  "es": [
+   "interval",
+   "length",
+   "span"
+  ],
+  "ornek": "The distance between the two cities is 200 kilometers.",
+  "ornekTr": "İki şehir arasındaki mesafe 200 kilometredir.",
+  "seviye": "A1",
+  "alan": "Coğrafya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1075",
+  "kelime": "doubt",
+  "tur": "isim",
+  "tr": "şüphe, kuşku",
+  "en": "a feeling of not being certain about something",
+  "es": [
+   "uncertainty",
+   "hesitation",
+   "suspicion"
+  ],
+  "ornek": "There is no doubt that renewable energy is necessary.",
+  "ornekTr": "Yenilenebilir enerjinin gerekli olduğuna hiç şüphe yok.",
+  "seviye": "A1",
+  "alan": "Felsefe",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1076",
+  "kelime": "dream",
+  "tur": "isim",
+  "tr": "rüya, hayal, düş",
+  "en": "an ambition or aspiration",
+  "es": [
+   "aspiration",
+   "vision",
+   "fantasy"
+  ],
+  "ornek": "Her dream is to become a successful civil engineer.",
+  "ornekTr": "Hayali başarılı bir inşaat mühendisi olmaktır.",
+  "seviye": "A1",
+  "alan": "Psikoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1077",
+  "kelime": "easily",
+  "tur": "zarf",
+  "tr": "kolayca, rahatlıkla",
+  "en": "with no difficulty or effort",
+  "es": [
+   "effortlessly",
+   "smoothly",
+   "readily"
+  ],
+  "ornek": "Students who read regularly pass the test easily.",
+  "ornekTr": "Düzenli okuyan öğrenciler sınavı kolayca geçer.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1078",
+  "kelime": "education",
+  "tur": "isim",
+  "tr": "eğitim, öğrenim",
+  "en": "the process of teaching or learning",
+  "es": [
+   "schooling",
+   "instruction",
+   "tuition"
+  ],
+  "ornek": "Higher education opens doors to international careers.",
+  "ornekTr": "Yüksek öğrenim uluslararası kariyerlere kapı aralar.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1079",
+  "kelime": "effect",
+  "tur": "isim",
+  "tr": "etki, sonuç",
+  "en": "the result of a particular influence",
+  "es": [
+   "impact",
+   "consequence",
+   "result"
+  ],
+  "ornek": "The greenhouse effect causes rising global temperatures.",
+  "ornekTr": "Sera etkisi küresel sıcaklıkların artmasına neden olur.",
+  "seviye": "A1",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1080",
+  "kelime": "effort",
+  "tur": "isim",
+  "tr": "çaba, gayret, emek",
+  "en": "physical or mental activity needed to achieve something",
+  "es": [
+   "endeavor",
+   "attempt",
+   "exertion"
+  ],
+  "ornek": "Learning a language requires continuous effort.",
+  "ornekTr": "Bir dil öğrenmek sürekli bir çaba gerektirir.",
+  "seviye": "A1",
+  "alan": "Öğrenme",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1081",
+  "kelime": "either",
+  "tur": "bağlaç",
+  "tr": "ya da, ikisinden biri",
+  "en": "used to refer to a choice between two possibilities",
+  "es": [
+   "one or other",
+   "each"
+  ],
+  "ornek": "You can contact us either by email or by phone.",
+  "ornekTr": "Bize e-posta ya da telefon yoluyla ulaşabilirsiniz.",
+  "seviye": "A1",
+  "alan": "İletişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1082",
+  "kelime": "empty",
+  "tur": "sıfat",
+  "tr": "boş",
+  "en": "containing nothing; not filled",
+  "es": [
+   "vacant",
+   "unoccupied",
+   "hollow"
+  ],
+  "ornek": "The classroom was empty after the final exam.",
+  "ornekTr": "Final sınavından sonra sınıf boştu.",
+  "seviye": "A1",
+  "alan": "Mekân",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1083",
+  "kelime": "enable",
+  "tur": "fiil",
+  "tr": "olanak tanımak, mümkün kılmak",
+  "en": "to make someone able to do something",
+  "es": [
+   "allow",
+   "facilitate",
+   "permit"
+  ],
+  "ornek": "Scholarships enable talented students to pursue degrees.",
+  "ornekTr": "Burslar yetenekli öğrencilerin derece almasını mümkün kılar.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1084",
+  "kelime": "enemy",
+  "tur": "isim",
+  "tr": "düşman, hasım",
+  "en": "a person or thing that harms or opposes another",
+  "es": [
+   "foe",
+   "opponent",
+   "adversary"
+  ],
+  "ornek": "Ignorance is the biggest enemy of progress.",
+  "ornekTr": "Cehalet, ilerlemenin en büyük düşmanıdır.",
+  "seviye": "A1",
+  "alan": "Felsefe",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1085",
+  "kelime": "energy",
+  "tur": "isim",
+  "tr": "enerji, güç",
+  "en": "the power to be physically active; fuel or power",
+  "es": [
+   "power",
+   "force",
+   "vigor"
+  ],
+  "ornek": "Solar panels convert sunlight into electrical energy.",
+  "ornekTr": "Güneş panelleri güneş ışığını elektrik enerjisine dönüştürür.",
+  "seviye": "A1",
+  "alan": "Enerji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1086",
+  "kelime": "enjoy",
+  "tur": "fiil",
+  "tr": "zevk almak, tadını çıkarmak",
+  "en": "to get pleasure from something",
+  "es": [
+   "relish",
+   "delight in",
+   "appreciate"
+  ],
+  "ornek": "People travel to enjoy different cultures and cuisines.",
+  "ornekTr": "İnsanlar farklı kültürlerin ve mutfakların tadını çıkarmak için seyahat eder.",
+  "seviye": "A1",
+  "alan": "Turizm",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1087",
+  "kelime": "enter",
+  "tur": "fiil",
+  "tr": "girmek, adım atmak",
+  "en": "to come or go into a place",
+  "es": [
+   "go into",
+   "access",
+   "step in"
+  ],
+  "ornek": "You must show your ticket to enter the hall.",
+  "ornekTr": "Salona girmek için biletinizi göstermelisiniz.",
+  "seviye": "A1",
+  "alan": "Kültür",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1088",
+  "kelime": "equal",
+  "tur": "sıfat",
+  "tr": "eşit, denk",
+  "en": "the same in amount, number, or size",
+  "es": [
+   "equivalent",
+   "identical",
+   "uniform"
+  ],
+  "ornek": "All citizens should have equal rights under the law.",
+  "ornekTr": "Tüm vatandaşlar kanun önünde eşit haklara sahip olmalıdır.",
+  "seviye": "A1",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1089",
+  "kelime": "escape",
+  "tur": "fiil",
+  "tr": "kaçmak, kurtulmak",
+  "en": "to get free from something",
+  "es": [
+   "flee",
+   "break out",
+   "evade"
+  ],
+  "ornek": "The prisoners attempted to escape through the tunnel.",
+  "ornekTr": "Mahkumlar tünelden kaçmaya çalıştı.",
+  "seviye": "A1",
+  "alan": "Adalet",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1090",
+  "kelime": "exact",
+  "tur": "sıfat",
+  "tr": "kesin, tam, kusursuz",
+  "en": "completely correct in every detail",
+  "es": [
+   "precise",
+   "accurate",
+   "specific"
+  ],
+  "ornek": "We need to know the exact date of the seminar.",
+  "ornekTr": "Seminerin tam tarihini bilmemiz gerekiyor.",
+  "seviye": "A1",
+  "alan": "Planlama",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1091",
+  "kelime": "examine",
+  "tur": "fiil",
+  "tr": "incelemek, muayene etmek",
+  "en": "to look at or consider something carefully",
+  "es": [
+   "inspect",
+   "scrutinize",
+   "investigate"
+  ],
+  "ornek": "The doctor will examine the patient thoroughly.",
+  "ornekTr": "Doktor hastayı etraflıca muayene edecek.",
+  "seviye": "A1",
+  "alan": "Tıp",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1092",
+  "kelime": "exist",
+  "tur": "fiil",
+  "tr": "var olmak, mevcut olmak",
+  "en": "to be real or to be found in the world",
+  "es": [
+   "live",
+   "subsist",
+   "occur"
+  ],
+  "ornek": "Many ancient civilizations ceased to exist centuries ago.",
+  "ornekTr": "Pek çok antik uygarlık yüzyıllar önce var olmaktan çıktı.",
+  "seviye": "A1",
+  "alan": "Tarih",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1093",
+  "kelime": "expect",
+  "tur": "fiil",
+  "tr": "ummak, beklemek",
+  "en": "to think or believe that something will happen",
+  "es": [
+   "anticipate",
+   "await",
+   "foresee"
+  ],
+  "ornek": "Economists expect inflation to decline next quarter.",
+  "ornekTr": "Ekonomistler enflasyonun gelecek çeyrekte düşmesini bekliyor.",
+  "seviye": "A1",
+  "alan": "Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1094",
+  "kelime": "experience",
+  "tur": "isim",
+  "tr": "deneyim, tecrübe",
+  "en": "knowledge or skill from doing things",
+  "es": [
+   "knowledge",
+   "background",
+   "practice"
+  ],
+  "ornek": "She has over ten years of experience in project management.",
+  "ornekTr": "Proje yönetiminde on yılı aşkın deneyime sahiptir.",
+  "seviye": "A1",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1095",
+  "kelime": "explain",
+  "tur": "fiil",
+  "tr": "açıklamak, izah etmek",
+  "en": "to make something clear or easy to understand",
+  "es": [
+   "clarify",
+   "elucidate",
+   "describe"
+  ],
+  "ornek": "The teacher explained the grammar rule with examples.",
+  "ornekTr": "Öğretmen dil bilgisi kuralını örneklerle açıkladı.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1096",
+  "kelime": "express",
+  "tur": "fiil",
+  "tr": "ifade etmek, belirtmek",
+  "en": "to show a feeling, opinion, or fact",
+  "es": [
+   "voice",
+   "articulate",
+   "convey"
+  ],
+  "ornek": "Art allows people to express complex emotions.",
+  "ornekTr": "Sanat, insanların karmaşık duyguları ifade etmesini sağlar.",
+  "seviye": "A1",
+  "alan": "Sanat & Psikoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1097",
+  "kelime": "factor",
+  "tur": "isim",
+  "tr": "faktör, etken, unsur",
+  "en": "a fact or situation that influences a result",
+  "es": [
+   "element",
+   "component",
+   "influence"
+  ],
+  "ornek": "Diet is a major factor in maintaining heart health.",
+  "ornekTr": "Beslenme, kalp sağlığını korumada önemli bir faktördür.",
+  "seviye": "A1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1098",
+  "kelime": "fail",
+  "tur": "fiil",
+  "tr": "başarısız olmak",
+  "en": "to not succeed in what you are trying to achieve",
+  "es": [
+   "fall short",
+   "flunk",
+   "collapse"
+  ],
+  "ornek": "If you do not practice, you risk failing the exam.",
+  "ornekTr": "Pratik yapmazsanız sınavda başarısız olma riskiyle karşılaşırsınız.",
+  "seviye": "A1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1099",
+  "kelime": "famous",
+  "tur": "sıfat",
+  "tr": "ünlü, meşhur",
+  "en": "known and recognized by many people",
+  "es": [
+   "celebrated",
+   "renowned",
+   "well-known"
+  ],
+  "ornek": "The city is famous for its historical architecture.",
+  "ornekTr": "Şehir, tarihi mimarisiyle ünlüdür.",
+  "seviye": "A1",
+  "alan": "Turizm",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1100",
+  "kelime": "fear",
+  "tur": "isim",
+  "tr": "korku, endişe",
+  "en": "an unpleasant emotion caused by danger",
+  "es": [
+   "terror",
+   "dread",
+   "anxiety"
+  ],
+  "ornek": "Education helps conquer the fear of the unknown.",
+  "ornekTr": "Eğitim, bilinmeyenin korkusunu yenmeye yardımcı olur.",
+  "seviye": "A1",
+  "alan": "Psikoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1101",
+  "kelime": "feature",
+  "tur": "isim",
+  "tr": "özellik, nitelik",
+  "en": "a typical quality or important part of something",
+  "es": [
+   "characteristic",
+   "attribute",
+   "aspect"
+  ],
+  "ornek": "Water resistance is a key feature of this smartphone.",
+  "ornekTr": "Su geçirmezlik bu akıllı telefonun önemli bir özelliğidir.",
+  "seviye": "A1",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1102",
+  "kelime": "fight",
+  "tur": "fiil",
+  "tr": "mücadele etmek, savaşmak",
+  "en": "to use effort to defeat or stop something",
+  "es": [
+   "combat",
+   "battle",
+   "struggle"
+  ],
+  "ornek": "Nations must unite to fight global warming.",
+  "ornekTr": "Uluslar küresel ısınmayla mücadele etmek için birleşmelidir.",
+  "seviye": "A1",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1103",
+  "kelime": "accomplish",
+  "tur": "fiil",
+  "tr": "başarıyla tamamlamak, başarmak",
+  "en": "to finish something successfully",
+  "es": [
+   "achieve",
+   "fulfill",
+   "complete"
+  ],
+  "ornek": "She accomplished all her academic objectives this semester.",
+  "ornekTr": "Bu dönem tüm akademik hedeflerini başarıyla tamamladı.",
+  "seviye": "A2",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1104",
+  "kelime": "accurate",
+  "tur": "sıfat",
+  "tr": "doğru, kesin, hatasız",
+  "en": "correct, exact, and without mistakes",
+  "es": [
+   "precise",
+   "correct",
+   "exact"
+  ],
+  "ornek": "The report provides an accurate account of the incident.",
+  "ornekTr": "Rapor olayın kesin ve doğru bir açıklamasını sunuyor.",
+  "seviye": "A2",
+  "alan": "Medya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1105",
+  "kelime": "adapt",
+  "tur": "fiil",
+  "tr": "uyum sağlamak, adapte olmak",
+  "en": "to change to suit different conditions",
+  "es": [
+   "adjust",
+   "accommodate",
+   "conform"
+  ],
+  "ornek": "Organisms adapt to changes in their natural habitat.",
+  "ornekTr": "Organizmalar doğal yaşam alanlarındaki değişikliklere uyum sağlar.",
+  "seviye": "A2",
+  "alan": "Biyoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1106",
+  "kelime": "admire",
+  "tur": "fiil",
+  "tr": "hayran olmak, takdir etmek",
+  "en": "to respect or approve of someone",
+  "es": [
+   "respect",
+   "esteem",
+   "praise"
+  ],
+  "ornek": "I admire her dedication to environmental protection.",
+  "ornekTr": "Onun çevre korumaya olan bağlılığına hayranım.",
+  "seviye": "A2",
+  "alan": "Toplum",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1107",
+  "kelime": "admit",
+  "tur": "fiil",
+  "tr": "itiraf etmek, kabul etmek",
+  "en": "to agree that something is true",
+  "es": [
+   "confess",
+   "acknowledge",
+   "concede"
+  ],
+  "ornek": "He admitted that he had made a calculation error.",
+  "ornekTr": "Bir hesaplama hatası yaptığını itiraf etti.",
+  "seviye": "A2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1108",
+  "kelime": "advance",
+  "tur": "fiil",
+  "tr": "ilerlemek, geliştirmek",
+  "en": "to move forward, or develop",
+  "es": [
+   "progress",
+   "proceed",
+   "further"
+  ],
+  "ornek": "Medical science continues to advance at an astonishing rate.",
+  "ornekTr": "Tıp bilimi şaşırtıcı bir hızla ilerlemeye devam ediyor.",
+  "seviye": "A2",
+  "alan": "Tıp & Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1109",
+  "kelime": "allocate",
+  "tur": "fiil",
+  "tr": "tahsis etmek, ayırmak",
+  "en": "to assign a share of a total amount",
+  "es": [
+   "assign",
+   "distribute",
+   "apportion"
+  ],
+  "ornek": "The ministry will allocate funds for rural schools.",
+  "ornekTr": "Bakanlık kırsal okullar için ödenek tahsis edecek.",
+  "seviye": "A2",
+  "alan": "Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1110",
+  "kelime": "ambitious",
+  "tur": "sıfat",
+  "tr": "hırslı, azimli, iddialı",
+  "en": "having a strong wish to be successful",
+  "es": [
+   "aspiring",
+   "determined",
+   "enterprising"
+  ],
+  "ornek": "The company launched an ambitious clean energy project.",
+  "ornekTr": "Şirket iddialı bir temiz enerji projesi başlattı.",
+  "seviye": "A2",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1111",
+  "kelime": "analyze",
+  "tur": "fiil",
+  "tr": "çözümlemek, analiz etmek",
+  "en": "to examine something in detail",
+  "es": [
+   "examine",
+   "scrutinize",
+   "dissect"
+  ],
+  "ornek": "Data scientists analyze customer behavior to improve services.",
+  "ornekTr": "Veri bilimcileri hizmetleri iyileştirmek için müşteri davranışlarını analiz eder.",
+  "seviye": "A2",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1112",
+  "kelime": "anxiety",
+  "tur": "isim",
+  "tr": "kaygı, endişe, tasa",
+  "en": "an uncomfortable feeling of worry",
+  "es": [
+   "nervousness",
+   "apprehension",
+   "worry"
+  ],
+  "ornek": "Deep breathing exercises reduce exam anxiety.",
+  "ornekTr": "Derin nefes egzersizleri sınav kaygısını azaltır.",
+  "seviye": "A2",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1113",
+  "kelime": "apologize",
+  "tur": "fiil",
+  "tr": "özür dilemek",
+  "en": "to tell someone that you are sorry",
+  "es": [
+   "say sorry",
+   "beg pardon",
+   "regret"
+  ],
+  "ornek": "He apologized sincerely for arriving late to the interview.",
+  "ornekTr": "Mülakata geç kaldığı için içtenlikle özür diledi.",
+  "seviye": "A2",
+  "alan": "İletişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1114",
+  "kelime": "appreciate",
+  "tur": "fiil",
+  "tr": "takdir etmek, değerini bilmek",
+  "en": "to value or recognize quality in someone or something",
+  "es": [
+   "value",
+   "treasure",
+   "acknowledge"
+  ],
+  "ornek": "We appreciate your valuable contribution to our team.",
+  "ornekTr": "Ekibimize yaptığınız değerli katkıyı takdir ediyoruz.",
+  "seviye": "A2",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1115",
+  "kelime": "approve",
+  "tur": "fiil",
+  "tr": "onaylamak, tasvip etmek",
+  "en": "to officially accept something",
+  "es": [
+   "endorse",
+   "sanction",
+   "accept"
+  ],
+  "ornek": "The committee approved the revised research budget.",
+  "ornekTr": "Komite revize edilen araştırma bütçesini onayladı.",
+  "seviye": "A2",
+  "alan": "Yönetim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1116",
+  "kelime": "argument",
+  "tur": "isim",
+  "tr": "tartışma, sav, argüman",
+  "en": "reasons given to support or oppose an idea",
+  "es": [
+   "debate",
+   "reasoning",
+   "dispute"
+  ],
+  "ornek": "Her argument was supported by solid empirical evidence.",
+  "ornekTr": "Onun argümanı sağlam ampirik kanıtlarla desteklendi.",
+  "seviye": "A2",
+  "alan": "Felsefe & Sınav",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1117",
+  "kelime": "assess",
+  "tur": "fiil",
+  "tr": "değerlendirmek, değer biçmek",
+  "en": "to judge the quality, importance, or value of something",
+  "es": [
+   "evaluate",
+   "gauge",
+   "appraise"
+  ],
+  "ornek": "Examiners assess both fluency and vocabulary in speaking tests.",
+  "ornekTr": "Sınav değerlendiricileri konuşma testlerinde hem akıcılığı hem kelime bilgisini değerlendirir.",
+  "seviye": "A2",
+  "alan": "Eğitim & Sınav",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1118",
+  "kelime": "assume",
+  "tur": "fiil",
+  "tr": "varsaymak, üstlenmek",
+  "en": "to accept something to be true without proof",
+  "es": [
+   "presume",
+   "suppose",
+   "take on"
+  ],
+  "ornek": "Do not assume that all internet sources are reliable.",
+  "ornekTr": "Tüm internet kaynaklarının güvenilir olduğunu varsaymayın.",
+  "seviye": "A2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1119",
+  "kelime": "attract",
+  "tur": "fiil",
+  "tr": "çekmek, cezbetmek",
+  "en": "to pull towards oneself or draw interest",
+  "es": [
+   "draw",
+   "entice",
+   "allure"
+  ],
+  "ornek": "The historic castle attracts thousands of visitors each week.",
+  "ornekTr": "Tarihi kale her hafta binlerce ziyaretçiyi kendine çekiyor.",
+  "seviye": "A2",
+  "alan": "Turizm",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1120",
+  "kelime": "audience",
+  "tur": "isim",
+  "tr": "izleyici kitlesi, dinleyiciler",
+  "en": "the group of people watching or listening",
+  "es": [
+   "spectators",
+   "listeners",
+   "viewers"
+  ],
+  "ornek": "The speaker captured the attention of the audience instantly.",
+  "ornekTr": "Konuşmacı dinleyicilerin dikkatini anında çekti.",
+  "seviye": "A2",
+  "alan": "Medya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1121",
+  "kelime": "available",
+  "tur": "sıfat",
+  "tr": "mevcut, hazır, müsait",
+  "en": "able to be bought, used, or reached",
+  "es": [
+   "accessible",
+   "obtainable",
+   "ready"
+  ],
+  "ornek": "Free wifi is available throughout the campus.",
+  "ornekTr": "Kampüs genelinde ücretsiz kablosuz internet mevcuttur.",
+  "seviye": "A2",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1122",
+  "kelime": "barrier",
+  "tur": "isim",
+  "tr": "engel, bariyer",
+  "en": "an obstacle that prevents movement or access",
+  "es": [
+   "obstacle",
+   "hurdle",
+   "impediment"
+  ],
+  "ornek": "Language differences should not be a barrier to friendship.",
+  "ornekTr": "Dil farklılıkları arkadaşlığa engel olmamalıdır.",
+  "seviye": "A2",
+  "alan": "Sosyal",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1123",
+  "kelime": "campaign",
+  "tur": "isim",
+  "tr": "kampanya, mücadele",
+  "en": "planned activities intended to achieve a goal",
+  "es": [
+   "movement",
+   "drive",
+   "operation"
+  ],
+  "ornek": "The city launched a campaign to promote bicycle commuting.",
+  "ornekTr": "Şehir, bisikletle ulaşımı teşvik etmek için bir kampanya başlattı.",
+  "seviye": "A2",
+  "alan": "Toplum & Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1124",
+  "kelime": "candidate",
+  "tur": "isim",
+  "tr": "aday",
+  "en": "a person competing for a job or office",
+  "es": [
+   "applicant",
+   "contender",
+   "nominee"
+  ],
+  "ornek": "Each candidate must complete a technical interview.",
+  "ornekTr": "Her aday teknik bir mülakatı tamamlamalıdır.",
+  "seviye": "A2",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1125",
+  "kelime": "capacity",
+  "tur": "isim",
+  "tr": "kapasite, hacim, yetenek",
+  "en": "the total amount that can be contained",
+  "es": [
+   "volume",
+   "ability",
+   "capability"
+  ],
+  "ornek": "The new stadium has a seating capacity of 50,000.",
+  "ornekTr": "Yeni stadyum 50.000 kişilik oturma kapasitesine sahiptir.",
+  "seviye": "A2",
+  "alan": "Mimarlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1126",
+  "kelime": "capture",
+  "tur": "fiil",
+  "tr": "yakalamak, ele geçirmek",
+  "en": "to take something into your possession",
+  "es": [
+   "seize",
+   "apprehend",
+   "catch"
+  ],
+  "ornek": "The documentary captured the rare behavior of snow leopards.",
+  "ornekTr": "Belgesel, kar leoparlarının nadir davranışlarını yakaladı.",
+  "seviye": "A2",
+  "alan": "Doğa",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1127",
+  "kelime": "career",
+  "tur": "isim",
+  "tr": "kariyer, meslek hayatı",
+  "en": "the series of jobs done during working life",
+  "es": [
+   "profession",
+   "vocation",
+   "occupation"
+  ],
+  "ornek": "Mentorship plays a key role in developing a successful career.",
+  "ornekTr": "Akıl hocalığı başarılı bir kariyer geliştirmede kilit rol oynar.",
+  "seviye": "A2",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1128",
+  "kelime": "challenge",
+  "tur": "isim",
+  "tr": "zorluk, meydan okuma",
+  "en": "something difficult that tests ability",
+  "es": [
+   "obstacle",
+   "trial",
+   "test"
+  ],
+  "ornek": "Mastering English grammar is an exciting challenge.",
+  "ornekTr": "İngilizce dil bilgisine hakim olmak heyecan verici bir zorluktur.",
+  "seviye": "A2",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1129",
+  "kelime": "collaborate",
+  "tur": "fiil",
+  "tr": "iş birliği yapmak",
+  "en": "to work together to achieve something",
+  "es": [
+   "cooperate",
+   "team up",
+   "partner"
+  ],
+  "ornek": "Researchers from five universities collaborate on cancer cures.",
+  "ornekTr": "Beş üniversiteden araştırmacılar kanser tedavileri üzerinde iş birliği yapıyor.",
+  "seviye": "A2",
+  "alan": "Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1130",
+  "kelime": "collapse",
+  "tur": "fiil",
+  "tr": "çökmek, yıkılmak, iflas etmek",
+  "en": "to fall down suddenly from pressure",
+  "es": [
+   "fall down",
+   "crumble",
+   "cave in"
+  ],
+  "ornek": "Several old structures collapsed during the heavy storm.",
+  "ornekTr": "Şiddetli fırtına sırasında birkaç eski yapı çöktü.",
+  "seviye": "A2",
+  "alan": "Afet",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1131",
+  "kelime": "colleague",
+  "tur": "isim",
+  "tr": "meslektaş, iş arkadaşı",
+  "en": "one of a group of people who work together",
+  "es": [
+   "coworker",
+   "associate",
+   "partner"
+  ],
+  "ornek": "I discussed the quarterly audit with my senior colleague.",
+  "ornekTr": "Kıdemli meslektaşımla üç aylık denetimi tartıştım.",
+  "seviye": "A2",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1132",
+  "kelime": "combine",
+  "tur": "fiil",
+  "tr": "birleştirmek, harmanlamak",
+  "en": "to join together or work together",
+  "es": [
+   "merge",
+   "integrate",
+   "blend"
+  ],
+  "ornek": "The chef combines Mediterranean herbs with traditional recipes.",
+  "ornekTr": "Şef, Akdeniz otlarını geleneksel tariflerle birleştirir.",
+  "seviye": "A2",
+  "alan": "Mutfak",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1133",
+  "kelime": "commit",
+  "tur": "fiil",
+  "tr": "adamak, taahhüt etmek",
+  "en": "to dedicate resources or time to a cause",
+  "es": [
+   "pledge",
+   "dedicate",
+   "devote"
+  ],
+  "ornek": "The government committed billions to renewable green energy.",
+  "ornekTr": "Hükümet yenilenebilir yeşil enerjiye milyarlar taahhüt etti.",
+  "seviye": "A2",
+  "alan": "Çevre & Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1134",
+  "kelime": "community",
+  "tur": "isim",
+  "tr": "topluluk, cemiyet",
+  "en": "people living in one area or group",
+  "es": [
+   "society",
+   "public",
+   "collective"
+  ],
+  "ornek": "Local community centers offer free language classes.",
+  "ornekTr": "Yerel toplum merkezleri ücretsiz dil dersleri sunmaktadır.",
+  "seviye": "A2",
+  "alan": "Toplum",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1135",
+  "kelime": "compel",
+  "tur": "fiil",
+  "tr": "zorlamak, mecbur bırakmak",
+  "en": "to force someone to do something",
+  "es": [
+   "force",
+   "coerce",
+   "oblige"
+  ],
+  "ornek": "Severe shortages compelled lawmakers to ration water supplies.",
+  "ornekTr": "Ciddi kıtlıklar kanun koyucuları su kaynaklarını karneye bağlamaya mecbur bıraktı.",
+  "seviye": "A2",
+  "alan": "Hukuk & Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1136",
+  "kelime": "competent",
+  "tur": "sıfat",
+  "tr": "yetkin, ehil, yeterli",
+  "en": "able to do something to a satisfactory standard",
+  "es": [
+   "capable",
+   "proficient",
+   "skilled"
+  ],
+  "ornek": "We need a competent accountant to review the statements.",
+  "ornekTr": "Mali tabloları incelemek için yetkin bir muhasebeciye ihtiyacımız var.",
+  "seviye": "A2",
+  "alan": "İş Dünyası",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1137",
+  "kelime": "complex",
+  "tur": "sıfat",
+  "tr": "karmaşık, girift",
+  "en": "involving connected parts that are difficult to understand",
+  "es": [
+   "complicated",
+   "intricate",
+   "elaborate"
+  ],
+  "ornek": "DNA sequencing is a complex scientific procedure.",
+  "ornekTr": "DNA dizilimi karmaşık bir bilimsel prosedürdür.",
+  "seviye": "A2",
+  "alan": "Biyoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1138",
+  "kelime": "conclude",
+  "tur": "fiil",
+  "tr": "sonuçlandırmak, karara bağlamak",
+  "en": "to end a speech or decide after thinking",
+  "es": [
+   "finalize",
+   "deduce",
+   "wrap up"
+  ],
+  "ornek": "The report concludes that electric cars reduce urban emissions.",
+  "ornekTr": "Rapor, elektrikli arabaların kentsel emisyonları azalttığı sonucuna varıyor.",
+  "seviye": "A2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1139",
+  "kelime": "concrete",
+  "tur": "sıfat",
+  "tr": "somut, elle tutulur",
+  "en": "clear, certain, and tangible",
+  "es": [
+   "solid",
+   "tangible",
+   "substantial"
+  ],
+  "ornek": "The detective looked for concrete proof at the scene.",
+  "ornekTr": "Dedektif olay yerinde somut kanıt aradı.",
+  "seviye": "A2",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1140",
+  "kelime": "conduct",
+  "tur": "fiil",
+  "tr": "yürütmek, gerçekleştirmek",
+  "en": "to organize and direct an activity",
+  "es": [
+   "carry out",
+   "execute",
+   "manage"
+  ],
+  "ornek": "Universities conduct experiments under controlled conditions.",
+  "ornekTr": "Üniversiteler deneyleri kontrollü koşullar altında yürütür.",
+  "seviye": "A2",
+  "alan": "Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1141",
+  "kelime": "confident",
+  "tur": "sıfat",
+  "tr": "kendine güvenen, emin",
+  "en": "having belief in your ability",
+  "es": [
+   "assured",
+   "poised",
+   "self-reliant"
+  ],
+  "ornek": "Practicing pronunciation makes learners more confident.",
+  "ornekTr": "Telaffuz pratiği yapmak öğrenenleri daha özgüvenli kılar.",
+  "seviye": "A2",
+  "alan": "Öğrenme",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1142",
+  "kelime": "confirm",
+  "tur": "fiil",
+  "tr": "doğrulamak, onaylamak",
+  "en": "to prove that a belief or fact is true",
+  "es": [
+   "verify",
+   "substantiate",
+   "corroborate"
+  ],
+  "ornek": "Please click the link in your email to confirm registration.",
+  "ornekTr": "Kaydı onaylamak için lütfen e-postanızdaki bağlantıya tıklayın.",
+  "seviye": "A2",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1143",
+  "kelime": "conflict",
+  "tur": "isim",
+  "tr": "çatışma, anlaşmazlık",
+  "en": "an active disagreement between parties",
+  "es": [
+   "dispute",
+   "strife",
+   "discord"
+  ],
+  "ornek": "Diplomacy aims to resolve conflicts peacefully.",
+  "ornekTr": "Diplomasi çatışmaları barışçıl yollarla çözmeyi amaçlar.",
+  "seviye": "A2",
+  "alan": "Siyaset",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1144",
+  "kelime": "consequence",
+  "tur": "isim",
+  "tr": "sonuç, netice",
+  "en": "a result of a particular action or situation",
+  "es": [
+   "outcome",
+   "result",
+   "repercussion"
+  ],
+  "ornek": "Rising sea levels are a direct consequence of global warming.",
+  "ornekTr": "Deniz seviyelerinin yükselmesi küresel ısınmanın doğrudan bir sonucudur.",
+  "seviye": "A2",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1145",
+  "kelime": "considerable",
+  "tur": "sıfat",
+  "tr": "kayda değer, önemli miktarda",
+  "en": "large or of noticeable importance",
+  "es": [
+   "substantial",
+   "significant",
+   "sizeable"
+  ],
+  "ornek": "The new hospital requires a considerable investment.",
+  "ornekTr": "Yeni hastane kayda değer bir yatırım gerektiriyor.",
+  "seviye": "A2",
+  "alan": "Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1146",
+  "kelime": "consistent",
+  "tur": "sıfat",
+  "tr": "tutarlı, istikrarlı",
+  "en": "always behaving in a similar positive way",
+  "es": [
+   "steady",
+   "uniform",
+   "constant"
+  ],
+  "ornek": "Consistent study habits yield high test scores.",
+  "ornekTr": "İstikrarlı çalışma alışkanlıkları yüksek test puanları sağlar.",
+  "seviye": "A2",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1147",
+  "kelime": "constant",
+  "tur": "sıfat",
+  "tr": "sürekli, kesintisiz, sabit",
+  "en": "happening all the time without interruption",
+  "es": [
+   "continual",
+   "incessant",
+   "uninterrupted"
+  ],
+  "ornek": "The machine requires a constant supply of electrical power.",
+  "ornekTr": "Makine sürekli bir elektrik enerjisi beslemesi gerektirir.",
+  "seviye": "A2",
+  "alan": "Mühendislik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1148",
+  "kelime": "construct",
+  "tur": "fiil",
+  "tr": "inşa etmek, kurmak",
+  "en": "to build or assemble parts together",
+  "es": [
+   "build",
+   "erect",
+   "assemble"
+  ],
+  "ornek": "Architects construct buildings resilient to earth tremors.",
+  "ornekTr": "Mimarlar yer sarsıntılarına dayanıklı binalar inşa eder.",
+  "seviye": "A2",
+  "alan": "Mimarlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1149",
+  "kelime": "consult",
+  "tur": "fiil",
+  "tr": "danışmak, başvurmak",
+  "en": "to seek advice from a specialist or book",
+  "es": [
+   "confer with",
+   "seek advice",
+   "ask"
+  ],
+  "ornek": "Patients should consult a specialist before taking medications.",
+  "ornekTr": "Hastalar ilaç almadan önce bir uzmana danışmalıdır.",
+  "seviye": "A2",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1150",
+  "kelime": "consume",
+  "tur": "fiil",
+  "tr": "tüketmek, harcamak",
+  "en": "to use fuel, energy, or resources",
+  "es": [
+   "use up",
+   "deplete",
+   "devour"
+  ],
+  "ornek": "Air conditioners consume large amounts of electricity.",
+  "ornekTr": "Klimalar büyük miktarlarda elektrik tüketir.",
+  "seviye": "A2",
+  "alan": "Enerji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1151",
+  "kelime": "contemporary",
+  "tur": "sıfat",
+  "tr": "çağdaş, modern, güncel",
+  "en": "existing or happening in the present time",
+  "es": [
+   "modern",
+   "current",
+   "present-day"
+  ],
+  "ornek": "The museum features works by contemporary Turkish painters.",
+  "ornekTr": "Müze, çağdaş Türk ressamlarının eserlerine yer veriyor.",
+  "seviye": "A2",
+  "alan": "Sanat",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1152",
+  "kelime": "contrast",
+  "tur": "isim",
+  "tr": "zıtlık, karşıtlık",
+  "en": "an obvious difference between things",
+  "es": [
+   "difference",
+   "disparity",
+   "distinction"
+  ],
+  "ornek": "There is a sharp contrast between rich and poor neighborhoods.",
+  "ornekTr": "Zengin ve yoksul mahalleler arasında keskin bir zıtlık var.",
+  "seviye": "A2",
+  "alan": "Sosyoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1153",
+  "kelime": "contribute",
+  "tur": "fiil",
+  "tr": "katkıda bulunmak",
+  "en": "to provide support or resources to achieve something",
+  "es": [
+   "donate",
+   "provide",
+   "supply"
+  ],
+  "ornek": "Solar energy contributes significantly to green energy grids.",
+  "ornekTr": "Güneş enerjisi yeşil enerji şebekelerine önemli katkı sağlar.",
+  "seviye": "A2",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1154",
+  "kelime": "convenient",
+  "tur": "sıfat",
+  "tr": "elverişli, pratik, uygun",
+  "en": "suitable and causing least difficulty",
+  "es": [
+   "handy",
+   "suitable",
+   "practical"
+  ],
+  "ornek": "Mobile banking apps are extremely convenient for daily bills.",
+  "ornekTr": "Mobil bankacılık uygulamaları günlük faturalar için son derece pratiktir.",
+  "seviye": "A2",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1155",
+  "kelime": "crucial",
+  "tur": "sıfat",
+  "tr": "hayati, can alıcı, çok önemli",
+  "en": "extremely important or necessary",
+  "es": [
+   "vital",
+   "essential",
+   "critical"
+  ],
+  "ornek": "Early medical detection is crucial in treating severe illnesses.",
+  "ornekTr": "Erken tıbbi teşhis, ciddi hastalıkların tedavisinde hayati öneme sahiptir.",
+  "seviye": "A2",
+  "alan": "Tıp & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1156",
+  "kelime": "aberration",
+  "tur": "isim",
+  "tr": "sapma, kural dışılık, anormallik",
+  "en": "a temporary change from what is normal or expected",
+  "es": [
+   "anomaly",
+   "irregularity",
+   "deviation"
+  ],
+  "ornek": "The unusual warm winter was considered a climate aberration.",
+  "ornekTr": "Alışılmadık ılık kış iklimsel bir anormallik olarak değerlendirildi.",
+  "seviye": "C2",
+  "alan": "Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1157",
+  "kelime": "belligerent",
+  "tur": "sıfat",
+  "tr": "kavgacı, saldırgan, savaşçı",
+  "en": "wishing to fight or argue",
+  "es": [
+   "aggressive",
+   "hostile",
+   "combative"
+  ],
+  "ornek": "The diplomat condemned the country belligerent rhetoric.",
+  "ornekTr": "Diplomat ülkenin saldırgan söylemini kınadı.",
+  "seviye": "C2",
+  "alan": "Siyaset",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1158",
+  "kelime": "cacophony",
+  "tur": "isim",
+  "tr": "kulak tırmalayıcı ses, kakofoni",
+  "en": "an unpleasant mixture of loud sounds",
+  "es": [
+   "dissonance",
+   "clamor",
+   "racket"
+  ],
+  "ornek": "A deafening cacophony of sirens echoed through the metropolis.",
+  "ornekTr": "Metropolde sirenlerin sağır edici kakofonisi yankılandı.",
+  "seviye": "C2",
+  "alan": "Sanat & Şehir",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1159",
+  "kelime": "dearth",
+  "tur": "isim",
+  "tr": "kıtlık, yokluk, eksiklik",
+  "en": "an amount or supply that is not large enough",
+  "es": [
+   "scarcity",
+   "shortage",
+   "lack"
+  ],
+  "ornek": "A dearth of qualified specialists delayed the space probe launch.",
+  "ornekTr": "Nitelikli uzman kıtlığı uzay sondası fırlatılışını geciktirdi.",
+  "seviye": "C2",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1160",
+  "kelime": "ephemeral",
+  "tur": "sıfat",
+  "tr": "kısa ömürlü, gelip geçici",
+  "en": "lasting for only a very short time",
+  "es": [
+   "transient",
+   "fleeting",
+   "evanescent"
+  ],
+  "ornek": "Fame in the digital age is often ephemeral and unpredictable.",
+  "ornekTr": "Dijital çağda şöhret çoğu zaman geçici ve öngörülemezdir.",
+  "seviye": "C2",
+  "alan": "Medya & Felsefe",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1161",
+  "kelime": "fastidious",
+  "tur": "sıfat",
+  "tr": "titiz, kılı kırk yaran, zor beğenen",
+  "en": "giving too much attention to small details",
+  "es": [
+   "meticulous",
+   "punctilious",
+   "scrupulous"
+  ],
+  "ornek": "The editor was fastidious about grammatical precision.",
+  "ornekTr": "Editör dil bilgisel kesinlik konusunda kılı kırk yarıyordu.",
+  "seviye": "C2",
+  "alan": "Dil & Yazma",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1162",
+  "kelime": "garrulous",
+  "tur": "sıfat",
+  "tr": "geveze, laf ebesi",
+  "en": "talking a lot, especially about unimportant things",
+  "es": [
+   "talkative",
+   "loquacious",
+   "voluble"
+  ],
+  "ornek": "The garrulous passenger kept talking throughout the overnight flight.",
+  "ornekTr": "Geveze yolcu gece uçuşu boyunca konuşmayı sürdürdü.",
+  "seviye": "C2",
+  "alan": "Karakter",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1163",
+  "kelime": "hegemony",
+  "tur": "isim",
+  "tr": "hegemonya, üstünlük, egemenlik",
+  "en": "the position of having dominant authority over others",
+  "es": [
+   "dominance",
+   "supremacy",
+   "leadership"
+  ],
+  "ornek": "Economic hegemony shifted gradually toward emerging economies.",
+  "ornekTr": "Ekonomik hegemonya kademeli olarak yükselen ekonomilere kaydı.",
+  "seviye": "C2",
+  "alan": "Siyaset & Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1164",
+  "kelime": "immutable",
+  "tur": "sıfat",
+  "tr": "değişmez, değiştirilemez",
+  "en": "that cannot be changed",
+  "es": [
+   "unalterable",
+   "permanent",
+   "constant"
+  ],
+  "ornek": "The laws of thermodynamic physics are immutable throughout the universe.",
+  "ornekTr": "Termodinamik fiziğin kanunları evren boyunca değişmezdir.",
+  "seviye": "C2",
+  "alan": "Fizik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1165",
+  "kelime": "juxtaposition",
+  "tur": "isim",
+  "tr": "yan yana koyma, karşılaştırma",
+  "en": "putting different things next to each other to show contrast",
+  "es": [
+   "comparison",
+   "collocation",
+   "contrast"
+  ],
+  "ornek": "The artistic juxtaposition of ancient ruins and modern towers startled critics.",
+  "ornekTr": "Antik kalıntılar ile modern kulelerin yan yana konması eleştirmenleri şaşırttı.",
+  "seviye": "C2",
+  "alan": "Sanat & Mimarlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1166",
+  "kelime": "loquacious",
+  "tur": "sıfat",
+  "tr": "konuşkan, geveze",
+  "en": "talking a lot",
+  "es": [
+   "talkative",
+   "garrulous",
+   "chatty"
+  ],
+  "ornek": "Her loquacious nature made her an entertaining tour host.",
+  "ornekTr": "Onun konuşkan doğası onu eğlenceli bir tur rehberi yaptı.",
+  "seviye": "C2",
+  "alan": "Sosyal",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1167",
+  "kelime": "malleable",
+  "tur": "sıfat",
+  "tr": "kolay şekil verilebilir, esnek",
+  "en": "easily influenced, or of metal: easily hammered into shape",
+  "es": [
+   "pliable",
+   "ductile",
+   "adaptable"
+  ],
+  "ornek": "Gold is one of the most malleable metals known to human metallurgy.",
+  "ornekTr": "Altın, insan metalurjisi tarafından bilinen en dövülebilir metallerden biridir.",
+  "seviye": "C2",
+  "alan": "Kimya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1168",
+  "kelime": "nefarious",
+  "tur": "sıfat",
+  "tr": "kötü niyetli, haince, alçakça",
+  "en": "morally bad, evil, or criminal",
+  "es": [
+   "wicked",
+   "evil",
+   "sinister"
+  ],
+  "ornek": "Cybersecurity squads foiled the nefarious hackers extortion scheme.",
+  "ornekTr": "Siber güvenlik timleri kötü niyetli korsanların şantaj planını engelledi.",
+  "seviye": "C2",
+  "alan": "Bilişim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1169",
+  "kelime": "obfuscate",
+  "tur": "fiil",
+  "tr": "anlaşılmaz hale getirmek, bulandırmak",
+  "en": "to make something less clear and harder to understand",
+  "es": [
+   "confuse",
+   "blur",
+   "obscure"
+  ],
+  "ornek": "Do not obfuscate the truth with overly technical academic jargon.",
+  "ornekTr": "Aşırı teknik akademik jargonla gerçeği anlaşılmaz hale getirmeyin.",
+  "seviye": "C2",
+  "alan": "İletişim & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1170",
+  "kelime": "panacea",
+  "tur": "isim",
+  "tr": "her derde deva, evrensel çözüm",
+  "en": "something that will solve all problems",
+  "es": [
+   "cure-all",
+   "universal remedy",
+   "elixir"
+  ],
+  "ornek": "Technology is immensely useful but not a panacea for social inequality.",
+  "ornekTr": "Teknoloji son derece faydalıdır ancak sosyal eşitsizlik için her derde deva değildir.",
+  "seviye": "C2",
+  "alan": "Sosyoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1171",
+  "kelime": "quandary",
+  "tur": "isim",
+  "tr": "ikilem, çıkmaz, tereddüt",
+  "en": "a state of not being able to decide what to do",
+  "es": [
+   "dilemma",
+   "predicament",
+   "impasse"
+  ],
+  "ornek": "The president faced a constitutional quandary over the veto power.",
+  "ornekTr": "Devlet başkanı veto yetkisi konusunda anayasal bir çıkmazla karşı karşıya kaldı.",
+  "seviye": "C2",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1172",
+  "kelime": "recalcitrant",
+  "tur": "sıfat",
+  "tr": "inatçı, asi, söz dinlemez",
+  "en": "unwilling to obey orders or rules",
+  "es": [
+   "stubborn",
+   "defiant",
+   "unruly"
+  ],
+  "ornek": "The recalcitrant debtor refused to comply with the judicial court order.",
+  "ornekTr": "İnatçı borçlu mahkeme kararına uymayı reddetti.",
+  "seviye": "C2",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1173",
+  "kelime": "salient",
+  "tur": "sıfat",
+  "tr": "göze çarpan, en belirgin, dikkat çekici",
+  "en": "most noticeable or important",
+  "es": [
+   "prominent",
+   "conspicuous",
+   "striking"
+  ],
+  "ornek": "The summary highlighted the most salient findings of the longitudinal study.",
+  "ornekTr": "Özet, boylamsal çalışmanın en göze çarpan bulgularını vurguladı.",
+  "seviye": "C2",
+  "alan": "Akademik & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1174",
+  "kelime": "taciturn",
+  "tur": "sıfat",
+  "tr": "az konuşan, suskun",
+  "en": "tending not to speak much",
+  "es": [
+   "uncommunicative",
+   "reticent",
+   "quiet"
+  ],
+  "ornek": "The judge remained taciturn throughout the lawyers closing argument.",
+  "ornekTr": "Yargıç, avukatın kapanış konuşması boyunca suskun kaldı.",
+  "seviye": "C2",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1175",
+  "kelime": "ubiquitous",
+  "tur": "sıfat",
+  "tr": "her yerde bulunan, çok yaygın",
+  "en": "present, appearing, or found everywhere",
+  "es": [
+   "omnipresent",
+   "pervasive",
+   "everywhere"
+  ],
+  "ornek": "Smartphones have become ubiquitous across all modern urban societies.",
+  "ornekTr": "Akıllı telefonlar tüm modern kent toplumlarında her yerde bulunur hale geldi.",
+  "seviye": "C2",
+  "alan": "Teknoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1176",
+  "kelime": "vacillate",
+  "tur": "fiil",
+  "tr": "tereddüt etmek, kararsız kalmak",
+  "en": "to change frequently between two opinions",
+  "es": [
+   "waver",
+   "hesitate",
+   "fluctuate"
+  ],
+  "ornek": "Leaders must not vacillate when urgent crisis decisions are imperative.",
+  "ornekTr": "Acil kriz kararları zorunlu olduğunda liderler tereddüt etmemelidir.",
+  "seviye": "C2",
+  "alan": "Yönetim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1177",
+  "kelime": "wane",
+  "tur": "fiil",
+  "tr": "azalmak, zayıflamak, sönmek",
+  "en": "to become weaker in strength or influence",
+  "es": [
+   "diminish",
+   "decline",
+   "fade"
+  ],
+  "ornek": "Public support for the controversial tax proposal began to wane.",
+  "ornekTr": "Tartışmalı vergi teklifine verilen kamuoyu desteği azalmaya başladı.",
+  "seviye": "C2",
+  "alan": "Siyaset",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1178",
+  "kelime": "zealous",
+  "tur": "sıfat",
+  "tr": "gayretli, şevkli, hararetli",
+  "en": "enthusiastic and eager",
+  "es": [
+   "fervent",
+   "ardent",
+   "passionate"
+  ],
+  "ornek": "The volunteer was a zealous advocate for wildlife habitat preservation.",
+  "ornekTr": "Gönüllü, vahşi yaşam alanı koruma konusunda hararetli bir savunucuydu.",
+  "seviye": "C2",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ }
+]

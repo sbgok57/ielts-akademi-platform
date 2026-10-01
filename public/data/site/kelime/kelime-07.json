@@ -1,0 +1,1343 @@
+[
+ {
+  "id": "w1179",
+  "kelime": "account for",
+  "tur": "phrasal verb",
+  "tr": "açıklamak, -den sorumlu olmak, oluşturmak (oran)",
+  "en": "to explain the reason for or form a total of",
+  "es": [
+   "explain",
+   "constitute",
+   "represent"
+  ],
+  "ornek": "Renewable sources account for 30% of total electricity production.",
+  "ornekTr": "Yenilenebilir kaynaklar toplam elektrik üretiminin %30'unu oluşturmaktadır.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1180",
+  "kelime": "bring about",
+  "tur": "phrasal verb",
+  "tr": "neden olmak, yol açmak, beraberinde getirmek",
+  "en": "to cause something to happen",
+  "es": [
+   "cause",
+   "lead to",
+   "trigger"
+  ],
+  "ornek": "Technological advances brought about drastic social changes.",
+  "ornekTr": "Teknolojik gelişmeler köklü sosyal değişikliklere yol açtı.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1181",
+  "kelime": "call off",
+  "tur": "phrasal verb",
+  "tr": "iptal etmek, sonlandırmak",
+  "en": "to cancel an event or agreement",
+  "es": [
+   "cancel",
+   "abandon",
+   "abort"
+  ],
+  "ornek": "The committee decided to call off the international symposium.",
+  "ornekTr": "Komite uluslararası sempozyumu iptal etmeye karar verdi.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1182",
+  "kelime": "carry out",
+  "tur": "phrasal verb",
+  "tr": "yürütmek, icra etmek, uygulamak",
+  "en": "to perform or complete an activity",
+  "es": [
+   "conduct",
+   "execute",
+   "perform"
+  ],
+  "ornek": "Scientists will carry out clinical trials on the new vaccine.",
+  "ornekTr": "Bilim insanları yeni aşı üzerinde klinik denemeler yürütecek.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1183",
+  "kelime": "come up with",
+  "tur": "phrasal verb",
+  "tr": "ortaya atmak, bulmak, ileri sürmek (fikir/çözüm)",
+  "en": "to suggest or think of an idea or plan",
+  "es": [
+   "propose",
+   "devise",
+   "invent"
+  ],
+  "ornek": "Engineers came up with an ingenious water purification method.",
+  "ornekTr": "Mühendisler dahice bir su arıtma yöntemi geliştirdiler.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1184",
+  "kelime": "cope with",
+  "tur": "phrasal verb",
+  "tr": "başa çıkmak, üstesinden gelmek",
+  "en": "to deal successfully with a difficult situation",
+  "es": [
+   "manage",
+   "handle",
+   "deal with"
+  ],
+  "ornek": "Healthcare workers struggled to cope with the influx of patients.",
+  "ornekTr": "Sağlık çalışanları hasta akınıyla başa çıkmak için mücadele etti.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1185",
+  "kelime": "cut down on",
+  "tur": "phrasal verb",
+  "tr": "kısmak, azaltmak",
+  "en": "to reduce the amount or consumption of something",
+  "es": [
+   "reduce",
+   "curtail",
+   "lessen"
+  ],
+  "ornek": "Doctors urge citizens to cut down on sugar and processed salt.",
+  "ornekTr": "Doktorlar vatandaşları şeker ve işlenmiş tuzu azaltmaya çağırıyor.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1186",
+  "kelime": "deal with",
+  "tur": "phrasal verb",
+  "tr": "ele almak, ilgilenmek, başa çıkmak",
+  "en": "to take action to solve a problem",
+  "es": [
+   "handle",
+   "manage",
+   "tackle"
+  ],
+  "ornek": "The new legislation aims to deal with youth unemployment.",
+  "ornekTr": "Yeni mevzuat genç işsizliğiyle ilgilenmeyi amaçlamaktadır.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1187",
+  "kelime": "figure out",
+  "tur": "phrasal verb",
+  "tr": "anlamak, çözmek, kavramak",
+  "en": "to understand or solve something",
+  "es": [
+   "understand",
+   "solve",
+   "decipher"
+  ],
+  "ornek": "Researchers are trying to figure out how the virus mutates.",
+  "ornekTr": "Araştırmacılar virüsün nasıl mutasyona uğradığını anlamaya çalışıyor.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1188",
+  "kelime": "give up",
+  "tur": "phrasal verb",
+  "tr": "vazgeçmek, bırakmak, pes etmek",
+  "en": "to stop doing or trying something",
+  "es": [
+   "abandon",
+   "quit",
+   "surrender"
+  ],
+  "ornek": "Never give up when preparing for challenging exams.",
+  "ornekTr": "Zorlu sınavlara hazırlanırken asla pes etmeyin.",
+  "seviye": "A2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1189",
+  "kelime": "keep up with",
+  "tur": "phrasal verb",
+  "tr": "ayak uydurmak, hızına yetişmek",
+  "en": "to move or progress at the same rate as someone or something",
+  "es": [
+   "match",
+   "keep pace with",
+   "follow"
+  ],
+  "ornek": "Traditional retail struggles to keep up with e-commerce trends.",
+  "ornekTr": "Geleneksel perakende e-ticaret trendlerine ayak uydurmakta zorlanıyor.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1190",
+  "kelime": "look forward to",
+  "tur": "phrasal verb",
+  "tr": "dört gözle beklemek",
+  "en": "to feel pleased and excited about something that is going to happen",
+  "es": [
+   "anticipate",
+   "await eagerly",
+   "hope for"
+  ],
+  "ornek": "We look forward to welcoming the keynote speakers.",
+  "ornekTr": "Açılış konuşmacılarını ağırlamayı dört gözle bekliyoruz.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1191",
+  "kelime": "look into",
+  "tur": "phrasal verb",
+  "tr": "incelemek, araştırmak",
+  "en": "to examine the facts about a problem or situation",
+  "es": [
+   "investigate",
+   "examine",
+   "explore"
+  ],
+  "ornek": "Authorities promised to look into the allegations of fraud.",
+  "ornekTr": "Yetkililer dolandırıcılık iddialarını araştırmaya söz verdi.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1192",
+  "kelime": "make up for",
+  "tur": "phrasal verb",
+  "tr": "telafi etmek, açığı kapatmak",
+  "en": "to compensate for something bad with something good",
+  "es": [
+   "compensate for",
+   "offset",
+   "remedy"
+  ],
+  "ornek": "Extra tutoring helped him make up for lost classroom time.",
+  "ornekTr": "Ekstra özel ders, kaybettiği sınıf zamanını telafi etmesine yardımcı oldu.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1193",
+  "kelime": "put off",
+  "tur": "phrasal verb",
+  "tr": "ertelemek, geciktirmek",
+  "en": "to decide or arrange to do something at a later time",
+  "es": [
+   "postpone",
+   "delay",
+   "defer"
+  ],
+  "ornek": "Do not put off studying until the last week before the exam.",
+  "ornekTr": "Ders çalışmayı sınavdan önceki son haftaya kadar ertelemeyin.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1194",
+  "kelime": "put up with",
+  "tur": "phrasal verb",
+  "tr": "katlanmak, tahammül etmek",
+  "en": "to tolerate or accept an unpleasant situation without complaining",
+  "es": [
+   "tolerate",
+   "endure",
+   "bear"
+  ],
+  "ornek": "Residents will not put up with continuous airport noise.",
+  "ornekTr": "Mahalle sakinleri sürekli havalimanı gürültüsüne katlanmayacak.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1195",
+  "kelime": "rely on",
+  "tur": "phrasal verb",
+  "tr": "güvenmek, bel bağlamak, bağımlı olmak",
+  "en": "to depend on or trust someone or something",
+  "es": [
+   "depend on",
+   "count on",
+   "trust"
+  ],
+  "ornek": "Developing economies rely heavily on agricultural exports.",
+  "ornekTr": "Gelişmekte olan ekonomiler büyük ölçüde tarımsal ihracata güvenmektedir.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1196",
+  "kelime": "run out of",
+  "tur": "phrasal verb",
+  "tr": "tükenmek, bitmek",
+  "en": "to finish a supply of something",
+  "es": [
+   "exhaust",
+   "deplete",
+   "consume"
+  ],
+  "ornek": "Many island nations are running out of freshwater reserves.",
+  "ornekTr": "Pek çok ada ülkesinin tatlı su rezervleri tükeniyor.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1197",
+  "kelime": "take over",
+  "tur": "phrasal verb",
+  "tr": "devralmak, kontrolü ele geçirmek",
+  "en": "to begin to have control of something",
+  "es": [
+   "assume control",
+   "command",
+   "seize"
+  ],
+  "ornek": "The multinational corporation plans to take over the local firm.",
+  "ornekTr": "Çok uluslu şirket yerel firmayı devralmayı planlıyor.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1198",
+  "kelime": "turn down",
+  "tur": "phrasal verb",
+  "tr": "reddetmek, geri çevirmek",
+  "en": "to refuse an offer, a proposal, or request",
+  "es": [
+   "reject",
+   "refuse",
+   "decline"
+  ],
+  "ornek": "The author turned down several lucrative publishing contracts.",
+  "ornekTr": "Yazar birkaç kazançlı yayıncılık sözleşmesini geri çevirdi.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1199",
+  "kelime": "break down",
+  "tur": "phrasal verb",
+  "tr": "bozulmak, çökmek, parçalara ayırmak",
+  "en": "to stop working; to separate into smaller parts",
+  "es": [
+   "malfunction",
+   "decompose",
+   "collapse"
+  ],
+  "ornek": "The analytical model breaks down data into demographic subsets.",
+  "ornekTr": "Analitik model verileri demografik alt kümelere ayırır.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1200",
+  "kelime": "bring up",
+  "tur": "phrasal verb",
+  "tr": "yetiştirmek (çocuk), gündeme getirmek",
+  "en": "to raise a child; to mention a topic in discussion",
+  "es": [
+   "raise",
+   "mention",
+   "introduce"
+  ],
+  "ornek": "She brought up the issue of gender pay disparity in the meeting.",
+  "ornekTr": "Toplantıda cinsiyete dayalı ücret eşitsizliği konusunu gündeme getirdi.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1201",
+  "kelime": "catch up with",
+  "tur": "phrasal verb",
+  "tr": "yakalamak, aynı düzeye gelmek",
+  "en": "to reach the same quality or standard as someone",
+  "es": [
+   "reach",
+   "overtake",
+   "draw level"
+  ],
+  "ornek": "Developing nations strive to catch up with industrial leaders.",
+  "ornekTr": "Gelişmekte olan ülkeler sanayi liderlerini yakalamak için çabalıyor.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1202",
+  "kelime": "cut off",
+  "tur": "phrasal verb",
+  "tr": "kesmek, bağlantısını koparmak, tecrit etmek",
+  "en": "to stop the supply of something or isolate",
+  "es": [
+   "disconnect",
+   "isolate",
+   "sever"
+  ],
+  "ornek": "The blizzard cut off power to hundreds of remote villages.",
+  "ornekTr": "Kar fırtınası yüzlerce uzak köyün elektriğini kesti.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1203",
+  "kelime": "fall apart",
+  "tur": "phrasal verb",
+  "tr": "dağılmak, parçalanmak, çökmek",
+  "en": "to break into pieces or become disorganized",
+  "es": [
+   "disintegrate",
+   "crumble",
+   "decay"
+  ],
+  "ornek": "Peace negotiations fell apart due to territorial disputes.",
+  "ornekTr": "Barış müzakereleri toprak anlaşmazlıkları nedeniyle dağıldı.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1204",
+  "kelime": "get along with",
+  "tur": "phrasal verb",
+  "tr": "biriyle iyi geçinmek, anlaşmak",
+  "en": "to have a good relationship with someone",
+  "es": [
+   "be friendly with",
+   "harmonize",
+   "agree"
+  ],
+  "ornek": "Successful managers get along with diverse team members.",
+  "ornekTr": "Başarılı yöneticiler farklı ekip üyeleriyle iyi geçinir.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1205",
+  "kelime": "give off",
+  "tur": "phrasal verb",
+  "tr": "salmak, yaymak (koku/gaz/ısı)",
+  "en": "to produce heat, light, a smell, or a gas",
+  "es": [
+   "emit",
+   "release",
+   "radiate"
+  ],
+  "ornek": "Decaying vegetation gives off significant methane gas.",
+  "ornekTr": "Çürüyen bitki örtüsü önemli miktarda metan gazı yayar.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1206",
+  "kelime": "hand over",
+  "tur": "phrasal verb",
+  "tr": "teslim etmek, devretmek",
+  "en": "to pass control or possession of something to another",
+  "es": [
+   "surrender",
+   "transfer",
+   "relinquish"
+  ],
+  "ornek": "The governor handed over authority to the newly elected mayor.",
+  "ornekTr": "Vali yetkiyi yeni seçilen belediye başkanına devretti.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1207",
+  "kelime": "look down on",
+  "tur": "phrasal verb",
+  "tr": "hor görmek, tepeden bakmak, küçümsemek",
+  "en": "to think that someone is inferior or unimportant",
+  "es": [
+   "scorn",
+   "disdain",
+   "despise"
+  ],
+  "ornek": "Educated societies do not look down on manual labor.",
+  "ornekTr": "Eğitimli toplumlar beden işçiliğini hor görmez.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1208",
+  "kelime": "look up to",
+  "tur": "phrasal verb",
+  "tr": "hayranlık duymak, saygı duymak, örnek almak",
+  "en": "to admire and respect someone",
+  "es": [
+   "admire",
+   "respect",
+   "revere"
+  ],
+  "ornek": "Young scholars look up to pioneering Nobel laureates.",
+  "ornekTr": "Genç akademisyenler öncü Nobel ödüllü bilim insanlarını örnek alır.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1209",
+  "kelime": "make out",
+  "tur": "phrasal verb",
+  "tr": "seçmek, fark etmek, anlamak",
+  "en": "to see, hear, or understand something with difficulty",
+  "es": [
+   "discern",
+   "distinguish",
+   "perceive"
+  ],
+  "ornek": "The captain could barely make out the lighthouse in the dense fog.",
+  "ornekTr": "Kaptan yoğun siste deniz fenerini güçlükle seçebildi.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1210",
+  "kelime": "pass away",
+  "tur": "phrasal verb",
+  "tr": "vefat etmek, hayatını kaybetmek",
+  "en": "polite expression for to die",
+  "es": [
+   "die",
+   "perish",
+   "expire"
+  ],
+  "ornek": "The legendary astrophysicist passed away peacefully at age 85.",
+  "ornekTr": "Efsanevi astrofizikçi 85 yaşında huzur içinde vefat etti.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1211",
+  "kelime": "pull through",
+  "tur": "phrasal verb",
+  "tr": "iyileşmek, tehlikeyi atlatmak, paçayı kurtarmak",
+  "en": "to recover from a serious illness or difficulty",
+  "es": [
+   "recover",
+   "survive",
+   "rally"
+  ],
+  "ornek": "Thanks to swift surgery, the critically injured patient pulled through.",
+  "ornekTr": "Hızlı ameliyat sayesinde ağır yaralı hasta tehlikeyi atlattı.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1212",
+  "kelime": "put forward",
+  "tur": "phrasal verb",
+  "tr": "ileri sürmek, teklif etmek (öneri/hipotez)",
+  "en": "to state an idea or opinion for consideration",
+  "es": [
+   "propose",
+   "suggest",
+   "advance"
+  ],
+  "ornek": "The biologist put forward a hypothesis regarding coral bleaching.",
+  "ornekTr": "Biyolog mercan ağarmasına ilişkin bir hipotez ileri sürdü.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1213",
+  "kelime": "rule out",
+  "tur": "phrasal verb",
+  "tr": "elemek, hariç tutmak, ihtimal dışı bırakmak",
+  "en": "to exclude something as a possibility",
+  "es": [
+   "exclude",
+   "dismiss",
+   "eliminate"
+  ],
+  "ornek": "Investigators ruled out mechanical failure as the crash cause.",
+  "ornekTr": "Müfettişler kaza nedeni olarak mekanik arızayı ihtimal dışı bıraktı.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1214",
+  "kelime": "set off",
+  "tur": "phrasal verb",
+  "tr": "yola çıkmak; tetiklemek, başlatmak",
+  "en": "to start a journey; to cause a process to start",
+  "es": [
+   "depart",
+   "trigger",
+   "initiate"
+  ],
+  "ornek": "The tariff announcements set off turbulence across global markets.",
+  "ornekTr": "Tarife açıklamaları küresel piyasalarda çalkantıyı tetikledi.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1215",
+  "kelime": "stand for",
+  "tur": "phrasal verb",
+  "tr": "anlamına gelmek, temsil etmek; hoşgörmek",
+  "en": "to represent an idea or word; to tolerate",
+  "es": [
+   "represent",
+   "symbolize",
+   "advocate"
+  ],
+  "ornek": "The acronym UNESCO stands for Educational, Scientific, Cultural Organization.",
+  "ornekTr": "UNESCO kısaltması Eğitim, Bilim ve Kültür Örgütü anlamına gelir.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1216",
+  "kelime": "take after",
+  "tur": "phrasal verb",
+  "tr": "benzemek, çekmek (anne/babaya)",
+  "en": "to resemble an older relative in appearance or character",
+  "es": [
+   "resemble",
+   "look like",
+   "favor"
+  ],
+  "ornek": "The young prodigy takes after her mother in mathematical aptitude.",
+  "ornekTr": "Genç dahi, matematik yeteneğinde annesine çekmiş.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1217",
+  "kelime": "wipe out",
+  "tur": "phrasal verb",
+  "tr": "kökünü kazımak, tamamen yok etmek",
+  "en": "to destroy something completely",
+  "es": [
+   "eradicate",
+   "destroy",
+   "annihilate"
+  ],
+  "ornek": "The catastrophic meteorite impact wiped out the non-avian dinosaurs.",
+  "ornekTr": "Felaket boyutundaki göktaşı çarpması kuş olmayan dinozorları yok etti.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1218",
+  "kelime": "although",
+  "tur": "bağlaç",
+  "tr": "rağmen, -e karşın",
+  "en": "despite the fact that",
+  "es": [
+   "even though",
+   "though",
+   "while"
+  ],
+  "ornek": "Although the exam was challenging, many students attained high marks.",
+  "ornekTr": "Sınav zorlu olmasına rağmen pek çok öğrenci yüksek notlar aldı.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1219",
+  "kelime": "whereas",
+  "tur": "bağlaç",
+  "tr": "oysaki, halbuki, buna karşın",
+  "en": "compared with the fact that; but in contrast",
+  "es": [
+   "while",
+   "whilst",
+   "on the other hand"
+  ],
+  "ornek": "Some countries invest in solar grids, whereas others prioritize hydro power.",
+  "ornekTr": "Bazı ülkeler güneş enerjisine yatırım yaparken, diğerleri hidroelektriğe öncelik verir.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1220",
+  "kelime": "furthermore",
+  "tur": "zarf",
+  "tr": "dahası, ayrıca, üstelik",
+  "en": "in addition; more importantly",
+  "es": [
+   "moreover",
+   "in addition",
+   "besides"
+  ],
+  "ornek": "The study is comprehensive; furthermore, its findings are peer-reviewed.",
+  "ornekTr": "Çalışma kapsamlıdır; dahası, bulguları hakem denetiminden geçmiştir.",
+  "seviye": "B2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1221",
+  "kelime": "nevertheless",
+  "tur": "zarf",
+  "tr": "yine de, buna rağmen, bununla birlikte",
+  "en": "in spite of that; however",
+  "es": [
+   "nonetheless",
+   "however",
+   "still"
+  ],
+  "ornek": "The weather was stormy; nevertheless, the rescue team set sail.",
+  "ornekTr": "Hava fırtınalıydı; yine de kurtarma ekibi denize açıldı.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1222",
+  "kelime": "consequently",
+  "tur": "zarf",
+  "tr": "sonuç olarak, bu nedenle",
+  "en": "as a result; therefore",
+  "es": [
+   "as a result",
+   "therefore",
+   "thus"
+  ],
+  "ornek": "The drought destroyed key crops; consequently, food costs surged.",
+  "ornekTr": "Kuraklık temel mahsulleri mahvetti; sonuç olarak gıda fiyatları fırladı.",
+  "seviye": "B2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1223",
+  "kelime": "in spite of",
+  "tur": "edat",
+  "tr": "-e rağmen, karşın",
+  "en": "without being prevented by",
+  "es": [
+   "despite",
+   "regardless of",
+   "notwithstanding"
+  ],
+  "ornek": "In spite of intense pressure, the diplomat remained calm.",
+  "ornekTr": "Yoğun baskıya rağmen diplomat sakinliğini korudu.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1224",
+  "kelime": "on the contrary",
+  "tur": "bağlaç kalıbı",
+  "tr": "aksine, tam tersine",
+  "en": "used to show that you think the exact opposite is true",
+  "es": [
+   "conversely",
+   "quite the reverse",
+   "rather"
+  ],
+  "ornek": "The reforms did not weaken the economy; on the contrary, they spurred growth.",
+  "ornekTr": "Reformlar ekonomiyi zayıflatmadı; aksine büyümeyi tetikledi.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1225",
+  "kelime": "in terms of",
+  "tur": "edat kalıbı",
+  "tr": "bakımından, açısından",
+  "en": "used to describe which particular area of a subject you are discussing",
+  "es": [
+   "regarding",
+   "with respect to",
+   "concerning"
+  ],
+  "ornek": "The city is ranked number one in terms of quality of life.",
+  "ornekTr": "Şehir, yaşam kalitesi açısından birinci sırada yer alıyor.",
+  "seviye": "B2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1226",
+  "kelime": "with respect to",
+  "tur": "edat kalıbı",
+  "tr": "-e ilişkin olarak, hususunda",
+  "en": "in connection with or regarding",
+  "es": [
+   "concerning",
+   "regarding",
+   "as regards"
+  ],
+  "ornek": "Regulations are clear with respect to occupational safety.",
+  "ornekTr": "İş güvenliği hususunda yönetmelikler nettir.",
+  "seviye": "B2",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1227",
+  "kelime": "prior to",
+  "tur": "edat kalıbı",
+  "tr": "-den önce",
+  "en": "before a particular time or event",
+  "es": [
+   "before",
+   "ahead of",
+   "preceding"
+  ],
+  "ornek": "Passengers must undergo security clearance prior to boarding.",
+  "ornekTr": "Yolcular uçağa binmeden önce güvenlik kontrolünden geçmelidir.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1228",
+  "kelime": "owing to",
+  "tur": "edat kalıbı",
+  "tr": "-den dolayı, yüzünden",
+  "en": "because of",
+  "es": [
+   "due to",
+   "because of",
+   "on account of"
+  ],
+  "ornek": "The match was postponed owing to torrential monsoon rains.",
+  "ornekTr": "Maç şiddetli muson yağmurları yüzünden ertelendi.",
+  "seviye": "B2",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1229",
+  "kelime": "as long as",
+  "tur": "bağlaç",
+  "tr": "-dığı sürece, şartıyla",
+  "en": "only if, or provided that",
+  "es": [
+   "provided that",
+   "so long as",
+   "if"
+  ],
+  "ornek": "You may borrow the equipment as long as you return it clean.",
+  "ornekTr": "Temiz bir şekilde geri getirdiğiniz sürece ekipmanı ödünç alabilirsiniz.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1230",
+  "kelime": "in case",
+  "tur": "bağlaç",
+  "tr": "olur da ... diye, ihtimaline karşı",
+  "en": "to be prepared for a possible future event",
+  "es": [
+   "lest",
+   "in the event that",
+   "if"
+  ],
+  "ornek": "Take an umbrella in case it rains during the excursion.",
+  "ornekTr": "Gezi sırasında yağmur yağar diye yanınıza bir şemsiye alın.",
+  "seviye": "B1",
+  "alan": "YDS Sık Çıkan",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1231",
+  "kelime": "unless",
+  "tur": "bağlaç",
+  "tr": "-medikçe, -mezse",
+  "en": "except if; if not",
+  "es": [
+   "if not",
+   "except when"
+  ],
+  "ornek": "You cannot sit for the bar examination unless you graduate from law school.",
+  "ornekTr": "Hukuk fakültesinden mezun olmadıkça baro sınavına giremezsiniz.",
+  "seviye": "B1",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1232",
+  "kelime": "provided that",
+  "tur": "bağlaç",
+  "tr": "şartıyla, koşuluyla",
+  "en": "only if a particular condition is met",
+  "es": [
+   "on condition that",
+   "as long as",
+   "if"
+  ],
+  "ornek": "Travelers can enter the country provided that they hold valid visas.",
+  "ornekTr": "Yolcular geçerli vizeye sahip olmaları şartıyla ülkeye girebilirler.",
+  "seviye": "B2",
+  "alan": "Hukuk & Sınav",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1233",
+  "kelime": "so that",
+  "tur": "bağlaç",
+  "tr": "-sin diye, amacıyla",
+  "en": "in order that something may happen",
+  "es": [
+   "in order that",
+   "to the end that"
+  ],
+  "ornek": "He studied vocabulary diligently so that he could pass IELTS with band 8.",
+  "ornekTr": "IELTS'i band 8 ile geçebilsin diye özenle kelime çalıştı.",
+  "seviye": "B1",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1234",
+  "kelime": "in order to",
+  "tur": "edat kalıbı",
+  "tr": "-mek amacıyla, için",
+  "en": "with the purpose of achieving something",
+  "es": [
+   "so as to",
+   "to",
+   "with a view to"
+  ],
+  "ornek": "The clinic hired additional nurses in order to shorten wait times.",
+  "ornekTr": "Klinik bekleme sürelerini kısaltmak amacıyla ek hemşireler istihdam etti.",
+  "seviye": "B1",
+  "alan": "Sağlık",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1235",
+  "kelime": "regardless of",
+  "tur": "edat kalıbı",
+  "tr": "-e bakılmaksızın, gözetmeksizin",
+  "en": "without being influenced by",
+  "es": [
+   "irrespective of",
+   "despite",
+   "without regard to"
+  ],
+  "ornek": "All students receive equal support regardless of socioeconomic background.",
+  "ornekTr": "Sosyoekonomik geçmişe bakılmaksızın tüm öğrenciler eşit destek alır.",
+  "seviye": "B2",
+  "alan": "Toplum",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1236",
+  "kelime": "by means of",
+  "tur": "edat kalıbı",
+  "tr": "vasıtasıyla, aracılığıyla",
+  "en": "with the help of or by using",
+  "es": [
+   "via",
+   "through",
+   "using"
+  ],
+  "ornek": "Scientists tracked marine migration by means of satellite telemetry.",
+  "ornekTr": "Bilim insanları uydu telemetrisi vasıtasıyla deniz göçünü izledi.",
+  "seviye": "B2",
+  "alan": "Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1237",
+  "kelime": "notwithstanding",
+  "tur": "edat",
+  "tr": "-e rağmen, karşın",
+  "en": "despite the fact or existence of",
+  "es": [
+   "despite",
+   "in spite of",
+   "regardless of"
+  ],
+  "ornek": "Notwithstanding the economic crisis, the tech sector expanded.",
+  "ornekTr": "Ekonomik krize rağmen teknoloji sektörü büyüdü.",
+  "seviye": "C1",
+  "alan": "Ekonomi & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1238",
+  "kelime": "abundant",
+  "tur": "sıfat",
+  "tr": "bol, bereketli, çok sayıda",
+  "en": "existing or available in large quantities",
+  "es": [
+   "plentiful",
+   "copious",
+   "ample"
+  ],
+  "ornek": "The tropical rainforest is home to abundant plant and animal species.",
+  "ornekTr": "Tropikal yağmur ormanı bol miktarda bitki ve hayvan türüne ev sahipliği yapar.",
+  "seviye": "B2",
+  "alan": "Biyoloji",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1239",
+  "kelime": "ambiguous",
+  "tur": "sıfat",
+  "tr": "belirsiz, muğlak, iki anlamlı",
+  "en": "having more than one possible meaning; not clear",
+  "es": [
+   "vague",
+   "equivocal",
+   "obscure"
+  ],
+  "ornek": "The contract language was ambiguous, leading to a legal dispute.",
+  "ornekTr": "Sözleşme dili muğlaktı ve bu da yasal bir anlaşmazlığa yol açtı.",
+  "seviye": "B2",
+  "alan": "Hukuk",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1240",
+  "kelime": "coherent",
+  "tur": "sıfat",
+  "tr": "tutarlı, ahenkli, mantıklı",
+  "en": "clear and carefully considered, with each part fitting well",
+  "es": [
+   "logical",
+   "consistent",
+   "lucid"
+  ],
+  "ornek": "Her essay presented a coherent argument backed by statistics.",
+  "ornekTr": "Makalesi istatistiklerle desteklenen tutarlı bir argüman sundu.",
+  "seviye": "B2",
+  "alan": "Akademik",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1241",
+  "kelime": "comprehensive",
+  "tur": "sıfat",
+  "tr": "kapsamlı, etraflı",
+  "en": "complete and including everything that is necessary",
+  "es": [
+   "thorough",
+   "exhaustive",
+   "all-inclusive"
+  ],
+  "ornek": "The ministry published a comprehensive report on national literacy.",
+  "ornekTr": "Bakanlık ulusal okuryazarlık üzerine kapsamlı bir rapor yayınladı.",
+  "seviye": "B2",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1242",
+  "kelime": "detrimental",
+  "tur": "sıfat",
+  "tr": "zararlı, hasar veren",
+  "en": "causing harm or damage",
+  "es": [
+   "harmful",
+   "damaging",
+   "injurious"
+  ],
+  "ornek": "Excessive screen exposure can be detrimental to sleep cycles.",
+  "ornekTr": "Aşırı ekrana maruz kalma uyku döngülerine zararlı olabilir.",
+  "seviye": "B2",
+  "alan": "Sağlık & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1243",
+  "kelime": "drastic",
+  "tur": "sıfat",
+  "tr": "köklü, sert, şiddetli",
+  "en": "severe and sudden or having very noticeable effects",
+  "es": [
+   "extreme",
+   "radical",
+   "severe"
+  ],
+  "ornek": "Cities took drastic measures to combat air pollution.",
+  "ornekTr": "Şehirler hava kirliliğiyle mücadele etmek için köklü tedbirler aldı.",
+  "seviye": "B2",
+  "alan": "Çevre",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1244",
+  "kelime": "elaborate",
+  "tur": "sıfat",
+  "tr": "ayrıntılı, detaylı, özenle işlenmiş",
+  "en": "containing a lot of careful detail or many detailed parts",
+  "es": [
+   "detailed",
+   "intricate",
+   "complex"
+  ],
+  "ornek": "Archaeologists uncovered an elaborate mosaic on the villa floor.",
+  "ornekTr": "Arkeologlar villa zemininde ayrıntılı bir mozaik ortaya çıkardılar.",
+  "seviye": "B2",
+  "alan": "Tarih",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1245",
+  "kelime": "feasible",
+  "tur": "sıfat",
+  "tr": "uygulanabilir, yapılabilir, olası",
+  "en": "able to be made, done, or achieved",
+  "es": [
+   "viable",
+   "practicable",
+   "workable"
+  ],
+  "ornek": "Engineers concluded that building a subsea tunnel was economically feasible.",
+  "ornekTr": "Mühendisler bir denizaltı tüneli inşa etmenin ekonomik olarak uygulanabilir olduğu sonucuna vardı.",
+  "seviye": "B2",
+  "alan": "Mühendislik & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1246",
+  "kelime": "hostile",
+  "tur": "sıfat",
+  "tr": "düşmanca, elverişsiz, sert",
+  "en": "unfriendly and not liking something; difficult to live in",
+  "es": [
+   "unfriendly",
+   "antagonistic",
+   "adverse"
+  ],
+  "ornek": "Deserts have hostile climatic conditions for most fauna.",
+  "ornekTr": "Çöller çoğu hayvan türü için elverişsiz iklim koşullarına sahiptir.",
+  "seviye": "B2",
+  "alan": "Coğrafya",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1247",
+  "kelime": "indispensable",
+  "tur": "sıfat",
+  "tr": "vazgeçilmez, olmazsa olmaz",
+  "en": "so good or important that you could not manage without it",
+  "es": [
+   "essential",
+   "crucial",
+   "vital"
+  ],
+  "ornek": "Clean drinking water is indispensable for all forms of life.",
+  "ornekTr": "Temiz içme suyu tüm yaşam formları için vazgeçilmezdir.",
+  "seviye": "B2",
+  "alan": "Sağlık & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1248",
+  "kelime": "inevitable",
+  "tur": "sıfat",
+  "tr": "kaçınılmaz, çaresiz",
+  "en": "certain to happen and unable to be avoided or prevented",
+  "es": [
+   "unavoidable",
+   "inescapable",
+   "certain"
+  ],
+  "ornek": "With population growth, urbanization became inevitable.",
+  "ornekTr": "Nüfus artışıyla birlikte kentleşme kaçınılmaz hale geldi.",
+  "seviye": "B2",
+  "alan": "Sosyoloji & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1249",
+  "kelime": "inherent",
+  "tur": "sıfat",
+  "tr": "doğasında olan, içkin",
+  "en": "existing as a natural or basic part of something",
+  "es": [
+   "intrinsic",
+   "innate",
+   "inborn"
+  ],
+  "ornek": "Risk is an inherent characteristic of venture capital investments.",
+  "ornekTr": "Risk, girişim sermayesi yatırımlarının doğasında olan bir özelliktir.",
+  "seviye": "C1",
+  "alan": "Ekonomi",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1250",
+  "kelime": "intricate",
+  "tur": "sıfat",
+  "tr": "karmaşık, ince işlenmiş, çapraşık",
+  "en": "having a lot of small parts or details that fit together",
+  "es": [
+   "complex",
+   "elaborate",
+   "detailed"
+  ],
+  "ornek": "The watchmaker assembled the intricate mechanical gears.",
+  "ornekTr": "Saat ustası karmaşık mekanik dişlileri birleştirdi.",
+  "seviye": "B2",
+  "alan": "Zanaat & Bilim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1251",
+  "kelime": "lucrative",
+  "tur": "sıfat",
+  "tr": "kazançlı, karlı, gelir getiren",
+  "en": "producing a lot of money or a large profit",
+  "es": [
+   "profitable",
+   "rewarding",
+   "gainful"
+  ],
+  "ornek": "Renewable technology has evolved into a lucrative global industry.",
+  "ornekTr": "Yenilenebilir teknoloji kazançlı bir küresel sektöre dönüştü.",
+  "seviye": "B2",
+  "alan": "Ekonomi & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1252",
+  "kelime": "negligible",
+  "tur": "sıfat",
+  "tr": "önemsiz, göz ardı edilebilir",
+  "en": "too slight or small in amount to be of importance",
+  "es": [
+   "trivial",
+   "minor",
+   "insignificant"
+  ],
+  "ornek": "The side effects of the medication were clinically negligible.",
+  "ornekTr": "İlacın yan etkileri klinik olarak göz ardı edilebilir düzeydeydi.",
+  "seviye": "B2",
+  "alan": "Tıp & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1253",
+  "kelime": "notable",
+  "tur": "sıfat",
+  "tr": "dikkate değer, göze çarpan, ünlü",
+  "en": "important and deserving attention, because of being very good",
+  "es": [
+   "remarkable",
+   "significant",
+   "distinguished"
+  ],
+  "ornek": "There was a notable improvement in student test percentiles.",
+  "ornekTr": "Öğrenci sınav yüzdeliklerinde dikkate değer bir iyileşme vardı.",
+  "seviye": "B2",
+  "alan": "Eğitim",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1254",
+  "kelime": "plausible",
+  "tur": "sıfat",
+  "tr": "makul, akla yatkın, inandırıcı",
+  "en": "seeming likely to be true, or able to be believed",
+  "es": [
+   "credible",
+   "believable",
+   "reasonable"
+  ],
+  "ornek": "The detective offered a plausible explanation for the disappearance.",
+  "ornekTr": "Dedektif kaybolma vakası için akla yatkın bir açıklama sundu.",
+  "seviye": "B2",
+  "alan": "Mantık & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1255",
+  "kelime": "profound",
+  "tur": "sıfat",
+  "tr": "derin, köklü, etkileyici",
+  "en": "felt or experienced very strongly or in an extreme way",
+  "es": [
+   "deep",
+   "intense",
+   "far-reaching"
+  ],
+  "ornek": "The invention of printing had a profound effect on human knowledge.",
+  "ornekTr": "Matbaanın icadı insan bilgisi üzerinde derin bir etki yarattı.",
+  "seviye": "B2",
+  "alan": "Tarih & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1256",
+  "kelime": "reluctant",
+  "tur": "sıfat",
+  "tr": "isteksiz, tereddütlü, gönülsüz",
+  "en": "not wanting to do something and therefore slow to do it",
+  "es": [
+   "unwilling",
+   "hesitant",
+   "loath"
+  ],
+  "ornek": "Lenders were reluctant to grant loans without collateral.",
+  "ornekTr": "Borç verenler teminatsız kredi vermekte isteksizdi.",
+  "seviye": "B2",
+  "alan": "Finans & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ },
+ {
+  "id": "w1257",
+  "kelime": "scarcity",
+  "tur": "isim",
+  "tr": "kıtlık, azlık, yetersizlik",
+  "en": "a situation in which something is not easy to find or get",
+  "es": [
+   "shortage",
+   "dearth",
+   "lack"
+  ],
+  "ornek": "Water scarcity threatens millions of people across arid zones.",
+  "ornekTr": "Su kıtlığı kurak bölgelerdeki milyonlarca insanı tehdit ediyor.",
+  "seviye": "B2",
+  "alan": "Çevre & YDS",
+  "ydsFrequency": "Çok Yüksek (P0)"
+ }
+]

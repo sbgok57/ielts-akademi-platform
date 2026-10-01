@@ -105,12 +105,30 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center">
-          <img
-            src={bilgi.anim}
-            alt={bilgi.ad}
-            className="h-32 w-32 rounded-2xl object-contain drop-shadow md:h-40 md:w-40"
-          />
+        <div className="flex flex-col items-center justify-center">
+          {slug === "kelime" ? (
+            <div className="relative flex flex-col items-center justify-center rounded-3xl border border-violet-200/80 bg-gradient-to-br from-violet-500/10 via-purple-500/10 to-teal-500/10 p-5 shadow-lg backdrop-blur dark:border-violet-800/60 dark:from-violet-950/40 dark:to-slate-900/60">
+              <div className="flex items-center gap-2">
+                <span className="text-3xl">📚</span>
+                <span className="text-2xl font-black text-slate-900 dark:text-white">1,250+</span>
+              </div>
+              <span className="mt-1 text-xs font-bold text-violet-700 dark:text-violet-300">
+                A1-C2 & YDS Müfredatı
+              </span>
+              <div className="mt-2 flex items-center gap-1 text-[11px] font-semibold text-slate-600 dark:text-slate-400">
+                <span>🇬🇧 🇺🇸 🇦🇺 🇨🇦 🇳🇿 🏴󠁧󠁢󠁳󠁣󠁴󠁿 🇮🇳</span>
+              </div>
+              <span className="mt-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-bold text-emerald-600 dark:text-emerald-400">
+                ✨ 7 Doğal Aksan & Puan Sistemi
+              </span>
+            </div>
+          ) : (
+            <img
+              src={bilgi.anim}
+              alt={bilgi.ad}
+              className="h-32 w-32 rounded-2xl object-contain drop-shadow md:h-40 md:w-40"
+            />
+          )}
         </div>
       </section>
 

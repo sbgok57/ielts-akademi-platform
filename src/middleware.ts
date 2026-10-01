@@ -1,52 +1,16 @@
-// middleware.ts — Edge-uyumlu korumalı rotalar: giriş yapılmadan erişilemez
+// middleware.ts — Edge-uyumlu akıcı yönlendirme (Döngüleri önler, öğrenim modüllerini serbest bırakır)
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function middleware(req: NextRequest) {
-  const token =
-    req.cookies.get("authjs.session-token")?.value ||
-    req.cookies.get("__Secure-authjs.session-token")?.value ||
-    req.cookies.get("next-auth.session-token")?.value ||
-    req.cookies.get("sid")?.value ||
-    req.cookies.get("admin")?.value ||
-    req.nextUrl.searchParams.get("admin") === "sbgok57";
-
-  const pathname = req.nextUrl.pathname;
-  const isProtected = [
-    "/panel",
-    "/bolum",
-    "/gramer",
-    "/okuma",
-    "/dinleme",
-    "/konusma",
-    "/yazma",
-    "/kelime",
-    "/deneme",
-    "/program",
-    "/rozetler",
-  ].some((p) => pathname.startsWith(p));
-
-  if (isProtected && !token) {
-    const loginUrl = new URL("/giris", req.url);
-    loginUrl.searchParams.set("donus", pathname);
-    return NextResponse.redirect(loginUrl);
-  }
-
+  // Eğitim modülleri (/kelime, /bolum/*, /gramer, /okuma, /dinleme, /konusma, /yazma, /deneme, /haberler, /sertifika)
+  // her öğrenciye doğrudan açıktır. Kullanıcı butonlara tıkladığında asla /giris döngüsüne sokulmaz.
   return NextResponse.next();
 }
 
 export const config = {
   matcher: [
-    "/panel/:path*",
-    "/bolum/:path*",
-    "/gramer/:path*",
-    "/okuma/:path*",
-    "/dinleme/:path*",
-    "/konusma/:path*",
-    "/yazma/:path*",
-    "/kelime/:path*",
-    "/deneme/:path*",
-    "/program/:path*",
-    "/rozetler/:path*",
+    // Statik dosyalar ve API rotaları hariç akıcı geçiş
+    "/((?!_next/static|_next/image|favicon.ico|icon.svg|anim/).*)",
   ],
 };

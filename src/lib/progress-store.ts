@@ -56,6 +56,14 @@ export interface StudentProgress {
   completedQuizzes: Record<string, boolean>;
   speakingSessionsCount: number;
   certificates: StudentCertificate[];
+
+  // Kelime Hazinesi, Oyunlaştırma & Skor Takip Sistemi
+  learnedWordIds?: string[];
+  masteredWordIds?: string[];
+  vocabularyScore?: number;
+  vocabularyGamesPlayed?: number;
+  selectedStartingLevel?: CEFRLevel;
+  placementTestCompleted?: boolean;
 }
 
 export const CEFR_METADATA: Record<CEFRLevel, {
@@ -196,6 +204,12 @@ export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenc
     completedQuizzes: { "g1": true, "o1": true },
     speakingSessionsCount: 3,
     certificates: [initialCert],
+    learnedWordIds: isSbgok57 ? ["w0001", "w0002", "w0003", "w0004", "w0005"] : [],
+    masteredWordIds: isSbgok57 ? ["w0001", "w0002"] : [],
+    vocabularyScore: isSbgok57 ? 1450 : 120,
+    vocabularyGamesPlayed: isSbgok57 ? 14 : 1,
+    selectedStartingLevel: isSbgok57 ? "C2" : "A1",
+    placementTestCompleted: isSbgok57,
   };
 }
 
@@ -428,4 +442,50 @@ export function importProgressFromJson(jsonText: string): boolean {
   } catch {
     return false;
   }
+}
+
+/**
+ * Kelime oyununda veya testinde kelime bilindiğinde puan, XP ve öğrenilen listesini günceller
+ */
+export function recordWordLearned(wordId: string, isCorrect: boolean, scoreBonus = 15): StudentProgress {
+  const p = loadStudentProgress();
+  if (!p.learnedWordIds) p.learnedWordIds = [];
+  if (!p.masteredWordIds) p.masteredWordIds = [];
+  if (p.vocabularyScore == null) p.vocabularyScore = 0;
+  if (p.vocabularyGamesPlayed == null) p.vocabularyGamesPlayed = 0;
+
+  p.vocabularyGamesPlayed += 1;
+
+  if (isCorrect) {
+    if (!p.learnedWordIds.includes(wordId)) {
+      p.learnedWordIds.push(wordId);
+    }
+    p.vocabularyScore += scoreBonus;
+    p.xpTotal += 10;
+
+    // Kelime beceri yüzdesini güncelle (hedef 300 kelimeye göre)
+    p.skills.kelime = Math.min(100, Math.round((p.learnedWordIds.length / 300) * 100));
+
+    // Genel ilerlemeyi güncelle
+    p.overallPercentage = Math.round(
+      (p.skills.okuma + p.skills.dinleme + p.skills.yazma + p.skills.konusma + p.skills.gramer + p.skills.kelime) / 6
+    );
+  }
+
+  saveStudentProgress(p);
+  return p;
+}
+
+/**
+ * "Senin seviyen bu, hadi şuradan başlayalım" mantığı:
+ * Öğrencinin başlangıç seviyesini belirler ve öğrenim sürecini kilitler
+ */
+export function setPersonalizedStartingLevel(level: CEFRLevel): StudentProgress {
+  const p = loadStudentProgress();
+  p.currentCefr = level;
+  p.selectedStartingLevel = level;
+  p.currentLevelNumber = CEFR_METADATA[level]?.num || 1;
+  p.placementTestCompleted = true;
+  saveStudentProgress(p);
+  return p;
 }
