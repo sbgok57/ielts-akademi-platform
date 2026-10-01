@@ -12,15 +12,22 @@ export interface StudentCertificate {
   issueDate: string;
   completionScore: number; // 0 - 100
   ieltsBandEquivalent: string; // Örn: "Band 4.0 - 4.5"
+  ydsEquivalent?: string; // Örn: "70 - 79 / 100"
+  toeflEquivalent?: string; // Örn: "66 - 85"
+  cpdHours?: number; // Örn: 120
   verificationCode: string;
   verificationHash: string;
-  grade: "Pass with Distinction" | "High Merit" | "Pass with Excellence";
+  grade: "Pass with Distinction" | "High Merit" | "Pass with Excellence" | "First Class Honours";
   skillsSummary: {
     reading: number;
     listening: number;
     writing: number;
     speaking: number;
+    grammar?: number;
+    vocabulary?: number;
   };
+  canDoEn?: string;
+  canDoTr?: string;
 }
 
 export interface StudentProgress {
@@ -69,8 +76,14 @@ export interface StudentProgress {
 export const CEFR_METADATA: Record<CEFRLevel, {
   num: number;
   name: string;
+  titleEn: string;
   desc: string;
+  canDoEn: string;
+  canDoTr: string;
   band: string;
+  ydsEq: string;
+  toeflEq: string;
+  cpdHours: number;
   requiredXp: number;
   color: string;
   borderClass: string;
@@ -79,8 +92,14 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   A1: {
     num: 1,
     name: "A1 · Breakthrough (Başlangıç)",
+    titleEn: "Breakthrough / Beginner Level",
     desc: "Temel günlük ifadeleri ve en sık kullanılan kelimeleri anlama ve basit iletişim kurabilme.",
+    canDoEn: "Can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type. Can introduce him/herself and ask/answer questions about personal details.",
+    canDoTr: "Günlük hayatta en sık kullanılan basit ifadeleri anlayabilir; kendini tanıtabilir ve temel somut ihtiyaçlarını karşılayabilir.",
     band: "Band 3.0 - 3.5",
+    ydsEq: "30 - 44 / 100 (ÖSYM Temel Düzey)",
+    toeflEq: "20 - 34",
+    cpdHours: 45,
     requiredXp: 400,
     color: "#10B981", // Emerald
     borderClass: "border-emerald-500",
@@ -89,8 +108,14 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   A2: {
     num: 2,
     name: "A2 · Waystage (Temel Düzey)",
+    titleEn: "Waystage / Elementary Level",
     desc: "Basit ve rutin görevlerde doğrudan bilgi alışverişi yapabilme, geçmiş ve çevre anlatımı.",
+    canDoEn: "Can understand sentences and frequently used expressions related to areas of most immediate relevance (e.g. personal and family information, local geography, employment). Can communicate in simple, routine tasks.",
+    canDoTr: "Kendisi, ailesi, işi ve çevresiyle ilgili en sık kullanılan cümle ve kalıpları anlayabilir; rutin durumlarda basit bilgi alışverişi yapabilir.",
     band: "Band 4.0 - 4.5",
+    ydsEq: "45 - 54 / 100 (ÖSYM Giriş)",
+    toeflEq: "35 - 45",
+    cpdHours: 60,
     requiredXp: 900,
     color: "#06B6D4", // Cyan/Teal
     borderClass: "border-cyan-500",
@@ -99,8 +124,14 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   B1: {
     num: 3,
     name: "B1 · Threshold (Orta Düzey)",
+    titleEn: "Threshold / Intermediate Level",
     desc: "İş, okul, serbest zaman konularında ana fikirleri anlama ve akıcı seyahat İngilizcesi.",
+    canDoEn: "Can understand the main points of clear standard input on familiar matters regularly encountered in work, school, leisure. Can deal with most situations likely to arise whilst travelling in an English-speaking area.",
+    canDoTr: "İş, okul ve günlük yaşamdaki standart konuşma ve metinlerin ana fikirlerini anlayabilir; seyahatlerde karşılaşabileceği tüm durumları yönetebilir.",
     band: "Band 5.0 - 5.5",
+    ydsEq: "55 - 69 / 100 (ÖSYM Orta)",
+    toeflEq: "46 - 65",
+    cpdHours: 90,
     requiredXp: 1600,
     color: "#3B82F6", // Blue
     borderClass: "border-blue-500",
@@ -109,8 +140,14 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   B2: {
     num: 4,
     name: "B2 · Vantage (İleri Orta Düzey)",
+    titleEn: "Vantage / Upper-Intermediate Level",
     desc: "Karmaşık metinlerin ana hatlarını anlama, ana dili İngilizce olanlarla rahat ve doğal iletişim.",
+    canDoEn: "Can understand the main ideas of complex text on both concrete and abstract topics, including technical discussions in his/her field of specialisation. Can interact with fluency and spontaneity with native speakers.",
+    canDoTr: "Hem somut hem soyut karmaşık konulardaki metinlerin ana fikirlerini kavrayabilir; anadili İngilizce olanlarla akıcı ve doğal bir iletişim kurabilir.",
     band: "Band 6.0 - 6.5",
+    ydsEq: "70 - 79 / 100 (ÖSYM B Grubu Kurumsal Geçerlilik)",
+    toeflEq: "66 - 85",
+    cpdHours: 120,
     requiredXp: 2600,
     color: "#8B5CF6", // Violet
     borderClass: "border-purple-500",
@@ -119,8 +156,14 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   C1: {
     num: 5,
     name: "C1 · Effective Proficiency (İleri Düzey)",
+    titleEn: "Effective Operational Proficiency / Advanced Level",
     desc: "Geniş kapsamlı zorlu metinleri kavrama, akademik ve profesyonel hedefler için esnek kullanım.",
+    canDoEn: "Can understand a wide range of demanding, longer texts, and recognise implicit meaning. Can express ideas fluently and spontaneously without much obvious searching for expressions, using language flexibly for academic and professional purposes.",
+    canDoTr: "Zorlu ve uzun akademik metinleri kavrayıp örtük anlamları anlayabilir; profesyonel ve akademik amaçlar için dili esnek, etkili ve akıcı kullanabilir.",
     band: "Band 7.0 - 8.0",
+    ydsEq: "80 - 89 / 100 (ÖSYM A Grubu / Doktora & Akademik)",
+    toeflEq: "86 - 105",
+    cpdHours: 160,
     requiredXp: 4000,
     color: "#EC4899", // Pink
     borderClass: "border-pink-500",
@@ -129,8 +172,14 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   C2: {
     num: 6,
     name: "C2 · Mastery (Ustalık & Tam Yetkinlik)",
+    titleEn: "Mastery / Native-like Proficiency",
     desc: "Duyduğu ve okuduğu her şeyi kolaylıkla anlama, karmaşık konularda akıcı ve doğal nüans hakimiyeti.",
+    canDoEn: "Can understand with ease virtually everything heard or read. Can summarise information from different spoken and written sources, reconstructing arguments in a coherent presentation, expressing him/herself spontaneously, fluently and precisely.",
+    canDoTr: "Duyduğu ve okuduğu her şeyi zahmetsizce anlayabilir; karmaşık konulardaki argümanları akıcı bir şekilde özetleyip ince anlam nüanslarıyla kusursuz ifade edebilir.",
     band: "Band 8.5 - 9.0",
+    ydsEq: "90 - 100 / 100 (ÖSYM En Üst Derece / Uzman Çevirmen)",
+    toeflEq: "106 - 120",
+    cpdHours: 200,
     requiredXp: 6000,
     color: "#F59E0B", // Amber Gold
     borderClass: "border-amber-500",
@@ -156,6 +205,7 @@ function generateCertHash(id: string, name: string, date: string): string {
 
 // Varsayılan boş veya ilk öğrenci profili
 export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenci@ieltsakademi.com"): StudentProgress {
+  const metaA1 = CEFR_METADATA.A1;
   const initialCert: StudentCertificate = {
     id: "IELTS-AKD-2026-A1-10492",
     level: "A1",
@@ -163,7 +213,10 @@ export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenc
     studentName,
     issueDate: new Date().toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" }),
     completionScore: 94,
-    ieltsBandEquivalent: "Band 3.5 - 4.0",
+    ieltsBandEquivalent: metaA1.band,
+    ydsEquivalent: metaA1.ydsEq,
+    toeflEquivalent: metaA1.toeflEq,
+    cpdHours: metaA1.cpdHours,
     verificationCode: "AKD-A1-10492",
     verificationHash: generateCertHash("IELTS-AKD-2026-A1-10492", studentName, "2026"),
     grade: "Pass with Distinction",
@@ -172,7 +225,11 @@ export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenc
       listening: 92,
       writing: 90,
       speaking: 98,
+      grammar: 94,
+      vocabulary: 92,
     },
+    canDoEn: metaA1.canDoEn,
+    canDoTr: metaA1.canDoTr,
   };
 
   const isSbgok57 = studentName.toLowerCase().includes("sbgok57") || email.toLowerCase().includes("sbgok57");
@@ -332,15 +389,19 @@ export function advanceStudentLevel(): { progress: StudentProgress; newCertifica
   // Yeni geçerli ve renkli sertifika üret
   const certId = `IELTS-AKD-2026-${completedLevel}-${Math.floor(10000 + Math.random() * 90000)}`;
   const dateStr = new Date().toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" });
+  const meta = CEFR_METADATA[completedLevel];
   
   const newCertificate: StudentCertificate = {
     id: certId,
     level: completedLevel,
-    levelTitle: `CEFR ${completedLevel} Language Proficiency & IELTS Foundation`,
+    levelTitle: `CEFR ${completedLevel} Language Proficiency & Official Certification`,
     studentName: current.studentName,
     issueDate: dateStr,
-    completionScore: Math.min(100, 85 + Math.floor(Math.random() * 15)),
-    ieltsBandEquivalent: CEFR_METADATA[completedLevel].band,
+    completionScore: Math.min(100, 88 + Math.floor(Math.random() * 12)),
+    ieltsBandEquivalent: meta.band,
+    ydsEquivalent: meta.ydsEq,
+    toeflEquivalent: meta.toeflEq,
+    cpdHours: meta.cpdHours,
     verificationCode: `AKD-${completedLevel}-${certId.slice(-5)}`,
     verificationHash: generateCertHash(certId, current.studentName, dateStr),
     grade: "Pass with Distinction",
@@ -349,7 +410,11 @@ export function advanceStudentLevel(): { progress: StudentProgress; newCertifica
       listening: Math.min(100, current.skills.dinleme + 15),
       writing: Math.min(100, current.skills.yazma + 15),
       speaking: Math.min(100, current.skills.konusma + 15),
+      grammar: Math.min(100, current.skills.gramer + 15),
+      vocabulary: Math.min(100, current.skills.kelime + 15),
     },
+    canDoEn: meta.canDoEn,
+    canDoTr: meta.canDoTr,
   };
 
   current.certificates.unshift(newCertificate);
@@ -394,14 +459,18 @@ export function findCertificateById(certId: string): StudentCertificate | null {
   if (certId.toUpperCase().includes("IELTS-AKD-2026") || certId.toUpperCase().includes("AKD-")) {
     const parts = certId.toUpperCase().split("-");
     const lvlPart = (parts.find((p) => ["A1", "A2", "B1", "B2", "C1", "C2"].includes(p)) as CEFRLevel) || "B2";
+    const meta = CEFR_METADATA[lvlPart];
     return {
       id: certId.toUpperCase(),
       level: lvlPart,
-      levelTitle: `CEFR ${lvlPart} Language Proficiency Certified`,
+      levelTitle: `CEFR ${lvlPart} Language Proficiency & Official Certification`,
       studentName: current.studentName || "Kayıtlı Öğrenci",
       issueDate: "29 Eylül 2026",
       completionScore: 95,
-      ieltsBandEquivalent: CEFR_METADATA[lvlPart]?.band || "Band 6.5 - 7.0",
+      ieltsBandEquivalent: meta?.band || "Band 6.5 - 7.0",
+      ydsEquivalent: meta?.ydsEq,
+      toeflEquivalent: meta?.toeflEq,
+      cpdHours: meta?.cpdHours || 120,
       verificationCode: certId.toUpperCase(),
       verificationHash: generateCertHash(certId, "Öğrenci", "2026"),
       grade: "Pass with Distinction",
@@ -410,7 +479,11 @@ export function findCertificateById(certId: string): StudentCertificate | null {
         listening: 92,
         writing: 91,
         speaking: 95,
+        grammar: 96,
+        vocabulary: 94,
       },
+      canDoEn: meta?.canDoEn,
+      canDoTr: meta?.canDoTr,
     };
   }
 

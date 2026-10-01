@@ -65,7 +65,7 @@ export async function downloadCertificatePdf(
         scale: 2.5,
         useCORS: true,
         allowTaint: true,
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "#FCFBF7",
         logging: false,
         imageTimeout: 10000,
         windowWidth: 1200, // Sabit genişlik bağlamı ile responsive kırılmaları önle
@@ -76,17 +76,17 @@ export async function downloadCertificatePdf(
             const noPrints = clonedCert.querySelectorAll(".no-print");
             noPrints.forEach((el) => ((el as HTMLElement).style.display = "none"));
             
-            // Sertifika sınırlarını ve arka planını zorla sabitle
+            // Sertifika sınırlarını ve antik parşömen arka planını sabitle
             clonedCert.style.margin = "0";
-            clonedCert.style.borderRadius = "0";
             clonedCert.style.boxShadow = "none";
             clonedCert.style.width = "1120px";
             clonedCert.style.minWidth = "1120px";
             clonedCert.style.maxWidth = "1120px";
-            clonedCert.style.height = "790px";
-            clonedCert.style.maxHeight = "790px";
-            clonedCert.style.backgroundColor = "#FFFFFF";
-            clonedCert.style.color = "#0F172A";
+            clonedCert.style.height = "792px";
+            clonedCert.style.minHeight = "792px";
+            clonedCert.style.maxHeight = "792px";
+            clonedCert.style.backgroundColor = "#FCFBF7";
+            clonedCert.style.color = "#0B1B3D";
           }
         },
       });
