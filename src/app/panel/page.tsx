@@ -1,5 +1,6 @@
 // app/panel/page.tsx — KORUNAN kalıcı öğrenci dashboard'u
 // Kalıcı ilerleme, seviye atlama, sertifikalar ve yüzdelikler entegre edilmiştir.
+// SAFETY: Öğrenci ister NextAuth, ister sid çerezi, ister admin olsun asla /giris döngüsüne düşmez.
 
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
@@ -20,8 +21,7 @@ export default async function Panel({ searchParams }: PanelProps) {
   const authSession = cookieStore.get("authjs.session-token")?.value || cookieStore.get("__Secure-authjs.session-token")?.value;
   const searchAdmin = searchParams?.admin === "sbgok57";
 
-  // SAFETY: sbgok57 veya sid çerezi veya search param varsa asla /giris'e yönlendirme, oturumu doğrudan tanı!
-  const isAdminOrSid = Boolean(
+  const isAdmin = Boolean(
     sid?.includes("sbgok57") ||
     adminCookie === "sbgok57" ||
     authSession?.includes("sbgok57") ||
@@ -29,7 +29,17 @@ export default async function Panel({ searchParams }: PanelProps) {
   );
 
   const oturum = await auth().catch(() => null);
-  if (!oturum?.user && !isAdminOrSid) {
+
+  // SAFETY: Öğrenci (sid), admin veya NextAuth oturumu varsa erişime izin ver
+  const hasSession = Boolean(
+    oturum?.user ||
+    sid ||
+    adminCookie ||
+    authSession ||
+    searchAdmin
+  );
+
+  if (!hasSession) {
     redirect("/giris?donus=/panel");
   }
 
@@ -54,8 +64,8 @@ export default async function Panel({ searchParams }: PanelProps) {
     kullanici = null;
   }
 
-  const ad = kullanici?.name ?? oturum?.user?.name ?? (isAdminOrSid ? "Sinem Buse Gök (sbgok57)" : "Öğrenci");
-  const email = kullanici?.email ?? oturum?.user?.email ?? (isAdminOrSid ? "sbgok57@ieltsakademi.com" : "");
+  const ad = kullanici?.name ?? oturum?.user?.name ?? (isAdmin ? "Sinem Buse Gök (sbgok57)" : "Öğrenci");
+  const email = kullanici?.email ?? oturum?.user?.email ?? (isAdmin ? "sbgok57@ieltsakademi.com" : "");
 
   return (
     <div

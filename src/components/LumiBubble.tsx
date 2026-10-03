@@ -1,18 +1,30 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import { X, Sparkles } from "lucide-react";
-
-
-
-
+import Link from "next/link";
+import { X, Sparkles, Send, Volume2, RotateCcw } from "lucide-react";
 
 interface LumiBubbleProps {
   tutorName?: string;
   avatarSrc?: string;
   initialMessage?: string;
 }
+
+interface ChatMessage {
+  id: string;
+  role: "lumi" | "user";
+  text: string;
+  sources?: { title: string; href: string }[];
+}
+
+const QUICK_SUGGESTIONS = [
+  "Beginner (A1) seviyesindeyim, nereden başlayayım?",
+  "Bugün 20 dakikam var, ne çalışayım?",
+  "Present Simple ile Present Continuous farkı nedir?",
+  "IELTS Band 7 için kelime taktiği ver",
+  "Speaking sınavında heyecanımı nasıl yenerim?",
+];
 
 export default function LumiBubble({
   tutorName = "Lumi",
@@ -21,13 +33,111 @@ export default function LumiBubble({
 }: LumiBubbleProps) {
   const [bubbleOpen, setBubbleOpen] = useState(true);
   const [chatPreviewOpen, setChatPreviewOpen] = useState(false);
+  const [inputVal, setInputVal] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [messages, setMessages] = useState<ChatMessage[]>([
+    {
+      id: "welcome",
+      role: "lumi",
+      text: initialMessage,
+      sources: [
+        { title: "Gramer Akademi", href: "/gramer" },
+        { title: "Kelime Hazinesi", href: "/kelime" },
+      ],
+    },
+  ]);
 
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+
+  // Auto-scroll to bottom of messages
   useEffect(() => {
-    const timer = setTimeout(() => {
-      // Auto-subside bubble after 10s if not interacted
-    }, 10000);
-    return () => clearTimeout(timer);
-  }, []);
+    if (chatPreviewOpen) {
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [messages, chatPreviewOpen, loading]);
+
+  // Sesli okuma
+  const speakText = (text: string) => {
+    // SAFETY: Browser desteğini kontrol et
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    try {
+      window.speechSynthesis.cancel();
+      const clean = text.replace(/[*_#`[\]()]/g, "");
+      const utterance = new SpeechSynthesisUtterance(clean);
+      utterance.rate = 1.0;
+      utterance.pitch = 1.0;
+      // Varsa Türkçe veya İngilizce ses seç
+      const voices = window.speechSynthesis.getVoices();
+      const trVoice = voices.find((v) => v.lang.includes("tr"));
+      if (trVoice) utterance.voice = trVoice;
+      window.speechSynthesis.speak(utterance);
+    } catch {
+      // Sessizce yut
+    }
+  };
+
+  const handleSend = async (userText: string) => {
+    const trimmed = userText.trim();
+    if (!trimmed || loading) return;
+
+    setInputVal("");
+    const userMsg: ChatMessage = {
+      id: `u-${Date.now()}`,
+      role: "user",
+      text: trimmed,
+    };
+    setMessages((prev) => [...prev, userMsg]);
+    setLoading(true);
+
+    try {
+      const res = await fetch("/api/lumi", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: trimmed }),
+      });
+
+      if (!res.ok) throw new Error("Lumi API response not ok");
+
+      const data = await res.json();
+      const botMsg: ChatMessage = {
+        id: `l-${Date.now()}`,
+        role: "lumi",
+        text: data.answer || data.delta || "Harika bir soru! Platformdaki ilgili modülden detaylıca çalışabilirsin.",
+        sources: data.sources || [],
+      };
+      setMessages((prev) => [...prev, botMsg]);
+    } catch {
+      // SAFETY: Offline fallback
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: `l-${Date.now()}`,
+          role: "lumi",
+          text: `Harika bir soru sordun! 🌟 Bu konu için platformumuzun ilgili modüllerini inceleyebilirsin.`,
+          sources: [
+            { title: "Gramer Akademi", href: "/gramer" },
+            { title: "Kelime Hazinesi", href: "/kelime" },
+          ],
+        },
+      ]);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const resetChat = () => {
+    setMessages([
+      {
+        id: `welcome-${Date.now()}`,
+        role: "lumi",
+        text: initialMessage,
+        sources: [
+          { title: "Gramer Akademi", href: "/gramer" },
+          { title: "Kelime Hazinesi", href: "/kelime" },
+        ],
+      },
+    ]);
+  };
 
   return (
     <aside
@@ -57,7 +167,10 @@ export default function LumiBubble({
           <div className="mt-2.5 flex justify-end">
             <button
               type="button"
-              onClick={() => setChatPreviewOpen(true)}
+              onClick={() => {
+                setChatPreviewOpen(true);
+                setBubbleOpen(false);
+              }}
               className="rounded-full bg-brand-1/10 px-3 py-1 text-[11px] font-bold text-brand-1 hover:bg-brand-1/20 transition dark:text-brand-3"
             >
               Lumi&apos;ye bir şey sor 💬
@@ -66,10 +179,11 @@ export default function LumiBubble({
         </div>
       )}
 
-      {/* Mini Etkileşim Kartı */}
+      {/* İnteraktif Lumi Sohbet Penceresi */}
       {chatPreviewOpen && (
-        <div className="w-[min(90vw,360px)] overflow-hidden rounded-3xl border border-brand-1/30 bg-bg-soft shadow-2xl backdrop-blur-lg dark:bg-bg-elevated">
-          <header className="flex items-center justify-between gradient-brand px-4 py-3 text-white">
+        <div className="flex flex-col w-[min(92vw,390px)] h-[520px] max-h-[82vh] overflow-hidden rounded-3xl border border-brand-1/30 bg-bg-soft shadow-2xl backdrop-blur-lg dark:bg-bg-elevated">
+          {/* Başlık */}
+          <header className="flex items-center justify-between gradient-brand px-4 py-3 text-white shrink-0">
             <div className="flex items-center gap-2.5">
               <div className="relative h-8 w-8 overflow-hidden rounded-full bg-white/20 p-0.5">
                 <Image
@@ -81,48 +195,134 @@ export default function LumiBubble({
                 />
               </div>
               <div>
-                <h4 className="text-sm font-extrabold">{tutorName} 🌟</h4>
-                <p className="text-[10px] opacity-90">IELTS & İngilizce Koçun</p>
+                <h4 className="text-sm font-extrabold flex items-center gap-1">
+                  <span>{tutorName}</span>
+                  <span className="text-xs">🌟</span>
+                </h4>
+                <p className="text-[10px] opacity-90">IELTS &amp; İngilizce Koçun</p>
               </div>
             </div>
-            <button
-              type="button"
-              onClick={() => setChatPreviewOpen(false)}
-              aria-label="Kapat"
-              className="rounded-lg p-1 hover:bg-white/20 transition text-white"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </header>
-          <div className="p-4 text-xs space-y-3">
-            <p className="rounded-2xl bg-bg p-3 text-foreground leading-relaxed">
-              &ldquo;IELTS yolculuğunda hata yapmak suç değil, antrenmandır. Bugün birlikte nereyi geliştirelim?&rdquo;
-            </p>
-            <div className="space-y-1.5">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-foreground-muted">
-                Hızlı Başlangıç
-              </span>
-              {[
-                "Bugün 20 dakikam var, ne çalışayım?",
-                "Present Simple ile Present Continuous farkı nedir?",
-                "IELTS Band 7 için kelime taktiği ver",
-              ].map((suggestion) => (
-                <button
-                  key={suggestion}
-                  type="button"
-                  onClick={() => {
-                    alert(`Lumi: "${suggestion}" sorusu P4 fazında canlı streaming AI katmanına bağlanacaktır.`);
-                  }}
-                  className="w-full text-left rounded-xl border border-border bg-bg/50 px-3 py-2 text-[11px] font-semibold text-foreground hover:border-brand-1/50 hover:bg-brand-1/5 transition"
-                >
-                  ⚡ {suggestion}
-                </button>
-              ))}
+            <div className="flex items-center gap-1">
+              <button
+                type="button"
+                onClick={resetChat}
+                title="Sohbeti Sıfırla"
+                aria-label="Sohbeti Sıfırla"
+                className="rounded-lg p-1.5 hover:bg-white/20 transition text-white/90"
+              >
+                <RotateCcw className="h-3.5 w-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => setChatPreviewOpen(false)}
+                aria-label="Kapat"
+                className="rounded-lg p-1.5 hover:bg-white/20 transition text-white"
+              >
+                <X className="h-4 w-4" />
+              </button>
             </div>
+          </header>
+
+          {/* Mesaj Akışı */}
+          <div className="flex-1 overflow-y-auto p-4 space-y-3 text-xs">
+            {messages.map((m) => (
+              <div
+                key={m.id}
+                className={`flex flex-col ${m.role === "user" ? "items-end" : "items-start"}`}
+              >
+                <div
+                  className={`max-w-[88%] rounded-2xl p-3 leading-relaxed ${
+                    m.role === "user"
+                      ? "bg-brand-1 text-white shadow-sm"
+                      : "bg-bg border border-border text-foreground shadow-sm"
+                  }`}
+                >
+                  <p className="whitespace-pre-line">{m.text}</p>
+
+                  {/* Kaynak bağlantıları */}
+                  {m.sources && m.sources.length > 0 && (
+                    <div className="mt-2.5 pt-2 border-t border-border/50 flex flex-wrap gap-1.5">
+                      <span className="text-[10px] font-bold opacity-75">Önerilen Modül:</span>
+                      {m.sources.map((s, idx) => (
+                        <Link
+                          key={idx}
+                          href={s.href}
+                          onClick={() => setChatPreviewOpen(false)}
+                          className="inline-flex items-center gap-1 rounded-md bg-brand-1/10 px-2 py-0.5 text-[10px] font-bold text-brand-1 hover:bg-brand-1/20 transition"
+                        >
+                          <span>{s.title}</span>
+                          <span>→</span>
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* Lumi sesli okuma düğmesi */}
+                {m.role === "lumi" && (
+                  <button
+                    type="button"
+                    onClick={() => speakText(m.text)}
+                    title="Sesli Dinle"
+                    className="mt-1 flex items-center gap-1 text-[10px] text-foreground-muted hover:text-brand-1 transition px-1"
+                  >
+                    <Volume2 className="h-3 w-3" />
+                    <span>Dinle</span>
+                  </button>
+                )}
+              </div>
+            ))}
+
+            {loading && (
+              <div className="flex items-center gap-2 text-foreground-muted text-xs p-2">
+                <span className="h-2 w-2 rounded-full bg-brand-1 animate-ping" />
+                <span>Lumi düşünüyor ve hazırlıyor...</span>
+              </div>
+            )}
+
+            <div ref={messagesEndRef} />
           </div>
-          <footer className="border-t border-border px-4 py-2.5 text-[10px] text-foreground-muted text-center">
-            P4 aşamasında tam sesli &amp; streaming sohbet katmanı devreye girecektir.
-          </footer>
+
+          {/* Hızlı Başlangıç Butonları */}
+          <div className="px-3 py-2 bg-bg/50 border-t border-border/50 flex gap-1.5 overflow-x-auto no-scrollbar">
+            {QUICK_SUGGESTIONS.map((q) => (
+              <button
+                key={q}
+                type="button"
+                onClick={() => handleSend(q)}
+                disabled={loading}
+                className="shrink-0 rounded-full border border-border bg-bg-soft px-2.5 py-1 text-[10px] font-semibold text-foreground-muted hover:border-brand-1 hover:text-brand-1 transition disabled:opacity-50"
+              >
+                ⚡ {q.length > 28 ? q.slice(0, 26) + "..." : q}
+              </button>
+            ))}
+          </div>
+
+          {/* Soru Giriş Alanı */}
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              handleSend(inputVal);
+            }}
+            className="p-3 border-t border-border bg-bg-soft flex items-center gap-2 shrink-0"
+          >
+            <input
+              type="text"
+              value={inputVal}
+              onChange={(e) => setInputVal(e.target.value)}
+              placeholder="Lumi'ye soru sor veya konu danış..."
+              disabled={loading}
+              className="flex-1 rounded-xl border border-border bg-bg px-3 py-2 text-xs text-foreground placeholder:text-foreground-muted focus:border-brand-1 focus:outline-none"
+            />
+            <button
+              type="submit"
+              disabled={loading || !inputVal.trim()}
+              aria-label="Gönder"
+              className="flex h-8 w-8 items-center justify-center rounded-xl bg-brand-1 text-white hover:opacity-90 disabled:opacity-40 transition shadow-sm"
+            >
+              <Send className="h-3.5 w-3.5" />
+            </button>
+          </form>
         </div>
       )}
 

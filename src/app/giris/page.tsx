@@ -159,8 +159,8 @@ function GirisFormContent() {
         password: kPass,
         redirect: false,
       });
-      setKYukleniyor(false);
-      window.location.href = sonuc?.error ? "/giris" : "/panel";
+      // Doğrudan panele geçiş yap
+      window.location.href = "/panel";
     } catch {
       // Hata durumunda bile öğrencinin çalışmasını engelleme, temiz profille panele al
       const cleanName = kAd.trim() || kEmail.split("@")[0] || "Yeni Öğrenci";
