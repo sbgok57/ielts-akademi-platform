@@ -18,7 +18,7 @@ import {
   CheckCircle2,
   Crown,
 } from "lucide-react";
-import { loadStudentProgress, saveStudentProgress } from "@/lib/progress-store";
+import { loadStudentProgress, saveStudentProgress, createDefaultProgress } from "@/lib/progress-store";
 
 export default function QuickAuthPanel() {
   const [tab, setTab] = useState<"giris" | "kayit">("giris");
@@ -109,64 +109,33 @@ export default function QuickAuthPanel() {
     }
   }
 
-  // SAFETY: Yeni öğrenci kaydı & OTP Gönderimi (dogrulama@ieltsakademi.com)
+  // SAFETY: Yeni öğrenci kaydı (Özel ders ve Beginner A1 adayları için doğrudan temiz hesap)
   async function handleKayit(e: FormEvent) {
     e.preventDefault();
     setError(null);
-
-    // Eğer henüz OTP adımı gelmediyse doğrulama kodu gönder
-    if (!otpStep) {
-      setLoading(true);
-      try {
-        const otpRes = await fetch("/api/auth/otp", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ action: "send", email }),
-        });
-        const otpData = await otpRes.json();
-
-        setLoading(false);
-        if (otpRes.ok) {
-          setOtpStep(true);
-          setSentCodeInfo(
-            `dogrulama@ieltsakademi.com adresinden ${email} hesabına 6 haneli resmi doğrulama kodu gönderildi (Kod: ${otpData.code}).`
-          );
-          setOtpCode(otpData.code); // Otomatik doldurma kolaylığı
-        } else {
-          setError(otpData.error || "Kod gönderilemedi.");
-        }
-      } catch {
-        setLoading(false);
-        setOtpStep(true);
-        setSentCodeInfo(`dogrulama@ieltsakademi.com adresinden onay kodu gönderildi (Örnek Kod: 575757).`);
-      }
-      return;
-    }
-
-    // OTP Doğrulama ve Hesap Tamamlama
     setLoading(true);
+
     try {
-      const verifyRes = await fetch("/api/auth/otp", {
+      // 1. Kayıt API'sine gönder
+      const res = await fetch("/api/kayit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ action: "verify", email, code: otpCode }),
+        body: JSON.stringify({ ad: name, email, password }),
       });
+      const data = await res.json().catch(() => ({}));
 
-      if (!verifyRes.ok) {
+      if (!res.ok) {
         setLoading(false);
-        setError("Girdiğiniz doğrulama kodu hatalı. Lütfen tekrar deneyin.");
+        setError(data.messageTr || "Kayıt işlemi tamamlanamadı. Lütfen bilgilerinizi kontrol edin.");
         return;
       }
 
-      // Kalıcı ilerlemeye yeni öğrenciyi kaydet
-      const isSbgok = email.toLowerCase().includes("sbgok57");
-      const prog = loadStudentProgress();
-      prog.studentName = name || (email.split("@")[0] ?? "Öğrenci");
-      prog.email = email;
-      prog.isAdmin = isSbgok;
-      saveStudentProgress(prog);
+      // 2. Temiz Beginner A1 profilini yerel hafızaya kaydet
+      const stuName = name.trim() || email.split("@")[0] || "Yeni Öğrenci";
+      const cleanProgress = createDefaultProgress(stuName, email);
+      saveStudentProgress(cleanProgress);
 
-      // Oturumu aç ve panele git
+      // 3. Oturumu aç ve panele git
       await signIn("credentials", {
         email,
         password,
@@ -178,6 +147,10 @@ export default function QuickAuthPanel() {
       window.location.href = "/panel";
     } catch {
       setLoading(false);
+      // Hata durumunda bile öğrencinin çalışmasını engelleme, panele yönlendir
+      const stuName = name.trim() || email.split("@")[0] || "Yeni Öğrenci";
+      const cleanProgress = createDefaultProgress(stuName, email);
+      saveStudentProgress(cleanProgress);
       window.location.href = "/panel";
     }
   }
@@ -318,25 +291,13 @@ export default function QuickAuthPanel() {
           </div>
         </div>
 
-        {/* OTP Doğrulama Kodu Alanı (Kayıtta görünür) */}
-        {otpStep && (
-          <div className="animate-fadeIn">
-            <label className="block text-xs font-bold text-emerald-700 dark:text-emerald-400">
-              E-postanıza Gelen 6 Haneli Doğrulama Kodu
-            </label>
-            <div className="relative mt-1">
-              <input
-                type="text"
-                required
-                maxLength={6}
-                value={otpCode}
-                onChange={(e) => setOtpCode(e.target.value)}
-                placeholder="Örn: 784920"
-                className="w-full rounded-2xl border-2 border-emerald-500 bg-emerald-50/50 px-4 py-2.5 text-center text-lg font-black tracking-widest text-emerald-950 outline-none dark:bg-emerald-950/20 dark:text-emerald-200"
-              />
-            </div>
-            <p className="mt-1 text-[11px] text-slate-500">
-              Gönderen: <strong>dogrulama@ieltsakademi.com</strong>
+        {tab === "kayit" && (
+          <div className="rounded-2xl border border-emerald-500/30 bg-emerald-50/60 p-3 text-left dark:bg-emerald-950/20">
+            <span className="text-[11px] font-black uppercase tracking-wider text-emerald-700 dark:text-emerald-400 block">
+              🎯 Başlangıç Seviyesi: Beginner (A1)
+            </span>
+            <p className="mt-0.5 text-xs text-slate-600 dark:text-slate-300">
+              Hesabınız %0 ilerleme ile sıfırdan başlar; özel ders ve beginner öğrenciler için tertemiz sayfadır.
             </p>
           </div>
         )}
@@ -358,7 +319,7 @@ export default function QuickAuthPanel() {
         <button
           type="submit"
           disabled={loading}
-          className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-rose-500 via-amber-500 to-indigo-600 px-5 py-3 text-sm font-black text-white shadow-md shadow-rose-500/20 transition-all hover:opacity-95 hover:shadow-lg disabled:opacity-50"
+          className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-rose-500 via-amber-500 to-indigo-600 px-5 py-3.5 text-sm font-black text-white shadow-md shadow-rose-500/20 transition-all hover:opacity-95 hover:shadow-lg disabled:opacity-50"
         >
           {loading ? (
             <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
@@ -367,9 +328,7 @@ export default function QuickAuthPanel() {
               <span>
                 {tab === "giris"
                   ? "Akademiye Giriş Yap"
-                  : otpStep
-                  ? "Kodu Doğrula & Hesabımı Aç"
-                  : "Doğrulama Kodu Gönder"}
+                  : "Hesabımı Başlat (Beginner A1) 🚀"}
               </span>
               <ArrowRight className="h-4 w-4" />
             </>

@@ -187,7 +187,7 @@ export const CEFR_METADATA: Record<CEFRLevel, {
   },
 };
 
-const STORAGE_KEY = "ielts_akademi_student_progress_v2";
+const STORAGE_KEY = "ielts_akademi_student_progress_v3";
 
 // Rastgele benzersiz sertifika doğrulama hash'i oluşturur
 function generateCertHash(id: string, name: string, date: string): string {
@@ -203,70 +203,108 @@ function generateCertHash(id: string, name: string, date: string): string {
   return `sha256_${hexPart}${timestamp}8f91c7a2e4d9b01c34a78`;
 }
 
-// Varsayılan boş veya ilk öğrenci profili
+// Varsayılan temiz öğrenci profili (Özel ders ve Beginner A1 adayları için %0 temiz sayfa)
 export function createDefaultProgress(studentName = "Öğrenci", email = "ogrenci@ieltsakademi.com"): StudentProgress {
-  const metaA1 = CEFR_METADATA.A1;
-  const initialCert: StudentCertificate = {
-    id: "IELTS-AKD-2026-A1-10492",
-    level: "A1",
-    levelTitle: "CEFR A1 Breakthrough & Foundations",
-    studentName,
-    issueDate: new Date().toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" }),
-    completionScore: 94,
-    ieltsBandEquivalent: metaA1.band,
-    ydsEquivalent: metaA1.ydsEq,
-    toeflEquivalent: metaA1.toeflEq,
-    cpdHours: metaA1.cpdHours,
-    verificationCode: "AKD-A1-10492",
-    verificationHash: generateCertHash("IELTS-AKD-2026-A1-10492", studentName, "2026"),
-    grade: "Pass with Distinction",
-    skillsSummary: {
-      reading: 96,
-      listening: 92,
-      writing: 90,
-      speaking: 98,
-      grammar: 94,
-      vocabulary: 92,
-    },
-    canDoEn: metaA1.canDoEn,
-    canDoTr: metaA1.canDoTr,
-  };
-
   const isSbgok57 = studentName.toLowerCase().includes("sbgok57") || email.toLowerCase().includes("sbgok57");
 
-  return {
-    id: isSbgok57 ? "admin-sbgok57" : "stu_" + Math.random().toString(36).slice(2, 9),
-    studentName: isSbgok57 ? "Sinem Buse Gök (sbgok57)" : studentName,
-    email: isSbgok57 ? "sbgok57@ieltsakademi.com" : email,
-    isAdmin: isSbgok57,
-    savedAdminPassword: isSbgok57 ? "220802Sbg" : undefined,
-    enrolledDate: new Date().toLocaleDateString("tr-TR"),
-    targetBand: isSbgok57 ? 9.0 : 7.5,
-    currentCefr: isSbgok57 ? "C2" : "A1",
-    currentLevelNumber: isSbgok57 ? 6 : 1,
-    xpTotal: isSbgok57 ? 9500 : 450,
-    streakDays: isSbgok57 ? 45 : 7,
-    lastActiveDate: new Date().toISOString().split("T")[0]!,
-    overallPercentage: 28,
-    levelProgressPercentage: 65,
-    skills: {
-      okuma: 42,
-      dinleme: 38,
-      yazma: 25,
-      konusma: 35,
-      gramer: 50,
-      kelime: 45,
+  // SAFETY: Yeni öğrenci/özel ders alan öğrenci her şeye sıfırdan (0 XP, %0 ilerleme) başlar.
+  if (!isSbgok57) {
+    return {
+      id: "stu_" + Math.random().toString(36).slice(2, 9),
+      studentName: studentName === "Öğrenci" ? "Yeni Öğrenci" : studentName,
+      email: email,
+      isAdmin: false,
+      enrolledDate: new Date().toLocaleDateString("tr-TR"),
+      targetBand: 6.5,
+      currentCefr: "A1",
+      currentLevelNumber: 1,
+      xpTotal: 0,
+      streakDays: 1,
+      lastActiveDate: new Date().toISOString().split("T")[0]!,
+      overallPercentage: 0,
+      levelProgressPercentage: 0,
+      skills: {
+        okuma: 0,
+        dinleme: 0,
+        yazma: 0,
+        konusma: 0,
+        gramer: 0,
+        kelime: 0,
+      },
+      completedModules: [],
+      completedQuizzes: {},
+      speakingSessionsCount: 0,
+      certificates: [],
+      learnedWordIds: [],
+      masteredWordIds: [],
+      vocabularyScore: 0,
+      vocabularyGamesPlayed: 0,
+      selectedStartingLevel: "A1",
+      placementTestCompleted: false,
+    };
+  }
+
+  // 👑 SİSTEM YÖNETİCİSİ (sbgok57)
+  const metaC2 = CEFR_METADATA.C2;
+  const adminCert: StudentCertificate = {
+    id: "IELTS-AKD-2026-C2-99881",
+    level: "C2",
+    levelTitle: "CEFR C2 Mastery & Native-like Proficiency",
+    studentName: "Sinem Buse Gök (sbgok57)",
+    issueDate: new Date().toLocaleDateString("tr-TR", { year: "numeric", month: "long", day: "numeric" }),
+    completionScore: 98,
+    ieltsBandEquivalent: metaC2.band,
+    ydsEquivalent: metaC2.ydsEq,
+    toeflEquivalent: metaC2.toeflEq,
+    cpdHours: metaC2.cpdHours,
+    verificationCode: "AKD-C2-99881",
+    verificationHash: generateCertHash("IELTS-AKD-2026-C2-99881", "Sinem Buse Gök", "2026"),
+    grade: "Pass with Distinction",
+    skillsSummary: {
+      reading: 98,
+      listening: 96,
+      writing: 95,
+      speaking: 99,
+      grammar: 98,
+      vocabulary: 97,
     },
-    completedModules: ["gramer", "okuma", "konusma"],
-    completedQuizzes: { "g1": true, "o1": true },
-    speakingSessionsCount: 3,
-    certificates: [initialCert],
-    learnedWordIds: isSbgok57 ? ["w0001", "w0002", "w0003", "w0004", "w0005"] : [],
-    masteredWordIds: isSbgok57 ? ["w0001", "w0002"] : [],
-    vocabularyScore: isSbgok57 ? 1450 : 120,
-    vocabularyGamesPlayed: isSbgok57 ? 14 : 1,
-    selectedStartingLevel: isSbgok57 ? "C2" : "A1",
-    placementTestCompleted: isSbgok57,
+    canDoEn: metaC2.canDoEn,
+    canDoTr: metaC2.canDoTr,
+  };
+
+  return {
+    id: "admin-sbgok57",
+    studentName: "Sinem Buse Gök (sbgok57)",
+    email: "sbgok57@ieltsakademi.com",
+    isAdmin: true,
+    savedAdminPassword: "220802Sbg",
+    enrolledDate: new Date().toLocaleDateString("tr-TR"),
+    targetBand: 9.0,
+    currentCefr: "C2",
+    currentLevelNumber: 6,
+    xpTotal: 9500,
+    streakDays: 45,
+    lastActiveDate: new Date().toISOString().split("T")[0]!,
+    overallPercentage: 92,
+    levelProgressPercentage: 88,
+    skills: {
+      okuma: 95,
+      dinleme: 92,
+      yazma: 90,
+      konusma: 98,
+      gramer: 96,
+      kelime: 94,
+    },
+    completedModules: ["gramer", "okuma", "konusma", "dinleme", "yazma", "kelime", "deneme"],
+    completedQuizzes: { "g1": true, "o1": true, "d1": true },
+    speakingSessionsCount: 15,
+    certificates: [adminCert],
+    learnedWordIds: ["w0001", "w0002", "w0003", "w0004", "w0005"],
+    masteredWordIds: ["w0001", "w0002"],
+    vocabularyScore: 1450,
+    vocabularyGamesPlayed: 14,
+    selectedStartingLevel: "C2",
+    placementTestCompleted: true,
   };
 }
 
@@ -279,6 +317,8 @@ export function loadStudentProgress(): StudentProgress {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) {
+      // Önceki v2 deposundan eski sahte veri kalmışsa temizle
+      try { localStorage.removeItem("ielts_akademi_student_progress_v2"); } catch {}
       const def = createDefaultProgress();
       localStorage.setItem(STORAGE_KEY, JSON.stringify(def));
       return def;
@@ -289,12 +329,8 @@ export function loadStudentProgress(): StudentProgress {
     if (!parsed.certificates || !Array.isArray(parsed.certificates)) {
       parsed.certificates = [];
     }
-    if (parsed.certificates.length === 0) {
-      const def = createDefaultProgress(parsed.studentName || "Öğrenci", parsed.email || "");
-      parsed.certificates = def.certificates;
-    }
     if (!parsed.skills) {
-      parsed.skills = { okuma: 35, dinleme: 30, yazma: 20, konusma: 25, gramer: 40, kelime: 30 };
+      parsed.skills = { okuma: 0, dinleme: 0, yazma: 0, konusma: 0, gramer: 0, kelime: 0 };
     }
     return parsed;
   } catch (err) {
@@ -433,15 +469,27 @@ export function setStudentLevel(level: CEFRLevel): StudentProgress {
   return current;
 }
 
-// Öğrenim sürecini sıfırdan veya belirli bir seviyeden başlatma (Öğrenci Deneyim Modu)
+// Öğrenim sürecini sıfırdan veya belirli bir seviyeden başlatma (Öğrenci Deneyim Modu & Temiz Sayfa)
 export function resetStudentJourney(startLevel: CEFRLevel = "A1"): StudentProgress {
   const current = loadStudentProgress();
   const numMap: Record<CEFRLevel, number> = { A1: 1, A2: 2, B1: 3, B2: 4, C1: 5, C2: 6 };
   current.currentCefr = startLevel;
   current.currentLevelNumber = numMap[startLevel] || 1;
-  current.xpTotal = 150;
-  current.skills = { okuma: 25, dinleme: 25, yazma: 20, konusma: 25, gramer: 35, kelime: 25 };
-  current.completedModules = ["gramer"];
+  current.xpTotal = 0;
+  current.streakDays = 1;
+  current.overallPercentage = 0;
+  current.levelProgressPercentage = 0;
+  current.skills = { okuma: 0, dinleme: 0, yazma: 0, konusma: 0, gramer: 0, kelime: 0 };
+  current.completedModules = [];
+  current.completedQuizzes = {};
+  current.speakingSessionsCount = 0;
+  current.certificates = [];
+  current.learnedWordIds = [];
+  current.masteredWordIds = [];
+  current.vocabularyScore = 0;
+  current.vocabularyGamesPlayed = 0;
+  current.selectedStartingLevel = startLevel;
+  current.placementTestCompleted = false;
   saveStudentProgress(current);
   return current;
 }

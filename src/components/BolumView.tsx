@@ -39,6 +39,8 @@ const MODUL_BILGILERI: Record<string, { ad: string; anim: string; renk: string; 
   rozetler: { ad: "Rozetler", anim: "/anim/rozet-havai-fisek.gif", renk: "from-yellow-500 to-amber-600", sonraki: "sozler", sonrakiAd: "Motivasyon" },
   soz: { ad: "Motivasyon", anim: "/anim/konfeti.gif", renk: "from-pink-500 to-rose-600", sonraki: "panel", sonrakiAd: "Öğrenci Paneli" },
   sozler: { ad: "Motivasyon", anim: "/anim/konfeti.gif", renk: "from-pink-500 to-rose-600", sonraki: "panel", sonrakiAd: "Öğrenci Paneli" },
+  haberler: { ad: "2,000+ Gündem Haber Portalı", anim: "/anim/dinleme-dalgasi.gif", renk: "from-blue-600 to-teal-600", sonraki: "panel", sonrakiAd: "Öğrenci Paneli" },
+  sertifika: { ad: "Resmi Diplomalar ve Doğrulama", anim: "/anim/rozet-havai-fisek.gif", renk: "from-amber-500 to-rose-600", sonraki: "panel", sonrakiAd: "Öğrenci Paneli" },
 };
 
 export default function BolumView({ slug: propSlug }: { slug?: string }) {
@@ -98,7 +100,7 @@ export default function BolumView({ slug: propSlug }: { slug?: string }) {
               ← Panele Dön
             </Link>
             <Link
-              href={bilgi.sonraki === "panel" ? "/panel" : `/bolum/${bilgi.sonraki}`}
+              href={bilgi.sonraki === "panel" ? "/panel" : `/${bilgi.sonraki}`}
               className="inline-flex items-center rounded-xl bg-violet-600 px-4 py-2 text-sm font-extrabold text-white shadow-sm hover:bg-violet-700"
             >
               Sonraki Adım: {bilgi.sonrakiAd} →

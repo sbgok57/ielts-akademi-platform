@@ -2,12 +2,12 @@
 // app/giris/page.tsx — Split-panel giriş sayfası (tab: Giriş / Kayıt)
 // Tasarım: sol marka paneli (ink bg + coral/teal daireler) + sağ form
 
-import { useState } from "react";
+import { useState, useEffect, Suspense } from "react";
 import type { FormEvent } from "react";
 import { signIn } from "next-auth/react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { loadStudentProgress, saveStudentProgress } from "@/lib/progress-store";
-
+import { loadStudentProgress, saveStudentProgress, createDefaultProgress } from "@/lib/progress-store";
 
 /* ─── Shared input style ─── */
 const inp =
@@ -18,9 +18,16 @@ const inpStyle = {
   color: "var(--text)",
 };
 
-export default function GirisSayfasi() {
-  /* Tab durumu — bu sayfa hem giriş hem kayıt'ı yönetir */
-  const [tab, setTab] = useState<"giris" | "kayit">("giris");
+function GirisFormContent() {
+  const searchParams = useSearchParams();
+  const initialTab = searchParams.get("tab") === "kayit" ? "kayit" : "giris";
+  const [tab, setTab] = useState<"giris" | "kayit">(initialTab);
+
+  useEffect(() => {
+    const qTab = searchParams.get("tab");
+    if (qTab === "kayit") setTab("kayit");
+    else if (qTab === "giris") setTab("giris");
+  }, [searchParams]);
 
   /* Giriş formu state */
   const [gEmail, setGEmail] = useState("");
@@ -54,11 +61,7 @@ export default function GirisSayfasi() {
     document.cookie = "admin=sbgok57; path=/; max-age=31536000; SameSite=Lax";
     document.cookie = "authjs.session-token=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
 
-    const prog = loadStudentProgress();
-    prog.email = "sbgok57@ieltsakademi.com";
-    prog.studentName = "Sinem Buse Gök (sbgok57)";
-    prog.isAdmin = true;
-    (prog as any).savedAdminPassword = "220802Sbg";
+    const prog = createDefaultProgress("Sinem Buse Gök (sbgok57)", "sbgok57@ieltsakademi.com");
     saveStudentProgress(prog);
 
     try {
@@ -92,16 +95,11 @@ export default function GirisSayfasi() {
         });
       } catch {}
 
-      // Tarayıcı çerezlerini doğrudan yaz (Middleware & Server Component güvencesi)
       document.cookie = "sid=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
       document.cookie = "admin=sbgok57; path=/; max-age=31536000; SameSite=Lax";
       document.cookie = "authjs.session-token=admin-sbgok57; path=/; max-age=31536000; SameSite=Lax";
 
-      const prog = loadStudentProgress();
-      prog.email = "sbgok57@ieltsakademi.com";
-      prog.studentName = "Sinem Buse Gök (sbgok57)";
-      prog.isAdmin = true;
-      (prog as any).savedAdminPassword = gPass || "220802Sbg";
+      const prog = createDefaultProgress("Sinem Buse Gök (sbgok57)", "sbgok57@ieltsakademi.com");
       saveStudentProgress(prog);
 
       try {
@@ -132,43 +130,59 @@ export default function GirisSayfasi() {
     window.location.href = sonuc.url ?? "/panel";
   }
 
-  /* ─── Kayıt handler ─── */
+  /* ─── Kayıt handler (Beginner A1 Öğrenci Kaydı) ─── */
   async function kayitGonder(e: FormEvent) {
     e.preventDefault();
     setKHata(null);
     setKYukleniyor(true);
-    const yanit = await fetch("/api/kayit", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ad: kAd, email: kEmail, password: kPass }),
-    });
-    const veri = await yanit.json().catch(() => ({})) as { messageTr?: string };
-    if (!yanit.ok) {
+
+    try {
+      const yanit = await fetch("/api/kayit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ad: kAd, email: kEmail, password: kPass }),
+      });
+      const veri = await yanit.json().catch(() => ({})) as { messageTr?: string; ok?: boolean };
+      if (!yanit.ok && !veri.ok) {
+        setKYukleniyor(false);
+        setKHata(veri.messageTr ?? "Kayıt tamamlanamadı.");
+        return;
+      }
+
+      // Yeni öğrenci için %0 temiz Beginner A1 profilini kaydet
+      const cleanName = kAd.trim() || kEmail.split("@")[0] || "Yeni Öğrenci";
+      const cleanProgress = createDefaultProgress(cleanName, kEmail);
+      saveStudentProgress(cleanProgress);
+
+      const sonuc = await signIn("credentials", {
+        email: kEmail,
+        password: kPass,
+        redirect: false,
+      });
       setKYukleniyor(false);
-      setKHata(veri.messageTr ?? "Kayıt tamamlanamadı.");
-      return;
+      window.location.href = sonuc?.error ? "/giris" : "/panel";
+    } catch {
+      // Hata durumunda bile öğrencinin çalışmasını engelleme, temiz profille panele al
+      const cleanName = kAd.trim() || kEmail.split("@")[0] || "Yeni Öğrenci";
+      const cleanProgress = createDefaultProgress(cleanName, kEmail);
+      saveStudentProgress(cleanProgress);
+      setKYukleniyor(false);
+      window.location.href = "/panel";
     }
-    const sonuc = await signIn("credentials", {
-      email: kEmail,
-      password: kPass,
-      redirect: false,
-    });
-    setKYukleniyor(false);
-    window.location.href = sonuc?.error ? "/giris" : "/panel";
   }
 
   /* ─── Sol marka paneli stat'ları ─── */
   const STATS = [
-    { rakam: "50 000+", etiket: "Aktif öğrenci" },
-    { rakam: "Band 7+", etiket: "Ortalama hedef skor" },
-    { rakam: "12",      etiket: "Modül ve bölüm" },
+    { rakam: "A1 → C2", etiket: "Beginner'dan İleri Seviyeye" },
+    { rakam: "6 Aksan", etiket: "Gerçek İnsan Sesi & Dikte" },
+    { rakam: "12 Modül", etiket: "Gramer, Speaking, Okuma, Deneme" },
   ];
 
   return (
     /* Split layout: sol marka, sağ form */
     <div className="split-layout" style={{ minHeight: "100vh" }}>
 
-      {/* ─── SOL PANEL: Marka / Motivasyon ─── */}
+      {/* ─── SOL PANEL: Marka / Motivasyon & Animasyon ─── */}
       <aside className="brand-panel">
         <div className="relative z-10">
           <Link href="/" className="inline-flex items-center gap-4 mb-8 group">
@@ -184,7 +198,7 @@ export default function GirisSayfasi() {
                 IELTS <span className="rainbow-text-bright">Akademi</span>
               </span>
               <span className="text-xs text-white/70 tracking-wider uppercase mt-1 font-bold">
-                Resmi Giriş Portalı
+                Resmi Öğrenci &amp; Giriş Portalı
               </span>
             </div>
           </Link>
@@ -195,12 +209,30 @@ export default function GirisSayfasi() {
           </h1>
 
           <p className="mt-4 text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.75)" }}>
-            12 modül, oyunlaştırılmış sistem, 6 aksanlı gerçek insan sesi.
-            Öğrenmeyi alışkanlığa dönüştür.
+            Sıfırdan başlayanlar ve özel ders öğrencileri için korkutmayan, adım adım öğreten interaktif platform.
           </p>
 
+          {/* Maskot Canlı GIF Animasyonu */}
+          <div className="mt-8 flex items-center gap-4 rounded-3xl border border-white/10 bg-white/10 p-4 backdrop-blur-md">
+            <img
+              src="/anim/lumi-maskot.gif"
+              alt="Lumi Maskot Animasyonu"
+              width={64}
+              height={64}
+              className="h-16 w-16 rounded-2xl object-contain drop-shadow"
+            />
+            <div>
+              <span className="block text-xs font-black uppercase tracking-wider text-amber-300">
+                Lumi ile Sıfırdan Başla 🤖
+              </span>
+              <p className="text-xs text-white/80 leading-relaxed mt-0.5">
+                A1 seviyesinden IELTS hedefine kadar sana özel çalışma rotası ve sesli telaffuz koçluğu.
+              </p>
+            </div>
+          </div>
+
           {/* İstatistikler */}
-          <div className="mt-10 flex flex-col gap-4">
+          <div className="mt-8 flex flex-col gap-4">
             {STATS.map((s) => (
               <div key={s.etiket} className="flex items-center gap-3">
                 <span
@@ -219,7 +251,7 @@ export default function GirisSayfasi() {
 
         {/* Alt logo/telif */}
         <p className="relative z-10 text-xs" style={{ color: "rgba(255,255,255,0.4)" }}>
-          © 2025 IELTS Akademi Platform
+          © 2026 IELTS Akademi Platform · Tüm Hakları Saklıdır
         </p>
       </aside>
 
@@ -247,7 +279,7 @@ export default function GirisSayfasi() {
                     : { color: "var(--text-muted)", background: "transparent" }
                 }
               >
-                {t === "giris" ? "Giriş Yap" : "Kayıt Ol"}
+                {t === "giris" ? "Giriş Yap" : "Kayıt Ol (Ücretsiz)"}
               </button>
             ))}
           </div>
@@ -259,10 +291,10 @@ export default function GirisSayfasi() {
                 className="font-display text-2xl font-bold mb-1"
                 style={{ color: "var(--text)" }}
               >
-                Hoşgeldin 👋
+                Hoş Geldin 👋
               </h2>
               <p className="text-sm mb-6" style={{ color: "var(--text-muted)" }}>
-                Hesabına gir ve kaldığın yerden devam et.
+                Hesabına gir ve kaldığın yerden çalışmaya devam et.
               </p>
 
               {gHata && (
@@ -324,13 +356,13 @@ export default function GirisSayfasi() {
                     id="g-pass"
                     type="password"
                     required
-                    minLength={8}
+                    minLength={6}
                     autoComplete="current-password"
                     value={gPass}
                     onChange={(e) => setGPass(e.target.value)}
                     className={inp}
                     style={inpStyle}
-                    placeholder="En az 8 karakter (veya 220802Sbg)"
+                    placeholder="••••••••"
                   />
                 </div>
                 <button
@@ -351,29 +383,9 @@ export default function GirisSayfasi() {
                   className="font-bold underline"
                   style={{ color: "var(--teal)" }}
                 >
-                  Kayıt ol
+                  Hemen Kayıt Ol
                 </button>
               </p>
-
-              {/* Hızlı Kurumsal E-Posta & Gmail Rehberi Bağlantıları */}
-              <div className="mt-5 pt-4 border-t border-slate-200 dark:border-slate-800 space-y-2">
-                <Link
-                  href="/posta"
-                  className="flex items-center justify-between rounded-xl border border-blue-200 bg-blue-50/70 p-3 text-xs font-bold text-blue-700 hover:bg-blue-100/70 dark:border-blue-900 dark:bg-blue-950/30 dark:text-blue-300 transition"
-                >
-                  <span className="flex items-center gap-1.5">
-                    📬 <span>Kurumsal Webmail Kutusuna Git</span>
-                  </span>
-                  <span>Aç →</span>
-                </Link>
-
-                <div className="rounded-xl border border-amber-200 bg-amber-50/60 p-3 text-[11px] text-amber-800 dark:border-amber-900 dark:bg-amber-950/30 dark:text-amber-200">
-                  <strong className="block font-bold">💡 Gmail&apos;de Doğrudan Girişte &quot;Hesap Bulunamadı&quot; mı diyor?</strong>
-                  <span className="mt-1 block text-slate-600 dark:text-slate-300 leading-relaxed">
-                    Google kendi dışındaki alan adlarını (@ieltsakademi.com) doğrudan tanımaz. E-posta kutunuz platformumuzun <strong>/posta</strong> adresinde 50 GB kapasiteyle ZATEN aktiftir. Gmail ile bağlama adımlarını da <strong>/posta</strong> sayfasından anında yapabilirsiniz.
-                  </span>
-                </div>
-              </div>
             </div>
           )}
 
@@ -384,11 +396,21 @@ export default function GirisSayfasi() {
                 className="font-display text-2xl font-bold mb-1"
                 style={{ color: "var(--text)" }}
               >
-                Hesap oluştur 🚀
+                Hesap Oluştur 🚀
               </h2>
-              <p className="text-sm mb-6" style={{ color: "var(--text-muted)" }}>
-                Tamamen ücretsiz. Kredi kartı gerekmez.
+              <p className="text-sm mb-4" style={{ color: "var(--text-muted)" }}>
+                Tamamen ücretsiz. Özel ders ve başlangıç için temiz hesap.
               </p>
+
+              {/* Beginner A1 Seviye Rozeti */}
+              <div className="mb-5 rounded-2xl border border-emerald-500/30 bg-emerald-50/70 p-3.5 dark:bg-emerald-950/30">
+                <span className="text-xs font-black uppercase tracking-wider text-emerald-700 dark:text-emerald-400 block">
+                  🎯 Başlangıç Seviyesi: Beginner (A1)
+                </span>
+                <p className="mt-1 text-xs text-slate-600 dark:text-slate-300 leading-relaxed">
+                  Hesabınız %0 ilerleme ile sıfırdan başlar; dersleri ve testleri çözdükçe seviyeniz adım adım yükselecektir.
+                </p>
+              </div>
 
               {kHata && (
                 <p role="alert" className="mb-4 rounded-xl px-4 py-3 text-sm font-semibold"
@@ -401,15 +423,16 @@ export default function GirisSayfasi() {
                 <div>
                   <label htmlFor="k-ad" className="block text-sm font-semibold mb-1"
                          style={{ color: "var(--text)" }}>
-                    Adın <span style={{ color: "var(--text-muted)" }}>(isteğe bağlı)</span>
+                    Adınız Soyadınız
                   </label>
                   <input
                     id="k-ad"
+                    required
                     value={kAd}
                     onChange={(e) => setKAd(e.target.value)}
                     className={inp}
                     style={inpStyle}
-                    placeholder="Adın"
+                    placeholder="Örn: Ahmet Yılmaz"
                   />
                 </div>
                 <div>
@@ -432,7 +455,7 @@ export default function GirisSayfasi() {
                 <div>
                   <label htmlFor="k-pass" className="block text-sm font-semibold mb-1"
                          style={{ color: "var(--text)" }}>
-                    Şifre
+                    Şifre (En az 8 karakter)
                   </label>
                   <input
                     id="k-pass"
@@ -453,25 +476,38 @@ export default function GirisSayfasi() {
                   className="w-full rounded-2xl py-3.5 text-sm font-extrabold text-white shadow-sm transition-opacity hover:opacity-90 disabled:opacity-50"
                   style={{ background: "var(--teal)" }}
                 >
-                  {kYukleniyor ? "Hesap oluşturuluyor…" : "Ücretsiz Kayıt Ol →"}
+                  {kYukleniyor ? "Hesabın açılıyor…" : "Hesabımı Başlat (Beginner A1) →"}
                 </button>
               </form>
 
-              <p className="mt-5 text-center text-sm" style={{ color: "var(--text-muted)" }}>
-                Zaten üye misin?{" "}
+              <p className="mt-4 text-center text-sm" style={{ color: "var(--text-muted)" }}>
+                Zaten hesabın var mı?{" "}
                 <button
                   type="button"
                   onClick={() => setTab("giris")}
                   className="font-bold underline"
                   style={{ color: "var(--coral)" }}
                 >
-                  Giriş yap
+                  Giriş Yap
                 </button>
               </p>
             </div>
           )}
+
         </div>
       </main>
     </div>
+  );
+}
+
+export default function GirisSayfasi() {
+  return (
+    <Suspense fallback={
+      <div className="flex min-h-screen items-center justify-center">
+        <span className="h-8 w-8 animate-spin rounded-full border-4 border-amber-500 border-t-transparent" />
+      </div>
+    }>
+      <GirisFormContent />
+    </Suspense>
   );
 }

@@ -57,15 +57,15 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-6 text-sm font-bold text-slate-600 dark:text-slate-300 md:flex">
           {[
-            { href: "/bolum/gramer",   label: "Gramer" },
-            { href: "/bolum/okuma",    label: "Okuma" },
-            { href: "/bolum/dinleme",  label: "Dinleme" },
-            { href: "/bolum/konusma",  label: "Speaking 🎙️" },
-            { href: "/haberler",       label: "Haberler 🌍" },
-            { href: "/bolum/kelime",   label: "Kelime" },
-            { href: "/bolum/deneme",   label: "Deneme" },
-            { href: "/sertifika",      label: "Sertifika 🏅" },
-            { href: "/posta",          label: "Posta 📬" },
+            { href: "/gramer",    label: "Gramer" },
+            { href: "/okuma",     label: "Okuma" },
+            { href: "/dinleme",   label: "Dinleme" },
+            { href: "/konusma",   label: "Speaking 🎙️" },
+            { href: "/haberler",  label: "Haberler 🌍" },
+            { href: "/kelime",    label: "Kelime" },
+            { href: "/deneme",    label: "Deneme" },
+            { href: "/sertifika", label: "Sertifika 🏅" },
+            { href: "/posta",     label: "Posta 📬" },
           ].map(({ href, label }) => (
             <Link
               key={href}
@@ -152,18 +152,18 @@ export default function Navbar() {
             <span>🎨 200+ Renk Teması Seç</span>
           </button>
           {[
-            { href: "/bolum/gramer",  label: "Gramer" },
-            { href: "/bolum/okuma",   label: "Okuma" },
-            { href: "/bolum/dinleme", label: "Dinleme" },
-            { href: "/bolum/konusma", label: "Speaking (Yapay Zekâ) 🎙️" },
-            { href: "/haberler",      label: "Gündem Haberler 🌍" },
-            { href: "/bolum/kelime",  label: "Kelime" },
-            { href: "/bolum/deneme",  label: "Deneme Sınavı" },
-            { href: "/sertifika",     label: "Sertifikalarım 🏅" },
-            { href: "/posta",         label: "Kurumsal Posta 📬" },
-            { href: "/panel",         label: "Öğrenci Panelim" },
-            { href: "/giris",         label: "Giriş yap" },
-            { href: "/kayit",         label: "Ücretsiz Kayıt" },
+            { href: "/gramer",    label: "Gramer" },
+            { href: "/okuma",     label: "Okuma" },
+            { href: "/dinleme",   label: "Dinleme" },
+            { href: "/konusma",   label: "Speaking (Yapay Zekâ) 🎙️" },
+            { href: "/haberler",  label: "Gündem Haberler 🌍" },
+            { href: "/kelime",    label: "Kelime" },
+            { href: "/deneme",    label: "Deneme Sınavı" },
+            { href: "/sertifika", label: "Sertifikalarım 🏅" },
+            { href: "/posta",     label: "Kurumsal Posta 📬" },
+            { href: "/panel",     label: "Öğrenci Panelim" },
+            { href: "/giris",     label: "Giriş yap" },
+            { href: "/kayit",     label: "Ücretsiz Kayıt" },
           ].map(({ href, label }) => (
             <Link
               key={href}

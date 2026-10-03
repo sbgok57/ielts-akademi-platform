@@ -52,7 +52,7 @@ export default function Home() {
     },
   ];
 
-  // 4 Temel IELTS Becerisi
+  // 4 Temel IELTS Becerisi (Canlı GIF Animasyonları & Doğrudan Rotalar)
   const coreSkills = [
     {
       title: "IELTS Listening Lab",
@@ -61,7 +61,8 @@ export default function Home() {
       color: "from-rose-500 to-orange-500",
       border: "hover:border-rose-400",
       icon: Headphones,
-      href: "/bolum/dinleme",
+      gif: "/anim/dinleme-dalgasi.gif",
+      href: "/dinleme",
       tag: "6 Doğal Aksan",
     },
     {
@@ -71,7 +72,8 @@ export default function Home() {
       color: "from-amber-500 to-emerald-500",
       border: "hover:border-amber-400",
       icon: BookOpen,
-      href: "/bolum/okuma",
+      gif: "/anim/basari.gif",
+      href: "/okuma",
       tag: "Akademik & Genel",
     },
     {
@@ -81,7 +83,8 @@ export default function Home() {
       color: "from-cyan-500 to-blue-600",
       border: "hover:border-cyan-400",
       icon: PenTool,
-      href: "/bolum/yazma",
+      gif: "/anim/kelime-karti.gif",
+      href: "/yazma",
       tag: "Band 7+ Kalıpları",
     },
     {
@@ -91,7 +94,8 @@ export default function Home() {
       color: "from-violet-500 to-pink-500",
       border: "hover:border-violet-400",
       icon: Mic,
-      href: "/bolum/konusma",
+      gif: "/anim/lumi-maskot.gif",
+      href: "/konusma",
       tag: "Anında Geri Bildirim",
     },
   ];
@@ -283,8 +287,18 @@ export default function Home() {
                 className={`group rounded-3xl border border-slate-200/90 bg-white p-7 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-[#0a0a0a] ${skill.border}`}
               >
                 <div className="flex items-start justify-between gap-4">
-                  <div className={`rounded-2xl bg-gradient-to-br ${skill.color} p-3.5 text-white shadow-md`}>
-                    <Icon className="h-6 w-6" />
+                  <div className="flex items-center gap-3">
+                    <div className={`rounded-2xl bg-gradient-to-br ${skill.color} p-3.5 text-white shadow-md`}>
+                      <Icon className="h-6 w-6" />
+                    </div>
+                    <img
+                      src={skill.gif}
+                      alt=""
+                      width={44}
+                      height={44}
+                      className="h-11 w-11 rounded-xl object-contain drop-shadow"
+                      loading="lazy"
+                    />
                   </div>
                   <span className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-bold text-slate-700 dark:border-slate-800 dark:bg-[#141414] dark:text-slate-300">
                     {skill.tag}
@@ -399,12 +413,20 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-shrink-0 items-center gap-3">
+          <div className="flex flex-shrink-0 items-center gap-4">
+            <img
+              src="/anim/rozet-havai-fisek.gif"
+              alt="Rozet Kutlaması"
+              width={64}
+              height={64}
+              className="h-16 w-16 rounded-2xl object-contain drop-shadow"
+              loading="lazy"
+            />
             <Link
-              href="/bolum/rozetler"
+              href="/rozetler"
               className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-rose-500 via-amber-500 to-indigo-600 px-6 py-3.5 text-sm font-black text-white shadow-md transition hover:opacity-95"
             >
-              <span>Rozet Galerisini İncele</span>
+              <span>1,000+ Rozeti Keşfet</span>
               <span>→</span>
             </Link>
           </div>
