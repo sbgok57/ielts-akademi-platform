@@ -7,7 +7,11 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "IELTS & YDS Akademi Platform — A1→C2 + IELTS & YDS Tam Platform",
+  metadataBase: new URL("https://ielts-akademi-platform.vercel.app"),
+  title: {
+    default: "IELTS & YDS Akademi Platform — A1→C2 + IELTS & YDS Tam Platform",
+    template: "%s | IELTS Akademi",
+  },
   description:
     "Oyunlaştırılmış, bilimsel temelli, 7 aksanlı gerçek insan sesli, yapay zekâ speaking koçlu, sesli gramer anlatımlı tam teşekküllü İngilizce, IELTS & YDS hazırlık platformu.",
   keywords: ["IELTS", "YDS", "İngilizce", "CEFR", "A1", "C2", "Academic", "General Training", "Lumi", "Antigravity", "Speaking AI"],
@@ -19,6 +23,24 @@ export const metadata: Metadata = {
     ],
     shortcut: "/icon.svg",
     apple: "/icon.svg",
+  },
+  openGraph: {
+    title: "IELTS & YDS Akademi Platform — A1→C2 Hazırlık Sistemi",
+    description: "Yapay zekâ speaking koçu Lumi, 6 aksan seslendirme, resmi doğrulanabilir sertifikalar ve 1,000+ kelime kartı.",
+    url: "https://ielts-akademi-platform.vercel.app",
+    siteName: "IELTS Akademi",
+    locale: "tr_TR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "IELTS Akademi Platform",
+    description: "A1'den C2'ye tam kapsamlı İngilizce, IELTS ve YDS hazırlık platformu.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
   },
 };
 
@@ -156,6 +178,37 @@ export default function RootLayout({
           </div>
         </footer>
 
+        {/* Schema.org EducationalOrganization Yapılandırılmış Verisi */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "EducationalOrganization",
+              "name": "IELTS Akademi Platform",
+              "url": "https://ielts-akademi-platform.vercel.app",
+              "logo": "https://ielts-akademi-platform.vercel.app/icon.svg",
+              "description": "A1'den C2'ye tam kapsamlı İngilizce, IELTS ve YDS hazırlık platformu. Lumi AI koçu, 6 insan aksanı, 2,000+ haber ve resmi doğrulanabilir sertifikalar.",
+              "sameAs": [
+                "https://www.cambridgeenglish.org",
+                "https://www.britishcouncil.org"
+              ]
+            }),
+          }}
+        />
+
+        {/* PWA Service Worker Güvenli Kaydı */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (typeof window !== 'undefined' && 'serviceWorker' in navigator && window.location.protocol === 'https:') {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js').catch(function(){});
+                });
+              }
+            `,
+          }}
+        />
       </body>
     </html>
   );
