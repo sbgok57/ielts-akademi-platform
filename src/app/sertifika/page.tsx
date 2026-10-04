@@ -39,7 +39,10 @@ const ALL_CEFR_LEVELS: CEFRLevel[] = ["A1", "A2", "B1", "B2", "C1", "C2"];
 
 function SertifikaContent() {
   const searchParams = useSearchParams();
-  const queryId = searchParams.get("id");
+  const queryId =
+    searchParams.get("id") ||
+    searchParams.get("kod") ||
+    searchParams.get("code");
 
   const [activeCert, setActiveCert] = useState<StudentCertificate | null>(null);
   const [allCerts, setAllCerts] = useState<StudentCertificate[]>([]);

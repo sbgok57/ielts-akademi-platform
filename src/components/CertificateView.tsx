@@ -167,7 +167,7 @@ export default function CertificateView({ cert }: Props) {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const origin = window.location.origin || "https://ielts-akademi-platform.vercel.app";
-      const verificationUrl = `${origin}/sertifika?id=${encodeURIComponent(activeCert.id)}`;
+      const verificationUrl = `${origin}/sertifika/sorgu?kod=${encodeURIComponent(activeCert.id)}`;
 
       import("qrcode")
         .then((QRCode) => {
@@ -206,7 +206,7 @@ export default function CertificateView({ cert }: Props) {
 
   const handleCopyLink = () => {
     if (typeof window !== "undefined") {
-      const url = `${window.location.origin}/sertifika?id=${encodeURIComponent(activeCert.id)}`;
+      const url = `${window.location.origin}/sertifika/sorgu?kod=${encodeURIComponent(activeCert.id)}`;
       navigator.clipboard.writeText(url);
       setCopied(true);
       setTimeout(() => setCopied(false), 2500);
@@ -374,9 +374,9 @@ export default function CertificateView({ cert }: Props) {
 
               {/* Orta: Resmî Akademi Arması & Başlık */}
               <div className="flex flex-col items-center text-center">
-                <AcademyCrest className="h-10 w-10" />
+                <AcademyCrest className="h-11 w-11 mb-2" />
                 <h2
-                  className="mt-0.5 text-lg font-black tracking-[0.2em] text-[#0B1B3D] uppercase"
+                  className="mt-1 text-lg font-black tracking-[0.2em] text-[#0B1B3D] uppercase"
                   style={{ fontFamily: "'Cinzel', serif" }}
                 >
                   IELTS AKADEMİ INSTITUTE

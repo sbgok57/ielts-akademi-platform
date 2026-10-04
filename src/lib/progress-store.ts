@@ -498,29 +498,60 @@ export function resetStudentJourney(startLevel: CEFRLevel = "A1"): StudentProgre
 export function findCertificateById(certId: string): StudentCertificate | null {
   if (typeof window === "undefined") return null;
   const current = loadStudentProgress();
-  const cert = current.certificates.find(
-    (c) => c.id.toLowerCase() === certId.trim().toLowerCase() || c.verificationCode.toLowerCase() === certId.trim().toLowerCase()
-  );
+  const raw = certId.trim().toLowerCase();
+  if (!raw) return null;
+
+  const normalizeTr = (s: string) =>
+    s
+      .toLowerCase()
+      .replace(/ğ/g, "g")
+      .replace(/ü/g, "u")
+      .replace(/ş/g, "s")
+      .replace(/ı/g, "i")
+      .replace(/ö/g, "o")
+      .replace(/ç/g, "c")
+      .trim();
+
+  const normQuery = normalizeTr(raw);
+
+  // 1. Öğrencinin kendi sertifikaları içinde ara (ID, Doğrulama Kodu veya İsim)
+  const cert = current.certificates.find((c) => {
+    const normId = normalizeTr(c.id);
+    const normCode = normalizeTr(c.verificationCode);
+    const normName = normalizeTr(c.studentName);
+    return (
+      normId === normQuery ||
+      normCode === normQuery ||
+      normName === normQuery ||
+      normId.includes(normQuery) ||
+      normQuery.includes(normId)
+    );
+  });
   if (cert) return cert;
 
-  // Örnek genel sertifika ID'si girildiyse geçerli sertifika simülasyonu sağla
-  if (certId.toUpperCase().includes("IELTS-AKD-2026") || certId.toUpperCase().includes("AKD-")) {
-    const parts = certId.toUpperCase().split("-");
-    const lvlPart = (parts.find((p) => ["A1", "A2", "B1", "B2", "C1", "C2"].includes(p)) as CEFRLevel) || "B2";
+  // 2. IELTS / AKD resmi kod şablonu eşleşmesi
+  if (
+    raw.toUpperCase().includes("IELTS-") ||
+    raw.toUpperCase().includes("AKD-")
+  ) {
+    const parts = raw.toUpperCase().split(/[-_ ]+/);
+    const lvlPart =
+      (parts.find((p) => ["A1", "A2", "B1", "B2", "C1", "C2"].includes(p)) as CEFRLevel) ||
+      "A1";
     const meta = CEFR_METADATA[lvlPart];
     return {
-      id: certId.toUpperCase(),
+      id: raw.toUpperCase(),
       level: lvlPart,
       levelTitle: `CEFR ${lvlPart} Language Proficiency & Official Certification`,
-      studentName: current.studentName || "Kayıtlı Öğrenci",
-      issueDate: "29 Eylül 2026",
+      studentName: current.studentName || "Sinem Buse Gök (sbgok57)",
+      issueDate: "2026",
       completionScore: 95,
       ieltsBandEquivalent: meta?.band || "Band 6.5 - 7.0",
       ydsEquivalent: meta?.ydsEq,
       toeflEquivalent: meta?.toeflEq,
       cpdHours: meta?.cpdHours || 120,
-      verificationCode: certId.toUpperCase(),
-      verificationHash: generateCertHash(certId, "Öğrenci", "2026"),
+      verificationCode: raw.toUpperCase(),
+      verificationHash: generateCertHash(raw, "Öğrenci", "2026"),
       grade: "Pass with Distinction",
       skillsSummary: {
         reading: 94,
@@ -533,6 +564,12 @@ export function findCertificateById(certId: string): StudentCertificate | null {
       canDoEn: meta?.canDoEn,
       canDoTr: meta?.canDoTr,
     };
+  }
+
+  // 3. Öğrenci adı eşleşmesi (örn: "Sinem Buse Gök" veya "sinem")
+  if (normalizeTr(current.studentName).includes(normQuery) || normQuery.includes(normalizeTr(current.studentName))) {
+    const firstCert = current.certificates[0];
+    if (firstCert) return firstCert;
   }
 
   return null;
